@@ -250,3 +250,11 @@ El interés por el cuidado de la piel ha incrementado de manera significa en jó
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
+
+## 3.2. Impact Mapping
+
+## 3.3. Product Backlog
