@@ -47,7 +47,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="../assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="150"/>
+      <img src="../assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="650"/>
     </td>
     <td><b>Nombre:</b> Luciana Carolina Mechan Montenegro</td>
   </tr>
@@ -64,7 +64,17 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 </table>
 
 ## 1.2. Solution Profile
+## Descripción de la Solución
 
+Nuestra solución consiste en una aplicación web y móvil denominada Bloomie, diseñada para asistir a personas interesadas en el cuidado de la piel mediante un sistema de análisis inteligente y personalizado. La aplicación permite que los usuarios registren un perfil personal y suban fotografías de su rostro, las cuales son procesadas a través de servicios de Inteligencia Artificial para identificar características relevantes de la piel, como presencia de acné, manchas, arrugas o textura desigual.
+
+A partir de este análisis, Bloomie genera recomendaciones personalizadas de productos y hábitos de skincare, adaptadas a las necesidades específicas de cada usuario. A diferencia de otras soluciones basadas únicamente en cuestionarios, la plataforma combina el análisis automatizado con la posibilidad de acceso a servicios dermatológicos, brindando una experiencia más confiable y completa.
+
+Asimismo, la aplicación permite realizar un seguimiento de la evolución de la piel a lo largo del tiempo, facilitando la comparación de resultados y la mejora continua de las rutinas recomendadas. Adicionalmente, integra funcionalidades como la visualización de productos disponibles en el mercado y la localización de puntos de compra cercanos.
+
+El modelo de negocio de Bloomie se basa en un esquema de suscripción escalonado, en el cual los usuarios pueden acceder a distintos niveles de personalización, seguimiento y soporte según el plan contratado. Este enfoque permite ofrecer una solución accesible para distintos perfiles de usuario, al mismo tiempo que garantiza la sostenibilidad del servicio.
+
+Como parte de la evolución del producto, se contempla la integración futura de dispositivos IoT orientados al monitoreo de condiciones de la piel, lo que permitirá complementar el análisis y mejorar la precisión de las recomendaciones, sin que ello represente una dependencia en la versión actual del sistema.
 ### 1.2.1. Antecedentes y problemática
 
 ### 1.2.2. Lean UX Process
