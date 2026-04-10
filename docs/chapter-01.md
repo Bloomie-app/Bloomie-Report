@@ -47,7 +47,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="150"/>
+      <img src="../assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="150"/>
     </td>
     <td><b>Nombre:</b> Luciana Carolina Mechan Montenegro</td>
   </tr>
