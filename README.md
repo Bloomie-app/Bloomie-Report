@@ -213,8 +213,29 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      Soy <b>Luciana Carolina Mechan Montenegro</b>, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Cuento con conocimientos en lenguajes de programación como C++, Python y Java, los cuales he aplicado en distintos proyectos académicos orientados a la resolución de problemas y desarrollo de sistemas.<br/><br/>
+      Soy <b>Luciana Carolina Mechan Montenegro</b>, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Cuento con conocimientos en lenguajes de programación como C++, Python y Java, los cuales he aplicado en distintos proyectos académicos orientados a la resolución de problemas y desarrollo de sistemas.
+      <br/><br/>
       Dentro del equipo, mi contribución se enfoca tanto en el desarrollo frontend como backend, participando en la implementación de funcionalidades y en la integración de los distintos componentes del sistema. Me caracterizo por ser responsable, proactiva y con una alta capacidad de aprendizaje, además de tener facilidad para el trabajo en equipo y la adaptación a nuevos retos dentro del proyecto.
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="" alt="Foto de Martin Asmat" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Martin Alejandro Asmat Alminco </td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202416272 </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Martin Alejandro Asmat Alminco</b>, estudiante de quinto ciclo de la carrera de Ingeniería de Software. Cuento con experiencia en lenguajes de programación como Python y C++ para proyectos enfocados en el desarrollo de habilidades computacionales, las cuales apliqué en proyectos académicos enfocados en solucionar un problema a través de procesos de documentación de Ingeniería de software.
+      <br/><br/>
+        Dentro del equipo, cumplo el rol de un full stack al realizar actividades de documentación y programación a un nivel medio. Considero que soy una persona responsable y adaptable a distintas situaciones con buen time-management.  
     </td>
   </tr>
 </table>
@@ -237,6 +258,7 @@ Para el sistema de análisis inteligente, se considerará el uso de Inteligencia
 ### 1.2.1. Antecedentes y problemática
 
 El interés por el cuidado de la piel ha incrementado de manera significa en jóvenes y adultos que buscan prevenir o tratar afecciones cutáneas comunes. Según el Fortune Business Insight (2024), el mercado de skin care fue valorado en 115.6 mil millones de dólares y se estima que crezca a 194 mil millones en el año 2032. Sin embargo, dicha relevancia adquirida generó una sobreoferta de productos y desinformación sobre el cuidado de piel. Diariamente, los usuarios se enfrentan a cientos de marcas, auspiciadores y catálogos de cosméticos extenuantes, lo que genera confusión en la correcta adquisión de dichos productos y dificulta la elección de una rutina apta para el usuario.
+
 
 
 ### 1.2.2. Lean UX Process
