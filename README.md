@@ -297,27 +297,25 @@ El interés por el cuidado de la piel ha incrementado de manera significa en jó
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-  * <b> Problem Statement 1 – Jóvenes adultos interesados en skincare </b>
+ En el dominio de la salud y bienestar enfocado en el cuidado de la piel, los jóvenes adultos de 18 a 30 años, especialmente estudiantes universitarios y jóvenes profesionales familiarizados con aplicaciones móviles, enfrentan múltiples dificultades al momento de cuidar su piel. La sobrecarga de información contradictoria en redes sociales, la falta de personalización en las recomendaciones, y la tendencia a la automedicación, lo cual muchas veces produce un efecto adverso, generan frustración, gastos innecesarios y resultados poco efectivos, además de no contar con herramientas que les permitan hacer un seguimiento real de su progreso.
 
-Nuestro servicio ofrece una aplicación web y móvil que ayuda a jóvenes de 18 a 30 años a cuidar su piel mediante un diagnóstico rápido y recomendaciones personalizadas basadas en inteligencia artificial. A través de Bloomie, los usuarios pueden subir fotos de su rostro, identificar patrones asociados a problemas comunes como acné, manchas o resequedad, y recibir   rutinas   adaptadas   a   su   tipo   de   piel   y   presupuesto. Hemos observado un factor crítico que afecta a este segmento: la saturación de información en redes sociales e influencers genera confusión y lleva a elecciones de productos inadecuados. Actualmente, muchos jóvenes recurren a la automedicación o al ensayo y error, lo que ocasiona frustración, gastos innecesarios y, en algunos casos, efectos adversos en la piel.
+Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera integral, ya que se basan en métodos genéricos y carecen de análisis más precisos y personalizados. Esto evidencia la oportunidad de ofrecer una solución accesible y confiable que permita a los usuarios tomar decisiones informadas, mejorar continuamente el cuidado de su piel y evitar los riesgos asociados a la desinformación.
 
-Dicho ello, nos preguntamos: ¿Cómo podríamos ofrecer una experiencia accesible y confiable que permita a los jóvenes evitar la frustración y los riesgos asociados a la automedicación y el ensayo-error en el cuidado de la piel?
-
-* <b> Problem Statement 2 – Dermatólogos certificados </b>
-
-Nuestro servicio ofrece un canal digital para que dermatólogos atiendan consultas virtuales o presenciales con mayor eficiencia. A través de Bloomie, los especialistas reciben un reporte preliminar con el análisis de patrones cutáneos realizado por la IA y el historial visual de progreso  del  usuario,  lo  que  facilita  un  diagnóstico  más  preciso  y  ágil. Hemos observado un factor crítico que afecta a este segmento: los dermatólogos suelen depender de descripciones subjetivas de los pacientes y de imágenes poco estandarizadas, lo que consume tiempo y puede limitar la calidad del diagnóstico. Actualmente, la falta de herramientas integradas retrasa la consulta y reduce la confianza del paciente en el tratamiento.
-
-Por tanto, nos preguntamos: ¿Cómo podríamos ofrecer una herramienta de apoyo que mejore la precisión del diagnóstico y se integre de forma fluida al flujo de trabajo del dermatólogo?
-
+¿Cómo podríamos ayudar a los jóvenes adultos a acceder a una experiencia personalizada, confiable y efectiva que optimice el cuidado de su piel y reduzca los efectos secundarios?
 
 
 #### 1.2.2.2. Lean UX Assumptions
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-- Segmento 1: <br><b>Creemos que</b> implementar foros de consultas con médicos dermatólogos mejorará la precisión de respuestas y accesibilidad a todos los usuarios. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> un aumento de más del 10% de descargas de la app con respecto al periodo anterior.
+
+- Hipotesis de negocio: 
+  - <b>Creemos que</b> implementar foros de consultas con médicos dermatólogos mejorará la precisión de respuestas y accesibilidad a todos los usuarios. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> un aumento de más del 10% de descargas de la app con respecto al periodo anterior.
+  - <b>Creemos que</b>implementar un sistema de seguimiento de datos mejorará el aporte de información utilizable. <b>Sabremos que</b>  hemos tenido éxito <b> cuando obtengamos </b> incrementar la eficiencia del chatbot en un 5 a 10% a través de la base de datos mejorada.
 <br>
 
-- Segmento 2: <br><b>Creemos que</b> implementar reportes automáticos diseñados para los dermatólogos mejorará el desempeño y atención del médico hacia los pacientes. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> una reducción de diagnosticos erroneos en un 25%.
+- Hipotesis de usuario: 
+  - <b>Creemos que</b> implementar reportes automáticos diseñados para los dermatólogos mejorará el desempeño y atención del médico hacia los pacientes. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> una reducción de diagnosticos erróneos en un 25%.
+  - <b> Creemos que </b> ofrecer rutinas adaptadas al presupuesto del usuario reducirá la tasa de abandono de los usuarios al cabo de un periodo de tiempo determinado. <b> Sabremos que </b> hemos tenido éxito  <b> cuando veamos </b> que la cantidad de usuarios conectados al día no varía de caída en más de 5%.
   
 #### 1.2.2.4. Lean UX Canvas
 
