@@ -525,7 +525,56 @@ nuestro FODA frente a competidores.
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+#### Segmento 1: Jóvenes adultos interesados en skincare
+**Preguntas iniciales**
+- ¿Qué edad tienes?
+- ¿A qué te dedicas actualmente?
+- ¿En qué distrito o ciudad resides?
+- ¿Qué dispositivo utilizas con mayor frecuencia (celular, laptop, tablet)?
 
+**Preguntas principales**
+1. Cuéntame cómo es actualmente tu rutina de cuidado de la piel.
+2. ¿Cómo decides qué productos de skincare utilizar?
+3. ¿Qué dificultades has tenido al intentar seguir una rutina de cuidado de la piel?
+4. ¿Qué haces cuando tienes un problema en la piel o no sabes qué producto usar?
+5. ¿Qué tan confiable consideras la información que encuentras en redes sociales o internet sobre skincare? ¿Por qué?
+6. ¿Has tenido alguna experiencia negativa al usar productos para tu piel? Cuéntame.
+7. ¿Qué te frustra más del proceso de elegir productos o armar una rutina?
+8. ¿Qué esperas lograr al cuidar tu piel?
+
+**Preguntas de validación de solución**
+
+9. ¿Cómo te sentirías al usar una aplicación que analice tu piel a partir de fotografías?
+10. ¿Qué dudas o preocupaciones tendrías al compartir imágenes o información sobre tu piel en una app?
+11. ¿Qué tendría que ofrecerte una aplicación para que confíes en sus recomendaciones?
+12. ¿En qué situaciones usarías una aplicación así en tu día a día?
+13. ¿Qué tendría que pasar para que sigas usando una aplicación como esta a largo plazo? 
+
+#### Segmento 2: Dermatólogos certificados
+**Preguntas iniciales**
+
+- ¿Cuántos años de experiencia tienes como dermatólogo?
+- ¿Trabajas de manera independiente o en una institución?
+- ¿En qué ciudad o distrito ejerces actualmente?
+
+**Preguntas principales**
+
+1. ¿Cómo es actualmente tu proceso de atención a pacientes desde el diagnóstico hasta el seguimiento?
+2. ¿Qué tipo de información del paciente consideras esencial antes de iniciar una consulta?
+3. ¿Qué dificultades encuentras al evaluar a un paciente antes de verlo presencialmente?
+4. ¿Cómo realizas actualmente el seguimiento de la evolución de tus pacientes?
+5. ¿Qué limitaciones has identificado en las herramientas digitales que utilizas hoy en día?
+6. ¿Qué problemas observas con mayor frecuencia en pacientes que siguen rutinas de skincare por su cuenta?
+7. ¿Cómo percibes el nivel de información o desinformación de los pacientes respecto al cuidado de su piel?
+
+**Preguntas de validación de solución**
+
+8. ¿Qué opinas sobre el uso de inteligencia artificial como apoyo en diagnósticos preliminares?
+9. ¿Qué valor tendría para ti contar con un reporte previo automatizado del estado de la piel del paciente?
+10. ¿Qué tan útil sería tener acceso a un historial visual estructurado antes de la consulta?
+11. ¿Qué barreras o preocupaciones tendrías al utilizar una herramienta digital de este tipo?
+12. ¿Qué funcionalidades considerarías indispensables para integrar una solución como esta en tu práctica?
+13. ¿En qué casos recomendarías a un paciente el uso de una aplicación como esta?
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
