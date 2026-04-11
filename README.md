@@ -214,7 +214,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/img/carla-Gallardo.png" width="650"/>
+      <img src="assets/img/Carla-Gallardo.png" width="650"/>
     </td>
     <td><b>Nombre:</b> Carla Alejnadra Gallardo Morales</td>
   </tr>
