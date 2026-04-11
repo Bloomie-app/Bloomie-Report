@@ -291,9 +291,45 @@ Para el sistema de análisis inteligente, se considerará el uso de Inteligencia
 
 El interés por el cuidado de la piel ha incrementado de manera significa en jóvenes y adultos que buscan prevenir o tratar afecciones cutáneas comunes. Según el Fortune Business Insight (2024), el mercado de skin care fue valorado en 115.6 mil millones de dólares y se estima que crezca a 194 mil millones en el año 2032. Sin embargo, dicha relevancia adquirida generó una sobreoferta de productos y desinformación sobre el cuidado de piel. Diariamente, los usuarios se enfrentan a cientos de marcas, auspiciadores y catálogos de cosméticos extenuantes, lo que genera confusión en la correcta adquisión de dichos productos y dificulta la elección de una rutina apta para el usuario.
 
+En adición, existe una brecha en la atención dermatológica para los cuidadanos. Esto se debe las largas colas de espera por aseguradoras, como EsSalud, que se estima un tiempo de espera entre un par de semanas hasta 5 meses (INFOBAE, 2024). 
+
+##### Metodología 5W+2H
+   
+###### What (Qué)   
+Cantidades exorbitantes de desinformación sobre el skin care y su correcto uso, lo que genera que las personas realicen rutinas y utilizen productos que no son apropiados para su tipo de piel. Ello implica pérdidas de dinero y causar efectos adversos en la piel.
+
+###### When (Cuándo)
+Cuando el usuario desea continuar o empezar una rutina de skin care, comprar productos o buscar información en línea. 
+
+Luego, nuestra aplicación será utilizada cuando nuestro usuario decida investigar o evaluar el tipo de rutina que necesita, que necesita la búsqueda de productos por geolocalización así como también desee consultar con un profesional de forma rápida y segura.
+
+###### Where (Dónde)
+Se encuentra a nivel nacional peruano por desinformación en redes de fácil accesibilidad así como también personas que recurren a algún tipo de seguro, que son más del 90% de los peruanos (INEI, 2024).
+
+Nuestra aplicación puede ser utilizada en contextos cotidianos por parte de los usuarios, como el hogar o el trabajo, donde puedan dedicar un tiempo a la visualización de la rutina y notificaciones en el transcurso del día con respecto a su tratamiento. 
+
+###### Who (Quién)
+La aplicación será utilizada por cualquier persona que esté interesada en el cuidado de la piel y busquen prevenir o tratar afecciones cutáneas, pero no tiene acceso fácil a un dermatólogo.
+
+###### Why (Por qué)
+El problema surge porque los usuarios tienden a seguir recomendaciones no aprobadas por un profesional por ahorro de costos o desconfianza. Luego, existe el caso donde no son capaces de poder directamente acceder a un tratamiento profesional por factores económicos, demográficos, etc. 
+
+###### How (Cómo)
+
+La razón por la cual el problema no se encuentra en su estado óptimo, es porque no hay una regulación clara con penalizaciones severas por compartir información errónea. También, las personas tienden a intentar solucionar sus problemas independientemente antes de consultar con un profesional, ya que, según el INEI (2025), solo 1 de cada 3 cuidadanos acude a atención médica pese a presentar algún malestar. 
+Luego, existe que mucha de la información que pese a que provenga de un  estudio científico, no es garantizado el satisfacer las necesidades particulares de cada tipo de piel. 
+
+Con nuestra propuesta, se dismuye los intentos de autocuidado por muchas personas al integrar posibles soluciones personalizables y brindar la posibilidad de conectar con profesionales que cubran con sus necesidades específicas. 
+
+##### How much (Cuánto)
+
+El problema es amplio y afecta a una gran cantidad de personas. En relación con los efectos adversos causados por una mala elección de dermocosméticos, Nayak et al. (2023) realizó una encuesta con 400 participantes y los resultados fueron claros: el 44 % experimentó efectos negativos, de los cuales el 25,5 % correspondió al rostro. Además, el estudio reveló que solo el 15 % de las mujeres consultó a un dermatólogo, mientras que un 22,25 % optó por la automedicación, lo que refleja la ausencia de orientación profesional en la mayoría de casos.
 
 
 ### 1.2.2. Lean UX Process
+
+
+
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -320,6 +356,8 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
