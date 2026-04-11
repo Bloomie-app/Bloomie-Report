@@ -308,6 +308,8 @@ El problema es amplio y afecta a una gran cantidad de personas. En relación con
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
