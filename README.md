@@ -216,7 +216,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
     <td rowspan="4" align="center">
       <img src="assets/img/Carla-Gallardo.png" width="650"/>
     </td>
-    <td><b>Nombre:</b> Carla Alejnadra Gallardo Morales</td>
+    <td><b>Nombre:</b> Carla Alejandra Gallardo Morales</td>
   </tr>
   <tr>
     <td><b>Código:</b> u202414970 </td>
@@ -289,17 +289,17 @@ Para el sistema de análisis inteligente, se considerará el uso de Inteligencia
 
 ### 1.2.1. Antecedentes y problemática
 
-El interés por el cuidado de la piel ha incrementado de manera significa en jóvenes y adultos que buscan prevenir o tratar afecciones cutáneas comunes. Según el Fortune Business Insight (2024), el mercado de skin care fue valorado en 115.6 mil millones de dólares y se estima que crezca a 194 mil millones en el año 2032. Sin embargo, dicha relevancia adquirida generó una sobreoferta de productos y desinformación sobre el cuidado de piel. Diariamente, los usuarios se enfrentan a cientos de marcas, auspiciadores y catálogos de cosméticos extenuantes, lo que genera confusión en la correcta adquisión de dichos productos y dificulta la elección de una rutina apta para el usuario.
+El interés por el cuidado de la piel ha incrementado de manera significativa en jóvenes y adultos que buscan prevenir o tratar afecciones cutáneas comunes. Según el Fortune Business Insight (2024), el mercado de skincare fue valorado en 115.6 mil millones de dólares y se estima que crezca a 194 mil millones en el año 2032. Sin embargo, dicha relevancia adquirida generó una sobreoferta de productos y desinformación sobre el cuidado de piel. Diariamente, los usuarios se enfrentan a cientos de marcas, auspiciadores y catálogos de cosméticos extenuantes, lo que genera confusión en la correcta adquisición de dichos productos y dificulta la elección de una rutina apta para el usuario.
 
-En adición, existe una brecha en la atención dermatológica para los cuidadanos. Esto se debe las largas colas de espera por aseguradoras, como EsSalud, que se estima un tiempo de espera entre un par de semanas hasta 5 meses (INFOBAE, 2024). 
+En adición, existe una brecha en la atención dermatológica para los ciudadanos. Esto se debe las largas colas de espera por aseguradoras, como EsSalud, que se estima un tiempo de espera entre un par de semanas hasta 5 meses (INFOBAE, 2024). 
 
 ##### Metodología 5W+2H
    
 ###### What (Qué)   
-Cantidades exorbitantes de desinformación sobre el skin care y su correcto uso, lo que genera que las personas realicen rutinas y utilizen productos que no son apropiados para su tipo de piel. Ello implica pérdidas de dinero y causar efectos adversos en la piel.
+Cantidades exorbitantes de desinformación sobre el skincare y su correcto uso, lo que genera que las personas realicen rutinas y utilicen productos que no son apropiados para su tipo de piel. Ello implica pérdidas de dinero y causar efectos adversos en la piel.
 
 ###### When (Cuándo)
-Cuando el usuario desea continuar o empezar una rutina de skin care, comprar productos o buscar información en línea. 
+Cuando el usuario desea continuar o empezar una rutina de skincare, comprar productos o buscar información en línea. 
 
 Luego, nuestra aplicación será utilizada cuando nuestro usuario decida investigar o evaluar el tipo de rutina que necesita, que necesita la búsqueda de productos por geolocalización así como también desee consultar con un profesional de forma rápida y segura.
 
@@ -319,7 +319,7 @@ El problema surge porque los usuarios tienden a seguir recomendaciones no aproba
 La razón por la cual el problema no se encuentra en su estado óptimo, es porque no hay una regulación clara con penalizaciones severas por compartir información errónea. También, las personas tienden a intentar solucionar sus problemas independientemente antes de consultar con un profesional, ya que, según el INEI (2025), solo 1 de cada 3 cuidadanos acude a atención médica pese a presentar algún malestar. 
 Luego, existe que mucha de la información que pese a que provenga de un  estudio científico, no es garantizado el satisfacer las necesidades particulares de cada tipo de piel. 
 
-Con nuestra propuesta, se dismuye los intentos de autocuidado por muchas personas al integrar posibles soluciones personalizables y brindar la posibilidad de conectar con profesionales que cubran con sus necesidades específicas. 
+Con nuestra propuesta, se disminuye los intentos de autocuidado por muchas personas al integrar posibles soluciones personalizables y brindar la posibilidad de conectar con profesionales que cubran con sus necesidades específicas. 
 
 ##### How much (Cuánto)
 
@@ -346,11 +346,11 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 
 - Hipotesis de negocio: 
   - <b>Creemos que</b> implementar foros de consultas con médicos dermatólogos mejorará la precisión de respuestas y accesibilidad a todos los usuarios. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> un aumento de más del 10% de descargas de la app con respecto al periodo anterior.
-  - <b>Creemos que</b>implementar un sistema de seguimiento de datos mejorará el aporte de información utilizable. <b>Sabremos que</b>  hemos tenido éxito <b> cuando obtengamos </b> incrementar la eficiencia del chatbot en un 5 a 10% a través de la base de datos mejorada.
+  - <b>Creemos que</b> implementar un sistema de seguimiento de datos mejorará el aporte de información utilizable. <b>Sabremos que</b>  hemos tenido éxito <b> cuando obtengamos </b> incrementar la eficiencia del chatbot en un 5 a 10% a través de la base de datos mejorada.
 <br>
 
 - Hipotesis de usuario: 
-  - <b>Creemos que</b> implementar reportes automáticos diseñados para los dermatólogos mejorará el desempeño y atención del médico hacia los pacientes. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> una reducción de diagnosticos erróneos en un 25%.
+  - <b>Creemos que</b> implementar reportes automáticos diseñados para los dermatólogos mejorará el desempeño y atención del médico hacia los pacientes. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> una reducción de diagnósticos erróneos en un 25%.
   - <b> Creemos que </b> ofrecer rutinas adaptadas al presupuesto del usuario reducirá la tasa de abandono de los usuarios al cabo de un periodo de tiempo determinado. <b> Sabremos que </b> hemos tenido éxito  <b> cuando veamos </b> que la cantidad de usuarios conectados al día no varía de caída en más de 5%.
   
 #### 1.2.2.4. Lean UX Canvas
