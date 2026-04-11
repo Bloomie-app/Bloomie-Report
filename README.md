@@ -371,8 +371,154 @@ En el Perú, la distribución de especialistas dermatólogos es marcadamente des
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+#### Skin Bliss 
+Skin Bliss es una aplicación móvil que utiliza inteligencia artificial para analizar la piel y 
+recomendar rutinas personalizadas. Permite a los usuarios crear un perfil de su piel, escanear 
+productos para evaluar sus ingredientes y registrar un historial visual de cambios a lo largo del 
+tiempo. Su fortaleza radica en la transparencia científica y en la personalización de rutinas 
+según las características y necesidades de cada usuario. Sin embargo, sus servicios están 
+limitados al ámbito preventivo y estético, ya que no incorpora validación médica profesional ni 
+consultas con dermatólogos, lo que reduce la credibilidad clínica de sus recomendaciones. 
+
+#### Miiskin Skin Tracker 
+Miiskin está enfocada en el seguimiento visual de la piel, especialmente para controlar lunares 
+y cambios en manchas, arrugas o texturas. Fue diseñada para un uso prolongado, permite 
+comparar fotos a lo largo del tiempo y está en cumplimiento con estándares como HIPAA, lo 
+que refuerza su legitimidad en telemedicina. Su fortaleza radica en el tratamiento médico y 
+privacidad, aunque sus servicios se limitan a seguimiento visual sin ofrecer diagnóstico o 
+recomendaciones de productos, no ofrece un sistema integral de análisis automatizado orientado a recomendaciones personalizadas de skincare.
+
+#### First Derm 
+First Derm es una plataforma de teledermatología donde los usuarios envían casos, incluyendo 
+imágenes, para que dermatólogos certificados los evalúen. La app está disponible en iOS, 
+Android y web, y ya ha atendido gran cantidad de casos en diferentes países. Su principal 
+ventaja es el acceso directo a diagnóstico profesional, pero su enfoque es más médico que 
+preventivo o educativo; no incluye análisis automatizado ni rutinas personalizadas, y no integra 
+seguimiento visual continuo ni recomendaciones de productos.
 
 ### 2.1.1. Análisis competitivo
+
+## Competitive Analysis Landscape
+Como se observa en la siguiente tabla se desarrolló un proceso de análisis para determinar 
+nuestro FODA frente a competidores. 
+
+<table>
+  <tr>
+    <th colspan="6" align="left">Competitive Analysis Landscape</th>
+  </tr>
+
+  <tr>
+    <td><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="5">
+      Conocer a profundidad a los principales competidores en el mercado digital del skincare (Skin Bliss, Miiskin Skin Tracker y First Derm), para identificar sus fortalezas, debilidades, oportunidades y amenazas, y así definir las ventajas competitivas y estrategias de Bloomie.
+    </td>
+  </tr>
+  <tr>
+    <th>Perfil</th>
+    <th>Aspecto</th>
+    <th>Bloomie</th>
+    <th>Skin Bliss</th>
+    <th>Miski Skin Tracer</th>
+    <th>First Derm</th>
+  </tr>
+
+  <!-- OVERVIEW -->
+  <tr>
+    <td rowspan="2"><b>Perfil</b></td>
+    <td><b>Overview</b></td>
+    <td>Plataforma web y móvil que analiza la piel con IA, genera rutinas personalizadas, conecta con dermatólogos y permite seguimiento visual del progreso.</td>
+    <td>App que combina escaneo facial con rutinas personalizadas, evaluaciones de ingredientes y seguimiento visual con fotos comparativas.</td>
+    <td>App enfocada en el monitoreo de lunares y manchas, con comparativas fotográficas y alertas de cambios.</td>
+    <td>Servicio de teledermatología donde dermatólogos certificados atienden casos enviados por usuarios a través de la app.</td>
+  </tr>
+
+  <tr>
+    <td><b>Ventaja competitiva</b></td>
+    <td>Integración en una sola plataforma de análisis automatizado, recomendaciones personalizadas, seguimiento continuo y acceso a dermatólogos.</td>
+    <td>Ofrece análisis de piel, gestión de productos, programa de rutina y historial visual con lógica de ingredientes.</td>
+    <td>Cumplimiento con estándares médicos (HIPAA), alta confianza en privacidad y seguridad.</td>
+    <td>Acceso directo a dermatólogos en múltiples países con diagnóstico en menos de 24h.</td>
+  </tr>
+
+  <!-- MARKETING -->
+  <tr>
+    <td rowspan="2"><b>Perfil de Marketing</b></td>
+    <td><b>Mercado objetivo</b></td>
+    <td>Jóvenes y adultos interesados en skincare confiable, accesible y personalizado, así como dermatólogos.</td>
+    <td>Usuarios interesados en skincare preventivo y estético.</td>
+    <td>Pacientes preocupados por salud dermatológica (lunares, cáncer de piel, manchas).</td>
+    <td>Personas con problemas serios en la piel que requieren diagnóstico rápido y seguro.</td>
+  </tr>
+
+  <tr>
+    <td><b>Estrategias</b></td>
+    <td>Marketing digital en redes sociales, alianzas estratégicas y posicionamiento en comunidades de skincare.</td>
+    <td>Comunicación centrada en ciencia y seguridad, difusión en redes sociales y app stores.</td>
+    <td>Alianzas con hospitales y dermatólogos, marketing en sector salud.</td>
+    <td>Estrategias basadas en confianza médica y respaldo de especialistas.</td>
+  </tr>
+
+  <!-- PRODUCTO -->
+  <tr>
+    <td rowspan="4"><b>Perfil de Producto</b></td>
+    <td><b>Productos y Servicios</b></td>
+    <td>Diagnóstico mediante servicios de IA, rutinas personalizadas, historial visual, acceso a dermatólogos, mapa de farmacias y chatbot.</td>
+    <td>Escaneo facial, creación de rutinas, análisis de ingredientes, historial visual y comparativas de productos.</td>
+    <td>Seguimiento visual de lunares y manchas, comparaciones fotográficas y recordatorios.</td>
+    <td>Consulta médica online, envío de fotos y diagnóstico profesional.</td>
+  </tr>
+
+  <tr>
+    <td><b>Precios y Costos</b></td>
+    <td>Modelo de suscripción escalonado con diferentes niveles de acceso según funcionalidades.</td>
+    <td>Modelo freemium con suscripción mensual para funciones avanzadas.</td>
+    <td>Freemium con opciones avanzadas de almacenamiento y seguimiento.</td>
+    <td>Pago por consulta entre $30–40 por caso.</td>
+  </tr>
+
+  <tr>
+    <td><b>Canales de distribución</b></td>
+    <td>App móvil (iOS y Android), versión web y redes sociales.</td>
+    <td>App móvil disponible en iOS y Android.</td>
+    <td>App móvil (iOS y Android).</td>
+    <td>App móvil y web.</td>
+  </tr>
+
+  <!-- SWOT -->
+  <tr>
+    <td><b>Fortalezas</b></td>
+    <td>Integralidad diagnóstica, rutinas, validación médica y multiplataforma.</td>
+    <td>Rutinas personalizadas, transparencia científica e historial visual.</td>
+    <td>Seguridad médica, confianza y respaldo de estándares.</td>
+    <td>Respaldo profesional y rapidez en diagnóstico.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3"><b>Análisis SWOT</b></td>
+    <td><b>Debilidades</b></td>
+    <td>Requiere confianza del usuario para compartir fotos y mayor complejidad.</td>
+    <td>No integra validación médica ni consultas dermatológicas.</td>
+    <td>Sin recomendaciones personalizadas ni rutinas.</td>
+    <td>No ofrece seguimiento ni personalización.</td>
+  </tr>
+
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>Creciente interés en skincare y adopción de soluciones digitales en salud, junto con alianzas con marcas del sector.</td>
+    <td>Integrar consultas médicas para mayor credibilidad.</td>
+    <td>Crecimiento del mercado preventivo de skincare.</td>
+    <td>Integración con IA y rutinas personalizadas.</td>
+  </tr>
+
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>Competencia de grandes marcas tecnológicas y desconfianza en datos.</td>
+    <td>Apps más completas con diagnóstico clínico.</td>
+    <td>Apps más atractivas enfocadas en estética.</td>
+    <td>Alta competencia en telemedicina y costos.</td>
+  </tr>
+
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
