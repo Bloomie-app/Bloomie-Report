@@ -78,6 +78,14 @@ u202415551 - Ramirez Ruiz, Nickolas
   - [1.2. Solution Profile](#12-solution-profile)
     - [Descripción de la Solución](#descripción-de-la-solución)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+        - [Metodología 5W+2H](#metodología-5w2h)
+          - [What (Qué)](#what-qué)
+          - [When (Cuándo)](#when-cuándo)
+          - [Where (Dónde)](#where-dónde)
+          - [Who (Quién)](#who-quién)
+          - [Why (Por qué)](#why-por-qué)
+          - [How (Cómo)](#how-cómo)
+        - [How much (Cuánto)](#how-much-cuánto)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
@@ -365,6 +373,17 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 ### 2.1.1. Análisis competitivo
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+- <b>Personalización integral con respaldo profesional: </b>
+<br> Como estrategia principal, Bloomie se diferencia al integrar en una sola plataforma el análisis automatizado mediante servicios de IA y el acceso a dermatólogos. Esto permite afrontar la debilidad de competidores como Skin Bliss, que se enfocan únicamente en recomendaciones estéticas sin validación profesional. La táctica consiste en posicionar la aplicación como una solución confiable que combina tecnología y respaldo médico, fortaleciendo la confianza del usuario.
+
+- <b>Seguimiento continuo orientado a la experiencia del usuario:</b>
+Frente a soluciones como Miiskin, cuyo enfoque principal es el monitoreo visual, Bloomie incorpora seguimiento acompañado de rutinas personalizadas y recordatorios inteligentes. Esta estrategia permite aprovechar la debilidad de la competencia en cuanto a falta de acompañamiento activo, mientras que la táctica se centra en mejorar la adherencia del usuario a su rutina mediante notificaciones y visualización de progreso.
+
+- <b> Modelo de suscripción accesible y escalable: </b>
+<br> A diferencia de First Derm, que maneja un modelo de pago por consulta, Bloomie adopta un esquema de suscripción escalonado que permite a los usuarios acceder a distintos niveles de servicio según sus necesidades. Esta estrategia aprovecha la oportunidad de captar un mercado más amplio con diferentes capacidades de pago, mientras que la táctica consiste en ofrecer valor progresivo a través de planes diferenciados.
+
+- <b> Integración de funcionalidades en un solo ecosistema </b>
+<br> Mientras que los competidores se enfocan en funcionalidades específicas, Bloomie apuesta por una estrategia de integración que centraliza diagnóstico, recomendaciones, seguimiento y acceso a servicios dermatológicos. La táctica consiste en reducir la fragmentación del proceso de cuidado de la piel, respondiendo a la debilidad de soluciones parciales y posicionando la plataforma como un ecosistema completo.
 
 ## 2.2. Entrevistas
 
