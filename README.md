@@ -401,7 +401,7 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 
 #### 1.2.2.2. Lean UX Assumptions
 
-- Bussiness Outcomes:
+- Business Outcomes:
   - Posicionar a Bloomie como una solución confiable en el cuidad de la piel mediante uso de inteligencia artificial y análisis personalizado
   - Generar ingresos a través de un modelo de suscripción escalonado, reflejado en el aumento progresivo de usuarios de los diferentes planes que existen en Bloomie
   - Reducir la incertidumbre y el gasto innecesario en productos de skincare no adecuados, mejorando la satisfacción del usuario con los resultados obtenidos
