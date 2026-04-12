@@ -401,6 +401,26 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 
 #### 1.2.2.2. Lean UX Assumptions
 
+- Bussiness Outcomes:
+  - Posicionar a Bloomie como una solución confiable en el cuidad de la piel mediante uso de inteligencia artificial y análisis personalizado
+  - Generar ingresos a través de un modelo de suscripción escalonado, reflejado en el aumento progresivo de usuarios de los diferentes planes que existen en Bloomie
+  - Reducir la incertidumbre y el gasto innecesario en productos de skincare no adecuados, mejorando la satisfacción del usuario con los resultados obtenidos
+  - Establecer alianzas con dermatólogos certificados, ampliando el alcance del servicio y fortaleciendo la propuesta de valor de la plataforma
+  - Ser un producto tecnológico con una interfaz sencilla y fácil de entender para el cuidado de la piel de los usuarios
+<br>
+
+- Users:
+  - 
+<br>
+
+- User Outcomes:
+  - 
+<br>
+
+- Features:
+  - 
+<br>
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Hipotesis de negocio: 
