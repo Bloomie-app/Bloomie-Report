@@ -292,6 +292,24 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
     </td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/img/nickolas-ramirez.png" alt="Foto de Nickolas Ramirez" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Nickolas Ramirez Ruiz</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202415551</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Nickolas Ramirez Ruiz</b>, estudiante del quinto ciclo de la carrera de Ingeniería de Software.<br/><br/>
+       A lo largo de mi formación académica he adquirido conocimientos en programación, principalmente utilizando el lenguaje Java. Además, durante mis primeros ciclos, tuve la oportunidad de iniciarme en la programación con el lenguaje C++ a través del entorno de desarrollo Visual Studio. Me considero una persona organizada, comprometida y con un enfoque proactivo, siempre buscando cumplir con mis responsabilidades antes del tiempo previsto.
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
