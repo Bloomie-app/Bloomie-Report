@@ -416,7 +416,16 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 <br>
 
 - User Outcomes:
-  - 
+  - <b>Mayor comprensión del estado de su piel:</b> <br>
+  Los usuarios podrán conocer con mayor precisión las características de su piel mediante el análisis de imágenes procesadas por inteligencia artificial, lo que permitirá tomar decisiones mejor informadas.
+  - <b>Obtención de recomendaciones personalizadas:</b> <br>
+  A partir del análisis de piel realizado, los usuarios recibirán sugerencias adaptadas a necesidades específicas, incluyendo productos y hábitos adecuados para su tipo de piel.
+  - <b>Reducción de gastos innecesarios:</b> <br>
+  Gracias a la información de Bloomie, los usuarios evitarán invertir en productos ineficaces, optimizando su presupuesto destinado al cuidado personal.
+  - <b>Seguimiento continuo de la evolución de la piel:</b> <br>
+  Los usuarios podrán registrar y comparar el estado de su piel a lo largo del tiempo, facilitando la evaluación de resultados y la mejora continua de la rutina de skincare.
+  - <b>Acceso a orientación profesional:</b> <br>
+  Los usuarios podrán fortalecer su rutina de cuidado de la piel mediante la posibilidad de consultar dermatólogos, obteniendo una experiencia más confiable y completa.
 <br>
 
 - Features:
