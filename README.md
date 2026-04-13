@@ -468,13 +468,15 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Hipotesis de negocio: 
-  - <b>Creemos que</b> implementar foros de consultas con médicos dermatólogos mejorará la precisión de respuestas y accesibilidad a todos los usuarios. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> un aumento de más del 10% de descargas de la app con respecto al periodo anterior.
-  - <b>Creemos que</b> implementar un sistema de seguimiento de datos mejorará el aporte de información utilizable. <b>Sabremos que</b>  hemos tenido éxito <b> cuando obtengamos </b> incrementar la eficiencia del chatbot en un 5 a 10% a través de la base de datos mejorada.
-<br>
+  - <b>Creemos que</b> ofrecer recomendaciones personalizadas basadas en análisis de la piel permitirá a los usuarios tomar mejores decisiones sobre productos de skincare. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> observemos un aumento del 10% en la retención de usuarios mensuales.
+  - <b>Creemos que</b> implementar un modelo de suscripción escalonado permitirá atender a usuarios con diferentes necesidades y niveles de compromiso. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> logremosque al menos el 15% de los usuarios que visitan la plataforma se suscriban a algún plan.
+  - <b>Creemos que</b> integrar el acceso a dermatólogos dentro de la plataforma incrementará la confianza en la solución. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 20% de los usuarios premium utilicen funcionalidades relacionadas a consultas o validación profesional.
+  <br>
 
 - Hipotesis de usuario: 
-  - <b>Creemos que</b> implementar reportes automáticos diseñados para los dermatólogos mejorará el desempeño y atención del médico hacia los pacientes. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> una reducción de diagnósticos erróneos en un 25%.
-  - <b> Creemos que </b> ofrecer rutinas adaptadas al presupuesto del usuario reducirá la tasa de abandono de los usuarios al cabo de un periodo de tiempo determinado. <b> Sabremos que </b> hemos tenido éxito  <b> cuando veamos </b> que la cantidad de usuarios conectados al día no varía de caída en más de 5%.
+  - <b>Creemos que</b> los usuarios necesitan una forma confiable de identificar productos adecuados para su tipo de piel, por lo que valorarán recibir recomendaciones personalizadas. <b>Sabremos que</b> hemos tenido razón <b>cuando</b> al menos el 60% de los usuarios interactúen con las recomendaciones generadas.
+  - <b>Creemos que</b> los usuarios valoran el seguimiento visual de su progreso y estarán más motivados a mantener su rutina si pueden visualizar la evolución de su piel. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 50% de los usuarios registren y consulten su historial de manera recurrente.
+  - <b>Creemos que</b> los usuarios tienen dificultades para identificar correctamente su tipo y estado de piel, por lo que valorarán una funcionalidad de análisis de imágenes que les permita obtener información más precisa y confiable. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 70% de los usuarios utilicen la función de análisis de imagen de manera recurrente.
   
 #### 1.2.2.4. Lean UX Canvas
 
