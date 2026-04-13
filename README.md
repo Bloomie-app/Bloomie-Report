@@ -658,6 +658,12 @@ nuestro FODA frente a competidores.
 
 ### 2.3.3. User Journey Mapping
 
+#### Segmento 1: Jóvenes adultos
+
+Aqui la imagen(segmento 1)
+#### Segmento 2: Dermatólogos certificados
+Aqui la imagen(segmento 2)
+
 ### 2.3.4. Empathy Mapping
 
 ## 2.4. Big Picture Event Storming
