@@ -429,7 +429,14 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 <br>
 
 - Features:
-  - 
+  - Registro de usuarios para gestionar su perfil personal y características de la piel
+  - Análisis de imágenes del rostro mediante inteligencia artificial para identificar condiciones como acné, manchas o textura irregular
+  - Generación de recomendaciones personalizadas de productos y rutinas de skincare
+  - Historial de seguimiento con registro de imágenes para comparar la evolución de la piel
+  - Visualización de productos disponibles en el mercado relacionados con las recomendaciones generales propuestas por la app
+  - Integración con servicios dermatológicos para consultas y seguimiento profesional
+  - Notificaciones y sugerencias inteligentes basadas en cambios detectados en la piel
+  - Interfaz intuitiva y fácil de usar, adaptada a usuarios con diferentes niveles de experiencia digital
 <br>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
