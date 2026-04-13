@@ -401,18 +401,44 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 
 #### 1.2.2.2. Lean UX Assumptions
 
+- Assumptions Worksheet:
+  - 
+  - 
+  - 
+  - 
+
+  <b>¿Quién es el usuario?</b><br>
+  Se trata de jóvenes adultos entre 21 y 30 años, incluyendo estudiantes universitarios y jóvenes profesionales, que muestran interés en el cuidado de la piel y consumen contenido relacionado con skincare en redes sociales.
+  Estos usuarios cuentan con acceso a dispositivos móviles y están familiarizados con el uso de aplicaciones digitales. Sin embargo, enfrentan dificultades para elegir productos adecuados debido a la gran cantidad de información contradictoria que existe en internet.
+  Además, suelen experimentar problemas como acné, manchas o sensibilidad en la piel, que los motiva a buscar soluciones efectivas. Esta situación los lleva a invertir en productos que muchas veces no generan los resultados esperados, provocando frustración y desconfianza en los usuarios. También consideramos a dermatólogos certificados que interactúan con la aplicación para validar diagnósticos y atender consultas virtuales de manera más eficiente.
+  <br>
+
+   <b>¿Dónde encaja nuestro producto en su trabajo o vida?</b><br>
+  
+  <br>
+
+   <b>¿Qué problemas tiene nuestro producto? ¿Resolver?</b><br>
+  
+  <br>
+
+   <b>¿Cuándo y cómo es usado nuestro producto?</b><br>
+  
+  <br>
+
+   <b>¿Qué características son importantes?</b><br>
+  
+  <br>
+
+   <b>¿Cómo debe verse nuestro producto y cómo comportarse?</b><br>
+  
+  <br>
+
 - Business Outcomes:
   - Posicionar a Bloomie como una solución confiable en el cuidad de la piel mediante uso de inteligencia artificial y análisis personalizado
   - Generar ingresos a través de un modelo de suscripción escalonado, reflejado en el aumento progresivo de usuarios de los diferentes planes que existen en Bloomie
   - Reducir la incertidumbre y el gasto innecesario en productos de skincare no adecuados, mejorando la satisfacción del usuario con los resultados obtenidos
   - Establecer alianzas con dermatólogos certificados, ampliando el alcance del servicio y fortaleciendo la propuesta de valor de la plataforma
   - Ser un producto tecnológico con una interfaz sencilla y fácil de entender para el cuidado de la piel de los usuarios
-<br>
-
-- Users:
-  <br> Se trata de jóvenes adultos entre 21 y 30 años, incluyendo estudiantes universitarios y jóvenes profesionales, que muestran interés en el cuidado de la piel y consumen contenido relacionado con skincare en redes sociales.
-  Estos usuarios cuentan con acceso a dispositivos móviles y están familiarizados con el uso de aplicaciones digitales. Sin embargo, enfrentan dificultades para elegir productos adecuados debido a la gran cantidad de información contradictoria que existe en internet.
-  Además, suelen experimentar problemas como acné, manchas o sensibilidad en la piel, que los motiva a buscar soluciones efectivas. Esta situación los lleva a invertir en productos que muchas veces no generan los resultados esperados, provocando frustración y desconfianza en los usuarios.
 <br>
 
 - User Outcomes:
