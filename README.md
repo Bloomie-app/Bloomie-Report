@@ -665,7 +665,9 @@ nuestro FODA frente a competidores.
 
 #### Segmento 2: Dermatólogos certificados
 ![foto](assets/img/dermatologo.png)
+
 ![foto](assets/img/dermatologo2.png)
+
 ![foto](assets/img/dermatologo3.png)
 
 ### 2.3.4. Empathy Mapping
