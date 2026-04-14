@@ -276,7 +276,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="650"/>
+      <img src="assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="550"/>
     </td>
     <td><b>Nombre:</b> Luciana Carolina Mechan Montenegro</td>
   </tr>
@@ -314,7 +314,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="" alt="Foto de Martin Asmat" width="650"/>
+      <img src="assets/img/martin-asmat.png" alt="Foto de Martin Asmat" width="550"/>
     </td>
     <td><b>Nombre:</b> Martin Alejandro Asmat Alminco </td>
   </tr>
@@ -401,16 +401,98 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 
 #### 1.2.2.2. Lean UX Assumptions
 
+- Assumptions Worksheet:
+  - Creemos que nuestros usuarios necesitan identificar correctamente su tipo y estado de piel para poder elegir productos de skincare adecuados, ya que actualmente existe una gran cantidad de información contradictoria y una amplia variedad de productos en el mercado que genera confusión y malas decisiones.
+  - Estas necesidades pueden resolverse mediante la aplicación Bloomie, la cual permitirá a los usuarios analizar su piel a través de imágenes utilizando inteligencia artificial, brindando recomendaciones personalizadas de productos y hábitos de cuidado.
+  - Nuestros clientes iniciales serán jóvenes adultos interesados en el cuidado de la piel y con acceso a dispositivos tecnológicos, pero no cuentan con el conocimiento suficiente para elegir productos adecuados para su tipo de piel o necesidades.
+  - El principal valor que los usuarios esperan de nuestro servicio es contar con una herramienta confiable, práctica, fácil de usar y personalizada que les permita mejorar el estado de su piel sin necesidad de invertir tiempo y dinero en distintos productos o consultas innecesarias.
+  - Los usuarios también podrán obtener beneficios adicionales como el seguimiento continuo de la evolución de su piel, la comparación de resultados a lo largo del tiempo y el acceso a orientación profesional mediante consultas con dermatólogos.
+  - Planeamos adquirir la mayoría de nuestros usuarios a través de estrategias de marketing digital, principalmente mediante redes sociales, contenido educativo sobre skincare, colaboraciones con creadores de contenido y campañas publicitarias dirigidas a nuestros segmentos objetivos.
+  - Generaremos ingresos mediante un modelo de suscripción escalonado (sin planes free), que permitirá a los usuarios acceder a diferentes niveles de personalización, seguimiento y servicios adicionales de Bloomie. Asimismo, se contempla la posibilidad de generar ingresos a través de alianzas con marcas de productos dermatológicos.
+  - Nuestra competencia principalmente estará conformada por aplicaciones de skincare que ofrecen recomendaciones genéricas o análisis básicos de la piel, así como contenido no especializado en redes sociales que influye en las decisiones que toman los usuarios.
+  - Nos diferenciaremos al ofrecer un enfoque integral basado en inteligencia artificial, análisis de imágenes, seguimiento continuo y la posibilidad de acceso a dermatólogos, lo que permitirá brindar recomendaciones más precisas, confiables y personalizadas.
+  - Nuestro mayor riesgo de producto es que los usuarios no confíen inicialmente en el análisis de imágenes para identificar el tipo de piel o no adopten el uso continuo de la aplicación.
+  - Planeamos mitigar este riesgo mediante la generación de confianza a través de resultados visibles, validación con especialistas dermatológicos, experiencia de usuario intuitiva y estrategias de educación digital sobre el uso adecuado de la aplicación.
+
+  <b>¿Quién es el usuario?</b><br>
+  Se trata de jóvenes adultos entre 21 y 30 años, incluyendo estudiantes universitarios y jóvenes profesionales, que muestran interés en el cuidado de la piel y consumen contenido relacionado con skincare en redes sociales.
+  Estos usuarios cuentan con acceso a dispositivos móviles y están familiarizados con el uso de aplicaciones digitales. Sin embargo, enfrentan dificultades para elegir productos adecuados debido a la gran cantidad de información contradictoria que existe en internet.
+  Además, suelen experimentar problemas como acné, manchas o sensibilidad en la piel, que los motiva a buscar soluciones efectivas. Esta situación los lleva a invertir en productos que muchas veces no generan los resultados esperados, provocando frustración y desconfianza en los usuarios. También consideramos a dermatólogos certificados que interactúan con la aplicación para validar diagnósticos y atender consultas virtuales de manera más eficiente.
+  <br>
+
+   <b>¿Dónde encaja nuestro producto en su trabajo o vida?</b><br>
+   Para los jóvenes adultos, Bloomie se integra como parte de su rutina diaria de cuidado personal, permitiéndoles analizar el estado de su piel, recibir recomendaciones personalizadas y realizar seguimiento continuo de su evolución. <br>
+   La aplicación acompaña al usuario en momentos clave, como la elección de productos, la evaluación de resultados y la mejora progresiva de su rutina de skincare. <br>
+   Para los dermatólogos, Bloomie encaja como una herramienta de apoyo en su práctica profesional, facilitando el acceso a información previa del paciente, optimizando el tiempo de consulta y permitiendo un seguimiento más estructurado y eficiente. Además, de facilitar la conexión con clientes con problemas en el cuidado de su piel.
+  <br>
+
+   <b>¿Qué problemas tiene nuestro producto? ¿Resolver?</b><br>
+   Nuestro producto debe resolver la confusión causada por la publicidad engañosa y las recomendaciones contradictorias que existen acerca de productos o rutinas de skincare, evitando que los usuarios realicen gastos innecesarios y efectos adversos. También debe responder a la dificultad de acceso a consultas dermatológicas por sus altos costos y largas esperas. En el caso de los dermatólogos, busca eliminar la dependencia de descripciones subjetivas de los pacientes y ofrecer información, además de facilitar la relación médico - paciente.
+  <br>
+
+   <b>¿Cuándo y cómo es usado nuestro producto?</b><br>
+   Bloomie será utilizado principalmente en el hogar, de forma diaria o periódica, permitiendo a los usuarios analizar su piel mediante imágenes, revisar recomendaciones personalizadas y registrar su progreso. <br>
+   También será utilizado en momentos específicos, como antes de adquirir productos de skincare, donde el usuario podrá consultar sugerencias adecuadas a sus necesidades. <br>
+   En el caso de los dermatólogos, la aplicación será utilizada durante consultas virtuales o seguimientos, facilitando el acceso a información previa del paciente y mejorando la toma de decisiones.
+
+  <br>
+
+   <b>¿Qué características son importantes?</b><br>
+   La precisión del análisis de imágenes mediante inteligencia artificial es fundamental para garantizar recomendaciones confiables y adaptadas a cada usuario. <br>
+   Asimismo, la privacidad y seguridad de los datos personales, especialmente de las imágenes faciales, es un aspecto crítico para generar confianza en el usuario. <br>
+   La interfaz debe ser intuitiva y fácil de usar, permitiendo una navegación clara y accesible para distintos niveles de experiencia digital.
+  <br>
+
+   <b>¿Cómo debe verse nuestro producto y cómo comportarse?</b><br>
+   Bloomie debe presentar un diseño moderno, limpio y profesional, transmitiendo confianza y seguridad desde el primero contacto con el usuario. La interfaz debe ser intuitiva, con una estructura clara, uso de colores suaves y jerarquía visual que facilite la comprensión de la información mostrada, como diagnósticos, recomendaciones y seguimiento. <br>
+   En cuanto a su comportamiento, la aplicación debe ser ágil y fluida, con tiempos de respuestas rápidos en el procesamiento de imágenes y navegación. Además, debe actuar de manera proactiva mediante notificaciones inteligentes, recordatorios de rutina y sugerencias personalizadas incentivando la constancia del usuario en el cuidado de su piel.
+
+  <br>
+
+- Business Outcomes:
+  - Posicionar a Bloomie como una solución confiable en el cuidad de la piel mediante uso de inteligencia artificial y análisis personalizado
+  - Generar ingresos a través de un modelo de suscripción escalonado, reflejado en el aumento progresivo de usuarios de los diferentes planes que existen en Bloomie
+  - Reducir la incertidumbre y el gasto innecesario en productos de skincare no adecuados, mejorando la satisfacción del usuario con los resultados obtenidos
+  - Establecer alianzas con dermatólogos certificados, ampliando el alcance del servicio y fortaleciendo la propuesta de valor de la plataforma
+  - Ser un producto tecnológico con una interfaz sencilla y fácil de entender para el cuidado de la piel de los usuarios
+<br>
+
+- User Outcomes:
+  - <b>Mayor comprensión del estado de su piel:</b> <br>
+  Los usuarios podrán conocer con mayor precisión las características de su piel mediante el análisis de imágenes procesadas por inteligencia artificial, lo que permitirá tomar decisiones mejor informadas.
+  - <b>Obtención de recomendaciones personalizadas:</b> <br>
+  A partir del análisis de piel realizado, los usuarios recibirán sugerencias adaptadas a necesidades específicas, incluyendo productos y hábitos adecuados para su tipo de piel.
+  - <b>Reducción de gastos innecesarios:</b> <br>
+  Gracias a la información de Bloomie, los usuarios evitarán invertir en productos ineficaces, optimizando su presupuesto destinado al cuidado personal.
+  - <b>Seguimiento continuo de la evolución de la piel:</b> <br>
+  Los usuarios podrán registrar y comparar el estado de su piel a lo largo del tiempo, facilitando la evaluación de resultados y la mejora continua de la rutina de skincare.
+  - <b>Acceso a orientación profesional:</b> <br>
+  Los usuarios podrán fortalecer su rutina de cuidado de la piel mediante la posibilidad de consultar dermatólogos, obteniendo una experiencia más confiable y completa.
+<br>
+
+- Features:
+  - Registro de usuarios para gestionar su perfil personal y características de la piel
+  - Análisis de imágenes del rostro mediante inteligencia artificial para identificar condiciones como acné, manchas o textura irregular
+  - Generación de recomendaciones personalizadas de productos y rutinas de skincare
+  - Historial de seguimiento con registro de imágenes para comparar la evolución de la piel
+  - Visualización de productos disponibles en el mercado relacionados con las recomendaciones generales propuestas por la app
+  - Integración con servicios dermatológicos para consultas y seguimiento profesional
+  - Notificaciones y sugerencias inteligentes basadas en cambios detectados en la piel
+  - Interfaz intuitiva y fácil de usar, adaptada a usuarios con diferentes niveles de experiencia digital
+<br>
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Hipotesis de negocio: 
-  - <b>Creemos que</b> implementar foros de consultas con médicos dermatólogos mejorará la precisión de respuestas y accesibilidad a todos los usuarios. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> un aumento de más del 10% de descargas de la app con respecto al periodo anterior.
-  - <b>Creemos que</b> implementar un sistema de seguimiento de datos mejorará el aporte de información utilizable. <b>Sabremos que</b>  hemos tenido éxito <b> cuando obtengamos </b> incrementar la eficiencia del chatbot en un 5 a 10% a través de la base de datos mejorada.
-<br>
+  - <b>Creemos que</b> ofrecer recomendaciones personalizadas basadas en análisis de la piel permitirá a los usuarios tomar mejores decisiones sobre productos de skincare. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> observemos un aumento del 10% en la retención de usuarios mensuales.
+  - <b>Creemos que</b> implementar un modelo de suscripción escalonado permitirá atender a usuarios con diferentes necesidades y niveles de compromiso. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> logremosque al menos el 15% de los usuarios que visitan la plataforma se suscriban a algún plan.
+  - <b>Creemos que</b> integrar el acceso a dermatólogos dentro de la plataforma incrementará la confianza en la solución. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 20% de los usuarios premium utilicen funcionalidades relacionadas a consultas o validación profesional.
+  <br>
 
 - Hipotesis de usuario: 
-  - <b>Creemos que</b> implementar reportes automáticos diseñados para los dermatólogos mejorará el desempeño y atención del médico hacia los pacientes. <b>Sabremos que</b> hemos tenido éxito <b>cuando veamos</b> una reducción de diagnósticos erróneos en un 25%.
-  - <b> Creemos que </b> ofrecer rutinas adaptadas al presupuesto del usuario reducirá la tasa de abandono de los usuarios al cabo de un periodo de tiempo determinado. <b> Sabremos que </b> hemos tenido éxito  <b> cuando veamos </b> que la cantidad de usuarios conectados al día no varía de caída en más de 5%.
+  - <b>Creemos que</b> los usuarios necesitan una forma confiable de identificar productos adecuados para su tipo de piel, por lo que valorarán recibir recomendaciones personalizadas. <b>Sabremos que</b> hemos tenido razón <b>cuando</b> al menos el 60% de los usuarios interactúen con las recomendaciones generadas.
+  - <b>Creemos que</b> los usuarios valoran el seguimiento visual de su progreso y estarán más motivados a mantener su rutina si pueden visualizar la evolución de su piel. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 50% de los usuarios registren y consulten su historial de manera recurrente.
+  - <b>Creemos que</b> los usuarios tienen dificultades para identificar correctamente su tipo y estado de piel, por lo que valorarán una funcionalidad de análisis de imágenes que les permita obtener información más precisa y confiable. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 70% de los usuarios utilicen la función de análisis de imagen de manera recurrente.
   
 #### 1.2.2.4. Lean UX Canvas
 
