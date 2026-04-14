@@ -762,6 +762,39 @@ nuestro FODA frente a competidores.
 
 ## 3.1. User Stories
 
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>Relacionado con (Epic ID)</th>
+  </tr>
+
+  <tr>
+    <td><strong>US01</strong></td>
+    <td>Registro básico</td>
+    <td>
+      Como joven adulto, quiero registrarme con mis datos personales 
+      para crear una cuenta y acceder a Bloomie.
+    </td>
+    <td>
+      <strong>Escenario 1: Registro exitoso</strong><br>
+      Dado que el usuario proporciona información válida
+      Cuando confirma el registro
+      Entonces el sistema valida los datos
+      Y crea la cuenta correctamente
+      <p></p>
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado que el usuario ingresa datos inválidos o incompletos
+      Cuando intenta registrarse
+      Entonces el sistema rechaza la solicitud
+      Y muestra mensajes de error correspondientes
+    </td>
+    <td>E1</td>
+  </tr>
+</table>
+
 ## 3.2. Impact Mapping
 
 ## 3.3. Product Backlog
