@@ -276,7 +276,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="650"/>
+      <img src="assets/img/luciana-mechan.png" alt="Foto de Luciana Mechan" width="550"/>
     </td>
     <td><b>Nombre:</b> Luciana Carolina Mechan Montenegro</td>
   </tr>
@@ -314,7 +314,7 @@ Convertirnos en la plataforma líder de cuidado de la piel a nivel global, recon
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="" alt="Foto de Martin Asmat" width="650"/>
+      <img src="assets/img/martin-asmat.png" alt="Foto de Martin Asmat" width="550"/>
     </td>
     <td><b>Nombre:</b> Martin Alejandro Asmat Alminco </td>
   </tr>
