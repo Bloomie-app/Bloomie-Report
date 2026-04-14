@@ -658,13 +658,13 @@ nuestro FODA frente a competidores.
 
 ### 2.3.3. User Journey Mapping
 
-#### Segmento 1: Jóvenes adultos
+####  2.3.3.1 Segmento 1: Jóvenes adultos
 ![foto](assets/img/joven.png)
 ![foto](assets/img/joven2.png)
 ![foto](assets/img/joven3.png)
 
-#### Segmento 2: Dermatólogos certificados
-![foto](assets/img/dermatologo.png)
+#### 2.3.3.2 Segmento 2: Dermatólogos certificados
+![foto](assets/img/dermatologo1.png)
 
 ![foto](assets/img/dermatologo2.png)
 
