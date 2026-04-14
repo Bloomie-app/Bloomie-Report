@@ -421,7 +421,9 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
   <br>
 
    <b>¿Dónde encaja nuestro producto en su trabajo o vida?</b><br>
-  
+   Para los jóvenes adultos, Bloomie se integra como parte de su rutina diaria de cuidado personal, permitiéndoles analizar el estado de su piel, recibir recomendaciones personalizadas y realizar seguimiento continuo de su evolución. <br>
+   La aplicación acompaña al usuario en momentos clave, como la elección de productos, la evaluación de resultados y la mejora progresiva de su rutina de skincare. <br>
+   Para los dermatólogos, Bloomie encaja como una herramienta de apoyo en su práctica profesional, facilitando el acceso a información previa del paciente, optimizando el tiempo de consulta y permitiendo un seguimiento más estructurado y eficiente. Además, de facilitar la conexión con clientes con problemas en el cuidado de su piel.
   <br>
 
    <b>¿Qué problemas tiene nuestro producto? ¿Resolver?</b><br>
