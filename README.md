@@ -384,9 +384,13 @@ Con nuestra propuesta, se disminuye los intentos de autocuidado por muchas perso
 
 El problema es amplio y afecta a una gran cantidad de personas. En relación con los efectos adversos causados por una mala elección de dermocosméticos, Nayak et al. (2023) realizó una encuesta con 400 participantes y los resultados fueron claros: el 44 % experimentó efectos negativos, de los cuales el 25,5 % correspondió al rostro. Además, el estudio reveló que solo el 15 % de las mujeres consultó a un dermatólogo, mientras que un 22,25 % optó por la automedicación, lo que refleja la ausencia de orientación profesional en la mayoría de casos.
 
+A continucación, el gráfico de la técnica 5W+2H: 
+
+ <div align="center">
+      <img src="assets/img/5W+2H.png" alt="5W+2H imagen" width="600"/>
+    </div>
 
 ### 1.2.2. Lean UX Process
-
 
 
 
