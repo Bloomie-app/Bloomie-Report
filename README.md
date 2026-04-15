@@ -181,11 +181,55 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | Asmat Alminco, Martin Alejandro <br>**AV1** <br> <br> Contreras Torres, Arturo Valentino <br>**AV1** <br> <br> Gallardo Morales, Carla Alejandra <br>**AV1** <br> <br> Mechan Montenegro, Luciana Carolina <br>**AV1** <br> <br> Ramirez Ruiz, Nickolas <br>**AV1** <br> | |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | Asmat Alminco, Martin Alejandro <br>**AV1** <br> <br> Contreras Torres, Arturo Valentino <br>**AV1** <br> <br> Gallardo Morales, Carla Alejandra <br>**AV1** <br> <br> Mechan Montenegro, Luciana Carolina <br>**AV1** <br> <br> Ramirez Ruiz, Nickolas <br>**AV1** <br> | |
+<table>
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
 
+  <tr>
+    <td><b>Comunica oralmente con efectividad a diferentes rangos de audiencia.</b></td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Gallardo Morales, Carla Alejandra <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Mechan Montenegro, Luciana Carolina <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Ramirez Ruiz, Nickolas <br>
+      <b>AV1</b>
+    </td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><b>Comunica por escrito con efectividad a diferentes rangos de audiencia.</b></td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Gallardo Morales, Carla Alejandra <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Mechan Montenegro, Luciana Carolina <br>
+      <b>AV1</b><br><br>
+      <p></p>
+      Ramirez Ruiz, Nickolas <br>
+      <b>AV1</b>
+    </td>
+    <td></td>
+  </tr>
+</table>
 ---
 
 # Capítulo I: Introducción
@@ -343,7 +387,7 @@ Asimismo, la aplicación permite realizar un seguimiento de la evolución de la 
 El modelo de negocio de Bloomie se basa en un esquema de suscripción escalonado, en el cual los usuarios pueden acceder a distintos niveles de personalización, seguimiento y soporte según el plan contratado. Este enfoque permite ofrecer una solución accesible para distintos perfiles de usuario, al mismo tiempo que garantiza la sostenibilidad del servicio.
 
 Como parte de la evolución del producto, se contempla la integración futura de dispositivos IoT orientados al monitoreo de condiciones de la piel, lo que permitirá complementar el análisis y mejorar la precisión de las recomendaciones, sin que ello represente una dependencia en la versión actual del sistema.
-
+ confu
 Para el sistema de análisis inteligente, se considerará el uso de Inteligencia Artificial (IA) para aplicación de algoritmos que logren Aprendizaje automático para aprender comportamiento o patrones con previo criterio programado. Dicho criterio constará de estudios sobre el cuidado de la piel para luego poder realizar comparaciones y diferenciar tipos de piel. Para ello, nos apoyaremos de la subdisciplina de IA: Visión de Computadora para que esta pueda interpretar información significativa a través de imágenes o videos.
 
 ### 1.2.1. Antecedentes y problemática
@@ -489,17 +533,21 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
 
 - Hipotesis de negocio: 
   - <b>Creemos que</b> ofrecer recomendaciones personalizadas basadas en análisis de la piel permitirá a los usuarios tomar mejores decisiones sobre productos de skincare. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> observemos un aumento del 10% en la retención de usuarios mensuales.
-  - <b>Creemos que</b> implementar un modelo de suscripción escalonado permitirá atender a usuarios con diferentes necesidades y niveles de compromiso. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> logremosque al menos el 15% de los usuarios que visitan la plataforma se suscriban a algún plan.
+  - <b>Creemos que</b> implementar un modelo de suscripción escalonado permitirá atender a usuarios con diferentes necesidades y niveles de compromiso. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> logremos que al menos el 15% de los usuarios que visitan la plataforma se suscriban a algún plan.
   - <b>Creemos que</b> integrar el acceso a dermatólogos dentro de la plataforma incrementará la confianza en la solución. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 20% de los usuarios premium utilicen funcionalidades relacionadas a consultas o validación profesional.
   <br>
 
 - Hipotesis de usuario: 
   - <b>Creemos que</b> los usuarios necesitan una forma confiable de identificar productos adecuados para su tipo de piel, por lo que valorarán recibir recomendaciones personalizadas. <b>Sabremos que</b> hemos tenido razón <b>cuando</b> al menos el 60% de los usuarios interactúen con las recomendaciones generadas.
   - <b>Creemos que</b> los usuarios valoran el seguimiento visual de su progreso y estarán más motivados a mantener su rutina si pueden visualizar la evolución de su piel. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 50% de los usuarios registren y consulten su historial de manera recurrente.
-  - <b>Creemos que</b> los usuarios tienen dificultades para identificar correctamente su tipo y estado de piel, por lo que valorarán una funcionalidad de análisis de imágenes que les permita obtener información más precisa y confiable. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 70% de los usuarios utilicen la función de análisis de imagen de manera recurrente.
+  - <b>Creemos que</b> los usuarios tienen dificultades para identificar correctamente su tipo y estado de piel, por lo que valorarán una funcionalidad de análisis de imágenes que les permita obtener información más precisa y confiable. <bmos>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 70% de los usuarios utilicen la función de análisis de imagen de manera recurrente.
   
 #### 1.2.2.4. Lean UX Canvas
-<img src="assets/img/LeanUXCanvas.png" alt="LeanUXCanvas">
+
+
+<div align="center">
+  <img src="assets/img/lean-ux-canvas.png" alt="LeanUXCanvas imagen" width="750"/>
+</div>
 
 ## 1.3. Segmentos objetivo
 Bloomie identifica dos segmentos principales de usuarios, definidos a partir del dominio del problema y respaldados por estadísticas del contexto peruano.
