@@ -495,7 +495,7 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
   - <b>Creemos que</b> los usuarios tienen dificultades para identificar correctamente su tipo y estado de piel, por lo que valorarán una funcionalidad de análisis de imágenes que les permita obtener información más precisa y confiable. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 70% de los usuarios utilicen la función de análisis de imagen de manera recurrente.
   
 #### 1.2.2.4. Lean UX Canvas
-<img src="assets/img/LeanUXCanvas.jpg" alt="LeanUXCanvas">
+<img src="assets/img/LeanUXCanvas.png" alt="LeanUXCanvas">
 
 ## 1.3. Segmentos objetivo
 Bloomie identifica dos segmentos principales de usuarios, definidos a partir del dominio del problema y respaldados por estadísticas del contexto peruano.
