@@ -928,7 +928,7 @@ nuestro FODA frente a competidores.
     <td><strong>US05</strong></td>
     <td>Generar rutina personalizada con productos</td>
     <td>
-      Como usuario, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado. 
+      Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado. 
     </td>
     <td>
       <strong>Escenario 1: Generación de rutina con productos</strong><br>
@@ -956,7 +956,7 @@ nuestro FODA frente a competidores.
     <td><strong>US06</strong></td>
     <td>Adaptar rutina mediante reemplazo de productos</td>
     <td>
-      Como usuario, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad. 
+      Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad. 
     </td>
     <td>
       <strong>Escenario 1: Solicitar reemplazo de producto</strong><br>
@@ -989,7 +989,7 @@ nuestro FODA frente a competidores.
     <td><strong>US07</strong></td>
     <td>Recordatorios de rutina</td>
     <td>
-      Como usuario, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia. 
+      Como joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia. 
     </td>
     <td>
       <strong>Escenario 1: Envío de recordatorio</strong><br>
@@ -1011,7 +1011,7 @@ nuestro FODA frente a competidores.
     <td><strong>US08</strong></td>
     <td>Explorar catálogo de productos con filtros/td>
     <td>
-      Como usuario, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+      Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
     </td>
     <td>
       <strong>Escenario 1: Visualización del catálogo</strong><br>
@@ -1036,7 +1036,7 @@ nuestro FODA frente a competidores.
     <td><strong>US09</strong></td>
     <td>Evaluar compatibilidad de productos</td>
     <td>
-      Como usuario, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+      Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
     </td>
     <td>
       <strong>Escenario 1: Visualización de productos</strong><br>
@@ -1058,7 +1058,7 @@ nuestro FODA frente a competidores.
     <td><strong>US10</strong></td>
     <td>Asistente virtual de skincare</td>
     <td>
-      Como usuario, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
+      Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
     </td>
     <td>
       <strong>Escenario 1: Consulta respondida</strong><br>
@@ -1080,34 +1080,7 @@ nuestro FODA frente a competidores.
     <td><strong>US11</strong></td>
     <td>Explorar mapa de tiendas y productos</td>
     <td>
-      Como usuario, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
-    </td>
-    <td>
-      <strong>Escenario 1: Búsqueda de producto en el mapa</strong><br>
-      Dado que el usuario se encuentra en el mapa
-      Cuando realiza una búsqueda de un producto
-      Entonces el sistema muestra tiendas donde está disponible
-      Y presenta información relevante como disponibilidad y precio
-      <p></p>
-      <strong>Escenario 2: Aplicación de filtros</strong><br>
-      Dado que el usuario se encuentra en el mapa
-      Cuando aplica criterios de filtrado
-      Entonces el sistema muestra tiendas que cumplen con dichos criterios
-      <p></p>
-      <strong>Escenario 3: Guardar tienda</strong><br>
-      Dado que el usuario visualiza una tienda
-      Cuando decide guardarla
-      Entonces el sistema almacena la tienda como favorita
-      Y permite acceder a ella posteriormente
-    </td>
-    <td>E4(Descubrimiento de productos)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US11</strong></td>
-    <td>Explorar mapa de tiendas y productos</td>
-    <td>
-      Como usuario, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+      Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
     </td>
     <td>
       <strong>Escenario 1: Búsqueda de producto en el mapa</strong><br>
@@ -1134,7 +1107,7 @@ nuestro FODA frente a competidores.
     <td><strong>US12</strong></td>
     <td>Listar dermatólogos para agendar</td>
     <td>
-      Como usuario, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+      Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
     </td>
     <td>
       <strong>Escenario 1: Lista de dermatólogos disponible</strong><br>
@@ -1161,7 +1134,7 @@ nuestro FODA frente a competidores.
     <td><strong>US13</strong></td>
     <td>Realizar pago de consulta dermatológica</td>
     <td>
-      Como usuario, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+      Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
     </td>
     <td>
       <strong>Escenario 1: Visualización de métodos de pago</strong><br>
@@ -1193,7 +1166,7 @@ nuestro FODA frente a competidores.
     <td><strong>US14</strong></td>
     <td>Cancelar cita dermatológica</td>
     <td>
-      Como usuario, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+      Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
     </td>
     <td>
       <strong>Escenario 1: Cancelación dentro del tiempo permitido</strong><br>
@@ -1222,7 +1195,7 @@ nuestro FODA frente a competidores.
     <td><strong>US15</strong></td>
     <td>Registrar cumplimiento de rutina diaria</td>
     <td>
-      Como usuario, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+      Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
     </td>
     <td>
       <strong>Escenario 1: Marcar rutina como completada</strong><br>
@@ -1247,7 +1220,7 @@ nuestro FODA frente a competidores.
     <td><strong>US16</strong></td>
     <td>Visualizar progreso en skin trackera</td>
     <td>
-      Como usuario, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+      Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
     </td>
     <td>
       <strong>Escenario 1: Visualización de métricas generales</strong><br>
@@ -1273,7 +1246,7 @@ nuestro FODA frente a competidores.
     <td><strong>US17</strong></td>
     <td>Seleccionar plan de suscripción</td>
     <td>
-      Como usuario, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+      Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
     </td>
     <td>
       <strong>Escenario 1: Visualización de planes</strong><br>
@@ -1287,7 +1260,6 @@ nuestro FODA frente a competidores.
       Cuando selecciona un plan
       Entonces el sistema guarda la selección
       Y redirige al proceso de pago
-      <p></p>
     </td>
     <td>E8(Gestión de suscripción)</td>
   </tr>
@@ -1296,7 +1268,7 @@ nuestro FODA frente a competidores.
     <td><strong>US18</strong></td>
     <td>Realizar pago de suscripción</td>
     <td>
-      Como usuario, quiero pagar un plan de suscripción para acceder a la aplicación.
+      Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
     </td>
     <td>
       <strong>Escenario 1: Pago exitoso</strong><br>
@@ -1310,9 +1282,310 @@ nuestro FODA frente a competidores.
       Cuando ocurre un error en la transacción
       Entonces el sistema informa que el pago no fue completado
       Y permite reintentar
-      <p></p>
     </td>
     <td>E8(Gestión de suscripción)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US19</strong></td>
+    <td>Visualizar perfil</td>
+    <td>
+      Como joven adulto, quiero visualizar mi perfil para consultar mi información personal.
+    </td>
+    <td>
+      <strong>Escenario 1: Perfil disponible</strong><br>
+      Dado que el usuario accede a su perfil
+      Cuando el sistema obtiene su información
+      Entonces muestra los datos personales registrados
+    </td>
+    <td>E3(Gestión de perfil del usuario)</td>
+  </tr>
+
+  <tr>
+  <td><strong>US20</strong></td>
+  <td>Editar información personal</td>
+  <td>
+    Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+  </td>
+  <td>
+      <strong>Escenario 1: Edición exitosa</strong><br>
+      Dado que el usuario modifica su información
+      Cuando el sistema valida los datos
+      Entonces guarda los cambios correctamente
+      <p></p>
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado que el usuario modifica su información
+      Cuando los datos no cumplen validaciones
+      Entonces el sistema no guarda los cambios
+      Y notifica el error
+  </td>
+  <td>E3(Gestión de perfil del usuario)</td>
+</tr>
+
+  <tr>
+    <td><strong>US21</strong></td>
+    <td>Actualizar características de piel</td>
+    <td>
+      Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
+    </td>
+    <td>
+      <strong>Escenario 1: Actualización exitosa</strong><br>
+      Dado que el usuario actualiza su información de piel
+      Cuando el sistema valida los datos
+      Entonces guarda la información actualizada
+  </td>
+  <td>E3(Gestión de perfil del usuario)</td>
+</tr>
+
+  <tr>
+    <td><strong>US22</strong></td>
+    <td>Cambiar contraseña</td>
+    <td>
+      Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
+    </td>
+    <td>
+      <strong>Escenario 1: Cambio exitoso</strong><br>
+      Dado que el usuario ingresa una nueva contraseña válida
+      Cuando el sistema valida la información
+      Entonces actualiza la contraseña correctamente
+      <p></p>
+      <strong>Escenario 2: Contraseña inválida</strong><br>
+      Dado que el usuario ingresa una contraseña inválida
+      Cuando no cumple las reglas de seguridad
+      Entonces el sistema rechaza el cambio
+  </td>
+  <td>E3(Gestión de perfil del usuario)</td>
+
+  <tr>
+    <td><strong>US23</strong></td>
+    <td>Registrar dermatólogo</td>
+    <td>
+      Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a funcionalidades especializadas.
+    </td>
+    <td>
+      <strong>Escenario 1: Registro válido</strong><br>
+      Dado que el dermatólogo proporciona sus credenciales
+      Cuando el sistema valida la información
+      Entonces registra la cuenta como especialista
+      Y habilita el acceso a funcionalidades médicas
+      <p></p>
+      <strong>Escenario 2: Credenciales inválidas</strong><br>
+      Dado que el dermatólogo proporciona información incorrecta
+      Cuando el sistema valida los datos
+      Entonces rechaza el registro
+      Y notifica la inconsistencia
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US24</strong></td>
+    <td>Visualizar pacientes recientes</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
+    </td>
+    <td>
+      <strong>Escenario 1: Pacientes disponibles</strong><br>
+      Dado que el dermatólogo consulta sus pacientes
+      Cuando el sistema obtiene la información
+      Entonces muestra la lista de pacientes con sus datos relevantes
+      <p></p>
+      <strong>Escenario 2: Sin pacientes</strong><br>
+      Dado que el dermatólogo consulta sus pacientes
+      Cuando no existen registros
+      Entonces el sistema informa que no hay pacientes disponibles
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US25</strong></td>
+    <td>Realizar consulta en tiempo real</td>
+    <td>
+      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta activa</strong><br>
+      Dado que el dermatólogo inicia la consulta
+      Cuando el paciente participa
+      Entonces el sistema permite la comunicación en tiempo real
+      <p></p>
+      <strong>Escenario 2: Envío de información</strong><br>
+      Dado que la consulta está activa
+      Cuando el dermatólogo envía información
+      Entonces el sistema registra y transmite los datos al paciente
+      <p></p>
+      <strong>Escenario 3: Consulta finalizada</strong><br>
+      Dado que la consulta termina
+      Cuando el dermatólogo finaliza la sesión
+      Entonces el sistema registra el cierre de la consulta
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US26</strong></td>
+    <td>Visualizar fotografías del paciente</td>
+    <td>
+      Como dermatólogo, quiero visualizar fotografías clínicas del paciente para analizar su evolución.
+    </td>
+    <td>
+      <strong>Escenario 1: Fotos disponibles</strong><br>
+      Dado que el dermatólogo accede a la información del paciente
+      Cuando existen fotografías registradas
+      Entonces el sistema muestra las imágenes con su información asociada
+      <p></p>
+      <strong>Escenario 2: Sin fotos</strong><br>
+      Dado que el dermatólogo accede a la información del paciente
+      Cuando no existen imágenes
+      Entonces el sistema informa que no hay registros disponibles
+      <p></p>
+      <strong>Escenario 3: Registro de nueva foto</strong><br>
+      Dado que el dermatólogo registra una imagen
+      Cuando el sistema procesa la información
+      Entonces almacena la fotografía con su referencia correspondiente
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US27</strong></td>
+    <td>Consultar diagnósticos previos</td>
+    <td>
+      Como dermatólogo, quiero consultar diagnósticos previos para analizar la evolución del paciente.
+    </td>
+    <td>
+      <strong>Escenario 1: Diagnósticos disponibles</strong><br>
+      Dado que existen diagnósticos registrados
+      Cuando el dermatólogo consulta el historial
+      Entonces el sistema muestra la información correspondiente
+      <p></p>
+      <strong>Escenario 2: Sin diagnósticos</strong><br>
+      Dado que no existen diagnósticos registrados
+      Cuando el dermatólogo consulta el historial
+      Entonces el sistema informa que no hay diagnósticos disponibles
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US28</strong></td>
+    <td>Visualizar agenda de consultas</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo.
+    </td>
+    <td>
+      <strong>Escenario 1: Agenda disponible</strong><br>
+      Dado que el dermatólogo consulta su agenda
+      Cuando existen citas programadas
+      Entonces el sistema muestra las consultas con su información
+      <p></p>
+      <strong>Escenario 2: Sin citas</strong><br>
+      Dado que el dermatólogo consulta su agenda
+      Cuando no existen citas
+      Entonces el sistema informa que no hay consultas programadas
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US29</strong></td>
+    <td>Reprogramar consulta</td>
+    <td>
+      Como dermatólogo, quiero reprogramar una consulta para ajustar mi disponibilidad.
+    </td>
+    <td>
+      <strong>Escenario 1: Reprogramación exitosa</strong><br>
+      Dado que el dermatólogo modifica una consulta
+      Cuando el nuevo horario es válido
+      Entonces el sistema actualiza la información
+      <p></p>
+      <strong>Escenario 2: Horario no disponible</strong><br>
+      Dado que el dermatólogo selecciona un nuevo horario
+      Cuando este no está disponible
+      Entonces el sistema rechaza la solicitud
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US30</strong></td>
+    <td>Visualizar métricas de pacientes</td>
+    <td>
+      Como dermatólogo, quiero visualizar métricas de mis pacientes para analizar su evolución.
+    </td>
+    <td>
+      <strong>Escenario 1: Métricas disponibles</strong><br>
+      Dado que el dermatólogo consulta métricas
+      Cuando existen datos registrados
+      Entonces el sistema muestra indicadores relevantes
+      <p></p>
+      <strong>Escenario 2: Sin datos</strong><br>
+      Dado que el dermatólogo consulta métricas
+      Cuando no existen registros
+      Entonces el sistema informa que no hay datos disponibles
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US31</strong></td>
+    <td>Definir disponibilidad de atención</td>
+    <td>
+      Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
+    </td>
+    <td>
+      <strong>Escenario 1: Registro de disponibilidad</strong><br>
+      Dado que el dermatólogo define horarios de atención
+      Cuando el sistema valida la información
+      Entonces guarda la disponibilidad
+      <p></p>
+      <strong>Escenario 2: Modificación de disponibilidad</strong><br>
+      Dado que el dermatólogo tiene horarios registrados
+      Cuando actualiza su disponibilidad
+      Entonces el sistema guarda los cambios
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US32</strong></td>
+    <td>Consultar historial de consultas atendidas</td>
+    <td>
+      Como dermatólogo, quiero consultar el historial de consultas atendidas para analizar casos previos.
+    </td>
+    <td>
+      <strong>Escenario 1: Historial disponible</strong><br>
+      Dado que existen consultas registradas
+      Cuando el dermatólogo consulta su historial
+      Entonces el sistema muestra las consultas atendidas
+      <p></p>
+      <strong>Escenario 2: Sin historial</strong><br>
+      Dado que no existen consultas registradas
+      Cuando el dermatólogo consulta su historial
+      Entonces el sistema informa que no hay consultas disponibles
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US33</strong></td>
+    <td>Actualizar perfil profesional</td>
+    <td>
+      Como dermatólogo, quiero actualizar mi perfil profesional para mantener mi información actualizada.
+    </td>
+    <td>
+      <strong>Escenario 1: Actualización exitosa</strong><br>
+      Dado que el dermatólogo modifica su información
+      Cuando el sistema valida los datos
+      Entonces guarda los cambios correctamente
+      <p></p>
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado que el dermatólogo ingresa información inválida
+      Cuando el sistema valida los datos
+      Entonces rechaza los cambios
+    </td>
+    <td>E9(Gestión de atención dermatológica)</td>
   </tr>
 </table>
 
