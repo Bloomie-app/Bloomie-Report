@@ -731,6 +731,9 @@ nuestro FODA frente a competidores.
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+
+En esta sección se presenta el diseño de las entrevistas dirigidas a los segmentos objetivos con el propósito de recolectar información relevante que permita comprender sus necesidades, comportamientos y problemáticas. Para ello, se formularon las siguientes preguntas divididas en iniciales y principales, permitiendo que se asegure la obtención de datos de nuestros segmentos objetivos.
+
 #### Segmento 1: Jóvenes adultos interesados en skincare
 **Preguntas iniciales**
 - ¿Qué edad tienes?
@@ -782,6 +785,136 @@ nuestro FODA frente a competidores.
 12. ¿Qué funcionalidades considerarías indispensables para integrar una solución como esta en tu práctica?
 13. ¿En qué casos recomendarías a un paciente el uso de una aplicación como esta?
 ### 2.2.2. Registro de entrevistas
+
+**PRIMER SEGMENTO OBJETIVO**
+
+<u>Entrevista 1:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<!-- Colocar screenshot de la entrevista -->
+
+**Resumen descriptivo:**
+
+<!-- Resumen entrevista -->
+
+***Enlace del video:*** <!-- Link grupal de entrevistas -->
+
+
+<u>Entrevista 2:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<!-- Colocar screenshot de la entrevista -->
+
+**Resumen descriptivo:**
+
+<!-- Resumen entrevista -->
+
+***Enlace del video:*** <!-- Link grupal de entrevistas -->
+
+
+<u>Entrevista 3:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<!-- Colocar screenshot de la entrevista -->
+
+**Resumen descriptivo:**
+
+<!-- Resumen entrevista -->
+
+***Enlace del video:*** <!-- Link grupal de entrevistas -->
+
+
+**SEGUNDO SEGMENTO OBJETIVO**
+
+<u>Entrevista 1:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<!-- Colocar screenshot de la entrevista -->
+
+**Resumen descriptivo:**
+
+<!-- Resumen entrevista -->
+
+***Enlace del video:*** <!-- Link grupal de entrevistas -->
+
+
+<u>Entrevista 2:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<!-- Colocar screenshot de la entrevista -->
+
+**Resumen descriptivo:**
+
+<!-- Resumen entrevista -->
+
+***Enlace del video:*** <!-- Link grupal de entrevistas -->
+
+
+<u>Entrevista 3:</u>
+
+Entrevistador: 
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<!-- Colocar screenshot de la entrevista -->
+
+**Resumen descriptivo:**
+
+<!-- Resumen entrevista -->
+
+***Enlace del video:*** <!-- Link grupal de entrevistas -->
+
 
 ### 2.2.3. Análisis de entrevistas
 
