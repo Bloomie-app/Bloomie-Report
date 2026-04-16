@@ -833,18 +833,486 @@ nuestro FODA frente a competidores.
     </td>
     <td>
       <strong>Escenario 1: Registro exitoso</strong><br>
-      Dado que el usuario proporciona información válida
+      Dado que el usuario proporciona datos válidos
       Cuando confirma el registro
-      Entonces el sistema valida los datos
+      Entonces el sistema valida la información
       Y crea la cuenta correctamente
       <p></p>
       <strong>Escenario 2: Datos inválidos</strong><br>
       Dado que el usuario ingresa datos inválidos o incompletos
       Cuando intenta registrarse
       Entonces el sistema rechaza la solicitud
-      Y muestra mensajes de error correspondientes
+      Y muestra mensajes de error
     </td>
-    <td>E1</td>
+    <td>E1(Onboarding de usuario)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US02</strong></td>
+    <td>Completar perfil básico de piel</td>
+    <td>
+      Como joven adulto, quiero completar un cuestionario inicial de 
+      hábitos y condiciones de piel en mi primer ingreso para que la 
+      aplicación configure diagnósticos y rutinas personalizadas. 
+    </td>
+    <td>
+      <strong>Escenario 1: Registro exitoso</strong><br>
+      Dado que el usuario accede por primera vez a la aplicación
+      Cuando el sistema valida su autenticación
+      Entonces solicita completar información inicial sobre hábitos y condiciones de piel
+      <p></p>
+      <strong>Escenario 2: Registro exitoso de información</strong><br>
+      Dado que el usuario proporciona información completa sobre sus hábitos y condiciones de piel
+      Cuando confirma el envío
+      Entonces el sistema guarda la información correctamente
+      Y permite continuar con el proceso de análisis
+      <p></p>
+      <strong>Escenario 3: Información incompleta</strong><br>
+      Dado que el usuario no proporciona información obligatoria sobre sus hábitos o condiciones de piel
+      Cuando intenta continuar
+      Entonces el sistema impide el avance
+      Y solicita completar los datos requeridos     
+    </td>
+    <td>E1(Onboarding de usuario)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US03</strong></td>
+    <td>Escaneo facial con cámara</td>
+    <td>
+      Como joven adulto, quiero realizar un escaneo facial moviendo mi 
+      cabeza frente a la cámara para que la aplicación capture imágenes 
+      desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel. 
+    </td>
+    <td>
+      <strong>Escenario 1: Escaneo completado</strong><br>
+      Dado que el usuario inicia el proceso de escaneo facial
+      Cuando el sistema captura correctamente las imágenes necesarias     
+      Entonces el sistema completa el escaneo
+      Y continúa con el análisis de la piel
+      <p></p>
+      <strong>Escenario 2: Escaneo incompleto</strong><br>
+      Dado que el usuario inicia el proceso de escaneo facial
+      Cuando el proceso no se completa correctamente
+      Entonces el sistema indica que el escaneo no fue completado
+      Y permite reintentar el proceso    
+    </td>
+    <td>E2(Análisis de piel)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US04</strong></td>
+    <td>Diagnóstico preliminar automático</td>
+    <td>
+      Como joven adulto, quiero recibir un reporte preliminar generado por 
+      la inteligencia artificial después del escaneo facial para conocer el 
+      estado de mi piel y entender qué tipo de cuidados necesito. 
+    </td>
+    <td>
+      <strong>Escenario 1: Diagnóstico procesado correctamente</strong><br>
+      Dado que el usuario completó el escaneo
+      Cuando el sistema procesa las imágenes mediante servicios de IA
+      Entonces identifica condiciones de la piel
+      Y genera un reporte preliminar
+      <p></p>
+      <strong>Escenario 2: Error de procesamiento interno o conexión</strong><br>
+      Dado que ocurre un error en el procesamiento
+      Cuando el sistema no puede analizar las imágenes
+      Entonces informa al usuario
+      Y permite reintentar
+    </td>
+    <td>E2(Análisis de piel)</td>
+  </tr>
+
+<tr>
+    <td><strong>US05</strong></td>
+    <td>Generar rutina personalizada con productos</td>
+    <td>
+      Como usuario, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado. 
+    </td>
+    <td>
+      <strong>Escenario 1: Generación de rutina con productos</strong><br>
+      Dado que el usuario cuenta con un diagnóstico de piel
+      Cuando accede a su rutina
+      Entonces el sistema genera una rutina personalizada
+      Y asigna productos específicos para cada paso
+      <p></p>
+      <strong>Escenario 2: Rutina adaptada al contexto del usuario</strong><br>
+      Dado que el usuario cuenta con información de preferencias o presupuesto
+      Cuando el sistema genera la rutina
+      Entonces selecciona productos acordes a sus condiciones
+      <p></p>
+      <strong>Escenario 3: Error en la generación de la rutina</strong><br>
+      Dado que el usuario cuenta con un diagnóstico registrado
+      Cuando ocurre un error en la generación de la rutina
+      Entonces el sistema informa la situación
+      Y permite reintentar el proceso
+    </td>
+    <td>E3(Gestión de rutina personalizada)</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>US06</strong></td>
+    <td>Adaptar rutina mediante reemplazo de productos</td>
+    <td>
+      Como usuario, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad. 
+    </td>
+    <td>
+      <strong>Escenario 1: Solicitar reemplazo de producto</strong><br>
+      Dado que el usuario tiene una rutina activa
+      Cuando selecciona la opción de reemplazar un producto
+      Entonces el sistema muestra alternativas compatibles con la rutina
+      <p></p>
+      <strong>Escenario 2: Evaluación de compatibilidad del reemplazo</strong><br>
+      Dado que el usuario selecciona un producto alternativo
+      Cuando el sistema analiza su compatibilidad con la rutina actual
+      Entonces determina si el producto es adecuado
+      Y presenta el nivel de compatibilidad
+      <p></p>
+      <strong>Escenario 3: Confirmación de reemplazo</strong><br>
+      Dado que el usuario selecciona un producto compatible
+      Cuando confirma el cambio
+      Entonces el sistema actualiza la rutina
+      Y reemplaza el producto anterior
+      <p></p>
+      <strong>Escenario 4: Eliminación de producto de la rutina</strong><br>
+      Dado que el usuario tiene una rutina activa
+      Cuando decide eliminar un producto
+      Entonces el sistema actualiza la rutina
+      Y elimina el paso correspondiente
+    </td>
+    <td>E3(Gestión de rutina personalizada)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US07</strong></td>
+    <td>Recordatorios de rutina</td>
+    <td>
+      Como usuario, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia. 
+    </td>
+    <td>
+      <strong>Escenario 1: Envío de recordatorio</strong><br>
+      Dado que el usuario tiene una rutina activa
+      Y ha definido horarios de uso
+      Cuando llega el momento programado
+      Entonces el sistema envía un recordatorio
+      Y permite acceder a la rutina
+      <p></p>
+      <strong>Escenario 2: Recordatorios desactivados</strong><br>
+      Dado que el usuario tiene una rutina activa
+      Cuando desactiva los recordatorios
+      Entonces el sistema deja de enviar notificaciones
+    </td>
+    <td>E3(Gestión de rutina personalizada)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US08</strong></td>
+    <td>Explorar catálogo de productos con filtros/td>
+    <td>
+      Como usuario, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+    </td>
+    <td>
+      <strong>Escenario 1: Visualización del catálogo</strong><br>
+      Dado que el usuario accede al catálogo de productos
+      Cuando el sistema carga la información
+      Entonces muestra una lista de productos disponibles
+      <p></p>
+      <strong>Escenario 2: Aplicación de filtros</strong><br>
+      Dado que el usuario se encuentra en el catálogo
+      Cuando aplica criterios de filtrado
+      Entonces el sistema muestra productos que cumplen con dichos criterios
+      <p></p>
+      <strong>Escenario 3: Búsqueda de productos</strong><br>
+      Dado que el usuario se encuentra en el catálogo
+      Cuando realiza una búsqueda por texto
+      Entonces el sistema muestra productos relacionados con la consulta
+    </td>
+    <td>E4(Descubrimiento de productos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US09</strong></td>
+    <td>Evaluar compatibilidad de productos</td>
+    <td>
+      Como usuario, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+    </td>
+    <td>
+      <strong>Escenario 1: Visualización de productos</strong><br>
+      Dado que el usuario se encuentra en el catálogo de productos
+      Cuando accede al detalle de un producto
+      Entonces el sistema muestra el nivel de compatibilidad
+      Y presenta beneficios relevantes del producto
+      <p></p>
+      <strong>Escenario 2: Producto con baja compatibilidad</strong><br>
+      Dado que el usuario se encuentra en el catálogo de productos
+      Cuando accede al detalle de un producto no adecuado
+      Entonces el sistema indica un bajo nivel de compatibilidad
+      Y explica las razones asociadas
+    </td>
+    <td>E4(Descubrimiento de productos)</td>
+  </tr>
+
+   <tr>
+    <td><strong>US10</strong></td>
+    <td>Asistente virtual de skincare</td>
+    <td>
+      Como usuario, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta respondida</strong><br>
+      Dado que el usuario realiza una consulta
+      Cuando el sistema procesa la solicitud
+      Entonces genera una respuesta basada en información disponible
+      Y proporciona orientación relevante
+      <p></p>
+      <strong>Escenario 2: Consulta no resuelta</strong><br>
+      Dado que el usuario realiza una consulta
+      Cuando el sistema no cuenta con información suficiente
+      Entonces informa la limitación
+      Y sugiere alternativas como consultar a un especialista
+    </td>
+    <td>E6(oporte inteligente)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US11</strong></td>
+    <td>Explorar mapa de tiendas y productos</td>
+    <td>
+      Como usuario, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+    </td>
+    <td>
+      <strong>Escenario 1: Búsqueda de producto en el mapa</strong><br>
+      Dado que el usuario se encuentra en el mapa
+      Cuando realiza una búsqueda de un producto
+      Entonces el sistema muestra tiendas donde está disponible
+      Y presenta información relevante como disponibilidad y precio
+      <p></p>
+      <strong>Escenario 2: Aplicación de filtros</strong><br>
+      Dado que el usuario se encuentra en el mapa
+      Cuando aplica criterios de filtrado
+      Entonces el sistema muestra tiendas que cumplen con dichos criterios
+      <p></p>
+      <strong>Escenario 3: Guardar tienda</strong><br>
+      Dado que el usuario visualiza una tienda
+      Cuando decide guardarla
+      Entonces el sistema almacena la tienda como favorita
+      Y permite acceder a ella posteriormente
+    </td>
+    <td>E4(Descubrimiento de productos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US11</strong></td>
+    <td>Explorar mapa de tiendas y productos</td>
+    <td>
+      Como usuario, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+    </td>
+    <td>
+      <strong>Escenario 1: Búsqueda de producto en el mapa</strong><br>
+      Dado que el usuario se encuentra en el mapa
+      Cuando realiza una búsqueda de un producto
+      Entonces el sistema muestra tiendas donde está disponible
+      Y presenta información relevante como disponibilidad y precio
+      <p></p>
+      <strong>Escenario 2: Aplicación de filtros</strong><br>
+      Dado que el usuario se encuentra en el mapa
+      Cuando aplica criterios de filtrado
+      Entonces el sistema muestra tiendas que cumplen con dichos criterios
+      <p></p>
+      <strong>Escenario 3: Guardar tienda</strong><br>
+      Dado que el usuario visualiza una tienda
+      Cuando decide guardarla
+      Entonces el sistema almacena la tienda como favorita
+      Y permite acceder a ella posteriormente
+    </td>
+    <td>E4(Descubrimiento de productos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US12</strong></td>
+    <td>Listar dermatólogos para agendar</td>
+    <td>
+      Como usuario, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+    </td>
+    <td>
+      <strong>Escenario 1: Lista de dermatólogos disponible</strong><br>
+      Dado que el usuario accede a la sección de consultas dermatológicas
+      Cuando el sistema carga la información
+      Entonces muestra una lista de dermatólogos
+      Y presenta información como nombre, especialidad y costo por consulta
+      <p></p>
+      <strong>Escenario 2: Filtrado por costo</strong><br>
+      Dado que el usuario visualiza la lista de dermatólogos
+      Cuando aplica un criterio de filtrado por costo
+      Entonces el sistema muestra dermatólogos que cumplen con dicho criterio
+      <p></p>
+      <strong>Escenario 3: Sin especialistas disponibles</strong><br>
+      Dado que el usuario accede a la sección de consultas dermatológicas
+      Cuando no existen dermatólogos disponibles
+      Entonces el sistema informa que no hay especialistas disponibles
+      Y sugiere intentar más tarde
+    </td>
+    <td>E7(Atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US13</strong></td>
+    <td>Realizar pago de consulta dermatológica</td>
+    <td>
+      Como usuario, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+    </td>
+    <td>
+      <strong>Escenario 1: Visualización de métodos de pago</strong><br>
+      Dado que el usuario ha seleccionado una fecha y horario para su cita
+      Cuando accede al proceso de pago
+      Entonces el sistema muestra los métodos de pago disponibles
+      <p></p>
+      <strong>Escenario 2: Ingreso de datos de pago</strong><br>
+      Dado que el usuario selecciona un método de pago
+      Cuando ingresa la información requerida
+      Entonces el sistema valida los datos proporcionados
+      <p></p>
+      <strong>Escenario 3: Pago exitoso y confirmación de cita</strong><br>
+      Dado que el usuario proporciona datos válidos de pago
+      Cuando confirma la transacción
+      Entonces el sistema procesa el pago
+      Y confirma la cita programada
+      <p></p>
+      <strong>Escenario 4: Pago fallido</strong><br>
+      Dado que el usuario intenta realizar el pago
+      Cuando ocurre un error en la transacción
+      Entonces el sistema informa que el pago no fue completado
+      Y permite reintentar
+    </td>
+    <td>E7(Atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US14</strong></td>
+    <td>Cancelar cita dermatológica</td>
+    <td>
+      Como usuario, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+    </td>
+    <td>
+      <strong>Escenario 1: Cancelación dentro del tiempo permitido</strong><br>
+      Dado que el usuario tiene una cita programada
+      Y la cancelación se realiza dentro del tiempo permitido
+      Cuando solicita la cancelación
+      Entonces el sistema cancela la cita
+      Y procesa el reembolso correspondiente
+      <p></p>
+      <strong>Escenario 2: Cancelación fuera del tiempo permitido</strong><br>
+      Dado que el usuario tiene una cita programada
+      Y la cancelación se realiza fuera del tiempo permitido
+      Cuando solicita la cancelación
+      Entonces el sistema cancela la cita
+      Y no realiza reembolso
+      <p></p>
+      <strong>Escenario 3: Visualización de estado actualizado</strong><br>
+      Dado que el usuario ha cancelado una cita
+      Cuando consulta su historial
+      Entonces el sistema muestra la cita con estado cancelado
+    </td>
+    <td>E7(Atención dermatológica)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US15</strong></td>
+    <td>Registrar cumplimiento de rutina diaria</td>
+    <td>
+      Como usuario, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+    </td>
+    <td>
+      <strong>Escenario 1: Marcar rutina como completada</strong><br>
+      Dado que el usuario visualiza su rutina de un día específico
+      Cuando indica que ha completado la rutina
+      Entonces el sistema registra el día como completado
+      <p></p>
+      <strong>Escenario 2: Marcar rutina como no completada</strong><br>
+      Dado que el usuario visualiza su rutina de un día específico
+      Cuando indica que no completó la rutina
+      Entonces el sistema registra el día como no completado
+      <p></p>
+      <strong>Escenario 3: Visualización de estado registrado</strong><br>
+      Dado que el usuario ha registrado el estado de un día
+      Cuando vuelve a consultar la rutina
+      Entonces el sistema muestra el estado previamente guardado
+    </td>
+    <td>E3(Gestión de rutina personalizada)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US16</strong></td>
+    <td>Visualizar progreso en skin trackera</td>
+    <td>
+      Como usuario, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+    </td>
+    <td>
+      <strong>Escenario 1: Visualización de métricas generales</strong><br>
+      Dado que el usuario accede al tracker
+      Cuando el sistema procesa los datos registrados
+      Entonces muestra métricas como adherencia y días completados
+      <p></p>
+      <strong>Escenario 2: Visualización de actividad semanal</strong><br>
+      Dado que el usuario accede al tracker
+      Cuando el sistema carga el historial reciente
+      Entonces muestra el estado de cumplimiento por día
+      <p></p>
+      <strong>Escenario 3: Sin datos suficientes</strong><br>
+      Dado que el usuario accede al tracker
+      Cuando no existen registros de cumplimiento
+      Entonces el sistema informa que no hay datos suficientes
+      Y sugiere completar la rutina
+    </td>
+    <td>E5(Seguimiento y progreso del usuario)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US17</strong></td>
+    <td>Seleccionar plan de suscripción</td>
+    <td>
+      Como usuario, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+    </td>
+    <td>
+      <strong>Escenario 1: Visualización de planes</strong><br>
+      Dado que el usuario ha completado su registro
+      Cuando accede al sistema
+      Entonces el sistema muestra los planes disponibles
+      Y presenta sus características y precios
+      <p></p>
+      <strong>Escenario 2: Selección de plan</strong><br>
+      Dado que el usuario visualiza los planes disponibles
+      Cuando selecciona un plan
+      Entonces el sistema guarda la selección
+      Y redirige al proceso de pago
+      <p></p>
+    </td>
+    <td>E8(Gestión de suscripción)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US18</strong></td>
+    <td>Realizar pago de suscripción</td>
+    <td>
+      Como usuario, quiero pagar un plan de suscripción para acceder a la aplicación.
+    </td>
+    <td>
+      <strong>Escenario 1: Pago exitoso</strong><br>
+      Dado que el usuario ha seleccionado un plan
+      Cuando realiza el pago correctamente
+      Entonces el sistema activa la suscripción
+      Y habilita el acceso a la aplicación
+      <p></p>
+      <strong>Escenario 2: Pago fallido</strong><br>
+      Dado que el usuario intenta realizar el pago  
+      Cuando ocurre un error en la transacción
+      Entonces el sistema informa que el pago no fue completado
+      Y permite reintentar
+      <p></p>
+    </td>
+    <td>E8(Gestión de suscripción)</td>
   </tr>
 </table>
 
