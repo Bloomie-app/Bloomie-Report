@@ -1720,6 +1720,168 @@ Datos del entrevistado
     </td>
     <td>E9(Gestión de atención dermatológica)</td>
   </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Registrar usuario</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint para registrar usuarios para permitir la creación de cuentas en el sistema.
+    </td>
+    <td>
+      <strong>Escenario 1: Registro exitoso</strong><br>
+      Dado un HTTP POST al recurso /users con datos válidos
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 201 con el usuario creado
+      <p></p>
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado un HTTP POST al recurso /users con datos incompletos
+      Cuando el servidor valida la solicitud
+      Entonces retorna un código 400 indicando error
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Autenticación de usuario</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint de autenticación para permitir el acceso seguro al sistema.
+    </td>
+    <td>
+      <strong>Escenario 1: Autenticación exitosa</strong><br>
+      Dado un HTTP POST al recurso /auth/login con credenciales válidas
+      Cuando el servidor valida la información
+      Entonces retorna un código 200 con un token de acceso
+      <p></p>
+      <strong>Escenario 2: Credenciales inválidas</strong><br>
+      Dado un HTTP POST al recurso /auth/login con datos incorrectos
+      Cuando el servidor valida la información
+      Entonces retorna un código 401 indicando error
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Consultar perfil de usuario</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint para obtener el perfil del usuario para mostrar su información en la aplicación.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta exitosa</strong><br>
+      Dado un HTTP GET al recurso /users/{id}
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 200 con los datos del usuario
+      <p></p>
+      <strong>Escenario 2: Usuario no encontrado</strong><br>
+      Dado un HTTP GET al recurso /users/{id} inválido
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 404
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Registrar seguimiento de rutina</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint para registrar el cumplimiento de la rutina para almacenar el progreso del usuario.
+    </td>
+    <td>
+      <strong>Escenario 1: Registro exitoso</strong><br>
+      Dado un HTTP POST al recurso /routines/{id}/tracking con datos válidos
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 201 confirmando el registro
+      <p></p>
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado un HTTP POST al recurso /routines/{id}/tracking con información incompleta
+      Cuando el servidor valida la solicitud
+      Entonces retorna un código 400 indicando error
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Consultar progreso de rutina</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint para consultar el progreso del usuario para alimentar el tracker.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta exitosa</strong><br>
+      Dado un HTTP GET al recurso /routines/{id}/tracking
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 200 con los datos de seguimiento
+      <p></p>
+      <strong>Escenario 2: Sin registros</strong><br>
+      Dado un HTTP GET al recurso /routines/{id}/tracking sin datos
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 200 con respuesta vacía
+      <p></p>
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Gestionar citas dermatológicas</td>
+    <td>
+      Como desarrollador, quiero implementar endpoints para gestionar citas para permitir la creación y consulta de consultas dermatológicas.
+    </td>
+    <td>
+      <strong>Escenario 1: Creación de cita</strong><br>
+      Dado un HTTP POST al recurso /dermatology/appointments con datos válidos
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 201 con la cita creada
+      <p></p>
+      <strong>Escenario 2: Consulta de citas</strong><br>
+      Dado un HTTP GET al recurso /dermatology/appointments
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 200 con la lista de citas
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Registrar diagnóstico dermatológico</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint para registrar diagnósticos para almacenar resultados de consultas.
+    </td>
+    <td>
+      <strong>Escenario 1: Registro exitoso</strong><br>
+      Dado un HTTP POST al recurso /dermatology/diagnoses con datos válidos
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 201 confirmando el registro
+      <p></p>
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado un HTTP POST al recurso /dermatology/diagnoses con datos incompletos
+      Cuando el servidor valida la solicitud
+      Entonces retorna un código 400 indicando error
+      <p></p>
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
+
+  <tr>
+    <td><strong>USxx</strong></td>
+    <td>Consultar productos del catálogo</td>
+    <td>
+      Como desarrollador, quiero implementar un endpoint para consultar productos para mostrarlos en el catálogo.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta exitosa</strong><br>
+      Dado un HTTP GET al recurso /products
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 200 con la lista de productos
+      <p></p>
+      <strong>Escenario 2: Sin productos</strong><br>
+      Dado un HTTP GET al recurso /products sin datos
+      Cuando el servidor procesa la solicitud
+      Entonces retorna un código 200 con lista vacía
+    </td>
+    <td>E11(Servicios REST)</td>
+  </tr>
 </table>
 
 ## 3.2. Impact Mapping
