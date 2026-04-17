@@ -850,26 +850,29 @@ Datos del entrevistado
 
 ***Enlace del video:*** <!-- Link grupal de entrevistas -->
 
+<br>
 
 **SEGUNDO SEGMENTO OBJETIVO**
 
 <u>Entrevista 1:</u>
 
-Entrevistador: 
+Entrevistador: Arturo Contreras Torres
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Distrito:** 
+- **Nombre:** Justo
+- **Apellidos:** Valverde
+- **Edad:** 48 años
+- **Distrito:** San Martín de Porres
 - **Timing:** 
 
-<!-- Colocar screenshot de la entrevista -->
+<img src="assets/img/entrevista-arturo.png" width="500"/>
 
 **Resumen descriptivo:**
 
-<!-- Resumen entrevista -->
+El entrevistado fue Justo Valverde, un médico con 22 años de experiencia, actualmente trabajando en una institución pública de salud. Justo describe que la atención médica sigue un proceso de entrevista clínica, diagnóstico y tratamiento. Señala que las consultas presenciales son más efectivas debido al apoyo de exámenes clínicos, mientras que las virtuales cumplen principalmente un rol informativo, aunque el seguimiento del paciente si puede realizarse de forma remota. <br>
+Utiliza una aplicación para gestionar historiales clínicos, la cual, pese a ciertas fallas, ha mejorado su trabajo frente al uso tradicional del papel. Advierte sobre los riesgos de que los pacientes utilicen productos sin información adecuada y valora positivamente la integración de inteligencia artifical como herramienta informativa, siempre complementada por un profesional de la salud. <br>
+Considera que nuestro producto, Bloomie, puede agilizar la atención médica al proporcionar información previa del paciente, permitiendo al especialista optimizar el tiempo de consulta y enfocarse en decisiones clínicas más precisas.
 
 ***Enlace del video:*** <!-- Link grupal de entrevistas -->
 
