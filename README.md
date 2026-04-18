@@ -67,6 +67,7 @@ u202415551 - Ramirez Ruiz, Nickolas
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
+  - [](#)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -112,6 +113,8 @@ u202415551 - Ramirez Ruiz, Nickolas
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.3.1 Segmento 1: Jóvenes adultos](#2331-segmento-1-jóvenes-adultos)
+      - [2.3.3.2 Segmento 2: Dermatólogos certificados](#2332-segmento-2-dermatólogos-certificados)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
@@ -790,21 +793,26 @@ En esta sección se presenta el diseño de las entrevistas dirigidas a los segme
 
 <u>Entrevista 1:</u>
 
-Entrevistador: 
+Entrevistador: Carla Gallardo Morales
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Distrito:** 
-- **Timing:** 
+- **Nombre:** Fiorella  
+- **Apellidos:** Gallardo Morales
+- **Edad:** 25 años
+- **Distrito:** La Molina
+- **Timing:** 8:37 minutos
+  
 
-<!-- Colocar screenshot de la entrevista -->
+<img src="assets/img/EntrevistaCarla.png"
+ width="500"/>
 
 **Resumen descriptivo:**
 
-<!-- Resumen entrevista -->
+Fiorella es una jóven de 25 años está interesada en el cuidado de su piel y por consiguiente, sigue una rutina básica de cuidado de la piel: por la mañana limpia su rostro y aplica protector solar, y por la noche utiliza una crema hidratante. Sin embargo, señala que no reaplica el protector durante el día.
+<br>Menciona que uno de sus principales problemas es la dificultad para elegir productos debido a la gran variedad en el mercado. Para tomar decisiones, recurre a reseñas y recomendaciones en redes sociales como TikTok, aunque reconoce que no siempre son confiables, ya que cada piel reacciona de manera diferente. Incluso relata una experiencia negativa reciente con un producto que le causó sequedad.
+Aunque ha considerado acudir a un dermatólogo, prefiere informarse por su cuenta. Respecto a aplicaciones de análisis de piel, indica que estaría dispuesta a usarlas por la orientación que brindan, aunque tiene ciertas preocupaciones sobre la privacidad de sus datos.
+<br> Finalmente, señala que no confiaría únicamente en una sola plataforma y que continuaría usando una aplicación solo si las recomendaciones resultan efectivas.
 
 ***Enlace del video:*** <!-- Link grupal de entrevistas -->
 
