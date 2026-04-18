@@ -1725,7 +1725,87 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US34</strong></td>
+    <td>Comprender la propuesta de valor</td>
+    <td>
+      Como visitante, quiero comprender la propuesta de valor de la aplicación para evaluar si resuelve mis necesidades.
+    </td>
+    <td>
+      <strong>Escenario 1: Información disponible</strong><br>
+      Dado que el visitante accede al sitio web
+      Cuando el sistema carga el contenido principal
+      Entonces el sistema presenta información sobre el análisis de piel y personalización de rutinas
+    </td>
+    <td>E10(Experiencia web)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US35</strong></td>
+    <td>Comprender el funcionamiento del servicio</td>
+    <td>
+      Como visitante, quiero entender cómo funciona el servicio para saber qué pasos debo seguir.
+    </td>
+    <td>
+      <strong>Escenario 1: Explicación del proceso</strong><br>
+      Dado que el visitante accede a la sección de funcionamiento
+      Cuando el sistema carga la información
+      Entonces el sistema describe las etapas del proceso desde el registro hasta el seguimiento
+    </td>
+    <td>E10(Experiencia web)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US36</strong></td>
+    <td>Explorar funcionalidades del producto</td>
+    <td>
+      Como visitante, quiero explorar las funcionalidades del sistema para entender sus capacidades.
+    </td>
+    <td>
+      <strong>Escenario 1: Funcionalidades disponibles</strong><br>
+      Dado que el visitante accede a la sección de funcionalidades
+      Cuando el sistema carga la información
+      Entonces el sistema presenta funcionalidades relacionadas con el análisis, la rutina y el seguimiento
+    </td>
+    <td>E10(Experiencia web)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US37</strong></td>
+    <td>Comparar planes de suscripción</td>
+    <td>
+      Como visitante, quiero visualizar los planes disponibles para elegir la opción que mejor se adapte a mis necesidades.
+    </td>
+    <td>
+      <strong>Escenario 1: Visualización de planes</strong><br>
+      Dado que el visitante accede a la sección de precios
+      Cuando el sistema carga la información
+      Entonces el sistema muestra los planes disponibles con sus características
+      <p></p>
+      <strong>Escenario 2: Comparación de planes</strong><br>
+      Dado que el visitante visualiza múltiples planes
+      Cuando analiza sus características
+      Entonces el sistema presenta las diferencias entre los planes disponibles
+    </td>
+    <td>E10(Experiencia web)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US38</strong></td>
+    <td>Navegar entre secciones del sitio</td>
+    <td>
+      Como visitante, quiero navegar entre las diferentes secciones del sitio para explorar el contenido disponible.
+    </td>
+    <td>
+      <strong>Escenario 1: Navegación disponible</strong><br>
+      Dado que el visitante accede al sitio web
+      Cuando solicita acceder a una sección específica
+      Entonces el sistema muestra el contenido correspondiente
+    </td>
+    <td>E10(Experiencia web)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US39</strong></td>
     <td>Registrar usuario</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para registrar usuarios para permitir la creación de cuentas en el sistema.
@@ -1745,7 +1825,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US40</strong></td>
     <td>Autenticación de usuario</td>
     <td>
       Como desarrollador, quiero implementar un endpoint de autenticación para permitir el acceso seguro al sistema.
@@ -1765,7 +1845,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US41</strong></td>
     <td>Consultar perfil de usuario</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para obtener el perfil del usuario para mostrar su información en la aplicación.
@@ -1785,7 +1865,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US42</strong></td>
     <td>Registrar seguimiento de rutina</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para registrar el cumplimiento de la rutina para almacenar el progreso del usuario.
@@ -1805,7 +1885,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US43</strong></td>
     <td>Consultar progreso de rutina</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para consultar el progreso del usuario para alimentar el tracker.
@@ -1826,7 +1906,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US44</strong></td>
     <td>Gestionar citas dermatológicas</td>
     <td>
       Como desarrollador, quiero implementar endpoints para gestionar citas para permitir la creación y consulta de consultas dermatológicas.
@@ -1846,7 +1926,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US45</strong></td>
     <td>Registrar diagnóstico dermatológico</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para registrar diagnósticos para almacenar resultados de consultas.
@@ -1867,7 +1947,7 @@ Datos del entrevistado
   </tr>
 
   <tr>
-    <td><strong>USxx</strong></td>
+    <td><strong>US46</strong></td>
     <td>Consultar productos del catálogo</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para consultar productos para mostrarlos en el catálogo.
