@@ -1474,9 +1474,9 @@ En esta sección se presentan los user personas construidos a partir del anális
       Cuando los datos no cumplen validaciones
       Entonces el sistema no guarda los cambios
       Y notifica el error
-  </td>
-  <td>E3(Gestión de perfil del usuario)</td>
-</tr>
+    </td>
+    <td>E3(Gestión de perfil del usuario)</td>
+  </tr>
 
   <tr>
     <td><strong>US21</strong></td>
@@ -1489,9 +1489,9 @@ En esta sección se presentan los user personas construidos a partir del anális
       Dado que el usuario actualiza su información de piel
       Cuando el sistema valida los datos
       Entonces guarda la información actualizada
-  </td>
-  <td>E3(Gestión de perfil del usuario)</td>
-</tr>
+    </td>
+    <td>E3(Gestión de perfil del usuario)</td>
+  </tr>
 
   <tr>
     <td><strong>US22</strong></td>
@@ -1825,7 +1825,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US39</strong></td>
+    <td><strong>TS01</strong></td>
     <td>Registrar usuario</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para registrar usuarios para permitir la creación de cuentas en el sistema.
@@ -1845,7 +1845,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US40</strong></td>
+    <td><strong>TS02</strong></td>
     <td>Autenticación de usuario</td>
     <td>
       Como desarrollador, quiero implementar un endpoint de autenticación para permitir el acceso seguro al sistema.
@@ -1865,7 +1865,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US41</strong></td>
+    <td><strong>TS03</strong></td>
     <td>Consultar perfil de usuario</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para obtener el perfil del usuario para mostrar su información en la aplicación.
@@ -1885,7 +1885,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US42</strong></td>
+    <td><strong>TS04</strong></td>
     <td>Registrar seguimiento de rutina</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para registrar el cumplimiento de la rutina para almacenar el progreso del usuario.
@@ -1905,7 +1905,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US43</strong></td>
+    <td><strong>TS05</strong></td>
     <td>Consultar progreso de rutina</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para consultar el progreso del usuario para alimentar el tracker.
@@ -1926,7 +1926,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US44</strong></td>
+    <td><strong>TS06</strong></td>
     <td>Gestionar citas dermatológicas</td>
     <td>
       Como desarrollador, quiero implementar endpoints para gestionar citas para permitir la creación y consulta de consultas dermatológicas.
@@ -1946,7 +1946,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US45</strong></td>
+    <td><strong>TS07</strong></td>
     <td>Registrar diagnóstico dermatológico</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para registrar diagnósticos para almacenar resultados de consultas.
@@ -1967,7 +1967,7 @@ En esta sección se presentan los user personas construidos a partir del anális
   </tr>
 
   <tr>
-    <td><strong>US46</strong></td>
+    <td><strong>TS08</strong></td>
     <td>Consultar productos del catálogo</td>
     <td>
       Como desarrollador, quiero implementar un endpoint para consultar productos para mostrarlos en el catálogo.
