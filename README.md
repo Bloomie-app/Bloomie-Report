@@ -925,6 +925,8 @@ Datos del entrevistado
 
 ### 2.3.1. User Personas
 
+En esta sección se presentan los user personas construidos a partir del análisis de las entrevistas realizadas a usuarios y especialistas dermatológicos. Estos artefactos sintetizan patrones de comportamiento, necesidades, motivaciones y frustraciones identificadas durante la investigación, permitiendo representar de manera clara a los segmentos clave de nuestro proyecto.
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
