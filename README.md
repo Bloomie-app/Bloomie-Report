@@ -931,6 +931,12 @@ En esta sección se presentan los user personas construidos a partir del anális
 
 <img src="assets/img/user-persona-segmento1.png" width="500"/>
 
+<br>
+
+**SEGUNDO SEGMENTO OBJETIVO**
+
+<img src="assets/img/user-persona-segmento2.png" width="500"/>
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
