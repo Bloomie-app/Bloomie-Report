@@ -965,6 +965,9 @@ En esta sección se presentan los user personas construidos a partir del anális
 ![foto](assets/img/dermatologos3.png)
 
 ### 2.3.4. Empathy Mapping
+####  2.3.4.1 Segmento 1: Jóvenes adultos
+![foto](assets/img/segmento1.png)
+
 
 ## 2.4. Big Picture Event Storming
 
