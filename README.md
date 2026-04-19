@@ -958,11 +958,11 @@ En esta sección se presentan los user personas construidos a partir del anális
 ![foto](assets/img/joven3.png)
 
 #### 2.3.3.2 Segmento 2: Dermatólogos certificados
-![foto](assets/img/dermatologo1.png)
+![foto](assets/img/dermatologos.png)
 
-![foto](assets/img/dermatologo2.png)
+![foto](assets/img/dermatologos2.png)
 
-![foto](assets/img/dermatologo3.png)
+![foto](assets/img/dermatologos3.png)
 
 ### 2.3.4. Empathy Mapping
 
