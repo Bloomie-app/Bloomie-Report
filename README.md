@@ -973,8 +973,18 @@ En esta sección se presentan los user personas construidos a partir del anális
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+En esta sección se presentan los requerimientos del sistema definidos mediante un conjunto de User Stories y Epics, los cuales describen de manera clara y concisa las funcionalidades esperadas desde la perspectiva de los diferentes actores del sistema, tales como el usuario joven adulto, el dermatólogo, el visitante del sitio web y el desarrollador.
+
+Cada User Story representa una necesidad específica del negocio y está orientada a generar valor dentro del contexto del cuidado personalizado de la piel.
+
+Asimismo, cada User Story incluye uno o más criterios de aceptación redactados en tercera persona, en tiempo presente y siguiendo la estructura de Gherkin (Given–When–Then). Estos criterios permiten definir comportamientos verificables del sistema, asegurando que las funcionalidades puedan ser validadas de manera objetiva.
+
+El conjunto de User Stories se encuentra organizado en Epics, los cuales agrupan funcionalidades relacionadas dentro de los distintos contextos del dominio, tales como gestión de usuarios, rutinas, atención dermatológica, experiencia web y servicios REST. Esta organización facilita la comprensión del sistema y su evolución incremental.
+
+Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario final como Technical Stories asociadas a la implementación de servicios RESTful, permitiendo cubrir tanto la perspectiva del negocio como los aspectos necesarios para la construcción del sistema.
 
 <table border="1" cellspacing="0" cellpadding="8">
+
   <tr>
     <th>Epic / Story ID</th>
     <th>Título</th>
@@ -1988,6 +1998,7 @@ En esta sección se presentan los user personas construidos a partir del anális
     </td>
     <td>E11(Servicios REST)</td>
   </tr>
+
 </table>
 
 ## 3.2. Impact Mapping
