@@ -980,6 +980,74 @@ A continuación, se visualizan los aspectos psicográficos, frustraciones y meta
 
 ## 2.5. Ubiquitous Language
 
+En esta sección se define el lenguaje ubicuo del dominio del negocio, el cual permite establecer una comunicación clara, consistente y sin ambigüedades entre todos los stakeholders del proyecto, incluyendo desarrolladores, diseñadores y usuarios del sistema.
+
+El Ubiquitous Language se construye a partir de términos propios del dominio del cuidado de la piel (skincare), la atención dermatológica y la personalización de rutinas, evitando el uso de conceptos técnicos de ingeniería de software.
+
+Este lenguaje debe mantenerse consistente a lo largo de todo el proyecto, incluyendo la definición de requerimientos, User Stories, modelos de dominio y diseño del sistema.
+
+ <u> Glosario de Términos del Dominio </u> 
+
+- **User (Usuario)** <br>
+  Persona que utiliza la aplicación para analizar su piel, recibir recomendaciones personalizadas y realizar seguimiento de su rutina de cuidado.
+
+- **Dermatologist (Dermatólogo)** <br>
+  Profesional de la salud especializado en el cuidado de la piel que brinda consultas, diagnósticos y recomendaciones a los usuarios dentro de la plataforma.
+
+- **Skin Analysis (Análisis de piel)** <br>
+  Proceso mediante el cual se evalúa el estado de la piel del usuario, generalmente a partir de imágenes o información proporcionada, para identificar condiciones y necesidades específicas.
+
+- **Skin Type (Tipo de piel)** <br>
+  Clasificación de la piel del usuario (por ejemplo: seca, grasa, mixta o sensible), utilizada como base para personalizar recomendaciones.
+
+- **Skin Condition (Condición de la piel)** <br>
+  Estado específico de la piel en un momento determinado, incluyendo problemas como acné, manchas, irritación o deshidratación.
+
+- **Routine (Rutina)** <br>
+  Conjunto estructurado de pasos y productos recomendados que el usuario debe seguir para el cuidado de su piel.
+
+- **Routine Step (Paso de rutina)** <br>
+  Acción específica dentro de una rutina, como limpieza, hidratación o aplicación de un producto.
+
+- **Routine Tracking (Seguimiento de rutina)** <br>
+  Registro del cumplimiento diario de la rutina por parte del usuario, utilizado para medir consistencia y progreso.
+
+- **Adherence (Adherencia)** <br>
+  Indicador que refleja qué tan consistentemente el usuario sigue su rutina a lo largo del tiempo.
+
+- **Streak (Racha)** <br>
+  Cantidad de días consecutivos en los que el usuario ha cumplido su rutina.
+
+- **Product (Producto)** <br>
+  Artículo de cuidado de la piel recomendado al usuario como parte de su rutina, con base en su análisis de piel.
+
+- **Product Compatibility (Compatibilidad del producto)** <br>
+  Nivel en el que un producto es adecuado para la piel del usuario según su tipo, condición y rutina actual.
+
+- **Catalog (Catálogo)** <br>
+  Conjunto de productos disponibles que el usuario puede explorar dentro de la aplicación.
+
+- **Appointment (Cita)** <br>
+  Interacción programada entre el usuario y un dermatólogo para recibir asesoría profesional.
+
+- **Consultation (Consulta)** <br>
+  Sesión de atención entre el usuario y el dermatólogo, en la cual se evalúa el estado de la piel y se brindan recomendaciones.
+
+- **Diagnosis (Diagnóstico)** <br>
+  Evaluación realizada por el dermatólogo sobre la condición de la piel del usuario, acompañada de recomendaciones.
+
+- **Recommendation (Recomendación)** <br>
+  Sugerencia de productos, hábitos o tratamientos basada en el análisis de piel o en la evaluación del dermatólogo.
+
+- **Subscription Plan (Plan de suscripción)** <br>
+  Modelo de acceso mediante el cual el usuario obtiene las funcionalidades de la aplicación a cambio de un pago.
+
+- **Availability (Disponibilidad)** <br>
+  Horario definido por el dermatólogo en el cual puede atender consultas.
+
+- **Skin Progress (Progreso de la piel)** <br>
+  Evolución del estado de la piel del usuario a lo largo del tiempo, basada en el seguimiento y análisis continuo.
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
