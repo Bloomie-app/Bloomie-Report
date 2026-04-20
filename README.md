@@ -804,8 +804,7 @@ Datos del entrevistado
 - **Timing:** 8:37 minutos
   
 
-<img src="assets/img/EntrevistaCarla.png"
- width="500"/>
+<img src="assets/img/EntrevistaCarla.png" width="500"/>
 
 **Resumen descriptivo:**
 
@@ -819,20 +818,21 @@ Aunque ha considerado acudir a un dermatólogo, prefiere informarse por su cuent
 
 <u>Entrevista 2:</u>
 
-Entrevistador: 
+Entrevistador:Nickolas Ramirez Ruiz
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Distrito:** 
-- **Timing:** 
+- **Nombre:Yamileth Sherlyn** 
+- **Apellidos:Corimaya Cuello** 
+- **Edad:23 Años** 
+- **Ciudad:Arequipa** 
+- **Timing: 11:37:22 minutos** 
 
-<!-- Colocar screenshot de la entrevista -->
+<img src="assets/img/entrevista-nickolas.png" width="500"/>
+
 
 **Resumen descriptivo:**
-
+Llamileth Corimaya Cuello, una estudiante de Derecho de 23 años residente en Arequipa que se dedica a la asesoría legal y comercial, mantiene una rutina de cuidado de piel minimalista y tecnológica pero enfrenta dificultades con la dosificación y el orden de los productos tras experiencias negativas con especialistas, por lo que desconfía de las redes sociales y la piratería, prefiriendo guiarse por recomendaciones de amigas y mostrando una alta disposición a utilizar una aplicación eficiente que analice su piel mediante fotografías por las noches para obtener fuentes confiables y resultados seguros.
 <!-- Resumen entrevista -->
 
 ***Enlace del video:*** <!-- Link grupal de entrevistas -->
