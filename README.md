@@ -804,7 +804,7 @@ Datos del entrevistado
 - **Timing:** 8:37 minutos
   
 
-<img src="assets/img/EntrevistaCarla.png" width="500"/>
+<img src="assets/img/entrevista-carla.png" width="500"/>
 
 **Resumen descriptivo:**
 
@@ -813,8 +813,6 @@ Fiorella es una joven de 25 años que está interesada en el cuidado de su piel 
 Aunque ha considerado acudir a un dermatólogo, prefiere informarse por su cuenta. Respecto a aplicaciones de análisis de piel, indica que estaría dispuesta a usarlas por la orientación que brindan, aunque tiene ciertas preocupaciones sobre la privacidad de sus datos.
 <br> Finalmente, señala que no confiaría únicamente en una sola plataforma y que continuaría usando una aplicación solo si las recomendaciones resultan efectivas.
 
-***Enlace del video:*** <!-- Link grupal de entrevistas -->
-
 
 <u>Entrevista 2:</u>
 
@@ -822,41 +820,39 @@ Entrevistador:Nickolas Ramirez Ruiz
 
 Datos del entrevistado
 
-- **Nombre:Yamileth Sherlyn** 
-- **Apellidos:Corimaya Cuello** 
-- **Edad:23 Años** 
-- **Ciudad:Arequipa** 
-- **Timing: 11:37:22 minutos** 
+- **Nombre:** Yamileth Sherlyn 
+- **Apellidos:** Corimaya Cuello 
+- **Edad:** 23 Años 
+- **Ciudad:** Arequipa
+- **Timing:** 11:37:22 minutos
 
 <img src="assets/img/entrevista-nickolas.png" width="500"/>
 
 
 **Resumen descriptivo:**
 Llamileth Corimaya Cuello, una estudiante de Derecho de 23 años residente en Arequipa que se dedica a la asesoría legal y comercial, mantiene una rutina de cuidado de piel minimalista y tecnológica pero enfrenta dificultades con la dosificación y el orden de los productos tras experiencias negativas con especialistas, por lo que desconfía de las redes sociales y la piratería, prefiriendo guiarse por recomendaciones de amigas y mostrando una alta disposición a utilizar una aplicación eficiente que analice su piel mediante fotografías por las noches para obtener fuentes confiables y resultados seguros.
-<!-- Resumen entrevista -->
-
-***Enlace del video:*** <!-- Link grupal de entrevistas -->
-
 
 <u>Entrevista 3:</u>
 
-Entrevistador: 
+Entrevistador: Luciana Mechan Montenegro
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Distrito:** 
+- **Nombre:** Britny 
+- **Apellidos:** Alarcon
+- **Edad:** 20
+- **Distrito:** San Martín de Porres
 - **Timing:** 
 
-<!-- Colocar screenshot de la entrevista -->
+<img src="assets/img/entrevista-dermatologos-luciana.png" width="500"/>
 
 **Resumen descriptivo:**
 
-<!-- Resumen entrevista -->
+La entrevistada, Britney, tiene 20 años, reside en San Martín de Porres y es estudiante de psicología. Utiliza principalmente el celular como su dispositivo principal y se informa sobre el cuidado de la piel a través de redes sociales, especialmente TikTok, complementándolo con búsquedas en Google. Su comportamiento refleja una alta dependencia de medios digitales y una influencia significativa de tendencias en redes, aunque mantiene una postura crítica respecto a la confiabilidad de esta información.
 
-***Enlace del video:*** <!-- Link grupal de entrevistas -->
+En cuanto a su rutina de skincare, presenta piel mixta a grasa y problemas como granitos, por lo que selecciona productos en función de estas características. Sin embargo, su proceso se basa en la prueba y error, ya que considera que cada piel reacciona de manera diferente. Su principal dificultad es la falta de constancia debido a su rutina diaria como estudiante, lo que le impide seguir adecuadamente los pasos del cuidado de la piel. Además, ha tenido experiencias negativas con productos que no cumplen lo prometido o generan reacciones adversas, lo que incrementa su frustración al momento de construir una rutina adecuada.
+
+Finalmente, la entrevistada muestra interés en una aplicación que analice su piel y le brinde recomendaciones personalizadas, ya que facilitaría la toma de decisiones y le ofrecería una guía constante. Para confiar en este tipo de solución, considera importante que esté respaldada por dermatólogos y tecnología como inteligencia artificial. Asimismo, valora funcionalidades como recordatorios o notificaciones, que le ayudarían a mantener la constancia, aunque expresa preocupación por la privacidad de sus datos si la información no es manejada de forma personal.
 
 <br>
 
@@ -882,8 +878,6 @@ El entrevistado fue Justo Valverde, un médico con 22 años de experiencia, actu
 Utiliza una aplicación para gestionar historiales clínicos, la cual, pese a ciertas fallas, ha mejorado su trabajo frente al uso tradicional del papel. Advierte sobre los riesgos de que los pacientes utilicen productos sin información adecuada y valora positivamente la integración de inteligencia artifical como herramienta informativa, siempre complementada por un profesional de la salud. <br>
 Considera que nuestro producto, Bloomie, puede agilizar la atención médica al proporcionar información previa del paciente, permitiendo al especialista optimizar el tiempo de consulta y enfocarse en decisiones clínicas más precisas.
 
-***Enlace del video:*** <!-- Link grupal de entrevistas -->
-
 
 <u>Entrevista 2:</u>
 
@@ -906,9 +900,6 @@ En entrevistado fue Antonio Paredes, un médico con 40 años de experiencia en l
 Después, con respecto a una posible aplicación, menciona que se debe mantener un correcto uso de la información, no desde el lado técnico en software, sino información que en teoría está protegida por la ley y que tiene peso legal, ello por ejemplo incluye el historial clínico. Sin embargo, si ve pertinente la integración de una aplicación en formato puente, donde pueda unir a los dermatólogos y pacientes en un entorno con mayor comunicación para ahorro de tiempo yo costos a comparación del sistema de citas tradicional. 
 
 
-***Enlace del video:*** <!-- Link grupal de entrevistas -->
-
-
 <u>Entrevista 3:</u>
 
 Entrevistador: 
@@ -927,8 +918,7 @@ Datos del entrevistado
 
 <!-- Resumen entrevista -->
 
-***Enlace del video:*** <!-- Link grupal de entrevistas -->
-
+***Enlace del video único de las entrevistas:*** 
 
 ### 2.2.3. Análisis de entrevistas
 
