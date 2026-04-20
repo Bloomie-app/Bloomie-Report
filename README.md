@@ -951,7 +951,9 @@ En esta sección se presentan los user personas construidos a partir del anális
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
+En esta sección se detallan los User Journey Maps en su versión "As-Is", uno por cada segmento de usuario definido. El objetivo de estos mapas es ilustrar el proceso de extremo a extremo que realizan actualmente los usuarios para intentar resolver su necesidad, evidenciando los puntos de dolor, las frustraciones y las ineficiencias que experimentan antes de la implementación de nuestra solución propuesta.
 
+A continuación, se presentan los diagramas que resumen la situación actual de los usuarios:
 ####  2.3.3.1 Segmento 1: Jóvenes adultos
 ![foto](assets/img/joven.png)
 ![foto](assets/img/joven2.png)
