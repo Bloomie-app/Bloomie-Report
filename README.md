@@ -965,6 +965,9 @@ En esta sección se presentan los user personas construidos a partir del anális
 ![foto](assets/img/dermatologos3.png)
 
 ### 2.3.4. Empathy Mapping
+En esta sección se presenta el Empathy Mapping elaborado para el segmento de negocio. Esta herramienta nos permite profundizar en el conocimiento de nuestro User Persona, yendo más allá de las características demográficas para comprender sus dolores, necesidades y el entorno que influye en su toma de decisiones.
+
+A continuación, se visualizan los aspectos psicográficos, frustraciones y metas que definen la experiencia del usuario respecto a la problemática identificada:
 ####  2.3.4.1 Segmento 1: Jóvenes adultos
 ![foto](assets/img/segmento1.png)
 
