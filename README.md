@@ -928,6 +928,121 @@ Finalmente, la dermatóloga muestra una percepción positiva hacia el uso de int
 
 ### 2.2.3. Análisis de entrevistas
 
+#### Segmento 1:  Jóvenes adultos interesados en el skin care 
+
+###### Proceso de atención 
+100% realiza diagnóstico mediante evaluación clínica (visual + anamnesis)
+66.7% incluye exámenes complementarios en casos necesarios
+100% considera la consulta presencial como más efectiva
+33.3% reconoce que el seguimiento puede hacerse de forma remota
+
+###### Información esencial del paciente
+100% considera esencial el historial médico (enfermedades, alergias, medicación)
+100% requiere conocer productos/rutinas del paciente
+66.7% incluye antecedentes familiares o contexto adicional (ocupación, enfermedades sistémicas)
+
+###### Dificultades antes de la consulta presencial
+100% reporta falta de información previa estructurada
+100% indica que pacientes llegan con la condición alterada (automedicación/productos)
+66.7% menciona problemas por demora en citas o evolución de la lesión
+
+###### Seguimiento de pacientes
+100% no cuenta con un sistema de seguimiento completamente estructurado y  dentro de este grupo, solo el 66,7 % cuenta con un sistema por parte de su hospital o clínica.
+33.3% realiza seguimiento manual (fotos, mensajería) debido a posibles consultas virtuales.
+66.7% depende de consultas presenciales porque consideran que es lo mejor en tratamiento.
+33.3% reconoce viabilidad del seguimiento remoto 
+
+###### Limitaciones de herramientas digitales
+66.7% considera que las herramientas actuales son básicas o poco adaptadas
+66.7% reporta dificultades en manejo/comparación de imágenes
+33.3% utiliza sistemas digitales que mejoran frente al papel, pero con limitaciones
+66.7% teme mala interpretación por parte del paciente
+33.3% menciona riesgos generales asociados al uso de la herramienta
+
+###### Problemas en pacientes con skincare propio
+100% observa uso incorrecto de productos por intentos de autocuidado 
+100% reporta efectos negativos en la piel (irritación, alteraciones)
+66.7% menciona uso excesivo o múltiples productos simultáneos
+
+###### Nivel de información del paciente
+100% percibe desinformación generalizada
+100% identifica influencia de redes sociales y marketing
+66.7% señala falta de criterio o comprensión sobre productos
+
+######  Uso de IA en diagnósticos preliminares
+100% considera la IA útil como apoyo
+100% coincide en que no reemplaza al profesional
+
+###### Historial visual estructurado
+100% lo considera útil o muy útil
+66.7% destaca impacto en seguimiento y evaluación clínica
+
+###### Funcionalidades indispensables
+100% requiere acceso a información previa del paciente
+66.7% considera clave el historial visual comparativo
+33.3% valora gestión digital de historiales clínicos
+
+###### Casos de uso recomendados
+100% recomienda uso para optimizar consulta médica
+66.7% lo enfoca en seguimiento de tratamientos
+33.3% lo considera útil como apoyo informativo para pacientes 
+
+
+#### Segmento 2:  Dermatólogos certificados
+
+###### Rutina de cuidado de la piel
+100% sigue alguna rutina de skincare por cuenta propia o tratada. 
+33.3% presenta uso incorrecto o incompleto pese a recomendaciones de profesionales. 
+33.3% reporta dificultad explícita para mantener constancia.
+66.7% presenta problemas implícitos en la piel.
+
+###### Fuentes de información para decisiones
+66.7% utiliza redes sociales como fuente principal de casos verídicos y primeras referencias antes de comprar un producto.
+33.3% prefiere recomendaciones cercanas de familiares o amigos. 
+33.3% complementa con búsquedas en Google para averiguar mayor información. 
+66.7% reconoce que la información no es confiable 
+33.3% desconfía activamente de redes sociales
+
+###### Proceso de elección de productos
+100% presenta dificultad para elegir productos
+66.7% basa sus decisiones en prueba y error
+66.7% considera que cada piel reacciona diferente
+33.3% tiene problemas específicos con el orden o dosificación
+
+###### Problemas con productos de skincare
+100% ha tenido experiencias negativas
+33.3% reporta resequedad
+33.3% reporta irritaciones o reacciones adversas
+33.3% menciona malas experiencias con especialistas o recomendaciones.
+
+###### Relación con dermatólogos y expertos
+33.3% ha considerado acudir a un dermatólogo
+33.3% ha tenido experiencias negativas con especialistas
+100% no tiene acompañamiento profesional constante
+66.7% prefiere autogestionar su cuidado
+
+###### Nivel de confianza en la información presente en internet
+100% muestra desconfianza hacia fuentes actuales
+66.7% mantiene una postura crítica pero sigue usándolas
+33.3% evita activamente fuentes digitales no confiables
+
+###### Interés en aplicaciones de skincare
+100% estaría dispuesto a usar una app de análisis de piel
+66.7% busca guía constante en internet sobre los posibles productos para aplicarse. 
+33.3% busca fuentes confiables y seguras de farmacias y atención al médico.
+
+###### Expectativas de la solución
+100% espera recomendaciones personalizadas sobre rutina y productos. 
+33.3% valora recordatorios o notificaciones por parte de la aplicaicón.
+33.3% espera análisis mediante fotografías o scanners al sentir mayor seriedad y profesioanlismo. 
+33.3% busca precisión en uso (orden/dosificación) de sus productos.
+
+###### Barreras o preocupaciones
+66.7% tiene preocupación por privacidad de datos
+33.3% no lo menciona explícitamente pero sí exige confiabilidad
+33.3% muestra desconfianza general por experiencias previas
+33.3% menciona importancia de IA confiable
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
