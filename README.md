@@ -1367,7 +1367,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
   <tr>
     <td><strong>US08</strong></td>
-    <td>Explorar catálogo de productos con filtros/td>
+    <td>Explorar catálogo de productos con filtros </td>
     <td>
       Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
     </td>
