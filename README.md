@@ -1868,15 +1868,15 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
   <tr>
     <td><strong>US30</strong></td>
-    <td>Visualizar métricas de pacientes</td>
+    <td>Visualización de analytics del dermatólogo</td>
     <td>
-      Como dermatólogo, quiero visualizar métricas de mis pacientes para analizar su evolución.
+      Como dermatólogo, quiero visualizar métricas generales de mi actividad para analizar mi desempeño y el comportamiento general de mis consultas.
     </td>
     <td>
       <strong>Escenario 1: Métricas disponibles</strong><br>
-      Dado que el dermatólogo consulta métricas
+      Dado que el dermatólogo accede a la sección de analytics  
       Cuando existen datos registrados
-      Entonces el sistema muestra indicadores relevantes
+      Entonces el sistema muestra indicadores como número total de pacientes, pacientes atendidos en el mes, tendencias de consultas y diagnósticos frecuentes
       <p></p>
       <strong>Escenario 2: Sin datos</strong><br>
       Dado que el dermatólogo consulta métricas
