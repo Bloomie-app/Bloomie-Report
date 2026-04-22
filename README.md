@@ -2097,39 +2097,6 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
   <tr>
     <td><strong>TS03</strong></td>
-    <td>Programar recordatorios de rutina</td>
-    <td>
-      Como developer, quiero registrar recordatorios de rutina mediante una API de notificaciones para enviar avisos al usuario en los horarios definidos.
-    </td>
-    <td>
-      <strong>Escenario 1: Registro exitoso de recordatorio</strong><br>
-        Dado que el usuario tiene una rutina activa y define un horario
-        Cuando el developer envía una solicitud POST a /api/notificaciones/recordatorios
-        Entonces la API crea el recordatorio correctamente
-        Y devuelve un identificador y estado activo.
-      <p></p>
-      <strong>Escenario 2: Consulta de recordatorios existentes</strong><br>
-        Dado que el usuario ya tiene recordatorios registrados
-        Cuando el developer envía una solicitud GET a /api/notificaciones/recordatorios/{userId}
-        Entonces la API devuelve la lista de recordatorios configurados.
-      <p></p>
-      <strong>Escenario 3: Desactivación de recordatorio</strong><br>
-        Dado que el usuario ya no desea recibir avisos
-        Cuando el developer envía una solicitud PATCH para desactivar el recordatorio
-        Entonces la API actualiza el estado a inactivo
-        Y deja de programar notificaciones.
-      <p></p>
-        <strong>Escenario 4: Horario inválido</strong><br>
-        Dado que el horario enviado no cumple el formato esperado
-        Cuando el developer registra el recordatorio
-        Entonces la API responde con 400 Bad Request
-        Y notifica el error de validación.
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS04</strong></td>
     <td>Consultar tiendas de productos dermatológicos en el mapa</td>
     <td>
       Como developer, quiero obtener tiendas cercanas mediante una API de mapas para mostrar en un mapa interactivo lugares donde el usuario pueda encontrar productos dermatológicos.
