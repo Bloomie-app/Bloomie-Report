@@ -2026,342 +2026,137 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>E10(Experiencia web)</td>
   </tr>
 
+  <!-- Technical Stories -->
+
   <tr>
     <td><strong>TS01</strong></td>
-    <td>Registrar usuario</td>
+    <td>Procesar pago de consulta dermatológica</td>
     <td>
-      Como desarrollador, quiero implementar un endpoint para registrar usuarios para permitir la creación de cuentas en el sistema.
+      Como developer, quiero registrar y verificar el pago de una consulta dermatológica mediante una API de pagos para confirmar la cita del usuario.
     </td>
     <td>
-      <strong>Escenario 1: Registro exitoso</strong><br>
-      Dado un HTTP POST al recurso /users con datos válidos
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 201 con el usuario creado
+      <strong>Escenario 1: Creación exitosa de orden de pago</strong><br>
+        Dado que el usuario ha seleccionado una cita válida
+        Cuando el developer envía una solicitud POST a /api/pagos/consultas con el identificador de la cita y el monto
+        Entonces la API devuelve una respuesta exitosa con el identificador de la transacción
+        Y el estado inicial del pago queda como pendiente.
       <p></p>
-      <strong>Escenario 2: Datos inválidos</strong><br>
-      Dado un HTTP POST al recurso /users con datos incompletos
-      Cuando el servidor valida la solicitud
-      Entonces retorna un código 400 indicando error
+      <strong>Escenario 2: Confirmación exitosa del pago</strong><br>
+        Dado que existe una transacción de pago pendiente
+        Cuando el developer consulta o recibe la confirmación del proveedor de pagos
+        Entonces la API actualiza el estado de la transacción a pagado
+        Y la cita queda confirmada.
+      <p></p>
+      <strong>Escenario 3: Pago rechazado</strong><br>
+        Dado que el usuario intenta completar el pago
+        Cuando el proveedor de pagos rechaza la operación
+        Entonces la API devuelve un estado de pago fallido
+        Y la cita no se confirma.
+      <p></p>
+        <strong>Escenario 4: Datos inválidos de pago</strong><br>
+        Dado que la solicitud contiene una cita inexistente o un monto inválido
+        Cuando el developer envía la solicitud
+        Entonces la API responde con error 400 Bad Request
+        Y muestra el detalle de validación.
     </td>
     <td>E11(Servicios REST)</td>
   </tr>
 
   <tr>
     <td><strong>TS02</strong></td>
-    <td>Autenticación de usuario</td>
+    <td>Obtener análisis y respuesta del asistente de IA</td>
     <td>
-      Como desarrollador, quiero implementar un endpoint de autenticación para permitir el acceso seguro al sistema.
+      Como developer, quiero enviar una consulta del usuario a una API de inteligencia artificial para obtener orientación sobre productos, ingredientes, rutinas o estado de la piel.
     </td>
     <td>
-      <strong>Escenario 1: Autenticación exitosa</strong><br>
-      Dado un HTTP POST al recurso /auth/login con credenciales válidas
-      Cuando el servidor valida la información
-      Entonces retorna un código 200 con un token de acceso
+      <strong>Escenario 1: Consulta respondida correctamente</strong><br>
+        Dado que el usuario ingresa una pregunta válida
+        Cuando el developer envía una solicitud POST a /api/ai/consultas con el texto de la consulta
+        Entonces la API devuelve una respuesta 200 OK
+        Y retorna una respuesta generada por la IA.
       <p></p>
-      <strong>Escenario 2: Credenciales inválidas</strong><br>
-      Dado un HTTP POST al recurso /auth/login con datos incorrectos
-      Cuando el servidor valida la información
-      Entonces retorna un código 401 indicando error
+      <strong>Escenario 2: Consulta con contexto del usuario</strong><br>
+        Dado que el usuario tiene información registrada sobre su tipo de piel o rutina
+        Cuando el developer envía la consulta junto con ese contexto
+        Entonces la API devuelve una respuesta más personalizada.
+      <p></p>
+      <strong>Escenario 3: Consulta vacía o inválida</strong><br>
+        Dado que el developer envía una solicitud sin texto de consulta
+        Cuando la API valida la entrada
+        Entonces responde con 400 Bad Request
+        Y explica que la consulta es obligatoria.
+      <p></p>
+        <strong>Escenario 4: La IA no puede responder</strong><br>
+        Dado que la pregunta no puede resolverse con suficiente confianza
+        Cuando la API procesa la consulta
+        Entonces devuelve una respuesta indicando la limitación
+        Y sugiere consultar a un dermatólogo.
     </td>
     <td>E11(Servicios REST)</td>
   </tr>
 
   <tr>
     <td><strong>TS03</strong></td>
-    <td>Consultar perfil de usuario</td>
+    <td>Programar recordatorios de rutina</td>
     <td>
-      Como desarrollador, quiero implementar un endpoint para obtener el perfil del usuario para mostrar su información en la aplicación.
+      Como developer, quiero registrar recordatorios de rutina mediante una API de notificaciones para enviar avisos al usuario en los horarios definidos.
     </td>
     <td>
-      <strong>Escenario 1: Consulta exitosa</strong><br>
-      Dado un HTTP GET al recurso /users/{id}
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 200 con los datos del usuario
+      <strong>Escenario 1: Registro exitoso de recordatorio</strong><br>
+        Dado que el usuario tiene una rutina activa y define un horario
+        Cuando el developer envía una solicitud POST a /api/notificaciones/recordatorios
+        Entonces la API crea el recordatorio correctamente
+        Y devuelve un identificador y estado activo.
       <p></p>
-      <strong>Escenario 2: Usuario no encontrado</strong><br>
-      Dado un HTTP GET al recurso /users/{id} inválido
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 404
+      <strong>Escenario 2: Consulta de recordatorios existentes</strong><br>
+        Dado que el usuario ya tiene recordatorios registrados
+        Cuando el developer envía una solicitud GET a /api/notificaciones/recordatorios/{userId}
+        Entonces la API devuelve la lista de recordatorios configurados.
+      <p></p>
+      <strong>Escenario 3: Desactivación de recordatorio</strong><br>
+        Dado que el usuario ya no desea recibir avisos
+        Cuando el developer envía una solicitud PATCH para desactivar el recordatorio
+        Entonces la API actualiza el estado a inactivo
+        Y deja de programar notificaciones.
+      <p></p>
+        <strong>Escenario 4: Horario inválido</strong><br>
+        Dado que el horario enviado no cumple el formato esperado
+        Cuando el developer registra el recordatorio
+        Entonces la API responde con 400 Bad Request
+        Y notifica el error de validación.
     </td>
     <td>E11(Servicios REST)</td>
   </tr>
 
   <tr>
     <td><strong>TS04</strong></td>
-    <td>Registrar seguimiento de rutina</td>
+    <td>Consultar tiendas de productos dermatológicos en el mapa</td>
     <td>
-      Como desarrollador, quiero implementar un endpoint para registrar el cumplimiento de la rutina para almacenar el progreso del usuario.
+      Como developer, quiero obtener tiendas cercanas mediante una API de mapas para mostrar en un mapa interactivo lugares donde el usuario pueda encontrar productos dermatológicos.
     </td>
     <td>
-      <strong>Escenario 1: Registro exitoso</strong><br>
-      Dado un HTTP POST al recurso /routines/{id}/tracking con datos válidos
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 201 confirmando el registro
+      <strong>Escenario 1: Búsqueda exitosa de tiendas cercanas</strong><br>
+        Dado que el usuario proporciona su ubicación o una zona de búsqueda
+        Cuando el developer envía una solicitud GET a /api/mapas/tiendas?lat={lat}&lng={lng}
+        Entonces la API devuelve una lista de tiendas cercanas
+        Y cada resultado incluye nombre, dirección y coordenadas.
       <p></p>
-      <strong>Escenario 2: Datos inválidos</strong><br>
-      Dado un HTTP POST al recurso /routines/{id}/tracking con información incompleta
-      Cuando el servidor valida la solicitud
-      Entonces retorna un código 400 indicando error
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS05</strong></td>
-    <td>Consultar progreso de rutina</td>
-    <td>
-      Como desarrollador, quiero implementar un endpoint para consultar el progreso del usuario para alimentar el tracker.
-    </td>
-    <td>
-      <strong>Escenario 1: Consulta exitosa</strong><br>
-      Dado un HTTP GET al recurso /routines/{id}/tracking
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 200 con los datos de seguimiento
+      <strong>Escenario 2: Búsqueda de producto en tiendas</strong><br>
+        Dado que el usuario busca un producto específico
+        Cuando el developer envía una solicitud GET a /api/mapas/tiendas?producto={nombreProducto}
+        Entonces la API devuelve tiendas relacionadas con la búsqueda
+        Y muestra información relevante como disponibilidad o precio cuando exista.
       <p></p>
-      <strong>Escenario 2: Sin registros</strong><br>
-      Dado un HTTP GET al recurso /routines/{id}/tracking sin datos
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 200 con respuesta vacía
+      <strong>Escenario 3: Aplicación de filtros</strong><br>
+        Dado que el usuario define filtros como distancia o categoría
+        Cuando el developer envía la solicitud con parámetros adicionales
+        Entonces la API devuelve solo las tiendas que cumplen los criterios.
       <p></p>
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS06</strong></td>
-    <td>Gestionar citas dermatológicas</td>
-    <td>
-      Como desarrollador, quiero implementar endpoints para gestionar citas para permitir la creación y consulta de consultas dermatológicas.
-    </td>
-    <td>
-      <strong>Escenario 1: Creación de cita</strong><br>
-      Dado un HTTP POST al recurso /dermatology/appointments con datos válidos
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 201 con la cita creada
-      <p></p>
-      <strong>Escenario 2: Consulta de citas</strong><br>
-      Dado un HTTP GET al recurso /dermatology/appointments
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 200 con la lista de citas
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS07</strong></td>
-    <td>Registrar diagnóstico dermatológico</td>
-    <td>
-      Como desarrollador, quiero implementar un endpoint para registrar diagnósticos para almacenar resultados de consultas.
-    </td>
-    <td>
-      <strong>Escenario 1: Registro exitoso</strong><br>
-      Dado un HTTP POST al recurso /dermatology/diagnoses con datos válidos
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 201 confirmando el registro
-      <p></p>
-      <strong>Escenario 2: Datos inválidos</strong><br>
-      Dado un HTTP POST al recurso /dermatology/diagnoses con datos incompletos
-      Cuando el servidor valida la solicitud
-      Entonces retorna un código 400 indicando error
-      <p></p>
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS08</strong></td>
-    <td>Consultar productos del catálogo</td>
-    <td>
-      Como desarrollador, quiero implementar un endpoint para consultar productos para mostrarlos en el catálogo.
-    </td>
-    <td>
-      <strong>Escenario 1: Consulta exitosa</strong><br>
-      Dado un HTTP GET al recurso /products
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 200 con la lista de productos
-      <p></p>
-      <strong>Escenario 2: Sin productos</strong><br>
-      Dado un HTTP GET al recurso /products sin datos
-      Cuando el servidor procesa la solicitud
-      Entonces retorna un código 200 con lista vacía
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-  <tr>
-    <td><strong>TS09</strong></td>
-    <td>Crear rutina</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para crear una rutina para almacenar la configuración inicial del usuario.
-    </td>
-    <td>
-    <strong>Escenario 1: Creación exitosa</strong><br>
-    Dado un HTTP POST al recurso /routines con datos válidos
-    Cuando el servidor procesa la solicitud
-    Entonces retorna un código 201 con la rutina creada
-    <p></p>
-    <strong>Escenario 2: Datos inválidos</strong><br>
-    Dado un HTTP POST al recurso /routines con datos incompletos
-    Cuando el servidor valida la solicitud
-    Entonces retorna un código 400
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS10</strong></td>
-    <td>Actualizar rutina</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para actualizar la rutina para reflejar cambios del usuario.
-    </td>
-    <td>
-    <strong>Escenario 1: Actualización exitosa</strong><br>
-    Dado un HTTP PUT al recurso /routines/{id}
-    Cuando el servidor procesa datos válidos
-    Entonces retorna un código 200 con la rutina actualizada
-    <p></p>
-    <strong>Escenario 2: Rutina no encontrada</strong><br>
-    Dado un HTTP PUT al recurso /routines/{id} inválido
-    Cuando el servidor procesa la solicitud
-    Entonces retorna un código 404
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-  <td><strong>TS11</strong></td>
-  <td>Registrar perfil de piel</td>
-  <td>
-    Como desarrollador, quiero implementar un endpoint para registrar el perfil de piel para personalizar la experiencia del usuario.
-    </td>
-    <td>
-    <strong>Escenario 1: Registro exitoso</strong><br>
-    Dado un HTTP POST al recurso /skin-profile
-    Cuando el servidor procesa datos válidos
-    Entonces retorna un código 201
-    <p></p>
-    <strong>Escenario 2: Datos inválidos</strong><br>
-    Dado un HTTP POST con datos incompletos
-    Cuando el servidor valida
-    Entonces retorna un código 400
-    </td>
-  <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS12</strong></td>
-    <td>Actualizar perfil de piel</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para actualizar el perfil de piel para mantener la información vigente.
-    </td>
-    <td>
-    <strong>Escenario 1: Actualización exitosa</strong><br>
-    Dado un HTTP PUT al recurso /skin-profile/{id}
-    Cuando el servidor procesa datos válidos
-    Entonces retorna un código 200
-    <p></p>
-    <strong>Escenario 2: Perfil no encontrado</strong><br>
-    Dado un HTTP PUT con id inválido
-    Cuando el servidor procesa
-    Entonces retorna un código 404
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS13</strong></td>
-    <td>Seleccionar plan de suscripción</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para seleccionar un plan para registrar la suscripción del usuario.
-    </td>
-    <td>
-    <strong>Escenario 1: Selección exitosa</strong><br>
-    Dado un HTTP POST al recurso /subscriptions
-    Cuando el servidor procesa datos válidos
-    Entonces retorna un código 201
-    <p></p>
-    <strong>Escenario 2: Plan inválido</strong><br>
-    Dado un HTTP POST con plan inexistente
-    Cuando el servidor valida
-    Entonces retorna un código 400
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS14</strong></td>
-    <td>Procesar pago de suscripción</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para procesar pagos para activar la suscripción.
-    </td>
-    <td>
-    <strong>Escenario 1: Pago exitoso</strong><br>
-    Dado un HTTP POST al recurso /payments
-    Cuando el pago es aprobado
-    Entonces retorna un código 200 y activa la suscripción
-    <p></p>
-    <strong>Escenario 2: Pago rechazado</strong><br>
-    Dado un HTTP POST con error en transacción
-    Cuando el servidor procesa
-    Entonces retorna un código 402
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS15</strong></td>
-    <td>Enviar notificación</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para enviar notificaciones para informar eventos relevantes al usuario.
-    </td>
-    <td>
-    <strong>Escenario 1: Envío exitoso</strong><br>
-    Dado un HTTP POST al recurso /notifications
-    Cuando el servidor procesa la solicitud
-    Entonces retorna un código 200
-    <p></p>
-    <strong>Escenario 2: Error en envío</strong><br>
-    Dado un fallo en el sistema
-    Cuando se intenta enviar
-    Entonces retorna un código 500
-    </td>
-  <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS16</strong></td>
-    <td>Consultar notificaciones</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para consultar notificaciones para mostrarlas al usuario.
-    </td>
-    <td>
-    <strong>Escenario 1: Consulta exitosa</strong><br>
-    Dado un HTTP GET al recurso /notifications
-    Cuando el servidor procesa la solicitud
-    Entonces retorna un código 200 con la lista
-    <p></p>
-    <strong>Escenario 2: Sin notificaciones</strong><br>
-    Dado un usuario sin registros
-    Cuando el servidor procesa
-    Entonces retorna lista vacía
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS17</strong></td>
-    <td>Consultar dermatólogos</td>
-    <td>
-    Como desarrollador, quiero implementar un endpoint para listar dermatólogos para permitir la selección de citas.
-    </td>
-    <td>
-    <strong>Escenario 1: Consulta exitosa</strong><br>
-    Dado un HTTP GET al recurso /dermatology/dermatologists
-    Cuando el servidor procesa la solicitud
-    Entonces retorna un código 200
-    <p></p>
-    <strong>Escenario 2: Sin dermatólogos</strong><br>
-    Dado que no existen registros
-    Entonces retorna lista vacía
+        <strong>Escenario 4: Sin resultados</strong><br>
+        Dado que no existen tiendas cercanas o coincidencias para el producto solicitado
+        Cuando el developer realiza la búsqueda
+        Entonces la API responde con una lista vacía
+        Y muestra un mensaje indicando que no se encontraron resultados.
     </td>
     <td>E11(Servicios REST)</td>
   </tr>
