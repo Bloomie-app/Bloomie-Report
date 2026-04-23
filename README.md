@@ -146,6 +146,7 @@ u202415551 - Ramirez Ruiz, Nickolas
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
       - [3.2.1. Business Goal 1:](#321-business-goal-1)
+      - [3.2.2. Business Goal 2:](#322-business-goal-2)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
@@ -2184,9 +2185,15 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ## 3.2. Impact Mapping
 #### 3.2.1. Business Goal 1: 
-- Incrementar la tasa de usuarios que realicen el proceso de onboarding del 60% al 85% en un plazo de tres meses.
+- Incrementar la tasa de usuarios y dermatólogos que realicen el proceso de onboarding del 60% al 85% en un plazo de tres meses.
 
 <img src="assets/img/impactmap-1.png" alt="impact mapping photo" width="550"/>
+
+#### 3.2.2. Business Goal 2: 
+- Lograr que al menos el 70% de los usuarios que realizan el escaneo facial completen el flujo hasta recibir su rutina personalizada , y que al menos el 50% de los dermatólogos activos utilicen la plataforma para consultar información de pacientes, en un plazo de 4 meses
+
+<img src="assets/img/impactmap-2.png" alt="impact mapping photo" width="550"/>
+
 
 ## 3.3. Product Backlog
 <table border="1" cellspacing="0" cellpadding="8">
