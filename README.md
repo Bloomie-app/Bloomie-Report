@@ -2216,7 +2216,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
-<tr>
+  <tr>
     <td><strong>03</strong></td>
     <td>US36</td>
     <td> Explorar funcionalidades del producto
@@ -2299,7 +2299,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
-tr>
+  <tr>
     <td><strong>11</strong></td>
     <td>US16</td>
     <td>Visualizar progreso en skin trackera</td>
@@ -2398,6 +2398,57 @@ tr>
     </td>
     <td> 3 </td>
   </tr>
+
+    <tr>
+    <td><strong>21</strong></td>
+    <td>US11</td>
+    <td>Explorar mapa de tiendas y productos</td>
+    <td>
+      Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>22</strong></td>
+    <td>US19</td>
+    <td>Visualizar perfil</td>
+    <td>
+      Como joven adulto, quiero visualizar mi perfil para consultar mi información personal.
+    </td>
+    <td> 2 </td>
+  </tr>
+
+  <tr>
+    <td><strong>23</strong></td>
+    <td>US20</td>
+    <td>Editar información personal</td>
+    <td>
+      Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>24</strong></td>
+    <td>US21</td>
+    <td>Actualizar características de piel</td>
+    <td>
+      Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>25</strong></td>
+    <td>US01</td>
+    <td>Registro básico</td>
+    <td>
+      Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
+    </td>
+    <td> 3 </td>
+  </tr>
+
 </table>
 
 # Capítulo IV: Product Design
