@@ -2601,6 +2601,8 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 </table>
 
+**Enlace del product backlog en trello:** [*Ir a trello aquí*](https://trello.com/b/Y2tqaAyd/product-backlog)
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
