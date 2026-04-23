@@ -2183,6 +2183,11 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ## 3.2. Impact Mapping
 
+### 3.2.1. Business Goal 1: Alcanzar 5,000 usuarios registrados en los primeros 6 meses de lanzamiento.
+
+![foto](assets/img/Impact-map-1.png)
+
+
 ## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
