@@ -145,6 +145,9 @@ u202415551 - Ramirez Ruiz, Nickolas
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
+      - [3.2.1. Business Goal 1:](#321-business-goal-1)
+      - [3.2.2. Business Goal 2:](#322-business-goal-2)
+      - [3.2.3. Business Goal 3:](#323-business-goal-3)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
@@ -2182,9 +2185,423 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 </table>
 
 ## 3.2. Impact Mapping
+#### 3.2.1. Business Goal 1: 
+- Incrementar la tasa de usuarios y dermatólogos que realicen el proceso de onboarding del 60% al 85% en un plazo de 3 meses.
+
+<img src="assets/img/impactmap-1.png" alt="impact mapping photo" width="550"/>
+
+#### 3.2.2. Business Goal 2: 
+- Lograr que al menos el 70% de los usuarios que realizan el escaneo facial completen el flujo hasta recibir su rutina personalizada , y que al menos el 50% de los dermatólogos activos utilicen la plataforma para consultar información de pacientes, en un plazo de 4 meses.
+
+<img src="assets/img/impactmap-2.png" alt="impact mapping photo" width="550"/>
+
+#### 3.2.3. Business Goal 3: 
+- Aumentar la tasa de usuarios activos que registran su rutina al menos 3 veces por semana del 30% al 55%, y lograr que el 60% de los dermatólogos gestionen activamente sus consultas en la plataforma, en un periodo de 5 meses.
+
+<img src="assets/img/impactmap-3.png" alt="impact mapping photo" width="550"/>
+
 
 
 ## 3.3. Product Backlog
+<table border="1" cellspacing="0" cellpadding="8">
+
+  <tr>
+    <th>#Orden</th>
+    <th>User story id</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Story points (1/2/3/5/8)</th>
+  </tr>
+
+  <tr>
+    <td><strong>01</strong></td>
+    <td>US34</td>
+    <td> Comprender la propuesta de valor </td>
+    <td>
+      Como visitante, quiero comprender la propuesta de valor de la aplicación para evaluar si resuelve mis necesidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>02</strong></td>
+    <td>US35</td>
+    <td> Comprender el funcionamiento del servicio </td>
+    <td>
+        Como visitante, quiero entender cómo funciona el servicio para saber qué pasos debo seguir.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>03</strong></td>
+    <td>US36</td>
+    <td> Explorar funcionalidades del producto
+    </td>
+    <td>
+        Como visitante, quiero explorar las funcionalidades del sistema para entender sus capacidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>04</strong></td>
+    <td>US38</td>
+    <td>Navegar entre secciones del sitio
+    </td>
+    <td>
+       Como visitante, quiero navegar entre las diferentes secciones del sitio para explorar el contenido disponible.
+    </td>
+    <td> 2 </td>
+  </tr>
+
+   <tr>
+    <td><strong>05</strong></td>
+    <td>US37</td>
+    <td>Comparar planes de suscripción
+    </td>
+    <td>
+        Como visitante, quiero visualizar los planes disponibles para elegir la opción que mejor se adapte a mis necesidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+  
+  <tr>
+    <td><strong>06</strong></td>
+    <td>US03</td>
+    <td>Escaneo facial con cámara</td>
+    <td>
+        Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
+    </td>
+    <td> 8 </td>
+  </tr>
+
+  <tr>
+    <td><strong>07</strong></td>
+    <td>US04</td>
+    <td>Diagnóstico preliminar automático</td>
+    <td>
+        Como joven adulto, quiero recibir un reporte preliminar generado por la inteligencia artificial después del escaneo facial para conocer el estado de mi piel y entender qué tipo de cuidados necesito.
+    </td>
+    <td> 8 </td>
+  </tr>
+
+  <tr>
+    <td><strong>08</strong></td>
+    <td>US05</td>
+    <td>Generar rutina personalizada con productos</td>
+    <td>
+       Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>09</strong></td>
+    <td>US02</td>
+    <td>Completar perfil básico de piel</td>
+    <td>
+       Como joven adulto, quiero completar un cuestionario inicial de hábitos y condiciones de piel en mi primer ingreso para que la aplicación configure diagnósticos y rutinas personalizadas.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>10</strong></td>
+    <td>US15</td>
+    <td>Registrar cumplimiento de rutina diaria</td>
+    <td>
+       Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>11</strong></td>
+    <td>US16</td>
+    <td>Visualizar progreso en skin trackera</td>
+    <td>
+       Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>12</strong></td>
+    <td>US06</td>
+    <td>Adaptar rutina mediante reemplazo de productos</td>
+    <td>
+       Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>13</strong></td>
+    <td>US07</td>
+    <td>Recordatorios de rutina</td>
+    <td>
+       CComo joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>14</strong></td>
+    <td>US08</td>
+    <td>Explorar catálogo de productos con filtros</td>
+    <td>
+       Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>15</strong></td>
+    <td>US09</td>
+    <td>Evaluar compatibilidad de productos</td>
+    <td>
+       Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>16</strong></td>
+    <td>US10</td>
+    <td>Asistente virtual de skincare</td>
+    <td>
+       Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>17</strong></td>
+    <td>US12</td>
+    <td>Listar dermatólogos para agendar</td>
+    <td>
+       Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+ <tr>
+    <td><strong>18</strong></td>
+    <td>US31</td>
+    <td>Definir disponibilidad de atención</td>
+    <td>
+       Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>19</strong></td>
+    <td>US13</td>
+    <td>Realizar pago de consulta dermatológica</td>
+    <td>
+       Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>20</strong></td>
+    <td>US14</td>
+    <td>Cancelar cita dermatológica</td>
+    <td>
+      Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>21</strong></td>
+    <td>US11</td>
+    <td>Explorar mapa de tiendas y productos</td>
+    <td>
+      Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>22</strong></td>
+    <td>US19</td>
+    <td>Visualizar perfil</td>
+    <td>
+      Como joven adulto, quiero visualizar mi perfil para consultar mi información personal.
+    </td>
+    <td> 2 </td>
+  </tr>
+
+  <tr>
+    <td><strong>23</strong></td>
+    <td>US20</td>
+    <td>Editar información personal</td>
+    <td>
+      Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>24</strong></td>
+    <td>US21</td>
+    <td>Actualizar características de piel</td>
+    <td>
+      Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>25</strong></td>
+    <td>US01</td>
+    <td>Registro básico</td>
+    <td>
+      Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+<tr>
+    <td><strong>26</strong></td>
+    <td>US22</td>
+    <td>Cambiar contraseña</td>
+    <td>
+      Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
+    </td>
+    <td> 2 </td>
+  </tr>
+
+  <tr>
+    <td><strong>27</strong></td>
+    <td>US17</td>
+    <td>Seleccionar plan de suscripción</td>
+    <td>
+      Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>28</strong></td>
+    <td>US18</td>
+    <td>Realizar pago de suscripción</td>
+    <td>
+      Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>29</strong></td>
+    <td>US23</td>
+    <td>Registrar dermatólogo</td>
+    <td>
+     Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a funcionalidades especializadas.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>30</strong></td>
+    <td>US24</td>
+    <td>Visualizar pacientes recientes</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>31</strong></td>
+    <td>US25</td>
+    <td>Realizar consulta en tiempo real</td>
+    <td>
+      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
+    </td>
+    <td> 8 </td>
+  </tr>
+
+   <tr>
+    <td><strong>32</strong></td>
+    <td>US26</td>
+    <td>Visualizar fotografías del paciente</td>
+    <td>
+      Como dermatólogo, quiero visualizar fotografías clínicas del paciente para analizar su evolución.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>33</strong></td>
+    <td>US27</td>
+    <td>Consultar diagnósticos previos</td>
+    <td>
+      Como dermatólogo, quiero consultar diagnósticos previos para analizar la evolución del paciente.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>34</strong></td>
+    <td>US28</td>
+    <td>Visualizar agenda de consultas</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  
+  <tr>
+    <td><strong>35</strong></td>
+    <td>US29</td>
+    <td>Reprogramar consulta</td>
+    <td>
+      Como dermatólogo, quiero reprogramar una consulta para ajustar mi disponibilidad.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  
+  <tr>
+    <td><strong>36</strong></td>
+    <td>US30</td>
+    <td>Visualización de analytics del dermatólogo</td>
+    <td>
+      Como dermatólogo, quiero visualizar métricas generales de mi actividad para analizar mi desempeño y el comportamiento general de mis consultas.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>37</strong></td>
+    <td>US32</td>
+    <td>Consultar historial de consultas atendidas</td>
+    <td>
+      Como dermatólogo, quiero consultar el historial de consultas atendidas para analizar casos previos.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+   <tr>
+    <td><strong>38</strong></td>
+    <td>US33</td>
+    <td>Actualizar perfil profesional</td>
+    <td>
+      Como dermatólogo, quiero actualizar mi perfil profesional para mantener mi información actualizada.
+    </td>
+    <td> 3 </td>
+  </tr>
+  <table>
+
+</table>
+
+**Enlace del product backlog en trello:** [*Ir a trello aquí*](https://trello.com/b/Y2tqaAyd/product-backlog)
 
 # Capítulo IV: Product Design
 
