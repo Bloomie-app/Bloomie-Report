@@ -2299,6 +2299,105 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
+tr>
+    <td><strong>11</strong></td>
+    <td>US16</td>
+    <td>Visualizar progreso en skin trackera</td>
+    <td>
+       Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>12</strong></td>
+    <td>US06</td>
+    <td>Adaptar rutina mediante reemplazo de productos</td>
+    <td>
+       Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>13</strong></td>
+    <td>US07</td>
+    <td>Recordatorios de rutina</td>
+    <td>
+       CComo joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>14</strong></td>
+    <td>US08</td>
+    <td>Explorar catálogo de productos con filtros</td>
+    <td>
+       Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>15</strong></td>
+    <td>US09</td>
+    <td>Evaluar compatibilidad de productos</td>
+    <td>
+       Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>16</strong></td>
+    <td>US10</td>
+    <td>Asistente virtual de skincare</td>
+    <td>
+       Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>17</strong></td>
+    <td>US12</td>
+    <td>Listar dermatólogos para agendar</td>
+    <td>
+       Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+ <tr>
+    <td><strong>18</strong></td>
+    <td>US31</td>
+    <td>Definir disponibilidad de atención</td>
+    <td>
+       Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>19</strong></td>
+    <td>US13</td>
+    <td>Realizar pago de consulta dermatológica</td>
+    <td>
+       Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>20</strong></td>
+    <td>US14</td>
+    <td>Cancelar cita dermatológica</td>
+    <td>
+      Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+    </td>
+    <td> 3 </td>
+  </tr>
 </table>
 
 # Capítulo IV: Product Design
