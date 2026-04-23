@@ -2160,15 +2160,71 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ## 3.2. Impact Mapping
 #### 3.2.1. Business Goal 1: 
-Incrementar la tasa de usuarios que realicen el proceso de onboarding del 60% al 85% en un plazo de tres meses.
-
-<img src="assets/img/ImpactMap_1.png">
-
-
-
-
 
 ## 3.3. Product Backlog
+<table border="1" cellspacing="0" cellpadding="8">
+
+  <tr>
+    <th>#Orden</th>
+    <th>User story id</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Story points (1/2/3/5/8)</th>
+  </tr>
+
+  <tr>
+    <td><strong>01</strong></td>
+    <td>US34</td>
+    <td> Comprender la propuesta de valor </td>
+    <td>
+      Como visitante, quiero comprender la propuesta de valor de la aplicación para evaluar si resuelve mis necesidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>02</strong></td>
+    <td>US35</td>
+    <td> Comprender el funcionamiento del servicio </td>
+    <td>
+        Como visitante, quiero entender cómo funciona el servicio para saber qué pasos debo seguir.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+<tr>
+    <td><strong>03</strong></td>
+    <td>US36</td>
+    <td> Explorar funcionalidades del producto
+    </td>
+    <td>
+        Como visitante, quiero explorar las funcionalidades del sistema para entender sus capacidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>04</strong></td>
+    <td>US38</td>
+    <td>Navegar entre secciones del sitio
+    </td>
+    <td>
+       Como visitante, quiero navegar entre las diferentes secciones del sitio para explorar el contenido disponible.
+    </td>
+    <td> 2 </td>
+  </tr>
+
+   <tr>
+    <td><strong>05</strong></td>
+    <td>US37</td>
+    <td>Comparar planes de suscripción
+    </td>
+    <td>
+        Como visitante, quiero visualizar los planes disponibles para elegir la opción que mejor se adapte a mis necesidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+</table>
 
 # Capítulo IV: Product Design
 
