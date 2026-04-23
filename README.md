@@ -2186,7 +2186,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ## 3.2. Impact Mapping
 #### 3.2.1. Business Goal 1: 
-- Incrementar la tasa de usuarios y dermatólogos que realicen el proceso de onboarding del 60% al 85% en un plazo de tres meses.
+- Incrementar la tasa de usuarios y dermatólogos que realicen el proceso de onboarding del 60% al 85% en un plazo de 3 meses.
 
 <img src="assets/img/impactmap-1.png" alt="impact mapping photo" width="550"/>
 
@@ -2197,7 +2197,6 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 #### 3.2.3. Business Goal 3: 
 - Aumentar la tasa de usuarios activos que registran su rutina al menos 3 veces por semana del 30% al 55%, y lograr que el 60% de los dermatólogos gestionen activamente sus consultas en la plataforma, en un periodo de 5 meses.
-
 
 <img src="assets/img/impactmap-3.png" alt="impact mapping photo" width="550"/>
 
