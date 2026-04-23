@@ -825,7 +825,7 @@ Datos del entrevistado
 - **Apellidos:** Gallardo Morales
 - **Edad:** 25 años
 - **Distrito:** La Molina
-- **Timing:** Desde 0:00 minutos a 8:37 minutos
+- **Timing:** Desde 0:00 minutos a 8:39 minutos
   
 
 <img src="assets/img/entrevista-carla.png" width="500"/>
@@ -2183,21 +2183,6 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ## 3.2. Impact Mapping
 
-### 3.2.1. Business Goal 1: Alcanzar 5,000 usuarios registrados en los primeros 6 meses de lanzamiento.
-
-![foto](assets/img/Impact-map-1.png)
-
-### 3.2.2. Business Goal 2: Lograr que un mínimo del 10% de usuarios gratuitos se conviertan en usuarios premium durante los primeros seis meses.
-
-![foto](assets/img/Impact-map-2.png)
-
-### 3.2.3. Business Goal 3: Mantener una tasa de retención mensual superior al 50%.
-
-![foto](assets/img/Impact-map-3.png)
-
-### 3.2.4. Business Goal 4: Reducir la brecha de adquisición de tratamientos dermatológicos en un 25%.
-
-![foto](assets/img/Impact-map-4.png)
 
 ## 3.3. Product Backlog
 
