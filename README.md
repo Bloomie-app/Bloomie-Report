@@ -109,6 +109,28 @@ u202415551 - Ramirez Ruiz, Nickolas
       - [Segmento 2: Dermatólogos certificados](#segmento-2-dermatólogos-certificados-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Segmento 1:  Jóvenes adultos interesados en el skin care](#segmento-1--jóvenes-adultos-interesados-en-el-skin-care)
+          - [Proceso de atención](#proceso-de-atención)
+          - [Información esencial del paciente](#información-esencial-del-paciente)
+          - [Dificultades antes de la consulta presencial](#dificultades-antes-de-la-consulta-presencial)
+          - [Seguimiento de pacientes](#seguimiento-de-pacientes)
+          - [Limitaciones de herramientas digitales](#limitaciones-de-herramientas-digitales)
+          - [Problemas en pacientes con skincare propio](#problemas-en-pacientes-con-skincare-propio)
+          - [Nivel de información del paciente](#nivel-de-información-del-paciente)
+          - [Uso de IA en diagnósticos preliminares](#uso-de-ia-en-diagnósticos-preliminares)
+          - [Historial visual estructurado](#historial-visual-estructurado)
+          - [Funcionalidades indispensables](#funcionalidades-indispensables)
+          - [Casos de uso recomendados](#casos-de-uso-recomendados)
+      - [Segmento 2:  Dermatólogos certificados](#segmento-2--dermatólogos-certificados)
+          - [Rutina de cuidado de la piel](#rutina-de-cuidado-de-la-piel)
+          - [Fuentes de información para decisiones](#fuentes-de-información-para-decisiones)
+          - [Proceso de elección de productos](#proceso-de-elección-de-productos)
+          - [Problemas con productos de skincare](#problemas-con-productos-de-skincare)
+          - [Relación con dermatólogos y expertos](#relación-con-dermatólogos-y-expertos)
+          - [Nivel de confianza en la información presente en internet](#nivel-de-confianza-en-la-información-presente-en-internet)
+          - [Interés en aplicaciones de skincare](#interés-en-aplicaciones-de-skincare)
+          - [Expectativas de la solución](#expectativas-de-la-solución)
+          - [Barreras o preocupaciones](#barreras-o-preocupaciones)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -116,6 +138,8 @@ u202415551 - Ramirez Ruiz, Nickolas
       - [2.3.3.1 Segmento 1: Jóvenes adultos](#2331-segmento-1-jóvenes-adultos)
       - [2.3.3.2 Segmento 2: Dermatólogos certificados](#2332-segmento-2-dermatólogos-certificados)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.4.1 Segmento 1: Jóvenes adultos](#2341-segmento-1-jóvenes-adultos)
+      - [2.3.4.2 Segmento 2: Dermatólogos certificados](#2342-segmento-2-dermatólogos-certificados)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -2224,6 +2248,57 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     </td>
     <td> 3 </td>
   </tr>
+  
+  <tr>
+    <td><strong>06</strong></td>
+    <td>US03</td>
+    <td>Escaneo facial con cámara</td>
+    <td>
+        Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
+    </td>
+    <td> 8 </td>
+  </tr>
+
+  <tr>
+    <td><strong>07</strong></td>
+    <td>US04</td>
+    <td>Diagnóstico preliminar automático</td>
+    <td>
+        Como joven adulto, quiero recibir un reporte preliminar generado por la inteligencia artificial después del escaneo facial para conocer el estado de mi piel y entender qué tipo de cuidados necesito.
+    </td>
+    <td> 8 </td>
+  </tr>
+
+  <tr>
+    <td><strong>08</strong></td>
+    <td>US05</td>
+    <td>Generar rutina personalizada con productos</td>
+    <td>
+       Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>09</strong></td>
+    <td>US02</td>
+    <td>Completar perfil básico de piel</td>
+    <td>
+       Como joven adulto, quiero completar un cuestionario inicial de hábitos y condiciones de piel en mi primer ingreso para que la aplicación configure diagnósticos y rutinas personalizadas.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>10</strong></td>
+    <td>US15</td>
+    <td>Registrar cumplimiento de rutina diaria</td>
+    <td>
+       Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+    </td>
+    <td> 3 </td>
+  </tr>
+
 </table>
 
 # Capítulo IV: Product Design
