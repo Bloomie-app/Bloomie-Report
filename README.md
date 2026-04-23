@@ -828,7 +828,7 @@ Datos del entrevistado
 - **Apellidos:** Gallardo Morales
 - **Edad:** 25 años
 - **Distrito:** La Molina
-- **Timing:** 8:37 minutos
+- **Timing:** Desde 0:00 minutos a 8:39 minutos
   
 
 <img src="assets/img/entrevista-carla.png" width="500"/>
@@ -851,7 +851,7 @@ Datos del entrevistado
 - **Apellidos:** Corimaya Cuello 
 - **Edad:** 23 Años 
 - **Ciudad:** Arequipa
-- **Timing:** 11:37:22 minutos
+- **Timing:** Desde 8:39 minutos hasta 20:14 minutos
 
 <img src="assets/img/entrevista-nickolas.png" width="500"/>
 
@@ -869,7 +869,7 @@ Datos del entrevistado
 - **Apellidos:** Alarcon
 - **Edad:** 20
 - **Distrito:** San Martín de Porres
-- **Timing:** 
+- **Timing:** Desde 20:14 minutos hasta 29:03 minutos
 
 <img src="assets/img/entrevista-dermatologos-luciana.png" width="500"/>
 
@@ -895,7 +895,7 @@ Datos del entrevistado
 - **Apellidos:** Valverde
 - **Edad:** 48 años
 - **Distrito:** San Martín de Porres
-- **Timing:** 
+- **Timing:**  Desde 29:05 minutos hasta 48:30 minutos
 
 <img src="assets/img/entrevista-arturo.png" width="500"/>
 
@@ -916,7 +916,7 @@ Datos del entrevistado
 - **Apellidos:** Paredes 
 - **Edad:** 67 años
 - **Distrito:** Jesús María
-- **Timing:** 
+- **Timing:** Desde 48:30 minutos hasta 1:01:16  minutos
 
 <img src="assets/img/entrevista-martin.png" width="500"/>
 
@@ -939,7 +939,7 @@ Datos del entrevistado
 - **Apellidos:** Rosas
 - **Edad:** 45
 - **Distrito:** San Isidro
-- **Timing:** 
+- **Timing:** Desde 1:01:17 minutos hasta 1:06:26 minutos
 
 El entrevistado no autorizo para la grabación de su rostro  
 
@@ -2199,6 +2199,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 - Aumentar la tasa de usuarios activos que registran su rutina al menos 3 veces por semana del 30% al 55%, y lograr que el 60% de los dermatólogos gestionen activamente sus consultas en la plataforma, en un periodo de 5 meses.
 
 <img src="assets/img/impactmap-3.png" alt="impact mapping photo" width="550"/>
+
 
 
 ## 3.3. Product Backlog
