@@ -2184,6 +2184,9 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ## 3.2. Impact Mapping
 #### 3.2.1. Business Goal 1: 
+- Incrementar la tasa de usuarios que realicen el proceso de onboarding del 60% al 85% en un plazo de tres meses.
+
+<img src="assets/img/impactmap-1.png" alt="impact mapping photo" width="550"/>
 
 ## 3.3. Product Backlog
 <table border="1" cellspacing="0" cellpadding="8">
