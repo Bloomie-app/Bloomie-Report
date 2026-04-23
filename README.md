@@ -2399,7 +2399,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
-    <tr>
+  <tr>
     <td><strong>21</strong></td>
     <td>US11</td>
     <td>Explorar mapa de tiendas y productos</td>
