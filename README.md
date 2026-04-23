@@ -2489,7 +2489,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 5 </td>
   </tr>
 
-   <tr>
+  <tr>
     <td><strong>30</strong></td>
     <td>US24</td>
     <td>Visualizar pacientes recientes</td>
@@ -2498,6 +2498,89 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     </td>
     <td> 5 </td>
   </tr>
+
+  <tr>
+    <td><strong>31</strong></td>
+    <td>US25</td>
+    <td>Realizar consulta en tiempo real</td>
+    <td>
+      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
+    </td>
+    <td> 8 </td>
+  </tr>
+
+   <tr>
+    <td><strong>32</strong></td>
+    <td>US26</td>
+    <td>Visualizar fotografías del paciente</td>
+    <td>
+      Como dermatólogo, quiero visualizar fotografías clínicas del paciente para analizar su evolución.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>33</strong></td>
+    <td>US27</td>
+    <td>Consultar diagnósticos previos</td>
+    <td>
+      Como dermatólogo, quiero consultar diagnósticos previos para analizar la evolución del paciente.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>34</strong></td>
+    <td>US28</td>
+    <td>Visualizar agenda de consultas</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  
+  <tr>
+    <td><strong>35</strong></td>
+    <td>US29</td>
+    <td>Reprogramar consulta</td>
+    <td>
+      Como dermatólogo, quiero reprogramar una consulta para ajustar mi disponibilidad.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  
+  <tr>
+    <td><strong>36</strong></td>
+    <td>US30</td>
+    <td>Visualización de analytics del dermatólogo</td>
+    <td>
+      Como dermatólogo, quiero visualizar métricas generales de mi actividad para analizar mi desempeño y el comportamiento general de mis consultas.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>37</strong></td>
+    <td>US32</td>
+    <td>Consultar historial de consultas atendidas</td>
+    <td>
+      Como dermatólogo, quiero consultar el historial de consultas atendidas para analizar casos previos.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+   <tr>
+    <td><strong>38</strong></td>
+    <td>US33</td>
+    <td>Actualizar perfil profesional</td>
+    <td>
+      Como dermatólogo, quiero actualizar mi perfil profesional para mantener mi información actualizada.
+    </td>
+    <td> 3 </td>
+  </tr>
+  <table>
 
 </table>
 
