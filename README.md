@@ -147,6 +147,7 @@ u202415551 - Ramirez Ruiz, Nickolas
   - [3.2. Impact Mapping](#32-impact-mapping)
       - [3.2.1. Business Goal 1:](#321-business-goal-1)
       - [3.2.2. Business Goal 2:](#322-business-goal-2)
+      - [3.2.3. Business Goal 3:](#323-business-goal-3)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
@@ -2193,6 +2194,12 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 - Lograr que al menos el 70% de los usuarios que realizan el escaneo facial completen el flujo hasta recibir su rutina personalizada , y que al menos el 50% de los dermatólogos activos utilicen la plataforma para consultar información de pacientes, en un plazo de 4 meses.
 
 <img src="assets/img/impactmap-2.png" alt="impact mapping photo" width="550"/>
+
+#### 3.2.3. Business Goal 3: 
+- Aumentar la tasa de usuarios activos que registran su rutina al menos 3 veces por semana del 30% al 55%, y lograr que el 60% de los dermatólogos gestionen activamente sus consultas en la plataforma, en un periodo de 5 meses.
+
+
+<img src="assets/img/impactmap-3.png" alt="impact mapping photo" width="550"/>
 
 
 ## 3.3. Product Backlog
