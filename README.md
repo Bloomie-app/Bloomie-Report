@@ -2608,16 +2608,233 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
+#### 4.1.1.1. Branding
+Nuestro objetivo como empresa es reflejar una imagen de confort, confianza y 
+confidencialidad. Por tanto, la identidad visual para nuestro logo utiliza colores directos, así 
+como también un diseño práctico para mayor credibilidad y seriedad al tratarse de la salud.  
+
+#### Logo de la marca
+
+<img src="assets/img/logo-bloomie.jpg" alt="logo-bloomie" width="500"/>
+
+#### 4.1.1.2. Spacing
+El sistema de espaciado asegura consistencia visual en la interfaz y mejora la legibilidad, 
+accesibilidad y usabilidad en web y móvil. Se establecen reglas claras para la separación entre 
+elementos, aplicables en toda la plataforma. 
+
+#### Sistema modular
+Se adopta un sistema modular basado en múltiplos de 4 px (4, 8, 12, 16, 24, 32…). Esto 
+garantiza uniformidad en márgenes y paddings en todos los componentes. 
+
+1. Distancia mínima entre íconos
+
+Los íconos deben mantener un espaciado mínimo de 10 px entre sí (como se muestra en la 
+referencia visual adjunta), para evitar saturación y asegurar claridad.
+
+<img src="assets/img/distancia-iconos.png" alt="distancia-iconos" width="500"/>
+
+2. Márgenes y paddings estándar 
+
+- Entre secciones principales: 24–32 px en web / 16–20 px en móvil. 
+- Entre bloques de texto y botones: mínimo 16px.
+- Entre íconos y etiquetas de texto: mínimo 8 px.
+
+3. Tamaños mínimos de elementos interactivos
+- Botones: mínimo 44x44px (recomendado por estándares de accesibilidad).
+- Íconos no menores a 30x30 px. 
+- Logotipo: no reducir a menos de 30 px de alto para evitar pérdida de legibilidad.
+
+4. Espaciado en texto (relacionado a tipografía) 
+- Interlineado (line-height): 1.5x el tamaño de la fuente para párrafos. 
+- Espaciado entre párrafos: mínimo 16px.
+
+#### 4.1.1.3. Typography
+La tipografía oficial de Bloomie es Montserrat, seleccionada por su legibilidad en pantallas 
+digitales, su estilo moderno y minimalista.  
+Se emplea en distintos pesos y tamaños para jerarquizar el contenido y asegurar una 
+experiencia visual consistente en todas las interfaces (web y móvil).
+
+<table>
+  <tr>
+    <th>Estilo</th>
+    <th>Uso principal</th>
+    <th>Fuente</th>
+    <th>Peso</th>
+    <th>Tamaño Desktop</th>
+    <th>Tamaño Mobile</th>
+    <th>Line-height</th>
+    <th>Ejemplo de uso</th>
+  </tr>
+
+  <tr>
+    <td><b>H1</b></td>
+    <td>Títulos principales (ej. <i>Bloomie</i>).</td>
+    <td>Montserrat</td>
+    <td>Semibold</td>
+    <td>62 px</td>
+    <td>28 px</td>
+    <td>120%</td>
+    <td>Pantallas de inicio, títulos de portada</td>
+  </tr>
+
+  <tr>
+    <td><b>H2</b></td>
+    <td>Subtítulos grandes (ej. <i>Your Skincare Journey Starts Here</i>)</td>
+    <td>Montserrat</td>
+    <td>Semibold</td>
+    <td>48 px</td>
+    <td>20 px</td>
+    <td>120%</td>
+    <td>Subtítulos en secciones o mensajes clave</td>
+  </tr>
+
+  <tr>
+    <td><b>H3</b></td>
+    <td>Encabezados menores</td>
+    <td>Montserrat</td>
+    <td>Semibold</td>
+    <td>18 px</td>
+    <td>16 px</td>
+    <td>120%</td>
+    <td>Títulos de tarjetas, secciones intermedias</td>
+  </tr>
+
+  <tr>
+    <td><b>Body</b></td>
+    <td>Texto de párrafo</td>
+    <td>Montserrat</td>
+    <td>Regular</td>
+    <td>16 px</td>
+    <td>14 px</td>
+    <td>150%</td>
+    <td>Textos explicativos, indicaciones generales</td>
+  </tr>
+
+  <tr>
+    <td><b>Small</b></td>
+    <td>Texto auxiliar o notas</td>
+    <td>Montserrat</td>
+    <td>Regular</td>
+    <td>12 px</td>
+    <td>12 px</td>
+    <td>140%</td>
+    <td>Mensajes de ayuda, disclaimers, instrucciones</td>
+  </tr>
+
+  <tr>
+    <td><b>Button</b></td>
+    <td>Acciones principales (Login, Signup)</td>
+    <td>Montserrat</td>
+    <td>Semibold</td>
+    <td>16 px</td>
+    <td>13 px</td>
+    <td>120%</td>
+    <td>Botones de acción, CTAs</td>
+  </tr>
+
+  <tr>
+    <td><b>Label / Tag</b></td>
+    <td>Etiquetas, chips, filtros</td>
+    <td>Montserrat</td>
+    <td>Medium</td>
+    <td>14 px</td>
+    <td>12 px</td>
+    <td>120%</td>
+    <td>Filtros, estados, badges</td>
+  </tr>
+</table>
+
+#### 4.1.1.4. Tono de comunicación y lenguaje aplicado
+El lenguaje de Bloomie es cercano, respetuoso y sereno, alineado con el propósito de 
+acompañar al usuario en el cuidado de su piel.
+
+1. Dimensiones definidas: 
+- Formal/Casual: Casual. Mensajes sencillos y amigables.
+- Respetuoso/Irreverente: Respetuoso. Siempre transmitiendo confianza y empatía.
+- Entusiasta/Sereno: Sereno. El tono es calmado, motivador y positivo, evitando dramatizar problemas de la piel.
+
+2. Lineamientos de redacción:
+- Usar frases cortas y claras.
+- Priorizar mensajes positivos (“You can improve your skin with small steps”) en lugar de negativos.
+- Evitar tecnicismos dermatológicos complejos; se debe comunicar en un lenguaje que cualquier usuario entienda.
+
+#### 4.1.1.5. Colores
+La paleta de Bloomie está diseñada con tonos cálidos y suaves, pensados para transmitir frescura, bienestar y confianza en el cuidado de la piel. Se emplean colores neutros y acentos rosados para lograr armonía visual y consistencia en todas las interfaces.
+
+1. Fondos
+- #FDFFF8
+
+<img src="assets/img/color-bloomie-uno.png" alt="color-bloomie-uno" width="250"/>
+
+Casos de uso: fondo principal de la aplicación, mantiene un estilo cálido y limpio.
+
+- #CEBEBE
+
+<img src="assets/img/color-bloomie-dos.png" alt="color-bloomie-dos" width="250"/>
+
+Casos de uso: cuadros con íconos, secciones importantes, bloques secundarios.
+
+2. Textos
+- #333333
+
+<img src="assets/img/color-bloomie-tres.png" alt="color-bloomie-tres" width="250"/>
+
+Casos de uso: texto principal y párrafos (legible y elegante, sin llegar a ser negro puro). 
+
+3. Botones y enlaces
+- #A26769 
+
+<img src="assets/img/color-bloomie-cuatro.png" alt="color-bloomie-tres" width="250"/>
+
+Casos de uso: botones principales (acciones clave), títulos destacados y elementos de énfasis. 
+
+- #333333
+
+<img src="assets/img/color-bloomie-tres.png" alt="color-bloomie-tres" width="250"/>
+
+Casos de uso: botones principales de acceso (Login, Signup). 
+
+#### Botones
+Los botones tienen una fuente Montserrat y un tamaño de 16 px para desktop y 13 px para 
+móvil. La estructura es la siguiente:
+
+<img src="assets/img/botones.png" alt="botones" width="250"/>
+
+#### Cabecera
+
+Estas son las dos cabeceras usadas en la app web, en el lado izquierda se observa el logo 
+con el nombre de la aplicación y en la parte izquierda enlaces para acceso rápido de aspectos 
+importantes dentro de la aplicación.
+
+#### Iconografía
+Bloomie utiliza un set propio de íconos minimalistas y lineales, diseñados para ser claros, modernos y consistentes. Los íconos cumplen un rol funcional:
+
+- Comunicar acciones de manera inmediata.
+- Sugerir interactividad.
+- Destacar información importante.
+
+Todos los íconos mantienen coherencia visual con la paleta de colores y la tipografía definida 
+en esta guía. 
+
+<img src="assets/img/iconografia.png" alt="iconografia" width="500"/>
+
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Bloomie fue diseñado para garantizar claridad, coherencia y 
+simplicidad en la comunicación de todos los elementos dentro de la experiencia digital. Las 
+etiquetas, títulos y botones fueron redactados en un lenguaje cotidiano y cercano, de modo 
+que los usuarios comprendan fácilmente las acciones que pueden realizar, reduciendo la carga 
+cognitiva y reforzando la identidad visual de la marca.
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
-
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
