@@ -2191,6 +2191,12 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ![foto](assets/img/Impact-map-2.png)
 
+### 3.2.3. Business Goal 3: Mantener una tasa de retención mensual superior al 50%.
+
+![foto](assets/img/Impact-map-3.png)
+
+###
+
 ## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
