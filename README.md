@@ -825,7 +825,7 @@ Datos del entrevistado
 - **Apellidos:** Gallardo Morales
 - **Edad:** 25 años
 - **Distrito:** La Molina
-- **Timing:** 8:37 minutos
+- **Timing:** Desde 0:00 minutos a 8:37 minutos
   
 
 <img src="assets/img/entrevista-carla.png" width="500"/>
