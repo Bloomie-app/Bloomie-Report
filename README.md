@@ -2187,6 +2187,9 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ![foto](assets/img/Impact-map-1.png)
 
+### 3.2.2. Business Goal 2: Lograr que un mínimo del 10% de usuarios gratuitos se conviertan en usuarios premium durante los primeros seis meses.
+
+![foto](assets/img/Impact-map-2.png)
 
 ## 3.3. Product Backlog
 
