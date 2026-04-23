@@ -2449,6 +2449,56 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
+<tr>
+    <td><strong>26</strong></td>
+    <td>US22</td>
+    <td>Cambiar contraseña</td>
+    <td>
+      Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
+    </td>
+    <td> 2 </td>
+  </tr>
+
+  <tr>
+    <td><strong>27</strong></td>
+    <td>US17</td>
+    <td>Seleccionar plan de suscripción</td>
+    <td>
+      Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>28</strong></td>
+    <td>US18</td>
+    <td>Realizar pago de suscripción</td>
+    <td>
+      Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>29</strong></td>
+    <td>US23</td>
+    <td>Registrar dermatólogo</td>
+    <td>
+     Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a funcionalidades especializadas.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>30</strong></td>
+    <td>US24</td>
+    <td>Visualizar pacientes recientes</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
+    </td>
+    <td> 5 </td>
+  </tr>
+
 </table>
 
 # Capítulo IV: Product Design
