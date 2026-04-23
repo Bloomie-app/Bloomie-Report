@@ -109,6 +109,28 @@ u202415551 - Ramirez Ruiz, Nickolas
       - [Segmento 2: Dermatólogos certificados](#segmento-2-dermatólogos-certificados-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Segmento 1:  Jóvenes adultos interesados en el skin care](#segmento-1--jóvenes-adultos-interesados-en-el-skin-care)
+          - [Proceso de atención](#proceso-de-atención)
+          - [Información esencial del paciente](#información-esencial-del-paciente)
+          - [Dificultades antes de la consulta presencial](#dificultades-antes-de-la-consulta-presencial)
+          - [Seguimiento de pacientes](#seguimiento-de-pacientes)
+          - [Limitaciones de herramientas digitales](#limitaciones-de-herramientas-digitales)
+          - [Problemas en pacientes con skincare propio](#problemas-en-pacientes-con-skincare-propio)
+          - [Nivel de información del paciente](#nivel-de-información-del-paciente)
+          - [Uso de IA en diagnósticos preliminares](#uso-de-ia-en-diagnósticos-preliminares)
+          - [Historial visual estructurado](#historial-visual-estructurado)
+          - [Funcionalidades indispensables](#funcionalidades-indispensables)
+          - [Casos de uso recomendados](#casos-de-uso-recomendados)
+      - [Segmento 2:  Dermatólogos certificados](#segmento-2--dermatólogos-certificados)
+          - [Rutina de cuidado de la piel](#rutina-de-cuidado-de-la-piel)
+          - [Fuentes de información para decisiones](#fuentes-de-información-para-decisiones)
+          - [Proceso de elección de productos](#proceso-de-elección-de-productos)
+          - [Problemas con productos de skincare](#problemas-con-productos-de-skincare)
+          - [Relación con dermatólogos y expertos](#relación-con-dermatólogos-y-expertos)
+          - [Nivel de confianza en la información presente en internet](#nivel-de-confianza-en-la-información-presente-en-internet)
+          - [Interés en aplicaciones de skincare](#interés-en-aplicaciones-de-skincare)
+          - [Expectativas de la solución](#expectativas-de-la-solución)
+          - [Barreras o preocupaciones](#barreras-o-preocupaciones)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -116,6 +138,8 @@ u202415551 - Ramirez Ruiz, Nickolas
       - [2.3.3.1 Segmento 1: Jóvenes adultos](#2331-segmento-1-jóvenes-adultos)
       - [2.3.3.2 Segmento 2: Dermatólogos certificados](#2332-segmento-2-dermatólogos-certificados)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.4.1 Segmento 1: Jóvenes adultos](#2341-segmento-1-jóvenes-adultos)
+      - [2.3.4.2 Segmento 2: Dermatólogos certificados](#2342-segmento-2-dermatólogos-certificados)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -801,7 +825,7 @@ Datos del entrevistado
 - **Apellidos:** Gallardo Morales
 - **Edad:** 25 años
 - **Distrito:** La Molina
-- **Timing:** 8:37 minutos
+- **Timing:** Desde 0:00 minutos a 8:39 minutos
   
 
 <img src="assets/img/entrevista-carla.png" width="500"/>
@@ -824,7 +848,7 @@ Datos del entrevistado
 - **Apellidos:** Corimaya Cuello 
 - **Edad:** 23 Años 
 - **Ciudad:** Arequipa
-- **Timing:** 11:37:22 minutos
+- **Timing:** Desde 8:39 minutos hasta 20:14 minutos
 
 <img src="assets/img/entrevista-nickolas.png" width="500"/>
 
@@ -842,7 +866,7 @@ Datos del entrevistado
 - **Apellidos:** Alarcon
 - **Edad:** 20
 - **Distrito:** San Martín de Porres
-- **Timing:** 
+- **Timing:** Desde 20:14 minutos hasta 29:03 minutos
 
 <img src="assets/img/entrevista-dermatologos-luciana.png" width="500"/>
 
@@ -868,7 +892,7 @@ Datos del entrevistado
 - **Apellidos:** Valverde
 - **Edad:** 48 años
 - **Distrito:** San Martín de Porres
-- **Timing:** 
+- **Timing:**  Desde 29:05 minutos hasta 48:30 minutos
 
 <img src="assets/img/entrevista-arturo.png" width="500"/>
 
@@ -889,7 +913,7 @@ Datos del entrevistado
 - **Apellidos:** Paredes 
 - **Edad:** 67 años
 - **Distrito:** Jesús María
-- **Timing:** 
+- **Timing:** Desde 48:30 minutos hasta 1:01:16  minutos
 
 <img src="assets/img/entrevista-martin.png" width="500"/>
 
@@ -912,7 +936,7 @@ Datos del entrevistado
 - **Apellidos:** Rosas
 - **Edad:** 45
 - **Distrito:** San Isidro
-- **Timing:** 
+- **Timing:** Desde 1:01:17 minutos hasta 1:06:26 minutos
 
 El entrevistado no autorizo para la grabación de su rostro  
 
@@ -2158,6 +2182,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 </table>
 
 ## 3.2. Impact Mapping
+
 
 ## 3.3. Product Backlog
 
