@@ -2190,7 +2190,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 <img src="assets/img/impactmap-1.png" alt="impact mapping photo" width="550"/>
 
 #### 3.2.2. Business Goal 2: 
-- Lograr que al menos el 70% de los usuarios que realizan el escaneo facial completen el flujo hasta recibir su rutina personalizada , y que al menos el 50% de los dermatólogos activos utilicen la plataforma para consultar información de pacientes, en un plazo de 4 meses
+- Lograr que al menos el 70% de los usuarios que realizan el escaneo facial completen el flujo hasta recibir su rutina personalizada , y que al menos el 50% de los dermatólogos activos utilicen la plataforma para consultar información de pacientes, en un plazo de 4 meses.
 
 <img src="assets/img/impactmap-2.png" alt="impact mapping photo" width="550"/>
 
