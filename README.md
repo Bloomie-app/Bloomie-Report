@@ -2195,7 +2195,9 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 ![foto](assets/img/Impact-map-3.png)
 
-###
+### 3.2.4. Business Goal 4: Reducir la brecha de adquisición de tratamientos dermatológicos en un 25%.
+
+![foto](assets/img/Impact-map-4.png)
 
 ## 3.3. Product Backlog
 
