@@ -2852,6 +2852,13 @@ cognitiva y reforzando la identidad visual de la marca.
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
+
+En esta sección se presenta el Design-Level EventStorming realizado para refinar el modelado del dominio de Bloomie a partir del Big Picture EventStorming. En esta etapa, el equipo profundizó en los principales flujos del negocio, identificando comandos, eventos de dominio, políticas, aggregates y bounded contexts con un mayor nivel de detalle.
+
+A partir de este análisis, se definieron los bounded contexts más relevantes de la solución y las relaciones existentes entre ellos, buscando mantener coherencia con el dominio del problema y con la naturaleza de Bloomie como plataforma SaaS orientada a servicios.
+
+Finalmente, se incluyen las capturas elaboradas en la herramienta colaborativa utilizada, las cuales evidencian el trabajo realizado por el equipo durante la sesión.
+
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
 ### 4.6.4. Software Architecture Components Diagrams
