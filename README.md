@@ -333,6 +333,82 @@ Por otro lado, herramientas como Figma y UXPressia facilitan la construcción de
 Esta configuración permite mantener una alineación entre diseño, desarrollo, pruebas y despliegue, asegurando una entrega continua de valor en cada iteración del proyecto Bloomie.
 
 ### 5.1.2. Source Code Management
+
+En esta sección se describen las estrategias, herramientas y convenciones utilizadas por el equipo para la gestión del código de Bloomie, asegurando trazabilidad, control de versiones y colaboración efectiva durante el desarrollo del producto digital.
+
+**Repositorios del Proyecto** <br>
+El equipo utiliza GitHub como plataforma principal para el control de versiones, manteniendo repositorios independientes para cada componente de la solución:
+
+- Report:
+  https://github.com/Bloomie-app/Bloomie-Report
+- Landing Page:
+  https://github.com/Bloomie-app/Bloomie-Landing-Page
+- Frontend Web Application:
+  https://github.com/Bloomie-app/Bloomie-Frontend
+- Backend Web Services (RESTful API):
+  https://github.com/Bloomie-app/Bloomie-Backend
+
+Estos repositorios permiten gestionar de manera modular los distintos productos del sistema, facilitando el trabajo paralelo y la integración continua.
+
+**Estrategia de Control de Versiones (GitFlow)**
+
+El equipo adopta una estrategia basada en los principios de GitFlow, adaptada a la organización del proyecto académico. Esta estrategia permite mantener estabilidad en la rama principal y facilitar el desarrollo incremental de funcionalidades.
+
+Se utilizan las siguientes ramas:
+
+- **main:** <br>
+  Contiene la versión estable y desplegable del producto.
+- **develop:** <br>
+  Rama de integración donde se consolidan los avances de desarrollo antes de ser promovidos a producción.
+- **feature branches:** <br>
+  Se utilizan para el desarrollo de funcionalidades o entregables específicos. En este proyecto, las ramas feature están organizadas por capítulos del informe:
+    - feature/chapter-01
+    - feature/chapter-02
+    - feature/chapter-03
+    - feature/chapter-04
+    - feature/chapter-05
+
+Cada rama feature se desarrolla de forma independiente y posteriormente se integra en la rama develop.
+
+**Convenciones de Nombres de Ramas**
+
+Se establece las siguientes convenciones:
+
+- **feature/*:** para desarrollo de funcionalidades o secciones específicas <br>
+  Ejemplo: feature/chapter-03
+- **release/*:** para preparación de versiones estables <br>
+  Ejemplo: release/v1.0.0
+- **hotfix/*:** para correcciones urgentes en producción <br>
+  Ejemplo: hotfix/fix-login-error
+
+Estas convenciones permiten identificar rápidamente el propósito de cada rama y mantener una estructura organizada del repositorio.
+
+**Conventional Commits**
+
+Para los mensajes de commit, el equipo adopta el estándar Conventional Commits, lo cual permite mantener consistencia y facilitar la comprensión del historial de cambios.
+
+Se utilizan los siguientes prefijos:
+
+- **feat:** nueva funcionalidad
+- **fix:** corrección de errores
+- **docs:** cambios en documentación
+- **style:** cambios de formato (no funcionales)
+- **refactor:** mejoras internas sin cambio de funcionalidad
+- **test:** adición o modificación de pruebas
+
+**Semantic Versioning**
+
+El equipo aplica Semantic Versioning 2.0.0 para el versionado de releases, utilizando el formato:
+
+_MAJOR.MINOR.PATCH_ <br>
+
+- **MAJOR:** cambios incompatibles con versiones anteriores
+- **MINOR:** nuevas funcionalidades compatibles
+- **PATCH:** correcciones de errores
+
+Ejemplo: <br>
+  v1.0.0 : primera versión estable del producto
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 
