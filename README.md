@@ -2861,32 +2861,66 @@ Finalmente, se incluyen las capturas elaboradas en la herramienta colaborativa u
 
 **Design Level Event Storming - Bloomie**
 
-
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Design-Level-Event-Storming-Bloomie.png" alt="Design Level Event Storming - Bloomie" width="500"/>
+  </div> <br>
 
 **Bounded Contexts**
 
 Identity & Access Context <br>
 
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Identity-&-Access-Context.png" alt="Identity & Access Context - Bloomie" width="500"/>
+  </div> 
+
 <br>
 Skin Analysis Context <br>
+
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Skin-Analysis-Context.png" alt="Skin Analysis Context - Bloomie" width="500"/>
+  </div> 
 
 <br>
 Product Discovery Context <br>
 
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Product-Discovery-Context.png" alt="Product Discovery Context - Bloomie" width="500"/>
+  </div> 
+
 <br>
 Intelligent Support Context <br>
+
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Intelligent-Support-Context.png" alt="Intelligent Support Context - Bloomie" width="500"/>
+  </div> 
 
 <br>
 Dermatology Care Context <br>
 
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Dermatology-Care-Context.png" alt="Dermatology Care Context - Bloomie" width="500"/>
+  </div> 
+
 <br>
 Routine Management Context <br>
+
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Routine-Management-Context.png" alt="Routine Management Context - Bloomie" width="500"/>
+  </div> 
 
 <br>
 Payments Context <br>
 
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Payments-Context.png" alt="Payments Context - Bloomie" width="500"/>
+  </div> 
+
 <br>
 Subscription Context <br>
+
+  <div>
+    <img src="assets/img/Design-Level-Event-Storming/Subscription-Context.png" alt="Subscription Context - Bloomie" width="500"/>
+  </div> 
 
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
