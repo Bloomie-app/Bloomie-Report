@@ -306,8 +306,12 @@ El interés por el cuidado de la piel ha incrementado de manera significa en jó
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
-
 ### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas y tecnologías utilizadas por el equipo para el desarrollo colaborativo del producto digital, abarcando actividades de gestión de proyecto, diseño UX/UI, desarrollo de software, pruebas, documentación y despliegue. Estas herramientas permiten asegurar consistencia, trazabilidad y eficiencia durante todo el ciclo de vida del proyecto.
+
+A continuación, se presenta la configuración del entorno de desarrollo de Bloomie:
+
 ### 5.1.2. Source Code Management
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
