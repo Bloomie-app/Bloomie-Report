@@ -2859,6 +2859,35 @@ A partir de este análisis, se definieron los bounded contexts más relevantes d
 
 Finalmente, se incluyen las capturas elaboradas en la herramienta colaborativa utilizada, las cuales evidencian el trabajo realizado por el equipo durante la sesión.
 
+**Design Level Event Storming - Bloomie**
+
+
+
+**Bounded Contexts**
+
+Identity & Access Context <br>
+
+<br>
+Skin Analysis Context <br>
+
+<br>
+Product Discovery Context <br>
+
+<br>
+Intelligent Support Context <br>
+
+<br>
+Dermatology Care Context <br>
+
+<br>
+Routine Management Context <br>
+
+<br>
+Payments Context <br>
+
+<br>
+Subscription Context <br>
+
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
 ### 4.6.4. Software Architecture Components Diagrams
