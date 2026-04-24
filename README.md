@@ -2273,7 +2273,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>
         Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
     </td>
-    <td> 8 </td>
+    <td> 5 </td>
   </tr>
 
   <tr>
@@ -2283,7 +2283,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>
         Como joven adulto, quiero recibir un reporte preliminar generado por la inteligencia artificial después del escaneo facial para conocer el estado de mi piel y entender qué tipo de cuidados necesito.
     </td>
-    <td> 8 </td>
+    <td> 5 </td>
   </tr>
 
   <tr>
@@ -2523,7 +2523,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>
       Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
     </td>
-    <td> 8 </td>
+    <td> 5 </td>
   </tr>
 
    <tr>
