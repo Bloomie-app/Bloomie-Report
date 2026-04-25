@@ -3534,6 +3534,11 @@ US18 - Como joven adulto, quiero pagar un plan de suscripción para acceder a la
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+Mock-up: Facial scanning with camera
+
+![foto](assets/img/facial.png)
+
+
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
