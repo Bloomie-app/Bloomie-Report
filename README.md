@@ -88,6 +88,24 @@ u202415551 - Ramirez Ruiz, Nickolas
 
 # Project Report Collaboration Insights
 
+El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante un repositorio de GitHub creado dentro de la organización del equipo. Este repositorio contiene los archivos del informe, imágenes, diagramas, evidencias y el historial de versiones correspondiente a cada entrega.
+
+URL del repositorio (Report): https://github.com/Bloomie-app/Bloomie-Report <br>
+URL del repositorio (Backend): https://github.com/Bloomie-app/Bloomie-Backend <br>
+URL del repositorio (Frontend): https://github.com/Bloomie-app/Bloomie-Frontend <br>
+URL del repositorio (Landing Page): https://github.com/Bloomie-app/Bloomie-Landing-Page <br>
+
+**Primera Entrega (AV1)**
+
+El equipo desarrolló el Project Report de manera colaborativa, asignando diferentes secciones del documento a cada integrante. Cada miembro contribuyó al informe mediante la redacción de contenido, actualización de diagramas, carga de evidencias, corrección de formato y revisión de la versión final antes de cada entrega.
+
+Además, como parte del avance del proyecto, el equipo también trabajó en el desarrollo de la landing page de Bloomie. Esta actividad fue documentada dentro del informe y alojada en su repositorio correspondiente, incluyendo evidencias relacionadas con su implementación, despliegue y relación con la propuesta de valor del producto.
+
+GitHub fue utilizado como la herramienta principal de colaboración, ya que permitió registrar los cambios realizados a través de commits, organizar el trabajo del equipo y mantener evidencia del avance del informe y de la landing page. Asimismo, las capturas de los analíticos de colaboración y del historial de commits permiten comprobar la participación de los miembros del equipo.
+
+La evidencia presentada en esta sección se encuentra alineada con el Registro de Versiones del Informe, debido a que cada entrega incluye actualizaciones que corresponden con los cambios documentados en dicho registro.
+
+
 ---
 
 # Contenido
