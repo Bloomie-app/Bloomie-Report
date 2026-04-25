@@ -3640,6 +3640,8 @@ Subscription Context <br>
 
 ### 4.8.1. Database Diagrams
 
+<img src="assets/img/db-diagram.jpg" alt="DB Diagram" width="1000"/> <br>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
