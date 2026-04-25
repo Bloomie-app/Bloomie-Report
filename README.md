@@ -3593,8 +3593,20 @@ Subscription Context <br>
   </div>
 
 ### 4.6.2. Software Architecture Context Diagram
+
+ <img src="assets/img/contexto.png" alt="contexto" width="500"/>
+
 ### 4.6.3. Software Architecture Container Diagrams
+
+ <img src="assets/img/contenedores.png" alt="contenedores" width="500"/>
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+ <img src="assets/img/component-frontend.png" alt="componentes" width="500"/>
+
+ <img src="assets/img/component-backend.png" alt="componentes" width="500"/>
+ 
+
 
 ## 4.7. Software Object-Oriented Design
 
