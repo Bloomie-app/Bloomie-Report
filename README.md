@@ -410,6 +410,7 @@ Ejemplo: <br>
   v1.0.0 : primera versión estable del producto
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -417,9 +418,25 @@ Ejemplo: <br>
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Date** | 24 de abril de 2026 |
+| **Time** | 10:00 a.m. – 12:00 p.m. |
+| **Location** | Reunión virtual vía Discord |
+| **Prepared By** | Gallardo Morales, Carla Alejandra (Product Owner) |
+| **Attendees** | Asmat Alminco, Martin Alejandro · Contreras Torres, Arturo Valentino · Gallardo Morales, Carla Alejandra · Mechan Montenegro, Luciana Carolina · Ramirez Ruiz, Nickolas |
+| **Sprint 1 – 0 Review Summary** | No aplica. Este es el primer sprint del proyecto. No existen reviews previas. |
+| **Sprint 1 – 0 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto. No existen retrospectivas previas. |
+| **Sprint 1 Goal** | Implementar y desplegar la Landing Page de Bloomie con todas las secciones informativas clave: propuesta de valor, funcionamiento del servicio, funcionalidades, planes de suscripción y navegación entre secciones. El objetivo es que cualquier visitante pueda comprender el producto y evaluar si desea suscribirse. |
+| **Sprint 1 Velocity** | 14 story points |
+| **Sum of Story Points** | 14 story points |
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
 #### 5.2.1.3. Sprint Backlog 1
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
