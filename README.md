@@ -105,6 +105,7 @@ GitHub fue utilizado como la herramienta principal de colaboración, ya que perm
 
 La evidencia presentada en esta sección se encuentra alineada con el Registro de Versiones del Informe, debido a que cada entrega incluye actualizaciones que corresponden con los cambios documentados en dicho registro.
 
+<img src="assets/img/Project-Report-Collaboration-Insights/AV1/github-organization-bloomie.png" width="500"/>
 
 ---
 
