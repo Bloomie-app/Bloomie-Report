@@ -2959,6 +2959,117 @@ algunos *icons* de ejemplo:
 
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+En esta sección se definen los SEO Tags y Meta Tags utilizados en la plataforma Bloomie, tanto para la Landing Page como para la Web Application.
+
+
+- **Landing Page** 
+
+### Principal 
+
+- **Title:**  
+  Bloomie — AI Skin Analysis & Personalized Skincare  
+
+- **Description:**  
+  AI-powered skin analysis that detects acne, spots, and texture to create your personalized skincare routine.
+
+- **Keywords:**  
+  skincare, AI skin analysis, acne detection, personalized skincare, beauty tech, dermatology AI
+
+- **Author:**  
+  Dermacare
+
+
+
+### Features
+
+- **Title:**  
+  Features — Bloomie  
+
+- **Description:**  
+  Discover Bloomie features including AI skin analysis, personalized routines, progress tracking, and dermatologist access.
+
+- **Keywords:**  
+  skincare features, AI skincare tools, skin analysis app, personalized routine, beauty technology  
+
+- **Author:**  
+Dermacare
+
+
+### How it Works
+
+- **Title:**  
+  How it works — Bloomie  
+
+- **Description:**  
+  Learn how Bloomie analyzes your skin using AI and creates a personalized skincare routine in seconds.
+
+- **Keywords:**  
+  how AI skincare works, skin analysis process, AI dermatology, skincare steps  
+
+- **Author:**  
+Dermacare
+
+###  Pricing
+
+- **Title:**  
+  Pricing — Bloomie  
+
+- **Description:**  
+  Explore Bloomie pricing plans. Start free and upgrade to advanced AI skincare features.
+
+- **Keywords:**  
+  skincare app pricing, AI skincare plans, subscription skincare, beauty app pricing  
+
+- **Author:**  
+Dermacare
+
+### Results
+
+- **Title:**  
+  Results — Bloomie  
+
+- **Description:**  
+  Real results from users who improved their skin using Bloomie personalized routines.
+
+- **Keywords:**  
+  skincare results, acne improvement, user testimonials skincare, AI skincare results  
+
+- **Author:**  
+ Dermacare  
+
+
+###  About Us
+
+- **Title:**  
+  About us — Bloomie  
+
+- **Description:**  
+  Meet the team behind Bloomie and learn about our mission to improve skincare using AI.
+
+- **Keywords:**  
+  Dermacare, skincare startup, AI skincare company, about Bloomie  
+
+- **Author:**  
+Dermacare
+<br> </br>
+- **Web application**
+
+Para la aplicación web, se definen los siguientes meta tags generales:
+
+- **Title:**  
+  Dashboard — Bloomie  
+
+- **Description:**  
+  Track your skin progress, manage your routine, and get personalized AI skincare recommendations.
+
+- **Keywords:**  
+  skincare dashboard, skin tracking app, AI skincare routine, skin health monitoring  
+
+- **Author:**  
+Dermacare
+
+
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
