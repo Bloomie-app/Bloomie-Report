@@ -444,6 +444,20 @@ Ejemplo: <br>
 ---
 #### 5.2.1.3. Sprint Backlog 1
 
+| User Story ID | Título | Task ID | Descripción de tarea | Estimación | Responsable | Estado |
+|---|---|---|---|---|---|---|
+| US34 | Comprender la propuesta de valor | T-01 | Diseñar e implementar sección Hero con headline, subheadline y CTA | 4h | Gallardo, Carla | Done |
+| US34 | Comprender la propuesta de valor | T-02 | Implementar sección de beneficios con íconos y textos descriptivos | 3h | Mechan, Luciana | Done |
+| US35 | Comprender el funcionamiento del servicio | T-03 | Implementar sección "Cómo funciona" con pasos ilustrados (registro, escaneo, rutina) | 4h | Contreras, Arturo | Done |
+| US35 | Comprender el funcionamiento del servicio | T-04 | Agregar animaciones o transiciones de desplazamiento en la sección | 2h | Ramirez, Nickolas | Done |
+| US36 | Explorar funcionalidades del producto | T-05 | Implementar sección de features con cards: análisis IA, rutinas, seguimiento, dermatólogos | 4h | Asmat, Martin | Done |
+| US36 | Explorar funcionalidades del producto | T-06 | Aplicar estilos responsivos a las cards de funcionalidades | 2h | Contreras, Arturo | Done |
+| US38 | Navegar entre secciones del sitio | T-07 | Implementar navbar fijo con scroll suave a cada sección y logo de Bloomie | 3h | Mechan, Luciana | Done |
+| US38 | Navegar entre secciones del sitio | T-08 | Implementar footer con links, redes sociales y copyright | 2h | Gallardo, Carla | Done |
+| US37 | Comparar planes de suscripción | T-09 | Diseñar e implementar sección de pricing con tabla comparativa de planes | 4h | Ramirez, Nickolas | Done |
+| US37 | Comparar planes de suscripción | T-10 | Agregar botón CTA por plan con enlace a registro/suscripción | 2h | Asmat, Martin | Done |
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
