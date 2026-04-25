@@ -2891,20 +2891,376 @@ cognitiva y reforzando la identidad visual de la marca.
 
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
 
+### 4.2.5. Navigation Systems
+
+La aplicación Bloomie, en su versión dirigida a jóvenes adultos interesados en el cuidado de la piel, está estructurada bajo un sistema de organización jerárquico, secuencial y parcialmente matricial, con el objetivo de ofrecer una experiencia intuitiva, guiada y flexible. Esta estructura responde directamente a los flujos representados en el sistema, donde el usuario avanza desde procesos iniciales controlados hacia una navegación más libre centrada en sus necesidades.
+
+
+
+#### Organización jerárquica
+
+El contenido se organiza siguiendo una estructura jerárquica tipo top-down, claramente reflejada en el flujo principal del sistema.
+
+Nivel 1 – Acceso principal:
+Onboarding, Registro de cuenta, Inicio de sesión y Dashboard.
+Nivel 2 – Navegación principal (desde Dashboard):
+Home, Skin Care, Consultar IA y Perfil.
+Nivel 3 – Submódulos y acciones específicas:
+En Skin Care: acceso a la rutina personalizada.
+En Perfil: configuración de información personal, cambio de foto, skin profile, settings, security y favoritos.
+En Consultar IA / funcionalidades clínicas: acceso a consultas, historial, agendamiento y seguimiento.
+
+Esta jerarquía permite que el usuario identifique rápidamente los puntos de entrada principales y acceda progresivamente a funcionalidades más específicas, reduciendo la carga cognitiva y facilitando la exploración del sistema.
+
+#### Organización secuencial
+
+El sistema presenta flujos claramente secuenciales en procesos críticos donde el usuario debe avanzar paso a paso:
+
+###### Registro de usuario:
+Registro → Solicitud de datos personales → Lifestyle Questions → Decisión de permitir uso de cámara →
+(Sí → Escaneo facial / No → Creación de perfil) → Rutina personalizada generada → Dashboard.
+###### Consulta dermatológica:
+Consultar dermatólogo → Seleccionar tipo de acción (ver consultas pasadas / agendar nueva / unirse a consulta) →
+Selección de fecha → Confirmación → Pago → Ejecución de consulta.
+
+Estos flujos aseguran que el usuario complete correctamente procesos complejos mediante una guía estructurada, minimizando errores y mejorando la usabilidad.
+
+#### Uso de nodos de decisión (decisiones del usuario)
+
+Dentro de los flujos secuenciales se integran puntos de decisión que representan elecciones clave del usuario:
+
+Permitir o no el uso de la cámara (impacta directamente en la personalización).
+Aplicación de filtros en búsqueda de productos o tiendas.
+Cancelación o continuación de procesos (como citas o consultas).
+
+Estos nodos permiten modelar escenarios alternativos dentro del sistema, asegurando que la experiencia contemple tanto caminos principales como situaciones excepcionales, manteniendo coherencia en la navegación.
+
+#### Organización matricial
+
+El sistema incorpora conexiones transversales entre módulos que permiten al usuario navegar de forma no lineal según su contexto:
+
+Desde el Dashboard se puede acceder tanto a funcionalidades de cuidado (Skin Care) como a consultas médicas o perfil.
+Desde los módulos de consulta, el usuario puede alternar entre historial, nuevas citas y comunicación directa.
+La exploración de productos y tiendas permite múltiples rutas de acceso mediante búsqueda, filtros y ubicación.
+
+Esta estructura matricial complementa la jerarquía principal, ofreciendo mayor flexibilidad sin romper la lógica del sistema.
+
+#### Categorización del contenido
+
+El contenido se organiza mediante distintos esquemas según el contexto de uso:
+
+###### Por audiencia:
+Esta vista está orientada a usuarios finales (jóvenes adultos), diferenciándose claramente de la vista profesional.
+Por tópicos:
+Las funcionalidades se agrupan en secciones como Skin Care, Consultas, Navegación, Perfil y Búsqueda.
+###### Cronológica:
+Aplicada en historial de consultas, chats y seguimiento de interacciones pasadas.
+###### Alfabética:
+Utilizada en listas como productos, dermatólogos o tiendas, facilitando la búsqueda directa.
+
+
+
+<p align = "center">
+<img src="assets/img/organization-jovenes.png" alt="jovenes-system" width="500"/>
+
+
+### Segmento 2: Dermatólogos certificados
+
+La aplicación Bloomie, en su versión dirigida a dermatólogos certificados, está estructurada bajo un sistema de organización jerárquico, secuencial y matricial, diseñado para optimizar la gestión clínica, facilitar el acceso a la información de pacientes y asegurar una navegación clara y orientada a tareas profesionales. Esta estructura responde directamente a los flujos representados en el sistema, donde el dermatólogo transita desde procesos de validación profesional hacia un entorno centralizado de trabajo clínico.
+
+##### Organización jerárquica
+
+El contenido se organiza mediante una estructura jerárquica top-down, claramente evidenciada en el flujo del sistema.
+
+Nivel 1 – Acceso principal:
+Onboarding, Registro, Inicio de sesión y Dashboard.
+Nivel 2 – Módulos principales (desde Dashboard):
+Navigation, Home, Skin Care, Consultar IA, Perfil, Analytics, Appointments and Consultations, Treatment Plans y My Patients.
+Nivel 3 – Submódulos y acciones específicas:
+En Appointments and Consultations:
+consultas pasadas, citas agendadas, lista de dermatólogos disponibles, selección de fecha y pago de consulta.
+En My Patients:
+lista de pacientes, acceso a detalles, notas y diagnóstico.
+En Treatment Plans:
+creación y edición de planes de tratamiento.
+En Analytics:
+visualización de estadísticas de pacientes.
+En Perfil:
+configuración de información personal, cambio de foto, credenciales, seguridad y favoritos.
+
+Esta jerarquía permite organizar las funcionalidades en función de la prioridad clínica, asegurando que las tareas más frecuentes estén accesibles desde el Dashboard y que la información se despliegue progresivamente según el contexto de uso.
+
+##### Organización secuencial
+
+El sistema presenta flujos secuenciales en procesos clave que requieren validación o seguimiento paso a paso:
+
+Registro profesional:
+Registro → Solicitud de datos personales → Professional registration → Validación de cuenta → Creación de perfil → Dashboard.
+Gestión de consultas:
+Appointments and Consultations → Selección de acción (ver consultas pasadas / agendar nueva / citas programadas) →
+selección de fecha → confirmación → pago → ejecución de consulta.
+Gestión de pacientes:
+My Patients → Lista de pacientes → Selección de paciente → acceso a detalles / notas / diagnóstico.
+
+Estos flujos aseguran que el dermatólogo pueda realizar tareas clínicas de forma estructurada, reduciendo errores y garantizando la correcta gestión de la información.
+
+##### Uso de nodos de decisión
+
+Dentro de los flujos se integran puntos de decisión que permiten modelar distintas situaciones dentro del sistema:
+
+Cancelación o continuación de citas o consultas.
+Aplicación de filtros en la búsqueda de información (pacientes, consultas).
+Selección de acciones dentro de módulos clínicos (por ejemplo, elegir entre ver historial o gestionar nuevas citas).
+
+Estos nodos permiten representar escenarios alternativos dentro de los procesos, asegurando que el sistema sea flexible y responda a diferentes necesidades del profesional sin perder coherencia estructural.
+
+##### Organización matricial
+
+El sistema incorpora conexiones transversales entre módulos, permitiendo al dermatólogo moverse de forma flexible entre distintas funcionalidades:
+
+Desde Appointments and Consultations, se puede acceder a distintas acciones como historial, nuevas citas o gestión de agenda.
+Desde My Patients, el dermatólogo puede navegar entre información detallada, notas clínicas y diagnósticos sin salir del contexto del paciente.
+Desde el Dashboard, se accede directamente a múltiples módulos según la tarea a realizar, sin necesidad de seguir un único flujo lineal.
+
+Esta organización matricial mejora la eficiencia del trabajo clínico, permitiendo cambios de contexto rápidos y una navegación más dinámica.
+
+##### Categorización del contenido
+
+El contenido se organiza mediante distintos esquemas según el contexto de uso:
+
+Por audiencia:
+Esta vista está dirigida exclusivamente a dermatólogos, diferenciándose de la versión para usuarios finales mediante funcionalidades, terminología y estructura orientadas a la práctica clínica.
+Por tópicos:
+Las funcionalidades se agrupan en módulos como Analytics, Pacientes, Consultas, Tratamientos, Perfil y Navegación.
+Cronológica:
+Aplicada en consultas pasadas, citas programadas y seguimiento de pacientes, organizando la información según fechas.
+Alfabética:
+Utilizada en listas de pacientes o registros, facilitando la búsqueda rápida de información específica.
+
+
+<p align = "center">
+<img src="assets/img/organization-dermatologos.png" alt="dermatologos-system" width="500"/>
+
+## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
+
+Esta sección incluye secciones internas donde se presenta y explica la propuesta
+visual y de interacción para las aplicaciones que constituyen la experiencia de
+usuario con los productos digitales.
 
 ### 4.4.1. Web Applications Wireframes
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+<<<<<<< HEAD
 ### 4.4.3. Web Applications Mock-ups 
 
+=======
+#### 4.4.2.1. Mobile Applications Wireflow
+
+
+1) <strong>Wireflow 1:</strong> Registro básico
+- User goal: 
+<br> Como joven adulto, quiero registrarme en Bloomie.
+
+<br><strong>User Story asociada: </br></strong>
+US01 - Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
+
+<img src="assets/img/landing/wireflow-1-app.png" alt="wireflow app" width="550"/>
+
+
+2) <strong>Wireflow 2:</strong> Completar perfil básico de piel
+- User goal: 
+<br> Como joven adulto, quiero completar mi perfil básico de peil.
+
+<br><strong>User Story asociada: </br></strong>
+US02 - Como joven adulto, quiero completar un cuestionario inicial de hábitos y condiciones de piel en mi primer ingreso para que la aplicación configure diagnósticos y rutinas personalizadas.
+
+<img src="assets/img/landing/wireflow-2-app.png" alt="wireflow app" width="550"/>
+</br>
+
+3) <strong>Wireflow 3:</strong> Escaneo facial con cámara
+- User goal: 
+<br> Como joven adulto, quiero realizar un escaneo facial con cámara.
+
+<br><strong>User Story asociada: </br></strong>
+US03 - Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
+
+<img src="assets/img/landing/wireflow-3-app.png" alt="wireflow app" width="550"/>
+</br>
+4) <strong>Wireflow 4:</strong> Diagnóstico preliminar automático
+
+- User goal: 
+<br> Como joven adulto, quiero recibir un diagnóstico preliminar.
+
+<br><strong>User Story asociada: </br></strong>
+US04 - Como joven adulto, quiero recibir un reporte preliminar generado por la inteligencia artificial después del escaneo facial para conocer el estado de mi piel y entender qué tipo de cuidados necesito.
+
+<img src="assets/img/landing/wireflow-4-appl.png" alt="wireflow app" width="550"/>
+</br>
+
+5) <strong>Wireflow 5:</strong> Generar rutina personalizada con productos
+
+- User goal: 
+<br> Como joven adulto, quiero generar una rutina personalizada.
+
+<br><strong>User Story asociada: </br></strong>
+US05 - Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado.
+
+<img src="assets/img/landing/wireflow-5-app.png" alt="wireflow app" width="550"/>
+</br>
+
+6) <strong>Wireflow 6:</strong> Adaptar rutina mediante reemplazo de productos
+
+- User goal: 
+<br> Como joven adulto, quiero adaptar mi rutina mediante reemplazo de productos
+
+<br><strong>User Story asociada: </br></strong>
+US06 - Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad.
+
+<img src="assets/img/landing/wireflow-6-app.png" alt="wireflow app" width="550"/>
+</br>
+
+7) <strong>Wireflow 7:</strong> Recordatorios de rutina
+
+- User goal: 
+<br> Como joven adulto, quiero tener recordatorios de rutina.
+
+<br><strong>User Story asociada: </br></strong>
+US07 - Como joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia.
+
+<img src="assets/img/landing/wireflow-7-app.png" alt="wireflow app" width="550"/>
+</br>
+
+8) <strong>Wireflow 8:</strong> Explorar catálogo de productos con filtros
+
+- User goal: 
+<br> Como joven adulto, quiero explorar catálogo de productos con filtros.
+
+<br><strong>User Story asociada: </br></strong>
+US08 - Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+
+<img src="assets/img/landing/wireflow-8-app.png" alt="wireflow app" width="550"/>
+</br>
+
+9) <strong>Wireflow 9:</strong> Evaluar compatibilidad de productos
+
+- User goal: 
+<br> Como joven adulto, quiere evaluar compatibilidad de productos.
+
+<br><strong>User Story asociada: </br></strong>
+US09 - Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+
+<img src="assets/img/landing/wireflow-9-app.png" alt="wireflow app" width="550"/>
+</br>
+
+10) <strong>Wireflow 10:</strong> Asistente virtual de skincare
+
+- User goal: 
+<br> Como joven adulto, quiero un asistente virtual de skincare.
+
+<br><strong>User Story asociada: </br></strong>
+US10 - Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
+
+<img src="assets/img/landing/wireflow-10-app.png" alt="wireflow app" width="550"/>
+</br>
+
+11) <strong>Wireflow 11:</strong> Explorar mapa de tiendas y productos
+
+- User goal: 
+<br> Como joven adulto, quiero explorar mapas de tiendas y productos.
+
+<br><strong>User Story asociada: </br></strong>
+US11 - Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+
+<img src="assets/img/landing/wireflow-11-app.png" alt="wireflow app" width="550"/>
+</br>
+
+12) <strong>Wireflow 12:</strong> Listar dermatólogos para agendar
+
+- User goal: 
+<br> Como joven adulto, quiero listar dematólogos para agendar.
+
+<br><strong>User Story asociada: </br></strong>
+US12 - Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+
+<img src="assets/img/landing/wireflow-12-app.png" alt="wireflow app" width="550"/>
+</br>
+
+13) <strong>Wireflow 13:</strong> Realizar pago de consulta dermatológica
+
+- User goal: 
+<br> Como joven adulto, quiero realizar el pago de una consulta.
+
+<br><strong>User Story asociada: </br></strong>
+US13 - Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+
+<img src="assets/img/landing/wireflow-13-app.png" alt="wireflow app" width="550"/>
+</br>
+
+14) <strong>Wireflow 14:</strong> Cancelar cita dermatológica
+
+- User goal: 
+<br> Como joven adulto, quiero cancelar mi cita dermatológica.
+
+<br><strong>User Story asociada: </br></strong>
+US14 - Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+
+<img src="assets/img/landing/wireflow-14-app.png" alt="wireflow app" width="550"/>
+</br>
+
+15) <strong>Wireflow 15:</strong> Registrar cumplimiento de rutina diaria
+
+- User goal: 
+<br> Como joven adulto, quiero registrar el cumplimento de mi rutina.
+
+<br><strong>User Story asociada: </br></strong>
+US15 - Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+
+<img src="assets/img/landing/wireflow-15-app.png" alt="wireflow app" width="550"/>
+</br>
+
+16) <strong>Wireflow 16:</strong> Visualizar progreso en skin trackera
+- User goal: 
+<br> Como joven adulto, quiero visualizar mi progreso en skin trackera
+
+<br><strong>User Story asociada: </br></strong>
+US16 - Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+
+<img src="assets/img/landing/wireflow-16-app.png" alt="wireflow app" width="550"/>
+</br>
+
+17) <strong>Wireflow 17:</strong> Seleccionar plan de suscripción
+
+- User goal: 
+<br> Como joven adulto, quiero seleccionar mi plan de suscripción
+
+<br><strong>User Story asociada: </br></strong>
+US17 - Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+
+<img src="assets/img/landing/wireflow-18-app.png" alt="wireflow app" width="550"/>
+</br>
+
+
+18) <strong>Wireflow 18:</strong> Realizar pago de suscripción. 
+
+- User goal: 
+<br> Como joven adulto, quiero realizar mi pago de suscripción
+
+<br><strong>User Story asociada: </br></strong>
+US18 - Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
+
+<img src="assets/img/landing/wireflow-17-app.png" alt="wireflow app" width="550"/>
+</br>
+
+
+### 4.4.3. Web Applications Mock-ups
+>>>>>>> c35ed4eb3560f3f179ee971e6e4a8e3536497b8b
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
