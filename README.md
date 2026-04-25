@@ -2880,6 +2880,7 @@ en esta guía.
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
 ### 4.2.2. Labeling Systems
 
 El sistema de etiquetado de Bloomie fue diseñado para garantizar claridad, coherencia y 
@@ -2899,8 +2900,11 @@ cognitiva y reforzando la identidad visual de la marca.
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+
 ### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.3. Web Applications Mock-ups
+
+### 4.4.3. Web Applications Mock-ups 
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
@@ -2976,7 +2980,7 @@ Subscription Context <br>
 
   <div>
     <img src="assets/img/Design-Level-Event-Storming/Subscription-Context.png" alt="Subscription Context - Bloomie" width="500"/>
-  </div> 
+  </div>
 
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
