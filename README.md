@@ -3629,6 +3629,13 @@ Subscription Context <br>
 
 ### 4.7.1. Class Diagrams
 
+<img src="assets/img/Class-Diagram/Dermatology-Payments.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/Class-Diagram/Identity-Skin.png" alt="Class Diagrams" width="1000"/> <br>
+<img src="assets/img/Class-Diagram/Intelligent-Dermatology.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/Class-Diagram/Payments-Subscription.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/Class-Diagram/ProductDiscovery-Routine.png" alt="Class Diagram" width="1000"/> <br>
+<img src="assets/img/Class-Diagram/Skin-Routine.png" alt="Class Diagram" width="1000"/> <br>
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
