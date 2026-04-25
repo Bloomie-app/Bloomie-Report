@@ -3126,13 +3126,6 @@ usuario con los productos digitales.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-
-### 4.4.3. Web Applications Mock-ups 
-
-
-#### 4.4.2.1. Mobile Applications Wireflow
-
-
 1) <strong>Wireflow 1:</strong> Registro básico
 - User goal: 
 <br> Como joven adulto, quiero registrarme en Bloomie.
