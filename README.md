@@ -277,20 +277,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <tr>
     <td><b>Comunica oralmente con efectividad a diferentes rangos de audiencia.</b></td>
     <td>
-      Asmat Alminco, Martin Alejandro <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Contreras Torres, Arturo Valentino <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Gallardo Morales, Carla Alejandra <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Mechan Montenegro, Luciana Carolina <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Ramirez Ruiz, Nickolas <br>
-      <b>AV1</b>
+      Asmat Alminco, Martin Alejandro – <b>AV1</b><br>
+Redacción de antecedentes e hipótesis con claridad y coherencia.<br><br>
+
+Contreras Torres, Arturo Valentino – <b>AV1</b><br>
+Documentación de arquitectura de información de forma estructurada.<br><br>
+
+Gallardo Morales, Carla Alejandra – <b>AV1</b><br>
+Desarrollo de secciones de diseño con explicaciones claras y contextualizadas.<br><br>
+
+Mechan Montenegro, Luciana Carolina – <b>AV1</b><br>
+Redacción detallada de wireflows y flujos de interacción del usuario.<br><br>
+
+Ramirez Ruiz, Nickolas – <b>AV1</b><br>
+Consolidación y revisión del documento final asegurando coherencia global.
     </td>
     <td></td>
   </tr>
@@ -298,20 +298,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <tr>
     <td><b>Comunica por escrito con efectividad a diferentes rangos de audiencia.</b></td>
     <td>
-      Asmat Alminco, Martin Alejandro <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Contreras Torres, Arturo Valentino <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Gallardo Morales, Carla Alejandra <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Mechan Montenegro, Luciana Carolina <br>
-      <b>AV1</b><br><br>
-      <p></p>
-      Ramirez Ruiz, Nickolas <br>
-      <b>AV1</b>
+      Asmat Alminco, Martin Alejandro – <b>AV1</b><br>
+Redacción de antecedentes e hipótesis con claridad y coherencia.<br><br>
+
+Contreras Torres, Arturo Valentino – <b>AV1</b><br>
+Documentación de arquitectura de información de forma estructurada.<br><br>
+
+Gallardo Morales, Carla Alejandra – <b>AV1</b><br>
+Desarrollo de secciones de diseño con explicaciones claras y contextualizadas.<br><br>
+
+Mechan Montenegro, Luciana Carolina – <b>AV1</b><br>
+Redacción detallada de wireflows y flujos de interacción del usuario.<br><br>
+
+Ramirez Ruiz, Nickolas – <b>AV1</b><br>
+Consolidación y revisión del documento final asegurando coherencia global.
     </td>
     <td></td>
   </tr>
