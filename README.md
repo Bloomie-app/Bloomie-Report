@@ -3538,6 +3538,9 @@ Mock-up: Facial scanning with camera
 
 ![foto](assets/img/facial.png)
 
+Mock-up: Create a personalized routine with products
+
+![foto](assets/img/personalized-routine.png)
 
 ## 4.5. Web Applications Prototyping
 
