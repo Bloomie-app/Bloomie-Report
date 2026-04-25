@@ -433,6 +433,15 @@ Ejemplo: <br>
 | **Sum of Story Points** | 14 story points                                                                                                                                                                                                                                                                                                       |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+| Aspecto / Sección | User Story | Líder | Colaborador |
+|---|---|---|---|
+| Propuesta de valor | US34 | Gallardo Morales, Carla | Mechan Montenegro, Luciana |
+| Funcionamiento del servicio | US35 | Contreras Torres, Arturo | Ramirez Ruiz, Nickolas |
+| Funcionalidades del producto | US36 | Asmat Alminco, Martin | Contreras Torres, Arturo |
+| Navegación entre secciones | US38 | Mechan Montenegro, Luciana | Gallardo Morales, Carla |
+| Comparar planes de suscripción | US37 | Ramirez Ruiz, Nickolas | Asmat Alminco, Martin |
+
+---
 #### 5.2.1.3. Sprint Backlog 1
 
 #### 5.2.1.4. Development Evidence for Sprint Review
