@@ -2880,6 +2880,7 @@ en esta guía.
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
 ### 4.2.2. Labeling Systems
 
 El sistema de etiquetado de Bloomie fue diseñado para garantizar claridad, coherencia y 
@@ -2887,6 +2888,75 @@ simplicidad en la comunicación de todos los elementos dentro de la experiencia 
 etiquetas, títulos y botones fueron redactados en un lenguaje cotidiano y cercano, de modo 
 que los usuarios comprendan fácilmente las acciones que pueden realizar, reduciendo la carga 
 cognitiva y reforzando la identidad visual de la marca.
+
+##### Labeling System Landing Page
+
+En la interfaz web se utilizan etiquetas sencillas y universales que guían la exploración inicial del usuario: How it works, Results, Features, About Us, Pricing y Log in en el navigation bar del encabezado principal. Estas se acompañan con botones de otro color como "Analyze my skin" redactados con verbos directos que promueven la interacción con el usuario e incite a utilizar una funcionalidad clave de nuestro producto. 
+El encabezado principal incluye el apartado de traducción de idiomas con el i18n, complementado con subtítulos que explican brevemente la propuesta de valor de Bloomie y el botón principal de descarga.
+
+navigation bar: 
+<p align = "center">
+<img src="assets/img/web-nav.png" alt="navigation-bar" width="500"/>
+
+luego, mantenemos una paleta de colores de contraste entre los blancos con sombreado cafe y variantes. Con ello se genera esa armonía visual.
+<p align = "center">
+<img src="assets/img/button.png" alt="mensaje-barra" width="500"/>
+
+
+##### Labeling System App para Jóvenes adultos
+
+En la versión móvil, las etiquetas se enfocan en la acción y el beneficio, manteniendo un tono amable		y		motivador. En el dashboard principal se observan las etiquetas: Personalized skincare, Consult a dermatologist,	Product		suggestion,		etc. Dentro de cada módulo, se mantienen etiquetas descriptivas como Mi rutina, Productos recomendados,   Añadir  paso,   Mis  consultas  y  Resultados  de  análisis. El lenguaje empleado es cercano y positivo, en línea con la voz de marca que busca acompañar y educar al usuario en su cuidado personal.
+
+###### Iconografía estándar
+
+En este apartado de considera todos los icons que son completamente intuitivos para el usuario que se adapta a una acción o funcionalidad en específico.
+
+<p align = "center">
+<img src="assets/img/flecha.png" alt="icon" width="250"/>
+<img src="assets/img/lupa.png" alt="icon2" width="250"/>
+
+
+
+###### Elementos de interacción activa
+
+Son los elementos con los que el joven interactua más seguido, como también lo cumple la navigation bar del móvil.
+
+*navigation bar*
+<p align = "center">
+<img src="assets/img/navigation.png" alt="nav" width="500"/>
+
+###### Elementos de validación
+
+Icons que aparecen para validar algún tipo de guardado que informe al usuario sobre la evaluación del sistema. 
+
+*icons*
+<p align = "center">
+<img src="assets/img/check.png" alt="check" width="300"/>
+<p align = "center">
+<img src="assets/img/error.png" alt="x" width="300"/>
+
+
+###### Labeling System App para Dermatólogos certificados
+
+En la vista profesional, las etiquetas se adaptan al entorno clínico, priorizando precisión y funcionalidad.
+Las secciones principales son Appointments and consultations, My patients, treatment plans and analytics.
+
+De esta manera, se mantiene una coherencia estructural con la versión de usuarios, pero con terminología técnica acorde al perfil profesional.
+
+algunos *icons* de ejemplo:
+
+
+*icon horario*
+<p align = "center">
+
+<img src="assets/img/horario.png" alt="x" width="300"/>
+</d>
+
+*icon paciente*
+<p align = "center">
+<img src="assets/img/corazo.png" alt="x" width="300"/>
+
+
 
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
@@ -3053,7 +3123,15 @@ visual y de interacción para las aplicaciones que constituyen la experiencia de
 usuario con los productos digitales.
 
 ### 4.4.1. Web Applications Wireframes
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+
+### 4.4.3. Web Applications Mock-ups 
+
+
+#### 4.4.2.1. Mobile Applications Wireflow
+
 
 1) <strong>Wireflow 1:</strong> Registro básico
 - User goal: 
@@ -3330,6 +3408,7 @@ US18 - Como joven adulto, quiero pagar un plan de suscripción para acceder a la
 
 
 ### 4.4.3. Web Applications Mock-ups
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
@@ -3405,7 +3484,7 @@ Subscription Context <br>
 
   <div>
     <img src="assets/img/Design-Level-Event-Storming/Subscription-Context.png" alt="Subscription Context - Bloomie" width="500"/>
-  </div> 
+  </div>
 
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
