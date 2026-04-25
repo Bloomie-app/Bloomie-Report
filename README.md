@@ -3227,6 +3227,23 @@ Utilizada en listas de pacientes o registros, facilitando la búsqueda rápida d
 
 ### 4.3.2. Landing Page Mock-up
 
+- Dashboard
+<p align = "center">
+<img src="assets/img/landing/LandingPage 3.png" alt="dermatologos-system" width="500"/>
+
+- Information
+<p align = "center">
+<img src="assets/img/landing/LandingPage 1.png" alt="dermatologos-system" width="500"/>
+
+- Pricing 
+<p align = "center">
+<img src="assets/img/landing/landingpage-5.png" alt="dermatologos-system" width="500"/>
+
+- Needing
+<p align = "center">
+<img src="assets/img/landing/landingpage-4.png" alt="dermatologos-system" width="500"/>
+
+
 ## 4.4. Web Applications UX/UI Design
 
 Esta sección incluye secciones internas donde se presenta y explica la propuesta
