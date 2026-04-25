@@ -3267,6 +3267,7 @@ US09 - Como joven adulto, quiero conocer la compatibilidad de un producto para t
 <p align = "center">
 <img src="assets/img/landing/wireflow-9-web.png" alt="wireflow app" width="550"/>
 </br>
+
 10) <strong>Wireflow 10:</strong> Asistente virtual de skincare
 
 - User goal: 
