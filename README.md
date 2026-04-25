@@ -3041,16 +3041,129 @@ Utilizada en listas de pacientes o registros, facilitando la búsqueda rápida d
 <p align = "center">
 <img src="assets/img/organization-dermatologos.png" alt="dermatologos-system" width="500"/>
 
-
 ## 4.3. Landing Page UI Design
-
 ### 4.3.1. Landing Page Wireframe
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
 
+Esta sección incluye secciones internas donde se presenta y explica la propuesta
+visual y de interacción para las aplicaciones que constituyen la experiencia de
+usuario con los productos digitales.
+
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+#### 4.4.2.1. Mobile Applications Wireflow
+
+
+1) <strong>Wireflow 1:</strong> Registro básico
+- User goal: 
+<br> Como joven adulto, quiero registrarme en Bloomie.
+
+<br><strong>User Story asociada: </br></strong>
+US01 - Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
+
+<img src="assets/img/landing/wireflow-1-app.png" alt="wireflow app" width="550"/>
+
+
+2) <strong>Wireflow 2:</strong> Completar perfil básico de piel
+- User goal: 
+<br> Como joven adulto, quiero completar mi perfil básico de peil.
+
+<br><strong>User Story asociada: </br></strong>
+US02 - Como joven adulto, quiero completar un cuestionario inicial de hábitos y condiciones de piel en mi primer ingreso para que la aplicación configure diagnósticos y rutinas personalizadas.
+
+<img src="assets/img/landing/wireflow-2-app.png" alt="wireflow app" width="550"/>
+</br>
+
+3) <strong>Wireflow 3:</strong> Escaneo facial con cámara
+- User goal: 
+<br> Como joven adulto, quiero realizar un escaneo facial con cámara.
+
+<br><strong>User Story asociada: </br></strong>
+US03 - Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
+
+<img src="assets/img/landing/wireflow-3-app.png" alt="wireflow app" width="550"/>
+</br>
+4) <strong>Wireflow 4:</strong> Diagnóstico preliminar automático
+
+- User goal: 
+<br> Como joven adulto, quiero recibir un diagnóstico preliminar.
+
+<br><strong>User Story asociada: </br></strong>
+US04 - Como joven adulto, quiero recibir un reporte preliminar generado por la inteligencia artificial después del escaneo facial para conocer el estado de mi piel y entender qué tipo de cuidados necesito.
+
+<img src="assets/img/landing/wireflow-4-appl.png" alt="wireflow app" width="550"/>
+</br>
+
+5) <strong>Wireflow 5:</strong> Generar rutina personalizada con productos
+
+- User goal: 
+<br> Como joven adulto, quiero generar una rutina personalizada.
+
+<br><strong>User Story asociada: </br></strong>
+US05 - Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado.
+
+<img src="assets/img/landing/wireflow-5-app.png" alt="wireflow app" width="550"/>
+</br>
+
+6) <strong>Wireflow 6:</strong> Adaptar rutina mediante reemplazo de productos
+
+- User goal: 
+<br> Como joven adulto, quiero adaptar mi rutina mediante reemplazo de productos
+
+<br><strong>User Story asociada: </br></strong>
+US06 - Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad.
+
+<img src="assets/img/landing/wireflow-6-app.png" alt="wireflow app" width="550"/>
+</br>
+
+7) <strong>Wireflow 7:</strong> Recordatorios de rutina
+
+- User goal: 
+<br> Como joven adulto, quiero tener recordatorios de rutina.
+
+<br><strong>User Story asociada: </br></strong>
+US07 - Como joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia.
+
+<img src="assets/img/landing/wireflow-7-app.png" alt="wireflow app" width="550"/>
+</br>
+
+8) <strong>Wireflow 8:</strong> Explorar catálogo de productos con filtros
+
+- User goal: 
+<br> Como joven adulto, quiero explorar catálogo de productos con filtros.
+
+<br><strong>User Story asociada: </br></strong>
+US08 - Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+
+<img src="assets/img/landing/wireflow-8-app.png" alt="wireflow app" width="550"/>
+</br>
+
+9) <strong>Wireflow 9:</strong> Evaluar compatibilidad de productos
+
+- User goal: 
+<br> Como joven adulto, quiere evaluar compatibilidad de productos.
+
+<br><strong>User Story asociada: </br></strong>
+US09 - Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+
+<img src="assets/img/landing/wireflow-9-app.png" alt="wireflow app" width="550"/>
+</br>
+
+10) <strong>Wireflow 10:</strong> Asistente virtual de skincare
+
+- User goal: 
+<br> Como joven adulto, quiero un asistente virtual de skincare.
+
+<br><strong>User Story asociada: </br></strong>
+US10 - Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
+
+<img src="assets/img/landing/wireflow-10-app.png" alt="wireflow app" width="550"/>
+</br>
+
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
 
