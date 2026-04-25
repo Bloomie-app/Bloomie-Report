@@ -43,9 +43,46 @@ u202415551 - Ramirez Ruiz, Nickolas
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| | | | |
+<table>
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación</th>
+  </tr>
+
+  <tr>
+    <td><b>Primera Entrega (AV1)</b></td>
+    <td>12/04/2026</td>
+    <td>
+      Asmat Alminco, Martin Alejandro <br>
+      <br>
+      <p></p>
+      Contreras Torres, Arturo Valentino <br>
+      <br>
+      <p></p>
+      Gallardo Morales, Carla Alejandra <br>
+      <br>
+      <p></p>
+      Mechan Montenegro, Luciana Carolina <br>
+      <br>
+      <p></p>
+      Ramirez Ruiz, Nickolas <br>
+    </td>
+    <td>
+    Capítulo I: Introducción <br>
+    Capítulo II: Requirements Elicitation & Analysis <br>
+    Capítulo III: Requirements Specification <br>
+    Capítulo IV: Product Design <br>
+    Capítulo V: Product Implementation, Validation & Deployment (5.1. & 5.2. Sprint 1) <br>
+    Codificación Landing Page
+    </td>
+  </tr>
+
+
+</table>
+
+
 
 ---
 
