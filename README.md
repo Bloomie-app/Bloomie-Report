@@ -3480,6 +3480,7 @@ US16 - Como joven adulto, quiero visualizar métricas de mi progreso para entend
 <img src="assets/img/landing/wireflow-16-web.png" alt="wireflow app" width="550"/>
 </br>
 
+
 17) <strong>Wireflow 17:</strong> Seleccionar plan de suscripción
 
 - User goal: 
