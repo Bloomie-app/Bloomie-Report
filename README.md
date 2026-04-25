@@ -3653,21 +3653,120 @@ Subscription Context <br>
 
 ### 5.1.1. Software Development Environment Configuration
 ### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
-
-## 5.2. Landing Page, Services & Applications Implementation
-
-### 5.2.1. Sprint 1
-
-#### 5.2.1.1. Sprint Planning 1
-#### 5.2.1.2. Aspect Leaders and Collaborators
 #### 5.2.1.3. Sprint Backlog 1
+
+| User Story ID | Título | Task ID | Descripción de tarea | Estimación | Responsable | Estado |
+|---|---|---|---|---|---|---|
+| US34 | Comprender la propuesta de valor | T-01 | Diseñar e implementar sección Hero con headline, subheadline y CTA | 4h | Gallardo, Carla | Done |
+| US34 | Comprender la propuesta de valor | T-02 | Implementar sección de beneficios con íconos y textos descriptivos | 3h | Mechan, Luciana | Done |
+| US35 | Comprender el funcionamiento del servicio | T-03 | Implementar sección "Cómo funciona" con pasos ilustrados (registro, escaneo, rutina) | 4h | Contreras, Arturo | Done |
+| US35 | Comprender el funcionamiento del servicio | T-04 | Agregar animaciones o transiciones de desplazamiento en la sección | 2h | Ramirez, Nickolas | Done |
+| US36 | Explorar funcionalidades del producto | T-05 | Implementar sección de features con cards: análisis IA, rutinas, seguimiento, dermatólogos | 4h | Asmat, Martin | Done |
+| US36 | Explorar funcionalidades del producto | T-06 | Aplicar estilos responsivos a las cards de funcionalidades | 2h | Contreras, Arturo | Done |
+| US38 | Navegar entre secciones del sitio | T-07 | Implementar navbar fijo con scroll suave a cada sección y logo de Bloomie | 3h | Mechan, Luciana | Done |
+| US38 | Navegar entre secciones del sitio | T-08 | Implementar footer con links, redes sociales y copyright | 2h | Gallardo, Carla | Done |
+| US37 | Comparar planes de suscripción | T-09 | Diseñar e implementar sección de pricing con tabla comparativa de planes | 4h | Ramirez, Nickolas | Done |
+| US37 | Comparar planes de suscripción | T-10 | Agregar botón CTA por plan con enlace a registro/suscripción | 2h | Asmat, Martin | Done |
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint se desarrolló la estructura de la landing page de Bloomy orientada a dermatólogos, incluyendo secciones clave como propuesta de valor, descripción del producto, funcionalidades principales, modelo de suscripción y servicios modulares (white-label). Asimismo, se aplicó un sistema visual consistente alineado con la identidad de la marca, priorizando la claridad de la información y la conversión del usuario mediante llamados a la acción estratégicos.
+
+| Repository | Branch                         | Commit Message                                          | Commit Message Body                                                                                     |
+| ---------- | ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| BloomyApp  | feature/landing-dermatologists | feat: add landing hero section for dermatologists       | Includes main value proposition, CTA and visual identity aligned with dermatology users                 |
+| BloomyApp  | feature/landing-dermatologists | feat: implement "About the Product" section             | Describes Bloomy’s purpose, benefits and problem-solution fit for dermatologists                        |
+| BloomyApp  | feature/landing-dermatologists | feat: add features section for dermatology workflow     | Highlights core functionalities such as patient tracking, skincare analysis and digital recommendations |
+| BloomyApp  | feature/landing-dermatologists | feat: implement pricing section with subscription model | Defines monthly subscription tiers and value differentiation between plans                              |
+| BloomyApp  | feature/landing-dermatologists | feat: add modular services (white-label system) section | Presents customizable modules and                                                                       |
+
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+En esta sección se detallan los procesos realizados para el despliegue de la solución durante el Sprint 1.La prioridad principal del sprint fue poner en producción la versión inicial de la Landing Page, lo que permite modelar de forma más adecuada cómo nuestros segmentos objetivos esperan que se visualice de forma profesional.
+
+La landing page fue desarrollada en visual studio code con aplicación de javascript, CSS y HTML. Partimos de esta sintaxis por la gran variedad de apoyo que tienen como lenguajes debido a su robustez.
+
+<p align = "center">
+Desarrollo de la landing (Editor de código)
+
+
+ <img src="assets/img/landing-codigo.png" alt="codigo_landing" width="650"/>  
+
+
+Para el despliegue, se utilizó vercel, aprovechando su versatilidad como servicio gratuito para un despliegue seguro y rápido. El proceso consistió en los siguientes pasos estratégicos:
+
+Luego, para el seguimiento de trabajo de cada integrante, utilizamos Github repository como herramienta de repositorio en la nube para un correcto manejo de flujo en el trabajo. Para ello, cada usuario debió revisar conceptos sobre GitFlow.
+
+  <p align = "center">
+  Vista Principal de la landing page
+  <p align = "center">
+ <img src="assets/img/landing-deploy.png" alt="deploy" width="650"/>
+
+<p align = "center">
+Apartado de suscripciones del modelo de negocio definido
+<img src="assets/img/landing-pagos.png" alt="deploy-cod" width="650"/>
+
+Se puede acceder a nuestra lading page ya deployada a través del siguiente enlace: https://bloomie-landing-page.vercel.app/index.html
+
+
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint se definieron y documentaron los endpoints necesarios para la gestión del perfil de usuario dentro de la aplicación. Aunque los servicios aún no se encuentran desplegados en un entorno productivo, se ha desarrollado su especificación utilizando OpenAPI, permitiendo validar la estructura de las solicitudes y respuestas, así como su integración futura con el frontend.}
+
+
+| Endpoint       | Método | Acción            | Descripción               | URL documentación   |
+| -------------- | ------ | ----------------- | ------------------------- | ------------------- |
+| /profile       | GET    | Obtener perfil    | Retorna datos del usuario | localhost:3000/docs |
+| /profile       | PUT    | Actualizar perfil | Actualiza nombre y correo | localhost:3000/docs |
+| /profile/photo | PATCH  | Cambiar foto      | Actualiza avatar          | localhost:3000/docs |
+
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+<<<<<<< HEAD
+
+Conocimiento sobre vercel y como integrarlo: Se tuvo que indagar cómo utilizar vercel de forma adecuada para poder así agilizar procesos de front end.
+Activación del Servicio: Se importó el formato nativo de html de modo que el vercel lo traduzca y por tanto, lo pueda desplegar.
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+urante el Sprint 1, el equipo mantuvo un flujo de trabajo altamente colaborativo y organizado, aplicando estrictamente la estrategia de control de versiones GitFlow. Para asegurar la calidad y revisión por pares, todo el desarrollo de la arquitectura, investigación de UX/UI y codificación de la Landing Page se trabajó en ramas independientes (feature branches). La integración del trabajo se realizó exclusivamente mediante Pull Requests hacia la rama develop, lo que fomentó la comunicación y revisión conjunta antes de consolidar los avances.
+
+A continuación, se presentan los analíticos extraídos de GitHub (Insights) que evidencian la participación equitativa y constante de todos los miembros del equipo (Aspect Leaders y Collaborators) tanto en el repositorio principal de documentación como en el de la Landing Page.
+
+
+<img src="assets/img/landing-codigo.png" alt="codigo_landing" width="650"/>  
+
+=======
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo mantuvo un flujo de trabajo altamente colaborativo y organizado, aplicando estrictamente la estrategia de control de versiones GitFlow. Para asegurar la calidad y revisión por pares, todo el desarrollo de la arquitectura, investigación de UX/UI y codificación de la Landing Page se trabajó en ramas independientes (feature branches). La integración del trabajo se realizó exclusivamente mediante Pull Requests hacia la rama develop, lo que fomentó la comunicación y revisión conjunta antes de consolidar los avances.
+
+A continuación, se presentan los analíticos extraídos de GitHub (Insights) que evidencian la participación equitativa y constante de todos los miembros del equipo (Aspect Leaders y Collaborators) tanto en el repositorio principal de documentación como en el de la Landing Page.
+
+##### Resumen de actividad del Sprint
+
+<img src="assets/img/resumen.png" alt="resumen" width="400"/>
+>>>>>>> 1c768dbb6df985a85f14605b877e7b84d3c909ab
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo mantuvo un flujo de trabajo altamente colaborativo y organizado, aplicando estrictamente la estrategia de control de versiones GitFlow. Para asegurar la calidad y revisión por pares, todo el desarrollo de la arquitectura, investigación de UX/UI y codificación de la Landing Page se trabajó en ramas independientes (feature branches). La integración del trabajo se realizó exclusivamente mediante Pull Requests hacia la rama develop, lo que fomentó la comunicación y revisión conjunta antes de consolidar los avances.
+
+A continuación, se presentan los analíticos extraídos de GitHub (Insights) que evidencian la participación equitativa y constante de todos los miembros del equipo (Aspect Leaders y Collaborators) tanto en el repositorio principal de documentación como en el de la Landing Page.
+
+##### Resumen de actividad del Sprint
+
+<img src="assets/img/resumen.png" alt="resumen" width="400"/>
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
