@@ -3650,9 +3650,142 @@ Subscription Context <br>
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
-
 ### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas y tecnologías utilizadas por el equipo para el desarrollo colaborativo del producto digital, abarcando actividades de gestión de proyecto, diseño UX/UI, desarrollo de software, pruebas, documentación y despliegue. Estas herramientas permiten asegurar consistencia, trazabilidad y eficiencia durante todo el ciclo de vida del proyecto.
+
+A continuación, se presenta la configuración del entorno de desarrollo de Bloomie:
+
+| **Herramienta / Tecnología** | **Propósito en el Proyecto**                                                             | **Tipo**       | **Ruta de Acceso / Descarga**                                  |
+| ---------------------------- | ---------------------------------------------------------------------------------------- | -------------- | -------------------------------------------------------------- |
+| GitHub                       | Control de versiones, gestión de repositorios y colaboración mediante commits y branches | SaaS           | [https://github.com](https://github.com)                       |
+| Trello                       | Gestión de tareas y seguimiento del Sprint Backlog mediante tableros Kanban              | SaaS           | [https://trello.com](https://trello.com)                       |
+| Figma                        | Diseño de interfaces UI (wireframes, mockups y prototipos)                               | SaaS           | [https://figma.com](https://figma.com)                         |
+| UXPressia                    | Elaboración de artefactos UX como User Personas, Journey Maps y Empathy Maps             | SaaS           | [https://uxpressia.com](https://uxpressia.com)                 |
+| Postman                      | Pruebas de endpoints RESTful y validación de servicios backend                           | Desktop / SaaS | [https://www.postman.com](https://www.postman.com)             |
+| Visual Studio Code           | Entorno de desarrollo para frontend y backend                                            | Desktop        | [https://code.visualstudio.com](https://code.visualstudio.com) |
+| Angular Framework            | Desarrollo de aplicaciones web frontend bajo arquitectura SPA                            | Framework      | [https://angular.io](https://angular.io)                       |
+| HTML5, CSS3, JavaScript      | Tecnologías base para estructura, estilos e interacción en frontend                      | Lenguajes      | [https://developer.mozilla.org](https://developer.mozilla.org) |
+| MySQL                        | Sistema de gestión de base de datos relacional para persistencia de datos                | DBMS           | [https://www.mysql.com](https://www.mysql.com)                 |
+| Vercel                       | Plataforma de despliegue para aplicaciones frontend (Landing Page y Web App)             | SaaS (Cloud)   | [https://vercel.com](https://vercel.com)                       |
+| Markdown (GitHub README) | Documentación técnica del proyecto y del informe en formato Markdown | SaaS | [https://www.markdownguide.org](https://www.markdownguide.org) |
+
+El equipo adopta un enfoque basado en herramientas open-source y plataformas SaaS, permitiendo el trabajo colaborativo en tiempo real y el acceso remoto a los recursos del proyecto. GitHub actúa como eje central para la gestión del código fuente, integrándose con Vercel para automatizar el despliegue continuo del frontend. 
+
+Por otro lado, herramientas como Figma y UXPressia facilitan la construcción de artefactos de diseño centrados en el usuario, mientras que Trello permite organizar el trabajo en Sprints siguiendo principios ágiles. Postman se utiliza para validar la comunicación con los servicios RESTful, asegurando el correcto funcionamiento de los endpoints desarrollados.
+
+Esta configuración permite mantener una alineación entre diseño, desarrollo, pruebas y despliegue, asegurando una entrega continua de valor en cada iteración del proyecto Bloomie.
+
 ### 5.1.2. Source Code Management
+
+En esta sección se describen las estrategias, herramientas y convenciones utilizadas por el equipo para la gestión del código de Bloomie, asegurando trazabilidad, control de versiones y colaboración efectiva durante el desarrollo del producto digital.
+
+**Repositorios del Proyecto** <br>
+El equipo utiliza GitHub como plataforma principal para el control de versiones, manteniendo repositorios independientes para cada componente de la solución:
+
+- Report:
+  https://github.com/Bloomie-app/Bloomie-Report
+- Landing Page:
+  https://github.com/Bloomie-app/Bloomie-Landing-Page
+- Frontend Web Application:
+  https://github.com/Bloomie-app/Bloomie-Frontend
+- Backend Web Services (RESTful API):
+  https://github.com/Bloomie-app/Bloomie-Backend
+
+Estos repositorios permiten gestionar de manera modular los distintos productos del sistema, facilitando el trabajo paralelo y la integración continua.
+
+**Estrategia de Control de Versiones (GitFlow)**
+
+El equipo adopta una estrategia basada en los principios de GitFlow, adaptada a la organización del proyecto académico. Esta estrategia permite mantener estabilidad en la rama principal y facilitar el desarrollo incremental de funcionalidades.
+
+Se utilizan las siguientes ramas:
+
+- **main:** <br>
+  Contiene la versión estable y desplegable del producto.
+- **develop:** <br>
+  Rama de integración donde se consolidan los avances de desarrollo antes de ser promovidos a producción.
+- **feature branches:** <br>
+  Se utilizan para el desarrollo de funcionalidades o entregables específicos. En este proyecto, las ramas feature están organizadas por capítulos del informe:
+    - feature/chapter-01
+    - feature/chapter-02
+    - feature/chapter-03
+    - feature/chapter-04
+    - feature/chapter-05
+
+Cada rama feature se desarrolla de forma independiente y posteriormente se integra en la rama develop.
+
+**Convenciones de Nombres de Ramas**
+
+Se establece las siguientes convenciones:
+
+- **feature/*:** para desarrollo de funcionalidades o secciones específicas <br>
+  Ejemplo: feature/chapter-03
+- **release/*:** para preparación de versiones estables <br>
+  Ejemplo: release/v1.0.0
+- **hotfix/*:** para correcciones urgentes en producción <br>
+  Ejemplo: hotfix/fix-login-error
+
+Estas convenciones permiten identificar rápidamente el propósito de cada rama y mantener una estructura organizada del repositorio.
+
+**Conventional Commits**
+
+Para los mensajes de commit, el equipo adopta el estándar Conventional Commits, lo cual permite mantener consistencia y facilitar la comprensión del historial de cambios.
+
+Se utilizan los siguientes prefijos:
+
+- **feat:** nueva funcionalidad
+- **fix:** corrección de errores
+- **docs:** cambios en documentación
+- **style:** cambios de formato (no funcionales)
+- **refactor:** mejoras internas sin cambio de funcionalidad
+- **test:** adición o modificación de pruebas
+
+**Semantic Versioning**
+
+El equipo aplica Semantic Versioning 2.0.0 para el versionado de releases, utilizando el formato:
+
+_MAJOR.MINOR.PATCH_ <br>
+
+- **MAJOR:** cambios incompatibles con versiones anteriores
+- **MINOR:** nuevas funcionalidades compatibles
+- **PATCH:** correcciones de errores
+
+Ejemplo: <br>
+  v1.0.0 : primera versión estable del producto
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Software Deployment Configuration
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+#### 5.2.1.1. Sprint Planning 1
+| Campo | Detalle                                                                                                                                                                                                                                                                                                               |
+|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #** | Sprint 1                                                                                                                                                                                                                                                                                                              |
+| **Sprint Planning Date** | 13 de abril de 2026                                                                                                                                                                                                                                                                                                   |
+| **Time** | 10:00 a.m. – 12:00 p.m.                                                                                                                                                                                                                                                                                               |
+| **Location** | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                           |
+| **Prepared By** | Ramirez Ruiz, Nickolas                                                                                                                                                                                                                                                                                                |
+| **Attendees** | Asmat Alminco, Martin Alejandro · Contreras Torres, Arturo Valentino · Gallardo Morales, Carla Alejandra · Mechan Montenegro, Luciana Carolina · Ramirez Ruiz, Nickolas                                                                                                                                               |
+| **Sprint 1 – 0 Review Summary** | No aplica. Este es el primer sprint del proyecto. No existen reviews previas.                                                                                                                                                                                                                                         |
+| **Sprint 1 – 0 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto. No existen retrospectivas previas.                                                                                                                                                                                                                                  |
+| **Sprint 1 Goal** | Implementar y desplegar la Landing Page de Bloomie con todas las secciones informativas clave: propuesta de valor, funcionamiento del servicio, funcionalidades, planes de suscripción y navegación entre secciones. El objetivo es que cualquier visitante pueda comprender el producto y evaluar si desea suscribirse. |
+| **Sprint 1 Velocity** | 14 story points                                                                                                                                                                                                                                                                                                       |
+| **Sum of Story Points** | 14 story points                                                                                                                                                                                                                                                                                                       |
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+| Aspecto / Sección | User Story | Líder | Colaborador |
+|---|---|---|---|
+| Propuesta de valor | US34 | Gallardo Morales, Carla | Mechan Montenegro, Luciana |
+| Funcionamiento del servicio | US35 | Contreras Torres, Arturo | Ramirez Ruiz, Nickolas |
+| Funcionalidades del producto | US36 | Asmat Alminco, Martin | Contreras Torres, Arturo |
+| Navegación entre secciones | US38 | Mechan Montenegro, Luciana | Gallardo Morales, Carla |
+| Comparar planes de suscripción | US37 | Ramirez Ruiz, Nickolas | Asmat Alminco, Martin |
+
+---
 #### 5.2.1.3. Sprint Backlog 1
 
 | User Story ID | Título | Task ID | Descripción de tarea | Estimación | Responsable | Estado |
@@ -3670,6 +3803,20 @@ Subscription Context <br>
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint se desarrolló la estructura de la landing page de Bloomy orientada a dermatólogos, incluyendo secciones clave como propuesta de valor, descripción del producto, funcionalidades principales, modelo de suscripción y servicios modulares (white-label). Asimismo, se aplicó un sistema visual consistente alineado con la identidad de la marca, priorizando la claridad de la información y la conversión del usuario mediante llamados a la acción estratégicos.
+
+| Repository | Branch                         | Commit Message                                          | Commit Message Body                                                                                     |
+| ---------- | ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| BloomyApp  | feature/landing-dermatologists | feat: add landing hero section for dermatologists       | Includes main value proposition, CTA and visual identity aligned with dermatology users                 |
+| BloomyApp  | feature/landing-dermatologists | feat: implement "About the Product" section             | Describes Bloomy’s purpose, benefits and problem-solution fit for dermatologists                        |
+| BloomyApp  | feature/landing-dermatologists | feat: add features section for dermatology workflow     | Highlights core functionalities such as patient tracking, skincare analysis and digital recommendations |
+| BloomyApp  | feature/landing-dermatologists | feat: implement pricing section with subscription model | Defines monthly subscription tiers and value differentiation between plans                              |
+| BloomyApp  | feature/landing-dermatologists | feat: add modular services (white-label system) section | Presents customizable modules and                                                                       |
+
+
+
+
 
 Durante el Sprint se desarrolló la estructura de la landing page de Bloomy orientada a dermatólogos, incluyendo secciones clave como propuesta de valor, descripción del producto, funcionalidades principales, modelo de suscripción y servicios modulares (white-label). Asimismo, se aplicó un sistema visual consistente alineado con la identidad de la marca, priorizando la claridad de la información y la conversión del usuario mediante llamados a la acción estratégicos.
 
@@ -3715,7 +3862,7 @@ Se puede acceder a nuestra lading page ya deployada a través del siguiente enla
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En este Sprint se definieron y documentaron los endpoints necesarios para la gestión del perfil de usuario dentro de la aplicación. Aunque los servicios aún no se encuentran desplegados en un entorno productivo, se ha desarrollado su especificación utilizando OpenAPI, permitiendo validar la estructura de las solicitudes y respuestas, así como su integración futura con el frontend.}
+En este Sprint se definieron y documentaron los endpoints necesarios para la gestión del perfil de usuario dentro de la aplicación. Aunque los servicios aún no se encuentran desplegados en un entorno productivo, se ha desarrollado su especificación utilizando OpenAPI, permitiendo validar la estructura de las solicitudes y respuestas, así como su integración futura con el frontend.
 
 
 | Endpoint       | Método | Acción            | Descripción               | URL documentación   |
@@ -3726,7 +3873,6 @@ En este Sprint se definieron y documentaron los endpoints necesarios para la ges
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-<<<<<<< HEAD
 
 Conocimiento sobre vercel y como integrarlo: Se tuvo que indagar cómo utilizar vercel de forma adecuada para poder así agilizar procesos de front end.
 Activación del Servicio: Se importó el formato nativo de html de modo que el vercel lo traduzca y por tanto, lo pueda desplegar.
@@ -3741,7 +3887,6 @@ A continuación, se presentan los analíticos extraídos de GitHub (Insights) qu
 
 <img src="assets/img/landing-codigo.png" alt="codigo_landing" width="650"/>  
 
-=======
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 1, el equipo mantuvo un flujo de trabajo altamente colaborativo y organizado, aplicando estrictamente la estrategia de control de versiones GitFlow. Para asegurar la calidad y revisión por pares, todo el desarrollo de la arquitectura, investigación de UX/UI y codificación de la Landing Page se trabajó en ramas independientes (feature branches). La integración del trabajo se realizó exclusivamente mediante Pull Requests hacia la rama develop, lo que fomentó la comunicación y revisión conjunta antes de consolidar los avances.
@@ -3751,9 +3896,19 @@ A continuación, se presentan los analíticos extraídos de GitHub (Insights) qu
 ##### Resumen de actividad del Sprint
 
 <img src="assets/img/resumen.png" alt="resumen" width="400"/>
->>>>>>> 1c768dbb6df985a85f14605b877e7b84d3c909ab
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint se definieron y documentaron los endpoints necesarios para la gestión del perfil de usuario dentro de la aplicación. Aunque los servicios aún no se encuentran desplegados en un entorno productivo, se ha desarrollado su especificación utilizando OpenAPI, permitiendo validar la estructura de las solicitudes y respuestas, así como su integración futura con el frontend.}
+
+
+| Endpoint       | Método | Acción            | Descripción               | URL documentación   |
+| -------------- | ------ | ----------------- | ------------------------- | ------------------- |
+| /profile       | GET    | Obtener perfil    | Retorna datos del usuario | localhost:3000/docs |
+| /profile       | PUT    | Actualizar perfil | Actualiza nombre y correo | localhost:3000/docs |
+| /profile/photo | PATCH  | Cambiar foto      | Actualiza avatar          | localhost:3000/docs |
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 
@@ -3768,27 +3923,3 @@ A continuación, se presentan los analíticos extraídos de GitHub (Insights) qu
 <img src="assets/img/resumen.png" alt="resumen" width="400"/>
 
 
-# Conclusiones
-## Conclusiones y recomendaciones
-## Video About-the-Team
-
-# Bibliografía
-
-- Cámara de Comercio de Lima. (2024). Sector cosméticos e higiene personal facturaría más de S/ 9 000 millones en 2024. COPECOH–CCL. https://lacamara.pe/sector-cosmeticos-e-higiene-personal-facturaria-mas-de-s-9-000-millones-en-2024/
-
-- Carrasco Freitas, M. (2025, septiembre 10). EsSalud admite demoras de hasta 155 días en atenciones, pero destaca que superó el millón de citas este 2025. Infobae. https://www.infobae.com/peru/2025/09/11/essalud-admite-demoras-de-hasta-155-dias-en-atenciones-pero-destaca-que-supero-el-millon-de-citas-este-2025/
-
-- Instituto de Economía y Desarrollo Empresarial – Cámara de Comercio de Lima, & ICEX España. (2024). El mercado de cosmética e higiene personal en Perú 2024: Resumen ejecutivo. ICEX. https://www.icex.es/content/dam/icex/centros/peru/documentos/2024/estudio-mercado-mercado-cosmetica-higiene-personal-peru-2024.pdf
-
-- Instituto Nacional de Estadística e Informática. (2023). Se incrementa búsqueda de atención en salud de mujeres y hombres. https://m.inei.gob.pe/prensa/noticias/se-incrementa-busqueda-de-atencion-en-salud-de-mujeres-y-hombres-14549/
-
-- Instituto Nacional de Estadística e Informática. (2024). Aumentó la población usuaria de Internet en todos los grupos de edad en el primer trimestre de 2024. https://m.inei.gob.pe/prensa/noticias/aumento-la-poblacion-usuaria-de-internet-en-todos-los-grupos-de-edad-en-el-primer-trimestre-de-2024-15248/
-
-- Instituto Nacional de Estadística e Informática. (2025, marzo 20). Más del 90,0 % de la población del país cuenta con algún seguro de salud. Gobierno del Perú. https://www.gob.pe/institucion/inei/noticias/1129447-mas-del-90-0-de-la-poblacion-del-pais-cuenta-con-algun-seguro-de-salud
-
-- Instituto Nacional de Estadística e Informática. (2025, junio 23). 38,1% de la población con algún problema de salud acudió a un establecimiento en busca de atención. Gobierno del Perú. https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion
-
-- Ministerio de Trabajo y Promoción del Empleo. (2024). Informe trimestral del mercado laboral: Situación del empleo, primer trimestre 2024. https://cdn.www.gob.pe/uploads/document/file/6653196/5783668-ite-2024-t1.pdf
-
-- Statista. (2023). Frecuencia de utilización de las redes sociales en Perú en 2023. https://es.statista.com/estadisticas/1412986/uso-de-redes-sociales-por-frecuencia-en-peru/
-# Anexos
