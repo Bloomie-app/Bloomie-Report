@@ -1296,77 +1296,86 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>US01</strong></td>
-    <td>Registro básico</td>
+    <td><strong>E1</strong></td>
+    <td>Onboarding de usuario</td>
     <td>
-      Como joven adulto, quiero registrarme con mis datos personales 
-      para crear una cuenta y acceder a Bloomie.
+      Como joven adulto, quiero completar el proceso de registro e inicio para acceder a Bloomie.
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US01</strong></td>
+    <td>Registro de cuenta</td>
+    <td>
+      Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
     </td>
     <td>
       <strong>Escenario 1: Registro exitoso</strong><br>
-      Dado que el usuario proporciona datos válidos
+      Dado que el usuario proporciona nombre, apellido, email y contraseña válidos
       Cuando confirma el registro
-      Entonces el sistema valida la información
-      Y crea la cuenta correctamente
+      Entonces el sistema crea la cuenta
+      Y redirige al cuestionario inicial de piel
       <p></p>
       <strong>Escenario 2: Datos inválidos</strong><br>
-      Dado que el usuario ingresa datos inválidos o incompletos
+      Dado que el usuario ingresa datos incompletos o con formato incorrecto
       Cuando intenta registrarse
       Entonces el sistema rechaza la solicitud
-      Y muestra mensajes de error
+      Y muestra el mensaje de error correspondiente
     </td>
     <td>E1(Onboarding de usuario)</td>
   </tr>
 
   <tr>
     <td><strong>US02</strong></td>
-    <td>Completar perfil básico de piel</td>
+    <td>Completar perfil de piel</td>
     <td>
-      Como joven adulto, quiero completar un cuestionario inicial de 
-      hábitos y condiciones de piel en mi primer ingreso para que la 
-      aplicación configure diagnósticos y rutinas personalizadas. 
+      Como joven adulto, quiero completar un cuestionario inicial sobre mis condiciones de piel en mi primer ingreso para que la aplicación configure mi perfil correctamente.
     </td>
     <td>
-      <strong>Escenario 1: Registro exitoso</strong><br>
-      Dado que el usuario accede por primera vez a la aplicación
+      <strong>Escenario 1: Cuestionario presentado</strong><br>
+      Dado que el usuario accede por primera vez tras registrarse
       Cuando el sistema valida su autenticación
-      Entonces solicita completar información inicial sobre hábitos y condiciones de piel
+      Entonces solicita completar el cuestionario de tipo de piel y sensibilidad
       <p></p>
-      <strong>Escenario 2: Registro exitoso de información</strong><br>
-      Dado que el usuario proporciona información completa sobre sus hábitos y condiciones de piel
+      <strong>Escenario 2: Perfil completado exitosamente</strong><br>
+      Dado que el usuario proporciona su tipo de piel y nivel de sensibilidad
       Cuando confirma el envío
-      Entonces el sistema guarda la información correctamente
-      Y permite continuar con el proceso de análisis
-      <p></p>
-      <strong>Escenario 3: Información incompleta</strong><br>
-      Dado que el usuario no proporciona información obligatoria sobre sus hábitos o condiciones de piel
-      Cuando intenta continuar
-      Entonces el sistema impide el avance
-      Y solicita completar los datos requeridos     
+      Entonces el sistema guarda el perfil
+      Y redirige al proceso de escaneo facial
     </td>
     <td>E1(Onboarding de usuario)</td>
   </tr>
 
   <tr>
-    <td><strong>US03</strong></td>
-    <td>Escaneo facial con cámara</td>
+    <td><strong>E2</strong></td>
+    <td>Análisis de piel</td>
     <td>
-      Como joven adulto, quiero realizar un escaneo facial moviendo mi 
-      cabeza frente a la cámara para que la aplicación capture imágenes 
-      desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel. 
+      Como joven adulto, quiero analizar mi piel mediante escaneo facial para obtener un diagnóstico personalizado.
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US03</strong></td>
+    <td>Escaneo facial</td>
+    <td>
+      Como joven adulto, quiero realizar un escaneo facial con la cámara para que la aplicación capture mi piel y obtenga un diagnóstico preciso.
     </td>
     <td>
       <strong>Escenario 1: Escaneo completado</strong><br>
       Dado que el usuario inicia el proceso de escaneo facial
-      Cuando el sistema captura correctamente las imágenes necesarias     
-      Entonces el sistema completa el escaneo
-      Y continúa con el análisis de la piel
+      Cuando el sistema captura correctamente la imagen
+      Entonces completa el escaneo
+      Y continúa con el procesamiento del análisis
       <p></p>
-      <strong>Escenario 2: Escaneo incompleto</strong><br>
+      <strong>Escenario 2: Escaneo fallido</strong><br>
       Dado que el usuario inicia el proceso de escaneo facial
-      Cuando el proceso no se completa correctamente
-      Entonces el sistema indica que el escaneo no fue completado
-      Y permite reintentar el proceso    
+      Cuando la captura no se completa correctamente
+      Entonces el sistema indica que el escaneo no fue exitoso
+      Y permite reintentar
     </td>
     <td>E2(Análisis de piel)</td>
   </tr>
@@ -1375,256 +1384,187 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td><strong>US04</strong></td>
     <td>Diagnóstico preliminar automático</td>
     <td>
-      Como joven adulto, quiero recibir un reporte preliminar generado por 
-      la inteligencia artificial después del escaneo facial para conocer el 
-      estado de mi piel y entender qué tipo de cuidados necesito. 
+      Como joven adulto, quiero recibir un diagnóstico generado por IA después del escaneo para conocer el estado de mi piel y los cuidados que necesito.
     </td>
     <td>
-      <strong>Escenario 1: Diagnóstico procesado correctamente</strong><br>
-      Dado que el usuario completó el escaneo
-      Cuando el sistema procesa las imágenes mediante servicios de IA
-      Entonces identifica condiciones de la piel
-      Y genera un reporte preliminar
+      <strong>Escenario 1: Diagnóstico generado correctamente</strong><br>
+      Dado que el usuario completó el escaneo facial
+      Cuando el sistema procesa la imagen mediante IA
+      Entonces genera un diagnóstico con scores de hidratación, textura, sensibilidad y brillo
+      Y muestra el reporte al usuario
       <p></p>
-      <strong>Escenario 2: Error de procesamiento interno o conexión</strong><br>
-      Dado que ocurre un error en el procesamiento
-      Cuando el sistema no puede analizar las imágenes
+      <strong>Escenario 2: Error de procesamiento</strong><br>
+      Dado que ocurre un error al procesar la imagen
+      Cuando el sistema no puede completar el análisis
       Entonces informa al usuario
-      Y permite reintentar
+      Y permite reintentar el escaneo
     </td>
     <td>E2(Análisis de piel)</td>
   </tr>
 
-<tr>
-    <td><strong>US05</strong></td>
-    <td>Generar rutina personalizada con productos</td>
-    <td>
-      Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado. 
-    </td>
-    <td>
-      <strong>Escenario 1: Generación de rutina con productos</strong><br>
-      Dado que el usuario cuenta con un diagnóstico de piel
-      Cuando accede a su rutina
-      Entonces el sistema genera una rutina personalizada
-      Y asigna productos específicos para cada paso
-      <p></p>
-      <strong>Escenario 2: Rutina adaptada al contexto del usuario</strong><br>
-      Dado que el usuario cuenta con información de preferencias o presupuesto
-      Cuando el sistema genera la rutina
-      Entonces selecciona productos acordes a sus condiciones
-      <p></p>
-      <strong>Escenario 3: Error en la generación de la rutina</strong><br>
-      Dado que el usuario cuenta con un diagnóstico registrado
-      Cuando ocurre un error en la generación de la rutina
-      Entonces el sistema informa la situación
-      Y permite reintentar el proceso
-    </td>
-    <td>E3(Gestión de rutina personalizada)</td>
-  </tr>
-
-
   <tr>
-    <td><strong>US06</strong></td>
-    <td>Adaptar rutina mediante reemplazo de productos</td>
+    <td><strong>E4</strong></td>
+    <td>Descubrimiento de productos</td>
     <td>
-      Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad. 
+      Como joven adulto, quiero explorar productos de skincare para tomar decisiones informadas según mi tipo de piel.
     </td>
-    <td>
-      <strong>Escenario 1: Solicitar reemplazo de producto</strong><br>
-      Dado que el usuario tiene una rutina activa
-      Cuando selecciona la opción de reemplazar un producto
-      Entonces el sistema muestra alternativas compatibles con la rutina
-      <p></p>
-      <strong>Escenario 2: Evaluación de compatibilidad del reemplazo</strong><br>
-      Dado que el usuario selecciona un producto alternativo
-      Cuando el sistema analiza su compatibilidad con la rutina actual
-      Entonces determina si el producto es adecuado
-      Y presenta el nivel de compatibilidad
-      <p></p>
-      <strong>Escenario 3: Confirmación de reemplazo</strong><br>
-      Dado que el usuario selecciona un producto compatible
-      Cuando confirma el cambio
-      Entonces el sistema actualiza la rutina
-      Y reemplaza el producto anterior
-      <p></p>
-      <strong>Escenario 4: Eliminación de producto de la rutina</strong><br>
-      Dado que el usuario tiene una rutina activa
-      Cuando decide eliminar un producto
-      Entonces el sistema actualiza la rutina
-      Y elimina el paso correspondiente
-    </td>
-    <td>E3(Gestión de rutina personalizada)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US07</strong></td>
-    <td>Recordatorios de rutina</td>
-    <td>
-      Como joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia. 
-    </td>
-    <td>
-      <strong>Escenario 1: Envío de recordatorio</strong><br>
-      Dado que el usuario tiene una rutina activa
-      Y ha definido horarios de uso
-      Cuando llega el momento programado
-      Entonces el sistema envía un recordatorio
-      Y permite acceder a la rutina
-      <p></p>
-      <strong>Escenario 2: Recordatorios desactivados</strong><br>
-      Dado que el usuario tiene una rutina activa
-      Cuando desactiva los recordatorios
-      Entonces el sistema deja de enviar notificaciones
-    </td>
-    <td>E3(Gestión de rutina personalizada)</td>
+    <td></td>
+    <td></td>
   </tr>
 
   <tr>
     <td><strong>US08</strong></td>
-    <td>Explorar catálogo de productos con filtros </td>
+    <td>Explorar catálogo de productos</td>
     <td>
-      Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+      Como joven adulto, quiero explorar el catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
     </td>
     <td>
-      <strong>Escenario 1: Visualización del catálogo</strong><br>
+      <strong>Escenario 1: Catálogo cargado</strong><br>
       Dado que el usuario accede al catálogo de productos
       Cuando el sistema carga la información
-      Entonces muestra una lista de productos disponibles
+      Entonces muestra la lista de productos con su categoría y score de compatibilidad
       <p></p>
-      <strong>Escenario 2: Aplicación de filtros</strong><br>
-      Dado que el usuario se encuentra en el catálogo
-      Cuando aplica criterios de filtrado
-      Entonces el sistema muestra productos que cumplen con dichos criterios
+      <strong>Escenario 2: Filtro aplicado con resultados</strong><br>
+      Dado que el usuario aplica un filtro por categoría
+      Cuando existen productos que cumplen el criterio
+      Entonces el sistema muestra únicamente los productos filtrados
       <p></p>
-      <strong>Escenario 3: Búsqueda de productos</strong><br>
-      Dado que el usuario se encuentra en el catálogo
-      Cuando realiza una búsqueda por texto
-      Entonces el sistema muestra productos relacionados con la consulta
+      <strong>Escenario 3: Filtro sin resultados</strong><br>
+      Dado que el usuario aplica un filtro por categoría
+      Cuando no existen productos que cumplan el criterio
+      Entonces el sistema informa que no hay productos disponibles para ese filtro
     </td>
     <td>E4(Descubrimiento de productos)</td>
   </tr>
 
   <tr>
-    <td><strong>US09</strong></td>
-    <td>Evaluar compatibilidad de productos</td>
+    <td><strong>E5</strong></td>
+    <td>Seguimiento y progreso del usuario</td>
     <td>
-      Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
+      Como joven adulto, quiero visualizar mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
     </td>
-    <td>
-      <strong>Escenario 1: Visualización de productos</strong><br>
-      Dado que el usuario se encuentra en el catálogo de productos
-      Cuando accede al detalle de un producto
-      Entonces el sistema muestra el nivel de compatibilidad
-      Y presenta beneficios relevantes del producto
-      <p></p>
-      <strong>Escenario 2: Producto con baja compatibilidad</strong><br>
-      Dado que el usuario se encuentra en el catálogo de productos
-      Cuando accede al detalle de un producto no adecuado
-      Entonces el sistema indica un bajo nivel de compatibilidad
-      Y explica las razones asociadas
-    </td>
-    <td>E4(Descubrimiento de productos)</td>
-  </tr>
-
-   <tr>
-    <td><strong>US10</strong></td>
-    <td>Asistente virtual de skincare</td>
-    <td>
-      Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
-    </td>
-    <td>
-      <strong>Escenario 1: Consulta respondida</strong><br>
-      Dado que el usuario realiza una consulta
-      Cuando el sistema procesa la solicitud
-      Entonces genera una respuesta basada en información disponible
-      Y proporciona orientación relevante
-      <p></p>
-      <strong>Escenario 2: Consulta no resuelta</strong><br>
-      Dado que el usuario realiza una consulta
-      Cuando el sistema no cuenta con información suficiente
-      Entonces informa la limitación
-      Y sugiere alternativas como consultar a un especialista
-    </td>
-    <td>E6(oporte inteligente)</td>
+    <td></td>
+    <td></td>
   </tr>
 
   <tr>
     <td><strong>US11</strong></td>
-    <td>Explorar mapa de tiendas y productos</td>
+    <td>Visualizar métricas de progreso</td>
     <td>
-      Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+      Como joven adulto, quiero visualizar métricas de mi constancia y evolución en el cuidado de mi piel para entender mi progreso.
     </td>
     <td>
-      <strong>Escenario 1: Búsqueda de producto en el mapa</strong><br>
-      Dado que el usuario se encuentra en el mapa
-      Cuando realiza una búsqueda de un producto
-      Entonces el sistema muestra tiendas donde está disponible
-      Y presenta información relevante como disponibilidad y precio
+      <strong>Escenario 1: Métricas disponibles</strong><br>
+      Dado que el usuario accede a la sección de progreso
+      Cuando el sistema procesa los datos registrados
+      Entonces muestra la racha de días consecutivos, tasa de adherencia, días completados en la semana y el gráfico de skin health score a lo largo del tiempo
       <p></p>
-      <strong>Escenario 2: Aplicación de filtros</strong><br>
-      Dado que el usuario se encuentra en el mapa
-      Cuando aplica criterios de filtrado
-      Entonces el sistema muestra tiendas que cumplen con dichos criterios
-      <p></p>
-      <strong>Escenario 3: Guardar tienda</strong><br>
-      Dado que el usuario visualiza una tienda
-      Cuando decide guardarla
-      Entonces el sistema almacena la tienda como favorita
-      Y permite acceder a ella posteriormente
+      <strong>Escenario 2: Sin datos suficientes</strong><br>
+      Dado que el usuario accede a la sección de progreso
+      Cuando no existen registros de cumplimiento ni escaneos previos
+      Entonces el sistema informa que no hay datos suficientes
+      Y sugiere completar la rutina diaria o realizar un escaneo facial
     </td>
-    <td>E4(Descubrimiento de productos)</td>
+    <td>E5(Seguimiento y progreso del usuario)</td>
   </tr>
 
   <tr>
     <td><strong>US12</strong></td>
-    <td>Listar dermatólogos para agendar</td>
+    <td>Consultar historial de escaneos faciales</td>
     <td>
-      Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+      Como joven adulto, quiero consultar mis escaneos faciales anteriores dentro de la sección Skin Scan para revisar mi evolución y los resultados de cada análisis.
     </td>
     <td>
-      <strong>Escenario 1: Lista de dermatólogos disponible</strong><br>
+      <strong>Escenario 1: Historial disponible</strong><br>
+      Dado que el usuario accede a la sección de escaneos pasados dentro de Skin Scan
+      Cuando el sistema carga su historial
+      Entonces muestra la lista de escaneos ordenados por fecha con score general, tipo de piel y scores de hidratación, textura y brillo de cada uno
+      <p></p>
+      <strong>Escenario 2: Sin escaneos registrados</strong><br>
+      Dado que el usuario accede a la sección de escaneos pasados
+      Cuando no existen análisis previos registrados
+      Entonces el sistema informa que no hay escaneos disponibles
+      Y sugiere realizar el primer escaneo facial
+    </td>
+    <td>E2(Análisis de piel)</td>
+  </tr>
+
+  <tr>
+    <td><strong>E6</strong></td>
+    <td>Soporte inteligente</td>
+    <td>
+      Como joven adulto, quiero consultar dudas sobre mi piel para recibir orientación personalizada.
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US13</strong></td>
+    <td>Consultar asistente virtual de skincare</td>
+    <td>
+      Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata basada en mi perfil de piel.
+    </td>
+    <td>
+      <strong>Escenario 1: Consulta respondida</strong><br>
+      Dado que el usuario envía una consulta al asistente
+      Cuando el sistema procesa la solicitud usando el perfil de piel y último escaneo del usuario
+      Entonces genera una respuesta personalizada
+      Y la muestra en el chat
+      <p></p>
+      <strong>Escenario 2: Consulta con sugerencia de consulta médica</strong><br>
+      Dado que el usuario realiza una consulta que excede el alcance del asistente
+      Cuando el sistema detecta que requiere atención profesional
+      Entonces informa la limitación
+      Y sugiere agendar una consulta con un dermatólogo
+    </td>
+    <td>E6(Soporte inteligente)</td>
+  </tr>
+
+  <tr>
+    <td><strong>E7</strong></td>
+    <td>Atención dermatológica</td>
+    <td>
+      Como joven adulto, quiero acceder a consultas con dermatólogos para recibir atención especializada.
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US14</strong></td>
+    <td>Listar y seleccionar dermatólogo</td>
+    <td>
+      Como joven adulto, quiero visualizar una lista de dermatólogos disponibles con su información relevante para elegir con quién agendar una consulta.
+    </td>
+    <td>
+      <strong>Escenario 1: Lista disponible</strong><br>
       Dado que el usuario accede a la sección de consultas dermatológicas
       Cuando el sistema carga la información
-      Entonces muestra una lista de dermatólogos
-      Y presenta información como nombre, especialidad y costo por consulta
+      Entonces muestra la lista de dermatólogos con nombre, especialidad, años de experiencia, rating y costo por consulta
       <p></p>
-      <strong>Escenario 2: Filtrado por costo</strong><br>
-      Dado que el usuario visualiza la lista de dermatólogos
-      Cuando aplica un criterio de filtrado por costo
-      Entonces el sistema muestra dermatólogos que cumplen con dicho criterio
-      <p></p>
-      <strong>Escenario 3: Sin especialistas disponibles</strong><br>
-      Dado que el usuario accede a la sección de consultas dermatológicas
+      <strong>Escenario 2: Sin especialistas disponibles</strong><br>
+      Dado que el usuario accede a la sección
       Cuando no existen dermatólogos disponibles
-      Entonces el sistema informa que no hay especialistas disponibles
-      Y sugiere intentar más tarde
+      Entonces el sistema informa que no hay especialistas disponibles en este momento
     </td>
     <td>E7(Atención dermatológica)</td>
   </tr>
 
   <tr>
-    <td><strong>US13</strong></td>
-    <td>Realizar pago de consulta dermatológica</td>
+    <td><strong>US15</strong></td>
+    <td>Pagar y confirmar cita dermatológica</td>
     <td>
       Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
     </td>
     <td>
-      <strong>Escenario 1: Visualización de métodos de pago</strong><br>
-      Dado que el usuario ha seleccionado una fecha y horario para su cita
-      Cuando accede al proceso de pago
-      Entonces el sistema muestra los métodos de pago disponibles
-      <p></p>
-      <strong>Escenario 2: Ingreso de datos de pago</strong><br>
-      Dado que el usuario selecciona un método de pago
-      Cuando ingresa la información requerida
-      Entonces el sistema valida los datos proporcionados
-      <p></p>
-      <strong>Escenario 3: Pago exitoso y confirmación de cita</strong><br>
-      Dado que el usuario proporciona datos válidos de pago
-      Cuando confirma la transacción
+      <strong>Escenario 1: Pago exitoso</strong><br>
+      Dado que el usuario ha seleccionado un dermatólogo y horario
+      Cuando proporciona datos de pago válidos y confirma la transacción
       Entonces el sistema procesa el pago
-      Y confirma la cita programada
+      Y confirma la cita con estado CONFIRMED
       <p></p>
-      <strong>Escenario 4: Pago fallido</strong><br>
+      <strong>Escenario 2: Pago fallido</strong><br>
       Dado que el usuario intenta realizar el pago
       Cuando ocurre un error en la transacción
       Entonces el sistema informa que el pago no fue completado
@@ -1634,122 +1574,54 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>US14</strong></td>
+    <td><strong>US16</strong></td>
     <td>Cancelar cita dermatológica</td>
     <td>
       Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
     </td>
     <td>
-      <strong>Escenario 1: Cancelación dentro del tiempo permitido</strong><br>
-      Dado que el usuario tiene una cita programada
+      <strong>Escenario 1: Cancelación con reembolso</strong><br>
+      Dado que el usuario tiene una cita confirmada
       Y la cancelación se realiza dentro del tiempo permitido
-      Cuando solicita la cancelación
+      Cuando selecciona una razón y confirma la cancelación
       Entonces el sistema cancela la cita
       Y procesa el reembolso correspondiente
       <p></p>
-      <strong>Escenario 2: Cancelación fuera del tiempo permitido</strong><br>
-      Dado que el usuario tiene una cita programada
+      <strong>Escenario 2: Cancelación sin reembolso</strong><br>
+      Dado que el usuario tiene una cita confirmada
       Y la cancelación se realiza fuera del tiempo permitido
-      Cuando solicita la cancelación
+      Cuando confirma la cancelación
       Entonces el sistema cancela la cita
-      Y no realiza reembolso
-      <p></p>
-      <strong>Escenario 3: Visualización de estado actualizado</strong><br>
-      Dado que el usuario ha cancelado una cita
-      Cuando consulta su historial
-      Entonces el sistema muestra la cita con estado cancelado
+      Y notifica que no aplica reembolso
     </td>
     <td>E7(Atención dermatológica)</td>
   </tr>
 
   <tr>
-    <td><strong>US15</strong></td>
-    <td>Registrar cumplimiento de rutina diaria</td>
+    <td><strong>E8</strong></td>
+    <td>Gestión de suscripción</td>
     <td>
-      Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+      Como joven adulto, quiero gestionar mi plan de suscripción para acceder a las funcionalidades de la aplicación.
     </td>
-    <td>
-      <strong>Escenario 1: Marcar rutina como completada</strong><br>
-      Dado que el usuario visualiza su rutina de un día específico
-      Cuando indica que ha completado la rutina
-      Entonces el sistema registra el día como completado
-      <p></p>
-      <strong>Escenario 2: Marcar rutina como no completada</strong><br>
-      Dado que el usuario visualiza su rutina de un día específico
-      Cuando indica que no completó la rutina
-      Entonces el sistema registra el día como no completado
-      <p></p>
-      <strong>Escenario 3: Visualización de estado registrado</strong><br>
-      Dado que el usuario ha registrado el estado de un día
-      Cuando vuelve a consultar la rutina
-      Entonces el sistema muestra el estado previamente guardado
-    </td>
-    <td>E3(Gestión de rutina personalizada)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US16</strong></td>
-    <td>Visualizar progreso en skin trackera</td>
-    <td>
-      Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
-    </td>
-    <td>
-      <strong>Escenario 1: Visualización de métricas generales</strong><br>
-      Dado que el usuario accede al tracker
-      Cuando el sistema procesa los datos registrados
-      Entonces muestra métricas como adherencia y días completados
-      <p></p>
-      <strong>Escenario 2: Visualización de actividad semanal</strong><br>
-      Dado que el usuario accede al tracker
-      Cuando el sistema carga el historial reciente
-      Entonces muestra el estado de cumplimiento por día
-      <p></p>
-      <strong>Escenario 3: Sin datos suficientes</strong><br>
-      Dado que el usuario accede al tracker
-      Cuando no existen registros de cumplimiento
-      Entonces el sistema informa que no hay datos suficientes
-      Y sugiere completar la rutina
-    </td>
-    <td>E5(Seguimiento y progreso del usuario)</td>
+    <td></td>
+    <td></td>
   </tr>
 
   <tr>
     <td><strong>US17</strong></td>
-    <td>Seleccionar plan de suscripción</td>
+    <td>Seleccionar y pagar plan de suscripción</td>
     <td>
-      Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+      Como joven adulto, quiero seleccionar un plan de suscripción y completar el pago para acceder a Bloomie.
     </td>
     <td>
-      <strong>Escenario 1: Visualización de planes</strong><br>
-      Dado que el usuario ha completado su registro
-      Cuando accede al sistema
-      Entonces el sistema muestra los planes disponibles
-      Y presenta sus características y precios
-      <p></p>
-      <strong>Escenario 2: Selección de plan</strong><br>
-      Dado que el usuario visualiza los planes disponibles
-      Cuando selecciona un plan
-      Entonces el sistema guarda la selección
-      Y redirige al proceso de pago
-    </td>
-    <td>E8(Gestión de suscripción)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US18</strong></td>
-    <td>Realizar pago de suscripción</td>
-    <td>
-      Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
-    </td>
-    <td>
-      <strong>Escenario 1: Pago exitoso</strong><br>
-      Dado que el usuario ha seleccionado un plan
-      Cuando realiza el pago correctamente
+      <strong>Escenario 1: Plan seleccionado y pago exitoso</strong><br>
+      Dado que el usuario visualiza los planes disponibles con sus características y precios
+      Cuando selecciona un plan y completa el pago correctamente
       Entonces el sistema activa la suscripción
-      Y habilita el acceso a la aplicación
+      Y habilita el acceso a las funcionalidades correspondientes
       <p></p>
       <strong>Escenario 2: Pago fallido</strong><br>
-      Dado que el usuario intenta realizar el pago  
+      Dado que el usuario ha seleccionado un plan
       Cuando ocurre un error en la transacción
       Entonces el sistema informa que el pago no fue completado
       Y permite reintentar
@@ -1758,58 +1630,76 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>US19</strong></td>
-    <td>Visualizar perfil</td>
+    <td><strong>US18</strong></td>
+    <td>Gestionar suscripción activa</td>
     <td>
-      Como joven adulto, quiero visualizar mi perfil para consultar mi información personal.
+      Como joven adulto, quiero gestionar mi suscripción activa para cambiar de plan o cancelarla según mis necesidades.
     </td>
     <td>
-      <strong>Escenario 1: Perfil disponible</strong><br>
-      Dado que el usuario accede a su perfil
-      Cuando el sistema obtiene su información
-      Entonces muestra los datos personales registrados
+      <strong>Escenario 1: Cambio de plan exitoso</strong><br>
+      Dado que el usuario tiene una suscripción activa
+      Cuando selecciona un nuevo plan y confirma el cambio
+      Entonces el sistema actualiza la suscripción
+      Y aplica el nuevo plan en el siguiente ciclo
+      <p></p>
+      <strong>Escenario 2: Cancelación de suscripción</strong><br>
+      Dado que el usuario tiene una suscripción activa
+      Cuando solicita cancelarla y confirma la acción
+      Entonces el sistema cancela la renovación automática
+      Y mantiene el acceso hasta el fin del período vigente
     </td>
-    <td>E3(Gestión de perfil del usuario)</td>
+    <td>E8(Gestión de suscripción)</td>
   </tr>
 
   <tr>
-  <td><strong>US20</strong></td>
-  <td>Editar información personal</td>
-  <td>
-    Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
-  </td>
-  <td>
+    <td><strong>E9</strong></td>
+    <td>Gestión de perfil del usuario</td>
+    <td>
+      Como joven adulto, quiero gestionar mi información personal para mantener mi cuenta actualizada.
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US19</strong></td>
+    <td>Editar perfil e información personal</td>
+    <td>
+      Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+    </td>
+    <td>
       <strong>Escenario 1: Edición exitosa</strong><br>
-      Dado que el usuario modifica su información
+      Dado que el usuario modifica su nombre, apellido o email
       Cuando el sistema valida los datos
       Entonces guarda los cambios correctamente
       <p></p>
       <strong>Escenario 2: Datos inválidos</strong><br>
-      Dado que el usuario modifica su información
-      Cuando los datos no cumplen validaciones
-      Entonces el sistema no guarda los cambios
-      Y notifica el error
+      Dado que el usuario ingresa datos con formato incorrecto
+      Cuando el sistema valida la información
+      Entonces rechaza los cambios
+      Y notifica el error específico
     </td>
-    <td>E3(Gestión de perfil del usuario)</td>
+    <td>E9(Gestión de perfil del usuario)</td>
   </tr>
 
   <tr>
-    <td><strong>US21</strong></td>
+    <td><strong>US20</strong></td>
     <td>Actualizar características de piel</td>
     <td>
       Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
     </td>
     <td>
       <strong>Escenario 1: Actualización exitosa</strong><br>
-      Dado que el usuario actualiza su información de piel
+      Dado que el usuario modifica su tipo de piel o nivel de sensibilidad
       Cuando el sistema valida los datos
       Entonces guarda la información actualizada
+      Y recalcula las recomendaciones según el nuevo perfil
     </td>
-    <td>E3(Gestión de perfil del usuario)</td>
+    <td>E9(Gestión de perfil del usuario)</td>
   </tr>
 
   <tr>
-    <td><strong>US22</strong></td>
+    <td><strong>US21</strong></td>
     <td>Cambiar contraseña</td>
     <td>
       Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
@@ -1817,223 +1707,254 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>
       <strong>Escenario 1: Cambio exitoso</strong><br>
       Dado que el usuario ingresa una nueva contraseña válida
-      Cuando el sistema valida la información
+      Cuando el sistema valida que cumple las reglas de seguridad
       Entonces actualiza la contraseña correctamente
       <p></p>
       <strong>Escenario 2: Contraseña inválida</strong><br>
-      Dado que el usuario ingresa una contraseña inválida
-      Cuando no cumple las reglas de seguridad
-      Entonces el sistema rechaza el cambio
-  </td>
-  <td>E3(Gestión de perfil del usuario)</td>
+      Dado que el usuario ingresa una contraseña que no cumple las reglas
+      Cuando el sistema valida la información
+      Entonces rechaza el cambio
+      Y explica los requisitos no cumplidos
+    </td>
+    <td>E9(Gestión de perfil del usuario)</td>
+  </tr>
+
+  <tr>
+    <td><strong>E10</strong></td>
+    <td>Experiencia web — Landing Page</td>
+    <td>
+      Como visitante, quiero explorar el sitio web de Bloomie para entender su propuesta de valor antes de registrarme.
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US22</strong></td>
+    <td>Comprender la propuesta de valor</td>
+    <td>
+      Como visitante, quiero comprender qué ofrece Bloomie para evaluar si resuelve mis necesidades.
+    </td>
+    <td>
+      <strong>Escenario 1: Contenido disponible</strong><br>
+      Dado que el visitante accede a la landing page
+      Cuando el sistema carga el contenido
+      Entonces presenta la propuesta de valor principal con las funcionalidades destacadas de análisis de piel, rutinas personalizadas y consultas dermatológicas
+    </td>
+    <td>E10(Experiencia web — Landing Page)</td>
+  </tr>
 
   <tr>
     <td><strong>US23</strong></td>
-    <td>Registrar dermatólogo</td>
+    <td>Explorar planes y precios</td>
     <td>
-      Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a funcionalidades especializadas.
+      Como visitante, quiero visualizar los planes disponibles y sus precios para elegir la opción que mejor se adapte a mis necesidades.
     </td>
     <td>
-      <strong>Escenario 1: Registro válido</strong><br>
-      Dado que el dermatólogo proporciona sus credenciales
-      Cuando el sistema valida la información
-      Entonces registra la cuenta como especialista
-      Y habilita el acceso a funcionalidades médicas
+      <strong>Escenario 1: Planes mostrados</strong><br>
+      Dado que el visitante accede a la sección de precios
+      Cuando el sistema carga la información
+      Entonces muestra los tres planes con sus características, límites y precios
       <p></p>
-      <strong>Escenario 2: Credenciales inválidas</strong><br>
-      Dado que el dermatólogo proporciona información incorrecta
-      Cuando el sistema valida los datos
-      Entonces rechaza el registro
-      Y notifica la inconsistencia
+      <strong>Escenario 2: Comparación de planes</strong><br>
+      Dado que el visitante visualiza los planes
+      Cuando analiza las diferencias
+      Entonces el sistema presenta claramente qué incluye cada plan y qué lo diferencia de los demás
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E10(Experiencia web — Landing Page)</td>
   </tr>
 
   <tr>
     <td><strong>US24</strong></td>
-    <td>Visualizar pacientes recientes</td>
+    <td>Navegar entre secciones del sitio</td>
     <td>
-      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
+      Como visitante, quiero navegar entre las secciones de la landing page para explorar todo el contenido disponible.
     </td>
     <td>
-      <strong>Escenario 1: Pacientes disponibles</strong><br>
-      Dado que el dermatólogo consulta sus pacientes
-      Cuando el sistema obtiene la información
-      Entonces muestra la lista de pacientes con sus datos relevantes
-      <p></p>
-      <strong>Escenario 2: Sin pacientes</strong><br>
-      Dado que el dermatólogo consulta sus pacientes
-      Cuando no existen registros
-      Entonces el sistema informa que no hay pacientes disponibles
+      <strong>Escenario 1: Navegación exitosa</strong><br>
+      Dado que el visitante accede a la landing page
+      Cuando selecciona una sección del menú de navegación
+      Entonces el sistema desplaza la vista a la sección correspondiente
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E10(Experiencia web — Landing Page)</td>
+  </tr>
+
+  <tr>
+    <td><strong>E11</strong></td>
+    <td>Gestión de atención dermatológica</td>
+    <td>
+      Como dermatólogo, quiero gestionar mi práctica clínica en Bloomie para ofrecer consultas eficientes y de calidad.
+    </td>
+    <td></td>
+    <td></td>
   </tr>
 
   <tr>
     <td><strong>US25</strong></td>
-    <td>Realizar consulta en tiempo real</td>
+    <td>Registro de dermatólogo</td>
     <td>
-      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
+      Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a las funcionalidades especializadas de Bloomie.
     </td>
     <td>
-      <strong>Escenario 1: Consulta activa</strong><br>
-      Dado que el dermatólogo inicia la consulta
-      Cuando el paciente participa
-      Entonces el sistema permite la comunicación en tiempo real
+      <strong>Escenario 1: Registro exitoso</strong><br>
+      Dado que el dermatólogo proporciona nombre, apellido, email, contraseña y especialidad válidos
+      Cuando el sistema valida la información
+      Entonces registra la cuenta con rol DERMATOLOGIST
+      Y habilita el acceso a funcionalidades médicas
       <p></p>
-      <strong>Escenario 2: Envío de información</strong><br>
-      Dado que la consulta está activa
-      Cuando el dermatólogo envía información
-      Entonces el sistema registra y transmite los datos al paciente
-      <p></p>
-      <strong>Escenario 3: Consulta finalizada</strong><br>
-      Dado que la consulta termina
-      Cuando el dermatólogo finaliza la sesión
-      Entonces el sistema registra el cierre de la consulta
+      <strong>Escenario 2: Credenciales inválidas</strong><br>
+      Dado que el dermatólogo proporciona información incompleta o incorrecta
+      Cuando el sistema valida los datos
+      Entonces rechaza el registro
+      Y notifica el campo específico con error
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US26</strong></td>
-    <td>Visualizar fotografías del paciente</td>
+    <td>Configurar perfil profesional</td>
     <td>
-      Como dermatólogo, quiero visualizar fotografías clínicas del paciente para analizar su evolución.
+      Como dermatólogo, quiero configurar mi perfil profesional con mi especialidad y tarifa de consulta para que los pacientes puedan encontrarme y saber qué esperar.
     </td>
     <td>
-      <strong>Escenario 1: Fotos disponibles</strong><br>
-      Dado que el dermatólogo accede a la información del paciente
-      Cuando existen fotografías registradas
-      Entonces el sistema muestra las imágenes con su información asociada
+      <strong>Escenario 1: Perfil configurado exitosamente</strong><br>
+      Dado que el dermatólogo accede a la configuración de perfil
+      Cuando ingresa su especialidad, años de experiencia y tarifa de consulta
+      Entonces el sistema guarda el perfil
+      Y lo hace visible para los usuarios que buscan dermatólogos
       <p></p>
-      <strong>Escenario 2: Sin fotos</strong><br>
-      Dado que el dermatólogo accede a la información del paciente
-      Cuando no existen imágenes
-      Entonces el sistema informa que no hay registros disponibles
-      <p></p>
-      <strong>Escenario 3: Registro de nueva foto</strong><br>
-      Dado que el dermatólogo registra una imagen
-      Cuando el sistema procesa la información
-      Entonces almacena la fotografía con su referencia correspondiente
+      <strong>Escenario 2: Datos inválidos</strong><br>
+      Dado que el dermatólogo ingresa información incompleta
+      Cuando el sistema valida los datos
+      Entonces rechaza los cambios
+      Y notifica los campos requeridos
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US27</strong></td>
-    <td>Consultar diagnósticos previos</td>
+    <td>Definir disponibilidad de atención</td>
     <td>
-      Como dermatólogo, quiero consultar diagnósticos previos para analizar la evolución del paciente.
+      Como dermatólogo, quiero definir mis horarios de disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
     </td>
     <td>
-      <strong>Escenario 1: Diagnósticos disponibles</strong><br>
-      Dado que existen diagnósticos registrados
-      Cuando el dermatólogo consulta el historial
-      Entonces el sistema muestra la información correspondiente
+      <strong>Escenario 1: Disponibilidad registrada</strong><br>
+      Dado que el dermatólogo accede a la configuración de disponibilidad
+      Cuando define sus horarios de atención
+      Entonces el sistema guarda la disponibilidad
+      Y la refleja en el proceso de agendamiento para los pacientes
       <p></p>
-      <strong>Escenario 2: Sin diagnósticos</strong><br>
-      Dado que no existen diagnósticos registrados
-      Cuando el dermatólogo consulta el historial
-      Entonces el sistema informa que no hay diagnósticos disponibles
+      <strong>Escenario 2: Disponibilidad actualizada</strong><br>
+      Dado que el dermatólogo tiene horarios registrados
+      Cuando modifica su disponibilidad
+      Entonces el sistema guarda los cambios
+      Y actualiza los horarios disponibles para nuevas citas
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US28</strong></td>
     <td>Visualizar agenda de consultas</td>
     <td>
-      Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo.
+      Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo de atención.
     </td>
     <td>
-      <strong>Escenario 1: Agenda disponible</strong><br>
-      Dado que el dermatólogo consulta su agenda
-      Cuando existen citas programadas
-      Entonces el sistema muestra las consultas con su información
+      <strong>Escenario 1: Agenda con citas</strong><br>
+      Dado que el dermatólogo accede a su agenda
+      Cuando existen citas confirmadas
+      Entonces el sistema muestra las consultas con fecha, hora y datos del paciente
       <p></p>
-      <strong>Escenario 2: Sin citas</strong><br>
-      Dado que el dermatólogo consulta su agenda
-      Cuando no existen citas
+      <strong>Escenario 2: Sin citas programadas</strong><br>
+      Dado que el dermatólogo accede a su agenda
+      Cuando no existen citas registradas
       Entonces el sistema informa que no hay consultas programadas
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US29</strong></td>
-    <td>Reprogramar consulta</td>
+    <td>Realizar consulta virtual en tiempo real</td>
     <td>
-      Como dermatólogo, quiero reprogramar una consulta para ajustar mi disponibilidad.
+      Como dermatólogo, quiero interactuar en tiempo real con el paciente durante la consulta virtual para evaluar su condición y brindar recomendaciones.
     </td>
     <td>
-      <strong>Escenario 1: Reprogramación exitosa</strong><br>
-      Dado que el dermatólogo modifica una consulta
-      Cuando el nuevo horario es válido
-      Entonces el sistema actualiza la información
+      <strong>Escenario 1: Consulta iniciada</strong><br>
+      Dado que el dermatólogo accede a una cita confirmada en el horario programado
+      Cuando inicia la consulta
+      Entonces el sistema habilita la sesión virtual
+      Y permite la comunicación en tiempo real con el paciente
       <p></p>
-      <strong>Escenario 2: Horario no disponible</strong><br>
-      Dado que el dermatólogo selecciona un nuevo horario
-      Cuando este no está disponible
-      Entonces el sistema rechaza la solicitud
+      <strong>Escenario 2: Consulta finalizada</strong><br>
+      Dado que la consulta está activa
+      Cuando el dermatólogo finaliza la sesión
+      Entonces el sistema registra el cierre
+      Y actualiza el estado de la consulta a COMPLETED
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US30</strong></td>
-    <td>Visualización de analytics del dermatólogo</td>
+    <td>Registrar notas y recomendaciones clínicas</td>
     <td>
-      Como dermatólogo, quiero visualizar métricas generales de mi actividad para analizar mi desempeño y el comportamiento general de mis consultas.
+      Como dermatólogo, quiero registrar notas clínicas y recomendaciones durante la consulta para dejar un registro del caso atendido.
     </td>
     <td>
-      <strong>Escenario 1: Métricas disponibles</strong><br>
-      Dado que el dermatólogo accede a la sección de analytics  
-      Cuando existen datos registrados
-      Entonces el sistema muestra indicadores como número total de pacientes, pacientes atendidos en el mes, tendencias de consultas y diagnósticos frecuentes
+      <strong>Escenario 1: Notas registradas exitosamente</strong><br>
+      Dado que el dermatólogo tiene una consulta activa
+      Cuando ingresa notas clínicas y recomendaciones para el paciente
+      Entonces el sistema guarda la información
+      Y la asocia a la consulta correspondiente
       <p></p>
-      <strong>Escenario 2: Sin datos</strong><br>
-      Dado que el dermatólogo consulta métricas
-      Cuando no existen registros
-      Entonces el sistema informa que no hay datos disponibles
+      <strong>Escenario 2: Registro sin notas</strong><br>
+      Dado que el dermatólogo finaliza una consulta sin ingresar notas
+      Cuando confirma el cierre
+      Entonces el sistema finaliza la consulta
+      Y deja los campos de notas y recomendaciones vacíos
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US31</strong></td>
-    <td>Definir disponibilidad de atención</td>
+    <td>Registrar fotografías clínicas</td>
     <td>
-      Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
+      Como dermatólogo, quiero registrar fotografías clínicas del paciente durante la consulta para documentar su evolución.
     </td>
     <td>
-      <strong>Escenario 1: Registro de disponibilidad</strong><br>
-      Dado que el dermatólogo define horarios de atención
-      Cuando el sistema valida la información
-      Entonces guarda la disponibilidad
+      <strong>Escenario 1: Foto registrada exitosamente</strong><br>
+      Dado que el dermatólogo tiene una consulta activa
+      Cuando sube una fotografía clínica del paciente
+      Entonces el sistema almacena la imagen
+      Y la asocia a la consulta correspondiente
       <p></p>
-      <strong>Escenario 2: Modificación de disponibilidad</strong><br>
-      Dado que el dermatólogo tiene horarios registrados
-      Cuando actualiza su disponibilidad
-      Entonces el sistema guarda los cambios
+      <strong>Escenario 2: Sin fotos registradas</strong><br>
+      Dado que el dermatólogo accede al historial de una consulta
+      Cuando no existen fotografías registradas
+      Entonces el sistema informa que no hay imágenes disponibles
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>11(Gestión de atención dermatológica)</td>
   </tr>
 
   <tr>
     <td><strong>US32</strong></td>
     <td>Consultar historial de consultas atendidas</td>
     <td>
-      Como dermatólogo, quiero consultar el historial de consultas atendidas para analizar casos previos.
+      Como dermatólogo, quiero consultar el historial de mis consultas atendidas para revisar casos previos y sus registros clínicos.
     </td>
     <td>
       <strong>Escenario 1: Historial disponible</strong><br>
-      Dado que existen consultas registradas
-      Cuando el dermatólogo consulta su historial
-      Entonces el sistema muestra las consultas atendidas
+      Dado que el dermatólogo accede a su historial
+      Cuando existen consultas registradas
+      Entonces el sistema muestra las consultas atendidas con fecha, paciente, notas y recomendaciones registradas
       <p></p>
       <strong>Escenario 2: Sin historial</strong><br>
-      Dado que no existen consultas registradas
-      Cuando el dermatólogo consulta su historial
+      Dado que el dermatólogo accede a su historial
+      Cuando no existen consultas registradas
       Entonces el sistema informa que no hay consultas disponibles
     </td>
     <td>E9(Gestión de atención dermatológica)</td>
@@ -2043,204 +1964,24 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td><strong>US33</strong></td>
     <td>Actualizar perfil profesional</td>
     <td>
-      Como dermatólogo, quiero actualizar mi perfil profesional para mantener mi información actualizada.
+      Como dermatólogo, quiero actualizar mi información profesional para mantener mi perfil al día.
     </td>
     <td>
       <strong>Escenario 1: Actualización exitosa</strong><br>
-      Dado que el dermatólogo modifica su información
+      Dado que el dermatólogo modifica su especialidad, tarifa o años de experiencia
       Cuando el sistema valida los datos
-      Entonces guarda los cambios correctamente
+      Entonces guarda los cambios
+      Y actualiza el perfil visible para los usuarios
       <p></p>
       <strong>Escenario 2: Datos inválidos</strong><br>
-      Dado que el dermatólogo ingresa información inválida
+      Dado que el dermatólogo ingresa información incorrecta
       Cuando el sistema valida los datos
       Entonces rechaza los cambios
+      Y notifica el error específico
     </td>
-    <td>E9(Gestión de atención dermatológica)</td>
+    <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
-  <tr>
-    <td><strong>US34</strong></td>
-    <td>Comprender la propuesta de valor</td>
-    <td>
-      Como visitante, quiero comprender la propuesta de valor de la aplicación para evaluar si resuelve mis necesidades.
-    </td>
-    <td>
-      <strong>Escenario 1: Información disponible</strong><br>
-      Dado que el visitante accede al sitio web
-      Cuando el sistema carga el contenido principal
-      Entonces el sistema presenta información sobre el análisis de piel y personalización de rutinas
-    </td>
-    <td>E10(Experiencia web)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US35</strong></td>
-    <td>Comprender el funcionamiento del servicio</td>
-    <td>
-      Como visitante, quiero entender cómo funciona el servicio para saber qué pasos debo seguir.
-    </td>
-    <td>
-      <strong>Escenario 1: Explicación del proceso</strong><br>
-      Dado que el visitante accede a la sección de funcionamiento
-      Cuando el sistema carga la información
-      Entonces el sistema describe las etapas del proceso desde el registro hasta el seguimiento
-    </td>
-    <td>E10(Experiencia web)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US36</strong></td>
-    <td>Explorar funcionalidades del producto</td>
-    <td>
-      Como visitante, quiero explorar las funcionalidades del sistema para entender sus capacidades.
-    </td>
-    <td>
-      <strong>Escenario 1: Funcionalidades disponibles</strong><br>
-      Dado que el visitante accede a la sección de funcionalidades
-      Cuando el sistema carga la información
-      Entonces el sistema presenta funcionalidades relacionadas con el análisis, la rutina y el seguimiento
-    </td>
-    <td>E10(Experiencia web)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US37</strong></td>
-    <td>Comparar planes de suscripción</td>
-    <td>
-      Como visitante, quiero visualizar los planes disponibles para elegir la opción que mejor se adapte a mis necesidades.
-    </td>
-    <td>
-      <strong>Escenario 1: Visualización de planes</strong><br>
-      Dado que el visitante accede a la sección de precios
-      Cuando el sistema carga la información
-      Entonces el sistema muestra los planes disponibles con sus características
-      <p></p>
-      <strong>Escenario 2: Comparación de planes</strong><br>
-      Dado que el visitante visualiza múltiples planes
-      Cuando analiza sus características
-      Entonces el sistema presenta las diferencias entre los planes disponibles
-    </td>
-    <td>E10(Experiencia web)</td>
-  </tr>
-
-  <tr>
-    <td><strong>US38</strong></td>
-    <td>Navegar entre secciones del sitio</td>
-    <td>
-      Como visitante, quiero navegar entre las diferentes secciones del sitio para explorar el contenido disponible.
-    </td>
-    <td>
-      <strong>Escenario 1: Navegación disponible</strong><br>
-      Dado que el visitante accede al sitio web
-      Cuando solicita acceder a una sección específica
-      Entonces el sistema muestra el contenido correspondiente
-    </td>
-    <td>E10(Experiencia web)</td>
-  </tr>
-
-  <!-- Technical Stories -->
-
-  <tr>
-    <td><strong>TS01</strong></td>
-    <td>Procesar pago de consulta dermatológica</td>
-    <td>
-      Como developer, quiero registrar y verificar el pago de una consulta dermatológica mediante una API de pagos para confirmar la cita del usuario.
-    </td>
-    <td>
-      <strong>Escenario 1: Creación exitosa de orden de pago</strong><br>
-        Dado que el usuario ha seleccionado una cita válida
-        Cuando el developer envía una solicitud POST a /api/pagos/consultas con el identificador de la cita y el monto
-        Entonces la API devuelve una respuesta exitosa con el identificador de la transacción
-        Y el estado inicial del pago queda como pendiente.
-      <p></p>
-      <strong>Escenario 2: Confirmación exitosa del pago</strong><br>
-        Dado que existe una transacción de pago pendiente
-        Cuando el developer consulta o recibe la confirmación del proveedor de pagos
-        Entonces la API actualiza el estado de la transacción a pagado
-        Y la cita queda confirmada.
-      <p></p>
-      <strong>Escenario 3: Pago rechazado</strong><br>
-        Dado que el usuario intenta completar el pago
-        Cuando el proveedor de pagos rechaza la operación
-        Entonces la API devuelve un estado de pago fallido
-        Y la cita no se confirma.
-      <p></p>
-        <strong>Escenario 4: Datos inválidos de pago</strong><br>
-        Dado que la solicitud contiene una cita inexistente o un monto inválido
-        Cuando el developer envía la solicitud
-        Entonces la API responde con error 400 Bad Request
-        Y muestra el detalle de validación.
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS02</strong></td>
-    <td>Obtener análisis y respuesta del asistente de IA</td>
-    <td>
-      Como developer, quiero enviar una consulta del usuario a una API de inteligencia artificial para obtener orientación sobre productos, ingredientes, rutinas o estado de la piel.
-    </td>
-    <td>
-      <strong>Escenario 1: Consulta respondida correctamente</strong><br>
-        Dado que el usuario ingresa una pregunta válida
-        Cuando el developer envía una solicitud POST a /api/ai/consultas con el texto de la consulta
-        Entonces la API devuelve una respuesta 200 OK
-        Y retorna una respuesta generada por la IA.
-      <p></p>
-      <strong>Escenario 2: Consulta con contexto del usuario</strong><br>
-        Dado que el usuario tiene información registrada sobre su tipo de piel o rutina
-        Cuando el developer envía la consulta junto con ese contexto
-        Entonces la API devuelve una respuesta más personalizada.
-      <p></p>
-      <strong>Escenario 3: Consulta vacía o inválida</strong><br>
-        Dado que el developer envía una solicitud sin texto de consulta
-        Cuando la API valida la entrada
-        Entonces responde con 400 Bad Request
-        Y explica que la consulta es obligatoria.
-      <p></p>
-        <strong>Escenario 4: La IA no puede responder</strong><br>
-        Dado que la pregunta no puede resolverse con suficiente confianza
-        Cuando la API procesa la consulta
-        Entonces devuelve una respuesta indicando la limitación
-        Y sugiere consultar a un dermatólogo.
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-
-  <tr>
-    <td><strong>TS03</strong></td>
-    <td>Consultar tiendas de productos dermatológicos en el mapa</td>
-    <td>
-      Como developer, quiero obtener tiendas cercanas mediante una API de mapas para mostrar en un mapa interactivo lugares donde el usuario pueda encontrar productos dermatológicos.
-    </td>
-    <td>
-      <strong>Escenario 1: Búsqueda exitosa de tiendas cercanas</strong><br>
-        Dado que el usuario proporciona su ubicación o una zona de búsqueda
-        Cuando el developer envía una solicitud GET a /api/mapas/tiendas?lat={lat}&lng={lng}
-        Entonces la API devuelve una lista de tiendas cercanas
-        Y cada resultado incluye nombre, dirección y coordenadas.
-      <p></p>
-      <strong>Escenario 2: Búsqueda de producto en tiendas</strong><br>
-        Dado que el usuario busca un producto específico
-        Cuando el developer envía una solicitud GET a /api/mapas/tiendas?producto={nombreProducto}
-        Entonces la API devuelve tiendas relacionadas con la búsqueda
-        Y muestra información relevante como disponibilidad o precio cuando exista.
-      <p></p>
-      <strong>Escenario 3: Aplicación de filtros</strong><br>
-        Dado que el usuario define filtros como distancia o categoría
-        Cuando el developer envía la solicitud con parámetros adicionales
-        Entonces la API devuelve solo las tiendas que cumplen los criterios.
-      <p></p>
-        <strong>Escenario 4: Sin resultados</strong><br>
-        Dado que no existen tiendas cercanas o coincidencias para el producto solicitado
-        Cuando el developer realiza la búsqueda
-        Entonces la API responde con una lista vacía
-        Y muestra un mensaje indicando que no se encontraron resultados.
-    </td>
-    <td>E11(Servicios REST)</td>
-  </tr>
-  
 </table>
 
 ## 3.2. Impact Mapping
