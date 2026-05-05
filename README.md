@@ -3757,6 +3757,70 @@ Ejemplo: <br>
 
 ### 5.1.4. Software Deployment Configuration
 
+Para la configuración de despliegue de la solución, el equipo ha definido el uso de Vercel como plataforma principal para publicar los productos web del proyecto. En esta etapa, la solución contempla el despliegue de la Landing Page y la Frontend Web Application desde sus respectivos repositorios de GitHub, permitiendo que cada cambio integrado a la rama principal pueda generar una versión publicada de forma automática.
+
+Para el entregable TB1, también se considera el uso de Microsoft Azure App Service para desplegar el servicio simulado de datos basado en JSON Server. Este servicio funciona como una Mock API temporal, permitiendo que la aplicación frontend consuma endpoints en la nube en lugar de depender de un servidor local. De esta manera, se puede validar la integración entre la aplicación web y una ruta pública de API durante la revisión del entregable.
+
+**Productos digitales y plataformas de despliegue**
+
+| Producto digital         | Plataforma de despliegue | Propósito                                                   |
+| ------------------------ | ------------------------ | ----------------------------------------------------------- |
+| Landing Page             | Vercel                   | Publicar el sitio informativo del producto.                 |
+| Frontend Web Application | Vercel                   | Publicar la aplicación web principal.                       |
+| Mock API / JSON Server   | Azure App Service        | Exponer temporalmente los endpoints usados por el frontend. |
+
+**Despliegue de Landing Page en Vercel**
+
+El despliegue de la Landing Page se realiza desde el repositorio correspondiente en GitHub. Para ello, se conecta el repositorio con Vercel, se configura la rama principal como rama de producción y se ejecuta el proceso de despliegue automático.
+
+<u>Pasos principales:</u>
+
+1. Subir el proyecto de la Landing Page al repositorio de GitHub.
+2. Importar el repositorio desde Vercel.
+3. Configurar el comando de construcción, si corresponde.
+4. Publicar la aplicación.
+5. Validar la URL generada por Vercel.
+
+**Despliegue de Frontend Web Application en Vercel**
+
+La aplicación web frontend también se despliega en Vercel desde su repositorio de GitHub. Esta aplicación consume la API mediante una variable de entorno o archivo de configuración de producción, donde se define la URL base del servicio.
+
+En desarrollo, la aplicación puede consumir JSON Server localmente. Para producción, esta URL se reemplaza por la ruta pública del servicio desplegado en Azure.
+
+De esta forma, el frontend publicado en Vercel puede conectarse a la MockAPI alojada en Azure.
+
+<u>Pasos principales:</u>
+
+1. Subir el proyecto del Frontend Web Application al repositorio de GitHub.
+2. Importar el repositorio desde Vercel.
+3. Configurar el comando de construcción, si corresponde.
+4. Publicar la aplicación.
+5. Validar la URL generada por Vercel.
+
+**Despliegue de Mock API con JSON Server en Azure**
+
+Para la TB1, el equipo despliega una Mock API basada en JSON Server utilizando Azure App Service. Esta API contiene los archivos necesarios para simular los endpoints del sistema, como db.json y routes.json.
+
+**Flujo general de despligue (TB1)**
+
+El flujo de despliegue definido por el equipo es el siguiente:
+
+1. Los integrantes desarrollan cambios en ramas de trabajo.
+2. Los cambios se integran al repositorio mediante Pull Requests.
+3. La rama principal activa el despliegue automático en Vercel o Azure.
+4. Vercel publica la Landing Page y la Frontend Web Application.
+5. Azure App Service publica la Mock API basada en JSON Server.
+6. El equipo valida que el frontend consuma correctamente los endpoints publicados.
+
+**Consideración final**
+
+En esta etapa del proyecto, JSON Server se utiliza únicamente como una solución temporal para simular los Web Services. Para entregas posteriores, esta Mock API podrá ser reemplazada por una RESTful API desarrollada internamente (backend), manteniendo la misma estructura de endpoints para reducir cambios en el frontend.
+
+<div align="center">
+<img src="assets/img/deployment-configuration/vercel-logo.png" alt="vercel logo" height="100"/>
+<img src="assets/img/deployment-configuration/microsoft-azure.png" alt="microsoft azure logo" height="100"/>
+</div>
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
