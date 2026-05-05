@@ -624,9 +624,12 @@ Asimismo, las soluciones actuales no logran cubrir estas necesidades de manera i
   <br>
 
 - Hipotesis de usuario: 
-  - <b>Creemos que</b> los usuarios necesitan una forma confiable de identificar productos adecuados para su tipo de piel, por lo que valorarán recibir recomendaciones personalizadas. <b>Sabremos que</b> hemos tenido razón <b>cuando</b> al menos el 60% de los usuarios interactúen con las recomendaciones generadas.
-  - <b>Creemos que</b> los usuarios valoran el seguimiento visual de su progreso y estarán más motivados a mantener su rutina si pueden visualizar la evolución de su piel. <b>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 50% de los usuarios registren y consulten su historial de manera recurrente.
-  - <b>Creemos que</b> los usuarios tienen dificultades para identificar correctamente su tipo y estado de piel, por lo que valorarán una funcionalidad de análisis de imágenes que les permita obtener información más precisa y confiable. <bmos>Sabremos que</b> hemos tenido éxito <b>cuando</b> al menos el 70% de los usuarios utilicen la función de análisis de imagen de manera recurrente.
+  - <b> Creemos que </b> proporcionar recomendaciones personalizadas permitirá a los usuarios elegir productos más adecuados para su tipo de piel,lo que resultará en una reducción de efectos adversos y mejores resultados en su rutina de cuidado. <b> Sabremos que </b> hemos tenido razón <b> cuando </b> al menos el 50% de los usuarios reporten mejoras en su piel o disminución de reacciones negativas.
+  
+  - <b> Creemos que </b> permitir a los usuarios visualizar el progreso de su piel aumentará su constancia en el cuidado personal, lo que resultará en mejores resultados a largo plazo. <b> Sabremos que </b> hemos tenido éxito <b>cuando </b> al menos el 50% de los usuarios mantengan una rutina constante durante un mes y registren mejoras progresivas.
+  
+  - <b>Creemos que </b>ofrecer un análisis de piel mediante imágenes ayudará a los usuarios a identificar correctamente su tipo y estado de piel, lo que resultará en decisiones más informadas y efectivas.
+  <b>Sabremos que </b> hemos tenido éxito <b> cuando </b> al menos el 60% de los usuarios sigan las recomendaciones generadas y reporten resultados positivos en su cuidado.
   
 #### 1.2.2.4. Lean UX Canvas
 
