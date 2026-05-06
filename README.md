@@ -208,13 +208,51 @@ La evidencia presentada en esta sección se encuentra alineada con el Registro d
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.1.1. Branding](#4111-branding)
+      - [Logo de la marca](#logo-de-la-marca)
+      - [4.1.1.2. Spacing](#4112-spacing)
+      - [Sistema modular](#sistema-modular)
+      - [4.1.1.3. Typography](#4113-typography)
+      - [4.1.1.4. Tono de comunicación y lenguaje aplicado](#4114-tono-de-comunicación-y-lenguaje-aplicado)
+      - [4.1.1.5. Colores](#4115-colores)
+      - [Botones](#botones)
+      - [Cabecera](#cabecera)
+      - [Iconografía](#iconografía)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
+        - [Labeling System Landing Page](#labeling-system-landing-page)
+        - [Labeling System App para Jóvenes adultos](#labeling-system-app-para-jóvenes-adultos)
+          - [Iconografía estándar](#iconografía-estándar)
+          - [Elementos de interacción activa](#elementos-de-interacción-activa)
+          - [Elementos de validación](#elementos-de-validación)
+          - [Labeling System App para Dermatólogos certificados](#labeling-system-app-para-dermatólogos-certificados)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [Principal](#principal)
+    - [Features](#features)
+    - [How it Works](#how-it-works)
+    - [Pricing](#pricing)
+    - [Results](#results)
+    - [About Us](#about-us)
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems](#425-navigation-systems)
+      - [Organización jerárquica](#organización-jerárquica)
+      - [Organización secuencial](#organización-secuencial)
+          - [Registro de usuario:](#registro-de-usuario)
+          - [Consulta dermatológica:](#consulta-dermatológica)
+      - [Uso de nodos de decisión (decisiones del usuario)](#uso-de-nodos-de-decisión-decisiones-del-usuario)
+      - [Organización matricial](#organización-matricial)
+      - [Categorización del contenido](#categorización-del-contenido)
+          - [Por audiencia:](#por-audiencia)
+          - [Cronológica:](#cronológica)
+          - [Alfabética:](#alfabética)
+    - [Segmento 2: Dermatólogos certificados](#segmento-2-dermatólogos-certificados-2)
+        - [Organización jerárquica](#organización-jerárquica-1)
+        - [Organización secuencial](#organización-secuencial-1)
+        - [Uso de nodos de decisión](#uso-de-nodos-de-decisión)
+        - [Organización matricial](#organización-matricial-1)
+        - [Categorización del contenido](#categorización-del-contenido-1)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
@@ -249,11 +287,12 @@ La evidencia presentada en esta sección se encuentra alineada con el Registro d
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-1)
+        - [Resumen de actividad del Sprint](#resumen-de-actividad-del-sprint)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review-1)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review-1)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-2)
+        - [Resumen de actividad del Sprint](#resumen-de-actividad-del-sprint-1)
 
 ---
 
@@ -2220,7 +2259,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
   <tr>
     <td><strong>01</strong></td>
-    <td>US34</td>
+    <td>US22</td>
     <td> Comprender la propuesta de valor </td>
     <td>
       Como visitante, quiero comprender la propuesta de valor de la aplicación para evaluar si resuelve mis necesidades.
@@ -2230,28 +2269,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
   <tr>
     <td><strong>02</strong></td>
-    <td>US35</td>
-    <td> Comprender el funcionamiento del servicio </td>
-    <td>
-        Como visitante, quiero entender cómo funciona el servicio para saber qué pasos debo seguir.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  <tr>
-    <td><strong>03</strong></td>
-    <td>US36</td>
-    <td> Explorar funcionalidades del producto
-    </td>
-    <td>
-        Como visitante, quiero explorar las funcionalidades del sistema para entender sus capacidades.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  <tr>
-    <td><strong>04</strong></td>
-    <td>US38</td>
+    <td>US24</td>
     <td>Navegar entre secciones del sitio
     </td>
     <td>
@@ -2260,21 +2278,11 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 2 </td>
   </tr>
 
-   <tr>
-    <td><strong>05</strong></td>
-    <td>US37</td>
-    <td>Comparar planes de suscripción
-    </td>
-    <td>
-        Como visitante, quiero visualizar los planes disponibles para elegir la opción que mejor se adapte a mis necesidades.
-    </td>
-    <td> 3 </td>
-  </tr>
-  
+
   <tr>
-    <td><strong>06</strong></td>
+    <td><strong>03</strong></td>
     <td>US03</td>
-    <td>Escaneo facial con cámara</td>
+    <td>Escaneo facial</td>
     <td>
         Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
     </td>
@@ -2282,7 +2290,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>07</strong></td>
+    <td><strong>04</strong></td>
     <td>US04</td>
     <td>Diagnóstico preliminar automático</td>
     <td>
@@ -2292,23 +2300,43 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>08</strong></td>
-    <td>US05</td>
-    <td>Generar rutina personalizada con productos</td>
+    <td><strong>05</strong></td>
+    <td>US12</td>
+    <td>Consultar historial de escaneos faciales</td>
     <td>
-       Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado.
+      Como joven adulto, quiero consultar mis escaneos faciales anteriores dentro de la sección Skin Scan para revisar mi evolución y los resultados de cada análisis.
     </td>
-    <td> 5 </td>
+    <td> 3 </td>
   </tr>
 
   <tr>
-    <td><strong>09</strong></td>
+    <td><strong>06</strong></td>
     <td>US02</td>
-    <td>Completar perfil básico de piel</td>
+    <td>Completar perfil de piel</td>
     <td>
        Como joven adulto, quiero completar un cuestionario inicial de hábitos y condiciones de piel en mi primer ingreso para que la aplicación configure diagnósticos y rutinas personalizadas.
     </td>
     <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>07</strong></td>
+    <td>US11</td>
+    <td>Visualizar métricas de progreso</td>
+    <td>
+       Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>08</strong></td>
+    <td>US08</td>
+    <td>Explorar catálogo de productos</td>
+    <td>
+       Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
+    </td>
+    <td> 5 </td>
   </tr>
 
   <tr>
@@ -2321,16 +2349,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
-  <tr>
-    <td><strong>11</strong></td>
-    <td>US16</td>
-    <td>Visualizar progreso en skin trackera</td>
-    <td>
-       Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
-    </td>
-    <td> 3 </td>
-  </tr>
-
+  
   <tr>
     <td><strong>12</strong></td>
     <td>US06</td>
@@ -2361,6 +2380,26 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 5 </td>
   </tr>
 
+  <tr>
+    <td><strong>17</strong></td>
+    <td>US14</td>
+    <td>Listar y seleccionar dermatólogos para agendar</td>
+    <td>
+       Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>22</strong></td>
+    <td>US15</td>
+    <td>Pagar y confirmar cita dermatológica</td>
+    <td>
+      Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita. 
+    </td>
+    <td> 3 </td>
+  </tr>
+
    <tr>
     <td><strong>15</strong></td>
     <td>US09</td>
@@ -2369,6 +2408,58 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
        Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
     </td>
     <td> 5 </td>
+  </tr>
+
+ <tr>
+    <td><strong>20</strong></td>
+    <td>US14</td>
+    <td>Cancelar cita dermatológica</td>
+    <td>
+      Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+
+   <tr>
+    <td><strong>23</strong></td>
+    <td>US19</td>
+    <td>Editar perfil e información personal</td>
+    <td>
+      Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+
+   <tr>
+    <td><strong>24</strong></td>
+    <td>US20</td>
+    <td>Actualizar características de piel</td>
+    <td>
+      Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+  <tr>
+    <td><strong>25</strong></td>
+    <td>US01</td>
+    <td>Registro de cuenta</td>
+    <td>
+      Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
+    </td>
+    <td> 3 </td>
+  </tr>
+ 
+ <tr>
+    <td><strong>26</strong></td>
+    <td>US21</td>
+    <td>Cambiar contraseña</td>
+    <td>
+      Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
+    </td>
+    <td> 2 </td>
   </tr>
 
   <tr>
@@ -2383,8 +2474,8 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
   <tr>
     <td><strong>17</strong></td>
-    <td>US12</td>
-    <td>Listar dermatólogos para agendar</td>
+    <td>US14</td>
+    <td>Listar y seleccionar dermatólogos para agendar</td>
     <td>
        Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
     </td>
@@ -2442,16 +2533,6 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>23</strong></td>
-    <td>US20</td>
-    <td>Editar información personal</td>
-    <td>
-      Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  <tr>
     <td><strong>24</strong></td>
     <td>US21</td>
     <td>Actualizar características de piel</td>
@@ -2464,7 +2545,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   <tr>
     <td><strong>25</strong></td>
     <td>US01</td>
-    <td>Registro básico</td>
+    <td>Registro de cuenta</td>
     <td>
       Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
     </td>
@@ -2473,13 +2554,24 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 <tr>
     <td><strong>26</strong></td>
-    <td>US22</td>
+    <td>US21</td>
     <td>Cambiar contraseña</td>
     <td>
       Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
     </td>
     <td> 2 </td>
   </tr>
+
+<tr>
+    <td><strong>26</strong></td>
+    <td>US23</td>
+    <td>Cambiar contraseña</td>
+    <td>
+       Como visitante, quiero visualizar los planes disponibles y sus precios para elegir la opción que mejor se adapte a mis necesidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+  
 
   <tr>
     <td><strong>27</strong></td>
@@ -2492,18 +2584,28 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>28</strong></td>
-    <td>US18</td>
-    <td>Realizar pago de suscripción</td>
+    <td><strong>29</strong></td>
+    <td>US17</td>
+    <td>Seleccionar plan de suscripción</td>
     <td>
-      Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
+     Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
     </td>
-    <td> 5 </td>
+    <td> 3 </td>
   </tr>
-
+  
   <tr>
     <td><strong>29</strong></td>
-    <td>US23</td>
+    <td>US18</td>
+    <td>Gestionar suscripción activa</td>
+    <td>
+    Como joven adulto, quiero gestionar mi suscripción activa para cambiar de plan o cancelarla según mis necesidades.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+ <tr>
+    <td><strong>29</strong></td>
+    <td>US25</td>
     <td>Registrar dermatólogo</td>
     <td>
      Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a funcionalidades especializadas.
@@ -2512,41 +2614,11 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>30</strong></td>
-    <td>US24</td>
-    <td>Visualizar pacientes recientes</td>
-    <td>
-      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-  <tr>
-    <td><strong>31</strong></td>
-    <td>US25</td>
-    <td>Realizar consulta en tiempo real</td>
-    <td>
-      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-   <tr>
-    <td><strong>32</strong></td>
-    <td>US26</td>
-    <td>Visualizar fotografías del paciente</td>
-    <td>
-      Como dermatólogo, quiero visualizar fotografías clínicas del paciente para analizar su evolución.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-   <tr>
-    <td><strong>33</strong></td>
+    <td><strong>27</strong></td>
     <td>US27</td>
-    <td>Consultar diagnósticos previos</td>
+    <td>Definir disponibilidad de atención</td>
     <td>
-      Como dermatólogo, quiero consultar diagnósticos previos para analizar la evolución del paciente.
+     Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
     </td>
     <td> 5 </td>
   </tr>
@@ -2561,27 +2633,46 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
-  
   <tr>
-    <td><strong>35</strong></td>
-    <td>US29</td>
-    <td>Reprogramar consulta</td>
+    <td><strong>31</strong></td>
+    <td>US25</td>
+    <td>Realizar consulta en tiempo real</td>
     <td>
-      Como dermatólogo, quiero reprogramar una consulta para ajustar mi disponibilidad.
+      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
+    </td>
+    <td> 5 </td>
+  </tr>
+llllllll
+  <tr>
+    <td><strong>30</strong></td>
+    <td>US24</td>
+    <td>Visualizar pacientes recientes</td>
+    <td>
+      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>31</strong></td>
+    <td>US29</td>
+    <td>Realizar consulta en tiempo real</td>
+    <td>
+      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+   <tr>
+    <td><strong>32</strong></td>
+    <td>US31</td>
+    <td>Registrar fotografías clínicas</td>
+    <td>
+      Como dermatólogo, quiero registrar fotografías clínicas del paciente durante la consulta para documentar su evolución.
     </td>
     <td> 3 </td>
   </tr>
 
-  
-  <tr>
-    <td><strong>36</strong></td>
-    <td>US30</td>
-    <td>Visualización de analytics del dermatólogo</td>
-    <td>
-      Como dermatólogo, quiero visualizar métricas generales de mi actividad para analizar mi desempeño y el comportamiento general de mis consultas.
-    </td>
-    <td> 5 </td>
-  </tr>
 
   <tr>
     <td><strong>37</strong></td>
