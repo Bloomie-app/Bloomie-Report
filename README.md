@@ -1982,6 +1982,211 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>E11(Gestión de atención dermatológica)</td>
   </tr>
 
+<!-- Technical Stories -->
+
+<tr>
+  <td><strong>TS01</strong></td>
+  <td>Procesar pago de consulta dermatológica</td>
+  <td>
+    Como developer, quiero registrar y verificar el pago de una consulta dermatológica mediante una API de pagos para confirmar la cita del usuario.
+  </td>
+  <td>
+    <strong>Escenario 1: Creación exitosa de orden de pago</strong><br>
+      Dado que el usuario ha seleccionado una cita válida
+      Cuando el developer envía una solicitud POST a /api/pagos/consultas con el identificador de la cita y el monto
+      Entonces la API devuelve una respuesta exitosa con el identificador de la transacción
+      Y el estado inicial del pago queda como pendiente.
+    <p></p>
+    <strong>Escenario 2: Confirmación exitosa del pago</strong><br>
+      Dado que existe una transacción de pago pendiente
+      Cuando el developer consulta o recibe la confirmación del proveedor de pagos
+      Entonces la API actualiza el estado de la transacción a pagado
+      Y la cita queda confirmada.
+    <p></p>
+    <strong>Escenario 3: Pago rechazado</strong><br>
+      Dado que el usuario intenta completar el pago
+      Cuando el proveedor de pagos rechaza la operación
+      Entonces la API devuelve un estado de pago fallido
+      Y la cita no se confirma.
+    <p></p>
+    <strong>Escenario 4: Datos inválidos de pago</strong><br>
+      Dado que la solicitud contiene una cita inexistente o un monto inválido
+      Cuando el developer envía la solicitud
+      Entonces la API responde con error 400 Bad Request
+      Y muestra el detalle de validación.
+  </td>
+  <td>E11(Servicios REST)</td>
+</tr>
+
+<tr>
+  <td><strong>TS02</strong></td>
+  <td>Procesar pago de compra de plan dermatológico</td>
+  <td>
+    Como developer, quiero registrar y verificar el pago de un plan dermatológico mediante una API de pagos para activar el plan adquirido por el usuario.
+  </td>
+  <td>
+    <strong>Escenario 1: Creación exitosa de orden de pago del plan</strong><br>
+      Dado que el usuario ha seleccionado un plan dermatológico disponible
+      Cuando el developer envía una solicitud POST a /api/pagos/planes con el identificador del plan, usuario y monto
+      Entonces la API devuelve una respuesta exitosa con el identificador de la transacción
+      Y el estado inicial del pago queda como pendiente.
+    <p></p>
+    <strong>Escenario 2: Activación exitosa del plan</strong><br>
+      Dado que existe una transacción de pago pendiente asociada a un plan
+      Cuando el developer consulta o recibe la confirmación del proveedor de pagos
+      Entonces la API actualiza el estado de la transacción a pagado
+      Y el plan queda activo para el usuario.
+    <p></p>
+    <strong>Escenario 3: Pago rechazado del plan</strong><br>
+      Dado que el usuario intenta completar el pago de un plan
+      Cuando el proveedor de pagos rechaza la operación
+      Entonces la API devuelve un estado de pago fallido
+      Y el plan no se activa.
+    <p></p>
+    <strong>Escenario 4: Plan o monto inválido</strong><br>
+      Dado que la solicitud contiene un plan inexistente o un monto inválido
+      Cuando el developer envía la solicitud
+      Entonces la API responde con error 400 Bad Request
+      Y muestra el detalle de validación.
+  </td>
+  <td>E11(Servicios REST)</td>
+</tr>
+
+<tr>
+  <td><strong>TS03</strong></td>
+  <td>Consultar estado de una transacción de pago</td>
+  <td>
+    Como developer, quiero consultar el estado de una transacción de pago mediante una API de pagos para verificar si una consulta debe confirmarse o un plan debe activarse.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta exitosa de transacción</strong><br>
+      Dado que existe una transacción de pago registrada
+      Cuando el developer envía una solicitud GET a /api/pagos/{transactionId}
+      Entonces la API devuelve una respuesta 200 OK
+      Y muestra el estado actual de la transacción.
+    <p></p>
+    <strong>Escenario 2: Transacción pagada</strong><br>
+      Dado que la transacción fue completada correctamente
+      Cuando el developer consulta el estado del pago
+      Entonces la API devuelve el estado pagado
+      Y muestra si corresponde a una consulta dermatológica o a un plan.
+    <p></p>
+    <strong>Escenario 3: Transacción pendiente</strong><br>
+      Dado que el usuario aún no completó el pago
+      Cuando el developer consulta el estado de la transacción
+      Entonces la API devuelve el estado pendiente
+      Y mantiene la consulta o el plan sin confirmar.
+    <p></p>
+    <strong>Escenario 4: Transacción no encontrada</strong><br>
+      Dado que el developer envía un identificador de transacción inexistente
+      Cuando realiza la solicitud de consulta
+      Entonces la API responde con error 404 Not Found
+      Y muestra un mensaje indicando que la transacción no fue encontrada.
+  </td>
+  <td>E11(Servicios REST)</td>
+</tr>
+
+<tr>
+  <td><strong>TS04</strong></td>
+  <td>Obtener análisis y respuesta del asistente de IA</td>
+  <td>
+    Como developer, quiero enviar una consulta del usuario a una API de inteligencia artificial para obtener orientación sobre productos, ingredientes, rutinas o estado de la piel.
+  </td>
+  <td>
+    <strong>Escenario 1: Consulta respondida correctamente</strong><br>
+      Dado que el usuario ingresa una pregunta válida
+      Cuando el developer envía una solicitud POST a /api/ai/consultas con el texto de la consulta
+      Entonces la API devuelve una respuesta 200 OK
+      Y retorna una respuesta generada por la IA.
+    <p></p>
+    <strong>Escenario 2: Consulta con contexto del usuario</strong><br>
+      Dado que el usuario tiene información registrada sobre su tipo de piel o rutina
+      Cuando el developer envía la consulta junto con ese contexto
+      Entonces la API devuelve una respuesta más personalizada.
+    <p></p>
+    <strong>Escenario 3: Consulta vacía o inválida</strong><br>
+      Dado que el developer envía una solicitud sin texto de consulta
+      Cuando la API valida la entrada
+      Entonces responde con 400 Bad Request
+      Y explica que la consulta es obligatoria.
+    <p></p>
+    <strong>Escenario 4: La IA no puede responder</strong><br>
+      Dado que la pregunta no puede resolverse con suficiente confianza
+      Cuando la API procesa la consulta
+      Entonces devuelve una respuesta indicando la limitación
+      Y sugiere consultar a un dermatólogo.
+  </td>
+  <td>E11(Servicios REST)</td>
+</tr>
+
+<tr>
+  <td><strong>TS05</strong></td>
+  <td>Obtener recomendación de productos dermatológicos</td>
+  <td>
+    Como developer, quiero enviar el tipo de piel, necesidades y preferencias del usuario a una API de inteligencia artificial para obtener recomendaciones de productos dermatológicos adecuados.
+  </td>
+  <td>
+    <strong>Escenario 1: Recomendación exitosa de productos</strong><br>
+      Dado que el usuario indica su tipo de piel y necesidad principal
+      Cuando el developer envía una solicitud POST a /api/ai/recomendaciones/productos con los datos del usuario
+      Entonces la API devuelve una respuesta 200 OK
+      Y retorna una lista de productos recomendados.
+    <p></p>
+    <strong>Escenario 2: Recomendación personalizada según tipo de piel</strong><br>
+      Dado que el usuario tiene registrado su tipo de piel
+      Cuando la API genera la recomendación
+      Entonces prioriza productos adecuados para ese tipo de piel
+      Y explica brevemente por qué son recomendados.
+    <p></p>
+    <strong>Escenario 3: Datos insuficientes del usuario</strong><br>
+      Dado que el developer no envía información suficiente sobre el tipo de piel o necesidad del usuario
+      Cuando la API procesa la solicitud
+      Entonces responde con 400 Bad Request
+      Y solicita completar los datos necesarios para generar la recomendación.
+    <p></p>
+    <strong>Escenario 4: No hay productos adecuados disponibles</strong><br>
+      Dado que no existen productos relacionados con la necesidad indicada
+      Cuando la API busca recomendaciones
+      Entonces devuelve una respuesta indicando que no se encontraron productos adecuados
+      Y sugiere consultar con un dermatólogo.
+  </td>
+  <td>E11(Servicios REST)</td>
+</tr>
+
+<tr>
+  <td><strong>TS06</strong></td>
+  <td>Generar rutina personalizada de cuidado de piel</td>
+  <td>
+    Como developer, quiero enviar información del perfil dermatológico del usuario a una API de inteligencia artificial para generar una rutina personalizada de cuidado de piel.
+  </td>
+  <td>
+    <strong>Escenario 1: Rutina generada correctamente</strong><br>
+      Dado que el usuario proporciona su tipo de piel y objetivo dermatológico
+      Cuando el developer envía una solicitud POST a /api/ai/rutinas con la información del usuario
+      Entonces la API devuelve una respuesta 200 OK
+      Y retorna una rutina organizada en pasos de mañana y noche.
+    <p></p>
+    <strong>Escenario 2: Rutina con productos recomendados</strong><br>
+      Dado que existen productos compatibles con el perfil del usuario
+      Cuando la API genera la rutina personalizada
+      Entonces incluye productos sugeridos dentro de cada paso
+      Y explica la función de cada producto en la rutina.
+    <p></p>
+    <strong>Escenario 3: Información incompleta del perfil</strong><br>
+      Dado que el developer no envía información suficiente sobre el perfil dermatológico del usuario
+      Cuando la API procesa la solicitud
+      Entonces devuelve una rutina general
+      Y solicita completar el perfil para una recomendación más precisa.
+    <p></p>
+    <strong>Escenario 4: Caso que requiere atención dermatológica</strong><br>
+      Dado que el usuario describe síntomas severos o persistentes
+      Cuando la API genera la respuesta
+      Entonces evita dar un diagnóstico definitivo
+      Y recomienda acudir a un dermatólogo.
+  </td>
+  <td>E11(Servicios REST)</td>
+</tr>
+
 </table>
 
 ## 3.2. Impact Mapping
