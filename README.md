@@ -2245,8 +2245,19 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
+  
   <tr>
     <td><strong>08</strong></td>
+    <td>US13</td>
+    <td>Consultar asistente virtual de skincare</td>
+    <td>
+       Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata basada en mi perfil de piel.
+    </td>
+    <td> 5 </td>
+  </tr>
+
+  <tr>
+    <td><strong>09</strong></td>
     <td>US08</td>
     <td>Explorar catálogo de productos</td>
     <td>
@@ -2254,50 +2265,9 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     </td>
     <td> 5 </td>
   </tr>
-
+ 
   <tr>
     <td><strong>10</strong></td>
-    <td>US15</td>
-    <td>Registrar cumplimiento de rutina diaria</td>
-    <td>
-       Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  
-  <tr>
-    <td><strong>12</strong></td>
-    <td>US06</td>
-    <td>Adaptar rutina mediante reemplazo de productos</td>
-    <td>
-       Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-  <tr>
-    <td><strong>13</strong></td>
-    <td>US07</td>
-    <td>Recordatorios de rutina</td>
-    <td>
-       CComo joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  <tr>
-    <td><strong>14</strong></td>
-    <td>US08</td>
-    <td>Explorar catálogo de productos con filtros</td>
-    <td>
-       Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-  <tr>
-    <td><strong>17</strong></td>
     <td>US14</td>
     <td>Listar y seleccionar dermatólogos para agendar</td>
     <td>
@@ -2307,28 +2277,18 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>22</strong></td>
+    <td><strong>11</strong></td>
     <td>US15</td>
     <td>Pagar y confirmar cita dermatológica</td>
     <td>
-      Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita. 
+     Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
     </td>
     <td> 3 </td>
   </tr>
 
-   <tr>
-    <td><strong>15</strong></td>
-    <td>US09</td>
-    <td>Evaluar compatibilidad de productos</td>
-    <td>
-       Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
-    </td>
-    <td> 5 </td>
-  </tr>
-
- <tr>
-    <td><strong>20</strong></td>
-    <td>US14</td>
+<tr>
+    <td><strong>12</strong></td>
+    <td>US16</td>
     <td>Cancelar cita dermatológica</td>
     <td>
       Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
@@ -2337,8 +2297,8 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
 
-   <tr>
-    <td><strong>23</strong></td>
+  <tr>
+    <td><strong>13</strong></td>
     <td>US19</td>
     <td>Editar perfil e información personal</td>
     <td>
@@ -2349,7 +2309,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
 
 
    <tr>
-    <td><strong>24</strong></td>
+    <td><strong>14</strong></td>
     <td>US20</td>
     <td>Actualizar características de piel</td>
     <td>
@@ -2359,7 +2319,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>25</strong></td>
+    <td><strong>15</strong></td>
     <td>US01</td>
     <td>Registro de cuenta</td>
     <td>
@@ -2369,7 +2329,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
  
  <tr>
-    <td><strong>26</strong></td>
+    <td><strong>16</strong></td>
     <td>US21</td>
     <td>Cambiar contraseña</td>
     <td>
@@ -2378,139 +2338,29 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 2 </td>
   </tr>
 
-  <tr>
-    <td><strong>16</strong></td>
-    <td>US10</td>
-    <td>Asistente virtual de skincare</td>
-    <td>
-       Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
-    </td>
-    <td> 5 </td>
-  </tr>
-
+ 
   <tr>
     <td><strong>17</strong></td>
-    <td>US14</td>
-    <td>Listar y seleccionar dermatólogos para agendar</td>
-    <td>
-       Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
-    </td>
-    <td> 3 </td>
-  </tr>
-
- <tr>
-    <td><strong>18</strong></td>
-    <td>US31</td>
-    <td>Definir disponibilidad de atención</td>
-    <td>
-       Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-   <tr>
-    <td><strong>19</strong></td>
-    <td>US13</td>
-    <td>Realizar pago de consulta dermatológica</td>
-    <td>
-       Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-  <tr>
-    <td><strong>20</strong></td>
-    <td>US14</td>
-    <td>Cancelar cita dermatológica</td>
-    <td>
-      Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  <tr>
-    <td><strong>21</strong></td>
-    <td>US11</td>
-    <td>Explorar mapa de tiendas y productos</td>
-    <td>
-      Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-  <tr>
-    <td><strong>22</strong></td>
-    <td>US19</td>
-    <td>Visualizar perfil</td>
-    <td>
-      Como joven adulto, quiero visualizar mi perfil para consultar mi información personal.
-    </td>
-    <td> 2 </td>
-  </tr>
-
-  <tr>
-    <td><strong>24</strong></td>
-    <td>US21</td>
-    <td>Actualizar características de piel</td>
-    <td>
-      Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-  <tr>
-    <td><strong>25</strong></td>
-    <td>US01</td>
-    <td>Registro de cuenta</td>
-    <td>
-      Como joven adulto, quiero registrarme con mis datos personales para crear una cuenta y acceder a Bloomie.
-    </td>
-    <td> 3 </td>
-  </tr>
-
-<tr>
-    <td><strong>26</strong></td>
-    <td>US21</td>
-    <td>Cambiar contraseña</td>
-    <td>
-      Como joven adulto, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.
-    </td>
-    <td> 2 </td>
-  </tr>
-
-<tr>
-    <td><strong>26</strong></td>
     <td>US23</td>
-    <td>Cambiar contraseña</td>
+    <td>Explorar planes y precios</td>
     <td>
        Como visitante, quiero visualizar los planes disponibles y sus precios para elegir la opción que mejor se adapte a mis necesidades.
     </td>
     <td> 3 </td>
   </tr>
-  
 
   <tr>
-    <td><strong>27</strong></td>
+    <td><strong>18</strong></td>
     <td>US17</td>
     <td>Seleccionar plan de suscripción</td>
     <td>
-      Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+       Como joven adulto, quiero sleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
     </td>
     <td> 3 </td>
   </tr>
 
-  <tr>
-    <td><strong>29</strong></td>
-    <td>US17</td>
-    <td>Seleccionar plan de suscripción</td>
-    <td>
-     Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
-    </td>
-    <td> 3 </td>
-  </tr>
-  
-  <tr>
-    <td><strong>29</strong></td>
+   <tr>
+    <td><strong>19</strong></td>
     <td>US18</td>
     <td>Gestionar suscripción activa</td>
     <td>
@@ -2519,8 +2369,8 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td> 3 </td>
   </tr>
 
- <tr>
-    <td><strong>29</strong></td>
+   <tr>
+    <td><strong>20</strong></td>
     <td>US25</td>
     <td>Registrar dermatólogo</td>
     <td>
@@ -2530,17 +2380,29 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>27</strong></td>
+    <td><strong>21</strong></td>
+    <td>US26</td>
+    <td>Configurar perfil profesional</td>
+    <td>
+     Como dermatólogo, quiero configurar mi perfil profesional con mi especialidad y tarifa de consulta para que los pacientes puedan encontrarme y saber porque esperar.
+    </td>
+    <td> 3 </td>
+  </tr>
+
+
+ <tr>
+    <td><strong>22</strong></td>
     <td>US27</td>
     <td>Definir disponibilidad de atención</td>
     <td>
-     Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
+       Como dermatólogo, quiero definir mi disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
     </td>
     <td> 5 </td>
   </tr>
 
+
   <tr>
-    <td><strong>34</strong></td>
+    <td><strong>23</strong></td>
     <td>US28</td>
     <td>Visualizar agenda de consultas</td>
     <td>
@@ -2550,27 +2412,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
   </tr>
 
   <tr>
-    <td><strong>31</strong></td>
-    <td>US25</td>
-    <td>Realizar consulta en tiempo real</td>
-    <td>
-      Como dermatólogo, quiero interactuar en tiempo real con el paciente para evaluar su condición y brindar recomendaciones.
-    </td>
-    <td> 5 </td>
-  </tr>
-llllllll
-  <tr>
-    <td><strong>30</strong></td>
-    <td>US24</td>
-    <td>Visualizar pacientes recientes</td>
-    <td>
-      Como dermatólogo, quiero visualizar mis pacientes recientes para acceder a su información clínica.
-    </td>
-    <td> 5 </td>
-  </tr>
-
-  <tr>
-    <td><strong>31</strong></td>
+    <td><strong>24</strong></td>
     <td>US29</td>
     <td>Realizar consulta en tiempo real</td>
     <td>
@@ -2578,9 +2420,10 @@ llllllll
     </td>
     <td> 5 </td>
   </tr>
+ 
 
    <tr>
-    <td><strong>32</strong></td>
+    <td><strong>25</strong></td>
     <td>US31</td>
     <td>Registrar fotografías clínicas</td>
     <td>
@@ -2591,7 +2434,7 @@ llllllll
 
 
   <tr>
-    <td><strong>37</strong></td>
+    <td><strong>26</strong></td>
     <td>US32</td>
     <td>Consultar historial de consultas atendidas</td>
     <td>
@@ -2601,7 +2444,7 @@ llllllll
   </tr>
 
    <tr>
-    <td><strong>38</strong></td>
+    <td><strong>27</strong></td>
     <td>US33</td>
     <td>Actualizar perfil profesional</td>
     <td>
