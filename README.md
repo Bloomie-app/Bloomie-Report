@@ -3126,6 +3126,18 @@ usuario con los productos digitales.
 
 ### 4.4.1. Web Applications Wireframes
 
+15) <strong> Wireframe 15: </strong> pago de consulta dermatológica
+  <br> <strong> User Story asociada: </br> </strong>
+
+ US15 - Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+
+ <p align = "center">
+<img src="assets/img/landing/wireframe-15-app.png" alt="wireflow app" width="550"/>
+
+
+
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 1) <strong>Wireflow 1:</strong> Registro básico
@@ -3142,267 +3154,116 @@ US01 - Como joven adulto, quiero registrarme con mis datos personales para crear
 <img src="assets/img/landing/wireflow-1-web.png" alt="wireflow app" width="550"/>
 
 
-2) <strong>Wireflow 2:</strong> Completar perfil básico de piel
+11) <strong>Wireflow 11:</strong> Visualizar métricas de progreso
 - User goal: 
-<br> Como joven adulto, quiero completar mi perfil básico de peil.
+<br> Como joven adulto, quiero visualizar un registro del progreso de mi rutina de skincare.
 
 <br><strong>User Story asociada: </br></strong>
-US02 - Como joven adulto, quiero completar un cuestionario inicial de hábitos y condiciones de piel en mi primer ingreso para que la aplicación configure diagnósticos y rutinas personalizadas.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-2-app.png" alt="wireflow app" width="550"/>
-</br>
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-2-web.png" alt="wireflow app" width="550"/>
-
-3) <strong>Wireflow 3:</strong> Escaneo facial con cámara
-- User goal: 
-<br> Como joven adulto, quiero realizar un escaneo facial con cámara.
-
-<br><strong>User Story asociada: </br></strong>
-US03 - Como joven adulto, quiero realizar un escaneo facial moviendo mi cabeza frente a la cámara para que la aplicación capture imágenes desde diferentes ángulos y obtenga un diagnóstico preciso de mi tipo de piel.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-3-app.png" alt="wireflow app" width="550"/>
-</br>
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-3-web.png" alt="wireflow app" width="550"/>
-
-
-
-4) <strong>Wireflow 4:</strong> Diagnóstico preliminar automático
-
-- User goal: 
-<br> Como joven adulto, quiero recibir un diagnóstico preliminar.
-
-<br><strong>User Story asociada: </br></strong>
-US04 - Como joven adulto, quiero recibir un reporte preliminar generado por la inteligencia artificial después del escaneo facial para conocer el estado de mi piel y entender qué tipo de cuidados necesito.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-4-appl.png" alt="wireflow app" width="550"/>
-</br>
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-4-web.png" alt="wireflow app" width="550"/>
-
-5) <strong>Wireflow 5:</strong> Generar rutina personalizada con productos
-
-- User goal: 
-<br> Como joven adulto, quiero generar una rutina personalizada.
-
-<br><strong>User Story asociada: </br></strong>
-US05 - Como joven adulto, quiero recibir una rutina personalizada con productos específicos basados en mi diagnóstico de piel para seguir un tratamiento adecuado.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-5-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-5-web.png" alt="wireflow app" width="550"/>
-</br>
-
-6) <strong>Wireflow 6:</strong> Adaptar rutina mediante reemplazo de productos
-
-- User goal: 
-<br> Como joven adulto, quiero adaptar mi rutina mediante reemplazo de productos
-
-<br><strong>User Story asociada: </br></strong>
-US06 - Como joven adulto, quiero modificar los productos sugeridos en mi rutina para adaptarlos a mis necesidades o disponibilidad.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-6-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-6-web.png" alt="wireflow app" width="550"/>
-</br>
-
-7) <strong>Wireflow 7:</strong> Recordatorios de rutina
-
-- User goal: 
-<br> Como joven adulto, quiero tener recordatorios de rutina.
-
-<br><strong>User Story asociada: </br></strong>
-US07 - Como joven adulto, quiero recibir recordatorios para cumplir con mi rutina de cuidado de la piel y mantener constancia.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-7-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-7-web.png" alt="wireflow app" width="550"/>
-</br>
-
-8) <strong>Wireflow 8:</strong> Explorar catálogo de productos con filtros
-
-- User goal: 
-<br> Como joven adulto, quiero explorar catálogo de productos con filtros.
-
-<br><strong>User Story asociada: </br></strong>
-US08 - Como joven adulto, quiero explorar un catálogo de productos y aplicar filtros para encontrar opciones relevantes a mis necesidades.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-8-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-8-web.png" alt="wireflow app" width="550"/>
-</br>
-
-9) <strong>Wireflow 9:</strong> Evaluar compatibilidad de productos
-
-- User goal: 
-<br> Como joven adulto, quiere evaluar compatibilidad de productos.
-
-<br><strong>User Story asociada: </br></strong>
-US09 - Como joven adulto, quiero conocer la compatibilidad de un producto para tomar decisiones informadas.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-9-app.png" alt="wireflow app" width="550"/>
-</br>
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-9-web.png" alt="wireflow app" width="550"/>
-</br>
-
-10) <strong>Wireflow 10:</strong> Asistente virtual de skincare
-
-- User goal: 
-<br> Como joven adulto, quiero un asistente virtual de skincare.
-
-<br><strong>User Story asociada: </br></strong>
-US10 - Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-10-app.png" alt="wireflow app" width="550"/>
-</br>
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-10-web.png" alt="wireflow app" width="550"/>
-</br>
-
-11) <strong>Wireflow 11:</strong> Explorar mapa de tiendas y productos
-
-- User goal: 
-<br> Como joven adulto, quiero explorar mapas de tiendas y productos.
-
-<br><strong>User Story asociada: </br></strong>
-US11 - Como joven adulto, quiero visualizar en un mapa interactivo tiendas cercanas donde pueda encontrar productos para facilitar su compra.
+US11 - Como joven adulto, quiero visualizar métricas de mi constancia y evolución en el cuidado de mi piel para entender mi progreso.
 
 <p align = "center">
 <img src="assets/img/landing/wireflow-11-app.png" alt="wireflow app" width="550"/>
-</br>
+
 <p align = "center">
 <img src="assets/img/landing/wireflow-11-web.png" alt="wireflow app" width="550"/>
-</br>
 
-12) <strong>Wireflow 12:</strong> Listar dermatólogos para agendar
 
+
+13) <strong> Wireflow 12: </strong> consultar asistente virtual de skincare.
 - User goal: 
-<br> Como joven adulto, quiero listar dematólogos para agendar.
+Como joven adulto, quiero consultar productos en línea y recibir orientación sobre la compra.
 
 <br><strong>User Story asociada: </br></strong>
-US12 - Como joven adulto, quiero visualizar una lista de dermatólogos con información relevante para elegir a quién agendar una consulta.
-
-<p align = "center">
-<img src="assets/img/landing/wireflow-12-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-12-web.png" alt="wireflow app" width="550"/>
-</br>
-
-13) <strong>Wireflow 13:</strong> Realizar pago de consulta dermatológica
-
-- User goal: 
-<br> Como joven adulto, quiero realizar el pago de una consulta.
-
-<br><strong>User Story asociada: </br></strong>
-US13 - Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+US13 - Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata basada en mi perfil de piel.
 
 <p align = "center">
 <img src="assets/img/landing/wireflow-13-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-13-web.png" alt="wireflow app" width="550"/>
-</br>
 
-14) <strong>Wireflow 14:</strong> Cancelar cita dermatológica
 
+14) <strong> Wireflow 13: </strong> Selección de dermatólogos para pacientes
 - User goal: 
-<br> Como joven adulto, quiero cancelar mi cita dermatológica.
+
+Como joven adulto, quiero agendar una consulta con un dermatólogo mediante una interfaz.
 
 <br><strong>User Story asociada: </br></strong>
-US14 - Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+US14 - Como joven adulto, quiero visualizar una lista de dermatólogos disponibles con su información relevante para elegir con quién agendar una consulta.
 
 <p align = "center">
 <img src="assets/img/landing/wireflow-14-app.png" alt="wireflow app" width="550"/>
-</br>
 
-<p align = "center">
-<img src="assets/img/landing/wireflow-14-web.png" alt="wireflow app" width="550"/>
-</br>
 
-15) <strong>Wireflow 15:</strong> Registrar cumplimiento de rutina diaria
-
+15) <strong>Wireflow 14:</strong> Pagar y confirmar cita
 - User goal: 
-<br> Como joven adulto, quiero registrar el cumplimento de mi rutina.
+<br> Como joven adulto, quiero pagar una consulta dermatológica.
 
 <br><strong>User Story asociada: </br></strong>
-US15 - Como joven adulto, quiero marcar si completé mi rutina diaria para llevar un seguimiento de mi progreso.
+US15 - Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
 
 <p align = "center">
 <img src="assets/img/landing/wireflow-15-app.png" alt="wireflow app" width="550"/>
-</br>
 
-<p align = "center">
-<img src="assets/img/landing/wireflow-15-web.png" alt="wireflow app" width="550"/>
-</br>
 
-16) <strong>Wireflow 16:</strong> Visualizar progreso en skin trackera
-- User goal: 
-<br> Como joven adulto, quiero visualizar mi progreso en skin trackera
+16) <strong> Wireflow 15: </strong> Cancelar cita dermatológica 
+- User goal:
 
-<br><strong>User Story asociada: </br></strong>
-US16 - Como joven adulto, quiero visualizar métricas de mi progreso para entender mi constancia y evolución en el cuidado de mi piel.
+Como joven adulto, quiero cancelar una cita ya programada.
+
+<br> <strong> User Story asociada: </br> </strong>
+
+US16: Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
 
 <p align = "center">
 <img src="assets/img/landing/wireflow-16-app.png" alt="wireflow app" width="550"/>
-</br>
 
-<p align = "center">
-<img src="assets/img/landing/wireflow-16-web.png" alt="wireflow app" width=git"550"/>
-</br>
-
-
-17) <strong>Wireflow 17:</strong> Seleccionar plan de suscripción
-
+17) <strong> Wireflow 16: </strong> selección y pago de una suscripción
 - User goal: 
-<br> Como joven adulto, quiero seleccionar mi plan de suscripción
 
-<br><strong>User Story asociada: </br></strong>
-US17 - Como joven adulto, quiero seleccionar un plan de suscripción para acceder a las funcionalidades de la aplicación.
+Como joven adulto, quiero pagar una suscripción a través del completado de datos.
 
-<p align = "center">
-<img src="assets/img/landing/wireflow-18-app.png" alt="wireflow app" width="550"/>
-</br>
+<br> <strong> User story asociada: </br> </strong>
 
-<p align = "center">
-<img src="assets/img/landing/wireflow-17-web.png" alt="wireflow app" width="550"/>
-</br>
-
-18) <strong>Wireflow 18:</strong> Realizar pago de suscripción. 
-
-- User goal: 
-<br> Como joven adulto, quiero realizar mi pago de suscripción
-
-<br><strong>User Story asociada: </br></strong>
-US18 - Como joven adulto, quiero pagar un plan de suscripción para acceder a la aplicación.
+US17: Como joven adulto, quiero seleccionar un plan de suscripción y completar el pago para acceder a Bloomie.
 
 <p align = "center">
 <img src="assets/img/landing/wireflow-17-app.png" alt="wireflow app" width="550"/>
-</br>
-<p align = "center">
-<img src="assets/img/landing/wireflow-18-web.png" alt="wireflow app" width="550"/>
-</br>
 
+18) <strong> Wireflow 17: </strong> Gestionar suscripción realizada 
+- User goal: 
+
+Como jóven adulto, quiero gestionar mi suscripción según mis necesidades.
+
+<br> <strong> User Story asociada: </strong> </br>
+US18: Como joven adulto, quiero gestionar mi suscripción activa para cambiar de plan o cancelarla según mis necesidades.
+
+<p align = "center">
+<img src="assets/img/landing/wireflow-18-app.png" alt="wireflow app" width="550"/>
+
+
+19) <strong> Wireflow 18: </strong> Editar información personal 
+- User goal:
+
+Como jóven adulto, quiero editar mi información personal.
+
+<br> <strong> User Story asociada: </strong> </br>
+
+US19: Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+
+<p align = "center">
+<img src="assets/img/landing/wireflow-19-app.png" alt="wireflow app" width="550"/>
+ 
+
+20) <strong> Wireflow 19: </strong> Actualizar características de piel
+- User goal: 
+
+Como jóven adulto, quiero actualizar los datos con respecto a mi piel. 
+
+<br> <strong> User Story asociada: </strong> </br>
+US20: Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
+
+<p align = "center"> 
+
+<img src="assets/img/landing/wireflow-20-app.png" alt="wireflow app" width="550"/>
+ 
 
 ### 4.4.3. Web Applications Mock-ups
 
