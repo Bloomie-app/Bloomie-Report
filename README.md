@@ -1667,7 +1667,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     <td>E7(Atención dermatológica)</td>
   </tr>
 
-    <tr>
+  <tr>
     <td><strong>US34</strong></td>
     <td>Participar en consulta virtual</td>
     <td>Como joven adulto, quiero unirme a mi consulta virtual y enviar fotografías de mi piel para que el dermatólogo pueda evaluarme correctamente.</td>
@@ -1691,6 +1691,8 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
       Y permite reintentar
     </td>
     <td>E7(Atención dermatológica)</td>
+  </tr>
+
   </tr>
  
   <!-- E8 -->
@@ -2001,7 +2003,7 @@ Finalmente, se incluyen tanto User Stories funcionales orientadas al usuario fin
     </td>
     <td>E11(Gestión de atención dermatológica)</td>
   </tr>
-  
+
   <tr>
     <td><strong>US32</strong></td>
     <td>Consultar historial de consultas atendidas</td>
