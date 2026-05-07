@@ -4017,11 +4017,11 @@ A continuación, se presentan los analíticos extraídos de GitHub (Insights) qu
 Sin embargo, se identificó como oportunidad de mejora una mejor planificación de tiempos y seguimiento interno de tareas, especialmente en etapas de integración y revisión final. Se ve como posible mejora verificar los commits de cada integrante y practicar el correcto uso de gitflow. Luego, considerar el cumplimiento de deadlines para los integrantes aplicando SCRUM. 
 
 El PO considera pertinente la revisión de la landing page para futuras mejoras e integraciones de las funcionalidades y cualidades responsive.                                                                                                                                                                                                                                 |
-| **Sprint 2 Goal** | Our focus is on enabling users to experience Bloomie’s personalized skincare analysis through the web and mobile application.
+| **Sprint 2 Goal** | Nuestro enfoque está en permitir que los usuarios experimenten el análisis personalizado de cuidado de la piel de Bloomie a través de la aplicación web y móvil.
 
-We believe it delivers personalized guidance and engagement to young adults seeking effective skincare support.
+Creemos que esto brinda orientación personalizada y una mayor interacción a jóvenes adultos que buscan un apoyo efectivo para el cuidado de su piel.
 
-This will be confirmed when users successfully complete the skin profile setup, perform a facial scan, and receive a preliminary skin analysis within the application. |
+Esto se confirmará cuando los usuarios completen exitosamente la configuración de su perfil de piel, realicen un escaneo facial y reciban un análisis preliminar dentro de la aplicación. |
 | **Sprint 2 Velocity** | 45 story points                                                                                                                                                                                                                                                                                                       |
 | **Sum of Story Points** | 40 story points                                                                                                                                                                                                                                                                                                       |
 #### 5.2.2.2. Aspect Leaders and Collaborators
@@ -4034,35 +4034,6 @@ This will be confirmed when users successfully complete the skin profile setup, 
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
-En esta sección se detallan los procesos realizados para el despliegue de la solución durante el Sprint 1.La prioridad principal del sprint fue producir el primer hito de la landing page donde se muestre nuestra propuesta de forma clara y precisa. En ello, la versión inicial de la Landing Page, lo que permite modelar de forma más adecuada cómo nuestros segmentos objetivos esperan que se visualice de forma profesional.
-
-La landing page fue desarrollada en visual studio code con aplicación de javascript, CSS y HTML. Partimos de esta sintaxis por la gran variedad de apoyo que tienen como lenguajes debido a su robustez. 
-
-<p align = "center">
-Desarrollo de la landing (Editor de código)
-
-
- <img src="assets/img/landing/landing-codigo.png" alt="codigo_landing" width="650"/>  
-
-
-Para el despliegue, se utilizó vercel, aprovechando su versatilidad como servicio gratuito para un despliegue seguro y rápido. El proceso consistió en los siguientes pasos estratégicos:
-
-Luego, para el seguimiento de trabajo de cada integrante, utilizamos Github repository como herramienta de repositorio en la nube para un correcto manejo de flujo en el trabajo. Para ello, cada usuario debió revisar conceptos sobre GitFlow.
-
-  <p align = "center">
-  Vista Principal de la landing page
-  <p align = "center">
- <img src="assets/img/landing/landing-deploy.png" alt="deploy" width="650"/>
-
-<p align = "center">
-Apartado de suscripciones del modelo de negocio definido
-<img src="assets/img/landing/landing-sus.png" alt="deploy-cod" width="650"/>
-
-Se puede acceder a nuestra lading page ya deployada a través del siguiente enlace: https://bloomie-landing-page.vercel.app/index.html
-
-A continuación, para ilustrar el contenido e interacciones logradas en la landing page en el sprint 1, se realizó un video demostrativo. En este registro se evidencia el funcionamiento de componentes clave, así como también un claro diseño y uso ingeniería de software aplicada. 
-
-URL de acceso al video sobre la landing page: 
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
