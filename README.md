@@ -3622,9 +3622,10 @@ US25 - Como dermatólogo, quiero registrar mis credenciales profesionales para a
 <img src="assets/img/wireflow/Wireflow1.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow1_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow1_web.png" alt="wireflow app" width="550"/>
 
-22) <strong>Wireflow 22:</strong> Configurar perfil profesional
+
+21)  <strong>Wireflow 22:</strong> Configurar perfil profesional
     
 - User goal: 
 <br> Como dermatólogo, quiero configurar mi perfil profesional.
@@ -3633,12 +3634,12 @@ US25 - Como dermatólogo, quiero registrar mis credenciales profesionales para a
 US25 - Como dermatólogo, quiero configurar mi perfil profesional con mi especialidad y tarifa de consulta para que los pacientes puedan encontrarme y saber qué esperar.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow26.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow26.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow26_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow26_web.png" alt="wireflow app" width="550"/>
 
-23) <strong>Wireflow 23:</strong> Definir disponibilidad de atención
+22)  <strong>Wireflow 23:</strong> Definir disponibilidad de atención
     
 - User goal: 
 <br> Como dermatólogo, quiero definir mis horarios de disponibilidad.
@@ -3647,10 +3648,10 @@ US25 - Como dermatólogo, quiero configurar mi perfil profesional con mi especia
 US26 - Como dermatólogo, quiero definir mis horarios de disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow27.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow27.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow27_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow27_web.png" alt="wireflow app" width="550"/>
 
 23) <strong>Wireflow 23:</strong> Visualizar agenda de consultas
     
@@ -3661,10 +3662,10 @@ US26 - Como dermatólogo, quiero definir mis horarios de disponibilidad para que
 US28 - Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo de atención.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow28.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow28.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow28_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow28_web.png" alt="wireflow app" width="550"/>
 
 24) <strong>Wireflow 24:</strong> Realizar consulta virtual en tiempo real
     
@@ -3675,12 +3676,12 @@ US28 - Como dermatólogo, quiero visualizar mis consultas programadas para gesti
 US29 - Como dermatólogo, quiero interactuar en tiempo real con el paciente durante la consulta virtual para evaluar su condición y brindar recomendaciones.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow29.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow29.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow29_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow29_web.png" alt="wireflow app" width="550"/>
 
-25) <strong>Wireflow 25:</strong> Registrar notas y recomendaciones clínicas
+25)  <strong>Wireflow 25:</strong> Registrar notas y recomendaciones clínicas
     
 - User goal: 
 <br> Como dermatólogo, quiero registrar notas clínicas y recomendaciones.
@@ -3689,10 +3690,10 @@ US29 - Como dermatólogo, quiero interactuar en tiempo real con el paciente dura
 US30 - Como dermatólogo, quiero registrar notas clínicas y recomendaciones durante la consulta para dejar un registro del caso atendido.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow30.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow30.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow30_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow30_web.png" alt="wireflow app" width="550"/>
 
 26) <strong>Wireflow 26:</strong> Guardar fotografías clínicas del paciente
     
@@ -3703,12 +3704,12 @@ US30 - Como dermatólogo, quiero registrar notas clínicas y recomendaciones dur
 US31 - Como dermatólogo, quiero visualizar las fotografías que el paciente envió durante la consulta y guardar las relevantes para documentar el caso clínico.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow33.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow33.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow33_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow33.png" alt="wireflow app" width="550"/>
 
-27) <strong>Wireflow 27:</strong> Consultar historial de consultas atendidas
+27)  <strong>Wireflow 27:</strong> Consultar historial de consultas atendidas
     
 - User goal: 
 <br> Como dermatólogo, quiero consultar el historial de mis consultas.
@@ -3717,7 +3718,7 @@ US31 - Como dermatólogo, quiero visualizar las fotografías que el paciente env
 US32 - Como dermatólogo, quiero consultar el historial de mis consultas atendidas para revisar casos previos y sus registros clínicos.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow31.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow31.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
 <img src="assets/img/wireflow/wireflow31_web.png" alt="wireflow app" width="550"/>
