@@ -3918,15 +3918,19 @@ En esta etapa del proyecto, JSON Server se utiliza únicamente como una solució
 | **Sprint 1 Velocity** | 10 |
 | **Sum of Story Points** | 8 |
 
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Aspecto / Sección | User Story | Líder | Colaborador |
-|---|---|---|---|
-| Propuesta de valor | US34 | Gallardo Morales, Carla | Mechan Montenegro, Luciana |
-| Funcionamiento del servicio | US35 | Contreras Torres, Arturo | Ramirez Ruiz, Nickolas |
-| Funcionalidades del producto | US36 | Asmat Alminco, Martin | Contreras Torres, Arturo |
-| Navegación entre secciones | US38 | Mechan Montenegro, Luciana | Gallardo Morales, Carla |
-| Comparar planes de suscripción | US37 | Ramirez Ruiz, Nickolas | Asmat Alminco, Martin |
+En esta sección el equipo elaboró la Leadership-and-Collaboration Matrix (LACX), la cual indica por cada aspecto dentro del alcance del Sprint 1 quién es el líder y quiénes son colaboradores. Los aspectos corresponden tanto a las secciones funcionales de la Landing Page como a la documentación del informe desarrollados durante este sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Hero / Propuesta de valor L/C | How it Works L/C | Features / Funcionalidades L/C | Pricing / Planes L/C | Navigation & Footer L/C | Documentación del Informe L/C |
+|---|---|---|---|---|---|---|-------------------------------|
+| Contreras Torres, Arturo Valentino | Arturouu | C | L | C | C | C | L                             |
+| Mechan Montenegro, Luciana Carolina | luuu6 | C | C | C | C | L | C                             |
+| Gallardo Morales, Carla Alejandra | Carlsss28 | L | C | C | C | C | C                             |
+| Ramirez Ruiz, Nickolas | Bynickram02 | C | C | C | L | C | C                             |
+| Asmat Alminco, Martin Alejandro | Alemarr2 | C | C | L | C | C | C                             |
+
 
 ---
 #### 5.2.1.3. Sprint Backlog 1
