@@ -3598,7 +3598,7 @@ US19: Como joven adulto, quiero editar mi información personal para mantener mi
 <img src="assets/img/landing/wireflow-19-app.png" alt="wireflow app" width="550"/>
  
 
-20) <strong> Wireflow 19: </strong> Actualizar características de piel
+20) <strong> Wireflow 20: </strong> Actualizar características de piel
 - User goal: 
 
 Como jóven adulto, quiero actualizar los datos con respecto a mi piel. 
@@ -3609,6 +3609,118 @@ US20: Como joven adulto, quiero actualizar mis características de piel para rec
 <p align = "center"> 
 
 <img src="assets/img/landing/wireflow-20-app.png" alt="wireflow app" width="550"/>
+
+21) <strong>Wireflow 21:</strong> Registro de dermatólogo
+    
+- User goal: 
+<br> Como dermatólogo, quiero registrar mis credenciales profesionales.
+
+<br><strong>User Story asociada: </br></strong>
+US25 - Como dermatólogo, quiero registrar mis credenciales profesionales para acceder a las funcionalidades especializadas de Bloomie.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow1.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow1_web.png" alt="wireflow app" width="550"/>
+
+22) <strong>Wireflow 22:</strong> Configurar perfil profesional
+    
+- User goal: 
+<br> Como dermatólogo, quiero configurar mi perfil profesional.
+
+<br><strong>User Story asociada: </br></strong>
+US25 - Como dermatólogo, quiero configurar mi perfil profesional con mi especialidad y tarifa de consulta para que los pacientes puedan encontrarme y saber qué esperar.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow26.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow26_web.png" alt="wireflow app" width="550"/>
+
+23) <strong>Wireflow 23:</strong> Definir disponibilidad de atención
+    
+- User goal: 
+<br> Como dermatólogo, quiero definir mis horarios de disponibilidad.
+
+<br><strong>User Story asociada: </br></strong>
+US26 - Como dermatólogo, quiero definir mis horarios de disponibilidad para que los pacientes puedan agendar citas en horarios válidos.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow27.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow27_web.png" alt="wireflow app" width="550"/>
+
+23) <strong>Wireflow 23:</strong> Visualizar agenda de consultas
+    
+- User goal: 
+<br> Como dermatólogo, quiero visualizar mis consultas programadas
+
+<br><strong>User Story asociada: </br></strong>
+US28 - Como dermatólogo, quiero visualizar mis consultas programadas para gestionar mi tiempo de atención.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow28.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow28_web.png" alt="wireflow app" width="550"/>
+
+24) <strong>Wireflow 24:</strong> Realizar consulta virtual en tiempo real
+    
+- User goal: 
+<br> Como dermatólogo, quiero interactuar en tiempo real con el paciente durante la consulta virtual.
+
+<br><strong>User Story asociada: </br></strong>
+US29 - Como dermatólogo, quiero interactuar en tiempo real con el paciente durante la consulta virtual para evaluar su condición y brindar recomendaciones.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow29.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow29_web.png" alt="wireflow app" width="550"/>
+
+25) <strong>Wireflow 25:</strong> Registrar notas y recomendaciones clínicas
+    
+- User goal: 
+<br> Como dermatólogo, quiero registrar notas clínicas y recomendaciones.
+
+<br><strong>User Story asociada: </br></strong>
+US30 - Como dermatólogo, quiero registrar notas clínicas y recomendaciones durante la consulta para dejar un registro del caso atendido.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow30.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow30_web.png" alt="wireflow app" width="550"/>
+
+26) <strong>Wireflow 26:</strong> Guardar fotografías clínicas del paciente
+    
+- User goal: 
+<br> Como dermatólogo, quiero visualizar las fotografías que el paciente envia.
+
+<br><strong>User Story asociada: </br></strong>
+US31 - Como dermatólogo, quiero visualizar las fotografías que el paciente envió durante la consulta y guardar las relevantes para documentar el caso clínico.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow33.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow33_web.png" alt="wireflow app" width="550"/>
+
+27) <strong>Wireflow 27:</strong> Consultar historial de consultas atendidas
+    
+- User goal: 
+<br> Como dermatólogo, quiero consultar el historial de mis consultas.
+
+<br><strong>User Story asociada: </br></strong>
+US32 - Como dermatólogo, quiero consultar el historial de mis consultas atendidas para revisar casos previos y sus registros clínicos.
+
+<p align = "center">
+<img src="assets/img/wireflow/Wireflow31.png" alt="wireflow app" width="550"/>
+
+<p align = "center">
+<img src="assets/img/wireflow/wireflow31_web.png" alt="wireflow app" width="550"/>
 
 ### 4.4.3. Web Applications Mock-ups
 20) <strong> Mock-up 20: </strong> Registro de dermatólogo
