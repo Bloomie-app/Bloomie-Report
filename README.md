@@ -3624,7 +3624,8 @@ US25 - Como dermatólogo, quiero registrar mis credenciales profesionales para a
 <p align = "center">
 <img src="assets/img/wireflow/Wireflow1_web.png" alt="wireflow app" width="550"/>
 
-22) <strong>Wireflow 22:</strong> Configurar perfil profesional
+
+21)  <strong>Wireflow 22:</strong> Configurar perfil profesional
     
 - User goal: 
 <br> Como dermatólogo, quiero configurar mi perfil profesional.
@@ -3638,7 +3639,7 @@ US25 - Como dermatólogo, quiero configurar mi perfil profesional con mi especia
 <p align = "center">
 <img src="assets/img/wireflow/Wireflow26_web.png" alt="wireflow app" width="550"/>
 
-23) <strong>Wireflow 23:</strong> Definir disponibilidad de atención
+22)  <strong>Wireflow 23:</strong> Definir disponibilidad de atención
     
 - User goal: 
 <br> Como dermatólogo, quiero definir mis horarios de disponibilidad.
@@ -3680,7 +3681,7 @@ US29 - Como dermatólogo, quiero interactuar en tiempo real con el paciente dura
 <p align = "center">
 <img src="assets/img/wireflow/Wireflow29_web.png" alt="wireflow app" width="550"/>
 
-25) <strong>Wireflow 25:</strong> Registrar notas y recomendaciones clínicas
+25)  <strong>Wireflow 25:</strong> Registrar notas y recomendaciones clínicas
     
 - User goal: 
 <br> Como dermatólogo, quiero registrar notas clínicas y recomendaciones.
@@ -3706,9 +3707,9 @@ US31 - Como dermatólogo, quiero visualizar las fotografías que el paciente env
 <img src="assets/img/wireflow/Wireflow33.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow33_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/Wireflow33.png" alt="wireflow app" width="550"/>
 
-27) <strong>Wireflow 27:</strong> Consultar historial de consultas atendidas
+27)  <strong>Wireflow 27:</strong> Consultar historial de consultas atendidas
     
 - User goal: 
 <br> Como dermatólogo, quiero consultar el historial de mis consultas.
@@ -3720,7 +3721,7 @@ US32 - Como dermatólogo, quiero consultar el historial de mis consultas atendid
 <img src="assets/img/wireflow/Wireflow31.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
-<img src="assets/img/wireflow/wireflow31_web.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/Wireflow31_web.png" alt="wireflow app" width="550"/>
 
 ### 4.4.3. Web Applications Mock-ups
 20) <strong> Mock-up 20: </strong> Registro de dermatólogo
