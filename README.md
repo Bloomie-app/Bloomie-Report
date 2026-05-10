@@ -5768,15 +5768,7 @@ En esta sección el equipo elaboró la Leadership-and-Collaboration Matrix (LACX
 | Ramirez Ruiz, Nickolas | Bynickram02 | C | C | C | L | C | C                             |
 | Asmat Alminco, Martin Alejandro | Alemarr2 | C | C | L | C | C | C                             |
 
-
 ---
-#### 5.2.1.3. Sprint Backlog 1
-
-El Sprint 1 tuvo como objetivo implementar y desplegar la Landing Page de Bloomie con todas sus secciones informativas. A continuación se presenta el board de seguimiento utilizado durante el sprint, junto con la tabla de control de estado de las tareas.
-
-[Sprint-Backlog-1](https://trello.com/b/PA2Tjn3g/sprint-1-bloomie)
-
-URL del board: https://trello.com/b/PA2Tjn3g/sprint-1-bloomie
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -6033,32 +6025,20 @@ Durante el Sprint 1 se desarrollaron los fundamentos del proyecto Bloomie abarca
 | upc-pre-202610-1asi0729-11881-dermacare/bloomie-website | feature/results-section | 1438a50 | feat(results): add results section | Implement results section showcasing skin improvement outcomes and user testimonials | 23/04/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-En esta sección se detallan los procesos realizados para el despliegue de la solución durante el Sprint 1.La prioridad principal del sprint fue poner en producción la versión inicial de la Landing Page, lo que permite modelar de forma más adecuada cómo nuestros segmentos objetivos esperan que se visualice de forma profesional.
 
-La landing page fue desarrollada en visual studio code con aplicación de javascript, CSS y HTML. Partimos de esta sintaxis por la gran variedad de apoyo que tienen como lenguajes debido a su robustez.
+Durante el Sprint 1 se logró implementar y desplegar exitosamente la Landing Page de Bloomie en su totalidad. El equipo desarrolló todas las secciones informativas planificadas: Hero con propuesta de valor principal, sección "Cómo funciona" con pasos ilustrados, sección de funcionalidades del producto, sección About con presentación del equipo, sección de resultados y sección de planes y precios con tabla comparativa. La landing page fue desplegada en Vercel y se encuentra accesible públicamente con diseño responsivo adaptado a distintos tamaños de pantalla. A continuación se presentan capturas de las principales vistas implementadas.
 
-<p align = "center">
-Desarrollo de la landing (Editor de código)
+**Home — Vista principal de la Landing Page de Bloomie**
 
+<img src="assets/img/landing-home.png" alt="landing-home" width="550"/>
 
- <img src="assets/img/landing-codigo.png" alt="codigo_landing" width="650"/>  
+**Pricing — Sección de planes y precios**
 
+<img src="assets/img/landing-pricing.png" alt="landing-home" width="550"/>
 
-Para el despliegue, se utilizó vercel, aprovechando su versatilidad como servicio gratuito para un despliegue seguro y rápido. El proceso consistió en los siguientes pasos estratégicos:
+A continuación se presenta el video de demostración que ilustra la navegación completa por la Landing Page desplegada durante este Sprint.
 
-Luego, para el seguimiento de trabajo de cada integrante, utilizamos Github repository como herramienta de repositorio en la nube para un correcto manejo de flujo en el trabajo. Para ello, cada usuario debió revisar conceptos sobre GitFlow.
-
-  <p align = "center">
-  Vista Principal de la landing page
-  <p align = "center">
- <img src="assets/img/landing-deploy.png" alt="deploy" width="650"/>
-
-<p align = "center">
-Apartado de suscripciones del modelo de negocio definido
-<img src="assets/img/landing-pagos.png" alt="deploy-cod" width="650"/>
-
-Se puede acceder a nuestra lading page ya deployada a través del siguiente enlace: https://bloomie-landing-page.vercel.app/index.html
-
+**Enlace al video de demostración:** [upc-pre-202610-1asi0729-11881-dermacare-tp1-sprint1]()
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
