@@ -6043,15 +6043,41 @@ A continuación se presenta el video de demostración que ilustra la navegación
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En este Sprint se definieron y documentaron los endpoints necesarios para la gestión del perfil de usuario dentro de la aplicación. Aunque los servicios aún no se encuentran desplegados en un entorno productivo, se ha desarrollado su especificación utilizando OpenAPI, permitiendo validar la estructura de las solicitudes y respuestas, así como su integración futura con el frontend.
+Durante el Sprint 1 el alcance del equipo estuvo centrado en la implementación y despliegue 
+de la Landing Page de Bloomie, correspondiente a un sitio estático informativo. Dado que en 
+esta etapa no se desarrollaron Web Services ni se implementó funcionalidad de backend, no 
+existen endpoints documentados ni interacciones con servicios REST para este Sprint. La 
+documentación formal de Web Services con OpenAPI, verbos HTTP, parámetros y ejemplos de 
+response se incorporará a partir del Sprint 2, conforme se desarrolle progresivamente la 
+RESTful API del sistema.
 
+Sin embargo, como parte de la planificación técnica del proyecto, el equipo definió la 
+estructura base de endpoints que será implementada en sprints posteriores, especificada en 
+el archivo de entorno del frontend apuntando a `http://localhost:3000/api/v1` mediante 
+JSON Server como solución Mock API temporal. A continuación se listan los endpoints 
+proyectados para el sistema Bloomie:
 
-| Endpoint       | Método | Acción            | Descripción               | URL documentación   |
-| -------------- | ------ | ----------------- | ------------------------- | ------------------- |
-| /profile       | GET    | Obtener perfil    | Retorna datos del usuario | localhost:3000/docs |
-| /profile       | PUT    | Actualizar perfil | Actualiza nombre y correo | localhost:3000/docs |
-| /profile/photo | PATCH  | Cambiar foto      | Actualiza avatar          | localhost:3000/docs |
-
+| Endpoint | Descripción |
+|---|---|
+| `/api/v1/users` | Gestión de cuentas de usuario |
+| `/api/v1/sessions` | Autenticación e inicio de sesión |
+| `/api/v1/skin_profiles` | Perfil dermatológico del usuario |
+| `/api/v1/facial_scans` | Escaneos faciales e historial de análisis |
+| `/api/v1/routines` | Rutinas de cuidado personalizadas |
+| `/api/v1/routine_items` | Productos asignados a cada paso de la rutina |
+| `/api/v1/daily_trackings` | Registro de cumplimiento de rutina diaria |
+| `/api/v1/products` | Catálogo de productos de skincare |
+| `/api/v1/product_compatibilities` | Compatibilidad de productos con el perfil del usuario |
+| `/api/v1/favorite_products` | Productos guardados como favoritos |
+| `/api/v1/dermatologist_profiles` | Perfiles profesionales de dermatólogos |
+| `/api/v1/dermatologist_availabilities` | Disponibilidad horaria de dermatólogos |
+| `/api/v1/appointments` | Agendamiento y gestión de citas dermatológicas |
+| `/api/v1/consultations` | Consultas virtuales en tiempo real |
+| `/api/v1/payments` | Procesamiento de pagos de citas y planes |
+| `/api/v1/plans` | Planes de suscripción disponibles |
+| `/api/v1/subscriptions` | Gestión de suscripciones activas del usuario |
+| `/api/v1/support_queries` | Consultas al asistente virtual de skincare |
+| `/api/v1/chat_messages` | Mensajes del chat durante la consulta virtual |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
