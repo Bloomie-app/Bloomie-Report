@@ -5041,7 +5041,252 @@ principales de la aplicación.
 - Espaciado: mínimo 16px entre tarjetas del catálogo
 - Botones: mínimo 44x44px siguiendo estándares de accesibilidad
 
+11)  <strong> Mock-up 11: </strong> Skin progress tracker 
 
+**User Stories relacionadas:**
+
+US11: Como joven adulto, quiero visualizar métricas de mi constancia y evolución en el cuidado de mi piel para entender mi progreso.
+
+![mockup dashboard web](assets/img/mockups/mockup-11-web.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-11-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo comprende la pantalla principal del dashboard web y la vista de Skin Progress Tracker. El dashboard centraliza la información más relevante del usuario mediante tarjetas de métricas (Skin Health Score, Routine Streak, Next Appointment, Products in Routine), un gráfico de línea para el progreso de piel, la rutina del día con sus pasos ordenados, y un panel de recomendaciones personalizadas con productos sugeridos. La paleta cromática aplica el Design System definido: fondo en tonos crema (#FAF7F4), sidebar en borgoña oscuro (#6B2D3E), tarjetas en blanco con bordes suaves, y acentos en rose-mauve (#B07080) para indicadores activos y botones de acción. La tipografía es jerárquica: títulos en peso bold para los valores numéricos principales (76/100, 7 days), subtítulos en medium para etiquetas de sección, y texto regular para descripciones secundarias. El Skin Progress Tracker extiende esta lógica visual con un gráfico de área en tono rosado, métricas de adherencia, y una sección de Skin Metrics con barras de progreso codificadas por el mismo esquema de color del sistema.
+
+**Diseño inclusivo:**
+El dashboard emplea íconos acompañados siempre de etiquetas de texto, eliminando la ambigüedad para usuarios con menor familiaridad con convenciones digitales. Los valores numéricos de las métricas (76/100, 71%, 7 days) presentan un contraste alto sobre fondo claro, garantizando legibilidad para usuarios con baja visión. El panel de AI Assistant incluye lenguaje conversacional y accesible ("Your skin is recovering well"), evitando terminología clínica que pueda resultar excluyente. En el Skin Progress Tracker, la leyenda del gráfico de actividad semanal distingue visualmente entre "Completed" y "Missed" mediante color y forma simultáneamente, no solo por color, lo que beneficia a usuarios con daltonismo.
+
+**Arquitectura de información:**
+El dashboard organiza la información en tres niveles de jerarquía: métricas globales en la franja superior (visión rápida del estado general), módulos de contenido intermedio (rutina del día, estado de piel, progreso, recomendaciones) y acciones pendientes en la sección inferior (Upcoming Actions). El sidebar izquierdo funciona como eje de navegación principal, con la sección activa destacada en rose-mauve y etiquetas claras para cada módulo del sistema (Dashboard, AI Assistant, Appointments, My Routine, Skin Scan, Trending, Profile). El Skin Progress Tracker replica esta jerarquía en formato de vista detallada: métricas en la franja superior, gráfico central como elemento protagonista, y los paneles de Skin Metrics e AI Insight posicionados como información complementaria al lado derecho.
+
+**Design System aplicado:**
+La paleta cromática sigue el sistema de diseño establecido: fondo general en crema (#FAF7F4), sidebar en borgoña oscuro (#6B2D3E), tarjetas en blanco con sombra sutil y bordes redondeados de radio uniforme, y acentos en rose-mauve (#B07080) para indicadores activos, etiquetas de estado y botones de acción secundaria. Luego el botón primario "Full routine" aplica el componente de botón principal del sistema en borgoña con texto en blanco y esquinas redondeadas. Siguiendo con los icons, las barras de progreso de Skin Metrics replican el mismo componente de barra del sistema con relleno en rose-mauve sobre fondo gris claro. La iconografía sigue un estilo de línea delgada uniforme en todos los ítems del sidebar y las tarjetas de métricas. 
+
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: las tarjetas superiores del dashboard muestran en tiempo real el score, el streak y el próximo appointment, manteniendo al usuario constantemente informado de su situación actual.
+- *Consistencia y estándares*: el Design System se aplica de manera uniforme entre el dashboard y el Skin Progress Tracker; misma paleta, misma tipografía, mismos componentes de tarjeta, generando coherencia visual entre vistas.
+- *Reconocimiento antes que recuerdo*: las secciones del sidebar están siempre visibles y etiquetadas, permitiendo al usuario orientarse y navegar sin memorizar rutas de acceso.
+- *Estética y diseño minimalista*: cada tarjeta presenta únicamente el dato principal y su etiqueta, sin información adicional que compita por la atención del usuario, manteniendo la interfaz limpia y enfocada.
+
+13)  <strong> Mock-up 13: </strong> AI Assistant: herramienta de consulta 
+
+**User Stories relacionadas:** 
+
+US13: Como joven adulto, quiero consultar dudas sobre productos, rutinas o ingredientes para recibir orientación inmediata basada en mi perfil de piel.
+
+![mockup ai assistant app](assets/img/mockups/mockup-13-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-13-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo presenta dos estados de la pantalla "Ask me anything!" del asistente de IA dentro de la aplicación móvil. El primer estado muestra el inicio de una conversación con el AI, donde el usuario selecciona una pregunta frecuente y el asistente responde solicitando más información. El segundo estado refleja una conversación avanzada donde el asistente, ante una consulta que supera su alcance, redirige al usuario hacia un dermatólogo. El Design System se aplica en los globos de conversación: los mensajes del usuario aparecen en globos blancos con borde suave alineados a la derecha, mientras que las respuestas del AI se presentan en globos de fondo mauve-rosado #C4A3A3 alineados a la izquierda. La franja inferior de navegación mantiene los íconos y etiquetas del sistema (Home, Consult, My Routine, Profile) con el ítem activo destacado en borgoña. Las FAQ chips en la parte superior emplean el mismo componente de tarjeta redondeada del Design System, con tipografía en gris medio sobre fondo blanco.
+
+**Diseño inclusivo:**
+La sección de Frequently Asked Questions al inicio de la pantalla reduce la barrera de entrada para usuarios que no saben cómo formular su consulta, ofreciendo puntos de partida predefinidos y accesibles. El lenguaje del asistente es conversacional, empático y libre de jerga técnica ("Sure I can help you with that!", "Can you tell me more about your skin traits?"), lo que facilita la interacción para usuarios sin conocimiento dermatológico previo. La redirección explícita al dermatólogo ante casos que superan el alcance del AI ("I recommended you to book a consult with a dermatologist") protege al usuario de recibir orientación inadecuada, priorizando su bienestar sobre la retención en la pantalla. El campo de texto inferior ("Escriba aquí...") acepta entrada en español, reconociendo el contexto lingüístico del usuario objetivo.
+
+**Arquitectura de información:**
+La pantalla estructura el flujo conversacional en tres zonas: el área de FAQ chips en la parte superior como punto de entrada rápido, la zona central de conversación como espacio principal de interacción, y el campo de input en la parte inferior como zona de acción. Esta disposición sigue el patrón de lectura natural top-down, guiando al usuario desde el contexto inicial hasta la acción. La barra de navegación inferior permanece visible en ambos estados, asegurando que el usuario pueda abandonar la consulta y acceder a otras secciones del sistema en cualquier momento sin perder la orientación general de la app.
+
+**Design System aplicado:**
+Los globos de conversación aplican dos variantes del componente de tarjeta del sistema: los mensajes del usuario en blanco con borde gris suave alineados a la derecha, y las respuestas del AI en rose-mauve apagado #C4A3A3 alineadas a la izquierda, ambos con el mismo radio de borde redondeado uniforme definido en el sistema, lo que genera armonía. Las FAQ chips emplean el componente de chip del Design System: fondo blanco, borde gris claro, tipografía en gris medio regular y esquinas redondeadas, coherentes con los chips de selección utilizados en otras pantallas de la app. La barra de navegación inferior replica el componente de bottom navigation bar del sistema con íconos de línea delgada, donde destaca el texto/ícono en blanco, siguiendo el estado activo definido en el Design System. El campo de input inferior sigue el mismo componente de input de texto del sistema.
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: los globos de conversación diferencian claramente quién habla en cada momento mediante alineación, color y orden cronológico, manteniendo al usuario orientado dentro del flujo del diálogo.
+- *Ayuda y documentación*: las FAQ chips funcionan como documentación contextual integrada, anticipando las dudas más frecuentes y facilitando el inicio de la consulta sin fricciones.
+- *Prevención de errores*: el asistente solicita información adicional ("Can you tell me more about your skin traits?") antes de ofrecer una respuesta, reduciendo la probabilidad de dar orientación incorrecta por falta de contexto.
+- *Control y libertad del usuario*: la flecha de retroceso en la parte superior y la barra de navegación inferior permiten al usuario salir de la conversación en cualquier momento sin quedar atrapado en el flujo.
+
+14)  <strong> Mock-up 14: </strong> Consulta y selección de dermatólogo 
+
+**User Stories relacionadas:** 
+
+US14: Como joven adulto, quiero visualizar una lista de dermatólogos disponibles con su información relevante para elegir con quién agendar una consulta.
+
+![mockup consult dermatologist app](assets/img/mockups/mockup-14-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-14-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo abarca cinco pantallas del flujo de consulta con dermatólogos: el Home de la app, la pantalla "Consult a dermatologist" con opciones de gestión, la lista de especialistas disponibles y dos estados del filtro por precio. El Home aplica el Design System con tarjetas de acceso rápido en rosa empolvado y borgoña, tipografía bold para el saludo principal y componentes de card con bordes redondeados uniformes. La pantalla de selección de dermatólogo presenta cada especialista en una tarjeta con nombre, especialidad, precio por sesión en borgoña/rose destacado, rating con ícono de estrella y disponibilidad de próxima cita, seguido de un botón "Book appointment" en verde-salvia (#7AAE9A) que contrasta intencionalmente con la paleta rosa del sistema para señalizar acción positiva de confirmación. El componente de filtro emerge como un bottom sheet modal con radio buttons, siguiendo los patrones de interacción estándar del Design System para selección única.
+
+**Diseño inclusivo:**
+El precio de cada especialista se presenta de forma prominente y en color destacado (borgoña), reconociendo que el costo es un factor decisivo para el segmento de jóvenes adultos con presupuesto limitado. El filtro por precio ofrece rangos predefinidos (Under $30, $30–$35, Over $35) en lugar de un campo numérico abierto, reduciendo la carga cognitiva y facilitando la decisión. La pantalla "Consult a dermatologist" diferencia tres acciones posibles (Join virtual appointment, Book a new appointment, View past consultations) mediante tarjetas separadas con títulos en bold y descripciones en texto regular, asegurando que usuarios con distintos objetivos identifiquen su camino sin ambigüedad. El botón "Join now" en borgoña contrasta adecuadamente sobre el fondo claro de la tarjeta, cumpliendo con los estándares de accesibilidad de contraste para elementos interactivos primarios.
+
+**Arquitectura de información:**
+El flujo de este grupo sigue una progresión lógica de tres niveles: acceso desde el Home → selección del tipo de gestión (Consult a dermatologist) → listado y filtrado de especialistas → acción de reserva. Cada pantalla representa un paso discreto en el flujo, con la información estrictamente necesaria para ese momento del recorrido del usuario. El listado de dermatólogos organiza cada ítem con jerarquía interna clara: nombre (mayor peso tipográfico), especialidad y precio (nivel medio), disponibilidad y botón de acción (nivel operativo). El bottom sheet de filtros se superpone sin reemplazar la lista subyacente, permitiendo al usuario anticipar el resultado del filtro y mantener el contexto de dónde está dentro del flujo.
+
+**Design System aplicado:**
+Las tarjetas de especialista aplican el componente de card del sistema con fondo azul-grisáceo claro #D6E4E8, borde sin sombra y radio de esquinas uniforme, diferenciándose cromáticamente de las tarjetas de contenido general en blanco para señalizar que son ítems seleccionables dentro de un listado. El precio por sesión se renderiza en borgoña (6B2D3E), donde aplicamos el color de acento primario del sistema para destacar información de decisión crítica. El botón "Book appointment" emplea el componente de botón de acción positiva del Design System con texto en blanco, color reservado en el sistema para acciones de confirmación y avance. El bottom sheet de filtros utiliza el componente modal del sistema con fondo blanco, y el botón "Apply filter" como botón primario en borgoña. La barra de búsqueda superior replica el componente de search input del sistema con ícono de lupa, placeholder en gris claro y borde suave, coherente con los inputs del resto de la app.
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: al aplicar el filtro de precio, las tarjetas que no cumplen el criterio se atenúan visualmente en pantalla, comunicando de inmediato el efecto del filtro antes de cerrar el modal.
+- *Correspondencia entre el sistema y el mundo real*: los términos utilizados ("Book appointment", "per session", "Next: Today, 10:00 AM") replican el lenguaje familiar de plataformas de agendamiento médico, reduciendo la curva de aprendizaje.
+- *Control y libertad del usuario*: el ícono de cierre (×) en el filtro y la flecha de retroceso en el header permiten salir de cualquier estado intermedio sin consecuencias, garantizando libertad de navegación.
+- *Flexibilidad y eficiencia de uso*: el campo de búsqueda por nombre o especialidad en la parte superior de la lista complementa el filtro por precio, ofreciendo dos métodos de acceso al especialista según las preferencias del usuario.
+
+15)  <strong> Mock-up 15: </strong> Reserva de cita y método de pago
+
+**User Stories relacionadas:** 
+
+US15: Como joven adulto, quiero realizar el pago de una consulta dermatológica para confirmar mi cita.
+
+![mockup book appointment payment app](assets/img/mockups/mockup-15-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-15-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo abarca cinco pantallas que cubren el flujo completo de reserva y pago: la lista de especialistas, el perfil del dermatólogo con selector de fecha y hora, la selección del método de pago, el formulario de datos de tarjeta y la confirmación de pago exitoso. La pantalla de "Book appointment" presenta las estadísticas del especialista (pacientes, años de experiencia, rating, casos de acné) mediante tarjetas de cifras compactas con tipografía bold, seguidas de una descripción en texto regular y un selector de calendario horizontal con días de la semana. Los slots horarios disponibles se muestran como chips rectangulares con bordes redondeados; el horario seleccionado (08:00–9:00) se destaca en azul-salvia #6FA8A0, diferenciándose del resto en fondo blanco, siguiendo el Design System en su uso de color para indicar estado activo. El flujo de pago emplea una pantalla de selección con radio buttons para Credit/Debit card y Digital Wallets (Apple Pay, Google Pay, Yape), seguida de un formulario de datos con campos de entrada redondeados sobre fondo blanco y el botón "Pay now" en borgoña como acción primaria. La confirmación de pago exitoso se comunica mediante un banner verde en la parte superior ("Success Payment") sin interrumpir el formulario visible, manteniendo coherencia visual con el resto del sistema.
+
+**Diseño inclusivo:**
+La inclusión de Yape como opción de pago digital junto a Apple Pay y Google Pay reconoce el contexto del mercado local latinoamericano, donde esta billetera digital tiene alta adopción entre jóvenes adultos, reduciendo la fricción para usuarios que no cuentan con tarjetas de crédito internacionales. El ícono de candado acompañado del texto "Your payment info is encrypted and secure" refuerza la confianza del usuario durante el ingreso de datos sensibles, atendiendo las barreras psicológicas asociadas al pago digital en contextos donde la desconfianza tecnológica es frecuente. El selector de calendario horizontal con días abreviados y fechas numéricas permite una selección rápida sin requerir conocimiento previo del formato, y el botón "Continue" en verde-salvia al final de la pantalla de agendamiento mantiene suficiente contraste sobre su fondo para cumplir estándares de accesibilidad visual.
+
+**Arquitectura de información:**
+El flujo sigue una progresión lineal de cinco pasos claramente delimitados: selección de especialista → revisión del perfil y elección de horario → selección del método de pago → ingreso de datos → confirmación. Cada pantalla concentra exclusivamente la información y acción correspondiente a su paso, evitando sobrecarga cognitiva. El perfil del dermatólogo prioriza las métricas de confianza (rating, experiencia, casos) en la parte superior antes de presentar el selector de horario, guiando al usuario a validar su elección antes de comprometerse con una fecha. La barra de navegación inferior permanece visible en todas las pantallas del flujo, permitiendo al usuario abandonar el proceso en cualquier momento sin quedar atrapado en el embudo de reserva.+
+
+**Design System aplicado:**
+El selector de calendario horizontal aplica el componente de date picker del sistema: días de la semana con fondo crema replicando el estado activo definido para componentes de selección en el Design System. Los chips de horario disponibles emplean el componente de chip de selección del sistema con borde gris y fondo blanco en estado no seleccionado, y fondo azul-salvia #6FA8A0 con texto en blanco en estado seleccionado (08:00–9:00). Los campos del formulario de pago replican el componente de input del sistema: fondo blanco, borde gris suave, radio de esquinas uniforme y placeholder en gris claro. El botón "Pay now" aplica el componente de botón primario en borgoña con texto en blanco y ancho completo, para incitar la compra por verse como el botón "correcto". El banner "Success Payment" utiliza el componente de alerta positiva del sistema: fondo verde claro, ícono de check en verde-salvia y texto en verde oscuro, lo usamos para diferenciarlo de la paleta para señalizar resultado exitoso.
+
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: el slot horario seleccionado cambia de color de forma inmediata al ser tocado, comunicando la selección activa sin ambigüedad; el banner verde de "Success Payment" confirma el resultado del pago en la misma pantalla.
+- *Prevención de errores*: el formulario de tarjeta presenta placeholders descriptivos en cada campo (formato de fecha dd/mm/yyyy, puntos para CVV) que guían el ingreso correcto de datos antes de que ocurra un error.
+- *Correspondencia entre el sistema y el mundo real*: el calendario horizontal con días y fechas replica la lógica de agendamiento familiar para el usuario, y los logos reconocibles de Visa, Apple Pay y Google Pay eliminan la necesidad de leer el texto para identificar las opciones.
+- *Estética y diseño minimalista*: el formulario de pago limita los campos al mínimo necesario (nombre, número, fecha, CVV), sin solicitar información adicional que pueda generar fricción o abandono del proceso.
+
+16)  <strong> Mock-up 16: </strong> Citas agendadas y flujo de cancelación
+
+**User Stories relacionadas:** 
+
+US16: Como joven adulto, quiero cancelar una cita programada para gestionar cambios en mi disponibilidad.
+
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-16-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-16-web.png)
+
+
+**Principios y elementos de diseño:**
+Este grupo presenta cuatro pantallas que cubren el flujo de gestión y cancelación de citas: el listado de citas agendadas, el formulario de razón de cancelación, la pantalla de advertencia de política de no reembolso y la confirmación de cancelación exitosa. El listado de citas organiza cada entrada en una tarjeta con el nombre del dermatólogo en bold, fecha, hora y un indicador de estado codificado por color: verde para "In progress" y "Scheduled", rojo para "Canceled". Cada tarjeta incluye acciones contextuales: "Cancel appointment" en botón con borde y "Join now" / "Start call" en botón con fondo verde-salvia para citas activas, mientras que las citas canceladas presentan el botón deshabilitado en rosa pálido con texto "This appointment has been canceled", siguiendo el Design System en su uso de estados visuales diferenciados. El formulario de cancelación emplea radio buttons con opciones predefinidas de razón, un botón "Continue cancellation" en gris mientras no se selecciona una opción y "Keep appointment" como acción secundaria con borde. La pantalla de advertencia introduce un banner rosa de alerta ("Late cancellation — No refund") con ícono de reloj, diferenciado cromáticamente del resto del sistema para señalizar riesgo. La pantalla final de confirmación utiliza un círculo verde con ícono de check como elemento protagonista visual, patrón estándar de confirmación exitosa.
+
+**Diseño inclusivo:**
+La política de cancelación se comunica de forma proactiva y en lenguaje claro antes de que el usuario confirme la acción ("Your appointment is within the next 24 hours. As per our policy..."), evitando que el usuario se enfrente a consecuencias inesperadas. Las razones de cancelación predefinidas (schedule conflict, another dermatologist, platform issue, mistaken booking, no longer needed, Other) cubren los escenarios más frecuentes y reducen la carga cognitiva de tener que formular una justificación en texto libre, siendo especialmente inclusivo para usuarios con dificultades de expresión escrita. El botón "Keep appointment" está presente en todas las pantallas intermedias del flujo de cancelación, garantizando que el usuario pueda arrepentirse en cualquier momento sin consecuencias irreversibles. La distinción de estado por color en las tarjetas de cita se refuerza también con texto de estado ("In progress", "Scheduled", "Canceled"), no dependiendo exclusivamente del color para comunicar información crítica.
+
+**Arquitectura de información:**
+El flujo de cancelación sigue una progresión de cuatro pasos con escalado progresivo de consecuencias: listado → selección de razón → advertencia de política → confirmación final. Este diseño en escalera permite al usuario detenerse en cualquier punto intermedio y reconsiderar, distribuyendo la información crítica (política de no reembolso) en el momento oportuno del recorrido, no antes ni después. El listado de citas organiza las entradas en orden cronológico implícito, con las citas activas al inicio y las canceladas al final, facilitando la localización de la información más relevante para el usuario en cada momento. La pantalla de confirmación final ofrece dos salidas claras: "Book a new appointment" (acción primaria en borgoña) y "Go home" (acción secundaria en gris), resolviendo el flujo sin dejar al usuario en un estado terminal sin opciones.
+
+**Design System aplicado:**
+Las tarjetas de cita aplican el componente de card del sistema con fondo crema rosado suave sin sombra en los bordes. Los indicadores de estado emplean el sistema de colores semánticos del Design System: punto verde para "In progress" y "Scheduled", punto rojo para "Canceled", acompañados siempre de etiqueta de texto para no depender exclusivamente del color, pero marca como el paso "correcto". El botón "Join now" aplica la variante de botón de acción positiva en verde-salvia con texto en blanco, mientras que "Cancel appointment" usa la variante de botón secundario con borde gris y texto oscuro. El botón deshabilitado "This appointment has been canceled" emplea la variante deshabilitada del sistema en rosa pálido con texto en borgoña claro. El banner de advertencia "Late cancellation — No refund" utiliza el componente de alerta de riesgo del sistema: fondo rosa claro, borde en rosa medio, ícono de reloj en borgoña y texto en borgoña oscuro, diferenciado del banner de éxito en verde. El círculo de confirmación final con ícono de check aplica el componente de estado de éxito del sistema con verde en fondo blanco. 
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: los indicadores de estado con color y etiqueta de texto en cada tarjeta de cita comunican de forma inmediata la situación actual de cada consulta sin necesidad de ingresar a la cita para descubrirlo.
+- *Prevención de errores*: la pantalla de advertencia de política de no reembolso actúa como barrera informativa antes de la acción irreversible, reduciendo cancelaciones involuntarias o desinformadas.
+- *Control y libertad del usuario*: el botón "Keep appointment" presente en todas las pantallas intermedias garantiza una salida segura en cualquier punto del flujo de cancelación.
+- *Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores*: la pantalla de confirmación final con acceso directo a "Book a new appointment" ofrece una ruta de recuperación inmediata tras la cancelación, reduciendo el impacto negativo de la acción.
+
+17)  <strong> Mock-up 17: </strong> Selección de plan y pago de suscripción
+
+**User Stories relacionadas:** 
+
+US17: Como joven adulto, quiero seleccionar un plan de suscripción y completar el pago para acceder a Bloomie.
+
+![mockup choose plan payment app](assets/img/mockups/mockup-17-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-17-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo abarca cinco pantallas que cubren la selección de plan de suscripción y el flujo de pago asociado. La pantalla "Choose your plan" presenta dos planes diferenciados visualmente: el Plan Starter en una tarjeta de fondo crema con lista de beneficios en texto regular y botón "Choose Starter" en borgoña, y el Plan Advanced en una tarjeta de fondo borgoña oscuro con badge "Most Popular" en rose-mauve, precio prominente ($19/month) en tipografía bold de mayor tamaño, y lista extendida de funcionalidades con íconos de check. Esta jerarquía visual guía sutilmente al usuario hacia la opción recomendada sin eliminar la autonomía de elección. El flujo de pago replica el mismo sistema de componentes descrito en el grupo anterior (radio buttons, formulario de tarjeta, botón "Pay now" en borgoña, banner "Success Payment" en verde), manteniendo la coherencia del Design System a través de diferentes contextos de pago dentro de la app.
+
+**Diseño inclusivo:**
+La etiqueta "Most Popular" sobre el Plan Advanced comunica la preferencia colectiva sin presionar directamente al usuario, ofreciendo una referencia social que puede orientar la decisión de usuarios indecisos sin eliminar la opción más económica. El subtítulo "All plans include a 7-day free trial" está posicionado de forma destacada bajo el título de la pantalla, asegurando que todos los usuarios vean esta información antes de comprometerse con un plan, reduciendo la barrera de entrada especialmente para usuarios con restricciones económicas. La inclusión de Yape como opción de billetera digital junto a Apple Pay y Google Pay mantiene la accesibilidad de pago para el segmento latinoamericano objetivo, reconociendo la diversidad de infraestructura financiera del mercado local.
+
+**Arquitectura de información:**
+La pantalla de selección de plan organiza la información en dos bloques verticales claramente diferenciados, permitiendo una comparación directa de características sin necesidad de navegar entre vistas. Los beneficios de cada plan se listan en orden de valor creciente, colocando las funcionalidades más diferenciadoras del Plan Advanced al final de la lista para incentivar el scroll y el descubrimiento. El flujo de pago posterior replica exactamente la misma estructura que el flujo de pago de citas, reduciendo la curva de aprendizaje para usuarios que ya han completado una transacción anterior en la app y generando coherencia procedimental entre distintos contextos de compra.
+
+**Design System aplicado:**
+La tarjeta del Plan Starter aplica el componente de card estándar del sistema con fondo crema #FAF7F4, borde gris suave y lista de beneficios con íconos de check en borgoña.  Los planes están con texto en blanco y el badge "Most Popular" en rose-mauve como etiqueta de estado especial definida en el Design System para señalizar la opción recomendada. El precio "$19/month" aplica la tipografía display bold del sistema en tamaño mayor al estándar, reservada para valores numéricos protagonistas. Los íconos de check en la lista de beneficios del Plan Advanced se renderizan en rose-mauve claro sobre el fondo borgoña, manteniendo el contraste definido en el sistema para texto sobre fondos oscuros. El flujo de pago posterior replica exactamente los mismos componentes descritos anteriormente: radio buttons, inputs de formulario, botón primario "Pay now" en borgoña y banner "Success Payment" en verde, confirmando la reutilización sistemática de componentes del Design System a través de diferentes contextos de compra.
+
+**Heurísticas de Nielsen aplicadas:**
+- *Correspondencia entre el sistema y el mundo real*: el precio mensual presentado como "$19/month" en formato familiar y la lista de beneficios en lenguaje cotidiano ("Unlimited facial diagnosis", "Smart chatbot with memory") facilitan la comprensión del valor de cada plan sin requerir conocimiento técnico previo.
+- *Consistencia y estándares*: el flujo de pago de suscripción utiliza exactamente los mismos componentes, tipografía y colores que el flujo de pago de citas, generando una experiencia predecible y coherente en todos los contextos transaccionales de la app.
+- *Visibilidad del estado del sistema*: el banner "Success Payment" en verde confirma inmediatamente la activación del plan, y el badge "Active" visible posteriormente en el perfil cierra el ciclo de retroalimentación sobre el estado de la suscripción.
+- *Flexibilidad y eficiencia de uso*: la disponibilidad del botón "Choose Starter" como opción sin necesidad de scroll permite a usuarios con decisión ya tomada completar el flujo rápidamente, sin forzarlos a revisar el plan superior antes de proceder.
+
+18)  <strong> Mock-up 18: </strong> Gestión del plan activo y actualización de método de pago 
+
+**User Stories relacionadas:** 
+
+US18: Como joven adulto, quiero gestionar mi suscripción activa para cambiar de plan o cancelarla según mis necesidades.
+
+![mockup my plan payment update app](assets/img/mockups/mockup-18-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-18-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo presenta cuatro pantallas: la vista "My Plan" con el resumen de la suscripción activa, dos estados de la selección de método de pago para actualización y el formulario de datos de tarjeta con confirmación. La pantalla "My Plan" centraliza la información de suscripción en una tarjeta de fondo borgoña con el nombre del plan, precio y fecha de próxima facturación, seguida de una tarjeta blanca con el método de pago guardado (Visa •••• 4242, vence 08/2028) y un enlace "Update" en borgoña como acción secundaria. La sección "Change Plan" presenta un acceso tipo list-item con ícono de ciclo y texto "Upgrade or downgrade your plan", mientras que "Cancel subscription" aparece como botón con borde en texto borgoña sobre fondo blanco, señalizando una acción destructiva pero disponible. La pantalla de selección de método de pago en este contexto muestra los logos reales de las tarjetas (Visa, Mastercard, American Express) y billeteras (Apple Pay, Google Pay, Yape con sus íconos de marca), a diferencia del flujo de reserva de citas donde los logos aún no estaban completamente renderizados, evidenciando un mayor nivel de fidelidad en este mockup.
+
+**Diseño inclusivo:**
+La opción "Cancel subscription" está disponible de forma directa dentro de la app, sin requerir contacto con soporte ni procesos externos, respetando el derecho del usuario a discontinuar el servicio de manera autónoma y sin fricción artificial. El método de pago guardado se muestra parcialmente enmascarado (•••• 4242) para proteger la privacidad del usuario mientras le permite identificar qué tarjeta tiene registrada. La fecha de próxima facturación visible en la tarjeta de plan ("Next billing: June 1, 2026") permite al usuario planificar con anticipación cualquier cambio o cancelación antes de ser cobrado, reduciendo situaciones de cobro inesperado.
+
+**Arquitectura de información:**
+La pantalla "My Plan" organiza la información en tres bloques temáticos diferenciados: estado actual de la suscripción (plan + precio + próximo cobro), método de pago guardado con opción de actualización, y gestión del plan (cambio o cancelación). Esta segmentación por contexto facilita que el usuario localice rápidamente la acción que necesita sin procesar información irrelevante. El flujo de actualización de método de pago replica la misma estructura del flujo de pago inicial, garantizando que el usuario navegue en un entorno ya familiar. La acción "Cancel subscription" se ubica al final de la pantalla, fuera de la zona de acciones frecuentes, reduciendo la probabilidad de activación accidental sin ocultarla.
+
+**Design System aplicado:**
+La tarjeta de plan activo aplica la variante destacada del componente de card del sistema en borgoña oscuro #6B2D3E con texto en blanco, ícono de rayo en rose-mauve y badge "Active" en blanco semitransparente, replicando el mismo componente de tarjeta de plan utilizado en la pantalla de perfil y en "Choose your plan", demostrando la reutilización sistemática entre vistas. La tarjeta de método de pago posee un enlace "Update" en borgoña como acción secundaria inline, siguiendo el patrón de enlace de texto definido en el sistema para acciones de menor jerarquía. El ítem "Change Plan" aplica el componente de list-item del sistema con ícono de ciclo. El botón "Cancel subscription" emplea la variante de botón destructivo del Design System: borde en borgoña claro, texto en borgoña, fondo blanco, sin relleno sólido para no darle el mismo peso visual que las acciones primarias. En la pantalla de selección de método de pago, los logos reales de Visa, Mastercard, American Express, Apple Pay, Google Pay y Yape se integran como elementos de marca dentro del componente de radio button list, lo que mejora la fidelidad ilustrada para el producto. 
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: la tarjeta de plan activo muestra de forma prominente el nombre del plan, precio, estado ("Active") y próxima fecha de facturación, manteniendo al usuario completamente informado de su situación de suscripción en todo momento.
+- *Control y libertad del usuario*: la disponibilidad de "Cancel subscription" de forma directa y sin barreras adicionales respeta la autonomía del usuario y elimina la frustración asociada a procesos de baja complicados.
+- *Reconocimiento antes que recuerdo*: los logos de marca de las opciones de pago (Visa, Mastercard, Google Pay) permiten al usuario identificar su método preferido por reconocimiento visual inmediato, sin necesidad de leer el texto asociado.
+- *Consistencia y estándares*: la estructura del flujo de actualización de pago es idéntica a la del flujo de pago inicial, reduciendo la curva de aprendizaje y generando una experiencia predecible en todos los contextos transaccionales.
+
+19)  <strong> Mock-up 19: </strong> Perfil de usuario y edición de información personal 
+
+**User Stories relacionadas:** 
+
+US19: Como joven adulto, quiero editar mi información personal para mantener mis datos actualizados.
+
+![mockup profile edit app](assets/img/mockups/mockup-19-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-19-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo presenta tres estados de la pantalla "Profile": la vista inicial con foto de perfil y datos parcialmente visibles, la vista completa con información personal y accesos a subsecciones, y el estado posterior a la edición con confirmación de cambios guardados. La foto de perfil aparece con un ícono de cámara superpuesto en la esquina inferior derecha sobre un badge borgoña, indicando interactividad para cambio de imagen. El banner de plan activo ("Plan Advanced · Active") se renderiza en la misma tarjeta borgoña del Design System con el precio, fecha de próximo cobro y botón "Manage" integrado. Los campos de "Name" y "Email" son inputs editables con borde gris suave y fondo blanco, seguidos de tres list-items de navegación hacia subsecciones (Skin Profile, Settings, My Plan) con íconos alineados a la izquierda, título en bold, subtítulo descriptivo en gris y chevron a la derecha. El badge "Active" en verde-salvia junto al ítem "My Plan" comunica el estado de la suscripción sin necesidad de acceder a la subsección. La confirmación de edición se presenta mediante el texto "all changes saved!" en borgoña, posicionado inmediatamente bajo el campo editado, sin interrumpir el layout ni redirigir al usuario a otra pantalla.
+
+**Diseño inclusivo:**
+Los subtítulos descriptivos bajo cada acceso de subsección ("Type of skin and habits", "Language and preferences", "Advanced · $19/mo — Active") anticipan el contenido de cada sección antes de que el usuario ingrese, reduciendo la necesidad de exploración a ciegas y siendo especialmente útil para usuarios menos familiarizados con la estructura de la app. El botón "Log out" con ícono de salida está posicionado al final de la pantalla, claramente visible pero separado de las acciones de edición, evitando cierres de sesión accidentales. La opción "Change photo" con ícono de cámara superpuesto sobre el avatar sigue un patrón de interacción estándar en apps móviles, generando familiaridad inmediata para usuarios con experiencia previa en redes sociales o aplicaciones similares.
+
+**Arquitectura de información:**
+El perfil funciona como hub de gestión personal, organizando la información en tres niveles: identidad visual y datos básicos (foto, nombre, email) en la parte superior, estado de suscripción como información de contexto inmediato, y accesos a subsecciones especializadas (Skin Profile, Settings, My Plan) como navegación secundaria hacia configuraciones detalladas. Esta jerarquía posiciona primero lo más personal e identificatorio y luego las opciones de configuración, siguiendo el orden lógico de relevancia para el usuario. La confirmación "all changes saved!" aparece en línea junto al campo modificado, sin desplazar el contenido ni requerir scroll para visualizarla, manteniendo al usuario orientado espacialmente dentro de la pantalla.
+
+**Design System aplicado:**
+El badge de cámara sobre la foto de perfil aplica el componente de badge de acción del sistema en borgoña con ícono en blanco, el mismo componente utilizado para badges de notificación y estado en otras pantallas. Los campos de "Name" y "Email" replican el componente de input de texto del sistema: fondo blanco, borde gris suave. Los list-items de navegación a subsecciones (Skin Profile, Settings, My Plan) aplican el componente de list-item del Design System: ícono de línea alineado a la izquierda en borgoña, título en bold, con separador horizontal entre ítems. El badge "Active" junto al ítem "My Plan" emplea el componente de badge de estado del sistema en verde-salvia con texto en blanco, consistente con los indicadores de estado activo usados en tarjetas de cita y plan. La confirmación "all changes saved!" aplica el color de acento primario borgoña en tipografía small medium, posicionada inline bajo el campo editado sin un componente usado, resolviendo el feedback en el mínimo espacio posible.
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: el mensaje "all changes saved!" en borgoña aparece inmediatamente tras la edición, confirmando el guardado sin requerir ninguna acción adicional del usuario ni navegación a otra pantalla.
+- *Reconocimiento antes que recuerdo*: los subtítulos descriptivos bajo cada ítem de subsección eliminan la necesidad de recordar qué contiene cada sección, facilitando la navegación por reconocimiento directo.
+- *Consistencia y estándares*: los list-items de navegación con ícono, título, subtítulo y chevron siguen el patrón estándar de listas de configuración en apps móviles iOS y Android, generando familiaridad inmediata.
+- *Estética y diseño minimalista*: la pantalla de perfil presenta únicamente los datos y accesos necesarios, sin elementos decorativos adicionales, manteniendo la claridad visual propia del Design System de Bloomie.
+
+20)  <strong> Mock-up 20: </strong> Skin Profile: registro de hábitos y tipo de piel 
+
+**User Stories relacionadas:** 
+
+US20: Como joven adulto, quiero actualizar mis características de piel para recibir recomendaciones más precisas.
+
+![mockup skin profile app](assets/img/mockups/mockup-20-app.png)
+![mockup scheduled appointments cancel app](assets/img/mockups/mockup-20-web.png)
+
+**Principios y elementos de diseño:**
+Este grupo presenta dos estados de la pantalla "Skin Profile": el formulario vacío y el formulario completado con confirmación de guardado. La pantalla emplea cuatro campos de selección tipo dropdown con el mismo componente de input redondeado del Design System, con borde gris suave, chevron de expansión alineado a la derecha y fondo blanco. Los campos cubren Skin Type (opcional), Water Intake, Sun Exposure y Sleep Habits, cada uno con su etiqueta en bold sobre el campo. En el estado completado, luego, se muestran las opciones dropdowns (Normal skin, 3–5 glasses, 30–60 minutes, 8 hours) con la misma tipografía y alineación que el placeholder, garantizando continuidad visual entre estado vacío y estado lleno. El botón de acción principal cambia de "Save Changes" en borgoña a "Saved!" en verde-salvia al confirmarse el guardado, empleando el mismo patrón de feedback por cambio de estado y color que se observa en otras pantallas del sistema (Skin Profile, ajustes de Settings).
+
+**Diseño inclusivo:**
+La etiqueta "(Optional)" junto al campo "Select your skin type" comunica explícitamente que no todos los campos son obligatorios, reduciendo la presión sobre usuarios que desconocen su tipo de piel o que prefieren no especificarlo en esta etapa. El uso de dropdowns con opciones predefinidas en lugar de campos de texto libre elimina errores de ingreso y facilita la interacción para usuarios con menor vocabulario dermatológico, ya que las opciones disponibles actúan como guía implícita sobre los valores válidos para cada campo. Los hábitos seleccionables (ingesta de agua, exposición solar, sueño) están expresados en rangos comprensibles y cotidianos (3–5 glasses, 30–60 minutes, 8 hours) en lugar de unidades técnicas, haciendo el formulario accesible para usuarios sin conocimiento médico previo.
+
+**Arquitectura de información:**
+La pantalla organiza los cuatro campos en una secuencia vertical sin agrupaciones intermedias, dado el número reducido de elementos, lo que mantiene la pantalla simple y libre de jerarquías innecesarias. El botón de acción principal se posiciona al final del formulario, siguiendo el patrón convencional de formularios móviles donde la acción de confirmación cierra el proceso de ingreso de datos. La transición del botón de "Save Changes" a "Saved!" resuelve el ciclo de interacción en la misma pantalla sin redirigir al usuario, manteniendo el contexto y permitiendo que el usuario realice ajustes adicionales de forma inmediata si lo considera necesario.
+
+**Design System aplicado:**
+Los cuatro campos dropdown aplican el componente de select input del Design System: fondo blanco, borde gris suave, radio de esquinas uniforme, etiqueta en bold sobre el campo, placeholder en gris claro y chevron de expansión en gris medio alineado a la derecha, coherente con los componentes de input de texto y search bar utilizados en el resto de la app. El botón "Save Changes" aplica el componente de botón primario del sistema en borgoña con texto en blanco y ancho completo, idéntico al botón "Pay now" y "Apply filter" de otras pantallas. Tras el guardado, el mismo botón transiciona al estado de confirmación "Saved!" empleando el color verde-salvia #7AAE9A del sistema, reservado para estados de éxito y acciones positivas, replicando el mismo patrón de cambio de estado por color y texto utilizado en los botones de confirmación de Settings y otros formularios de la app.
+
+
+**Heurísticas de Nielsen aplicadas:**
+- *Visibilidad del estado del sistema*: el cambio del botón de "Save Changes" en borgoña a "Saved!" en verde-salvia comunica de forma inmediata e inequívoca que los datos han sido guardados correctamente, cerrando el ciclo de retroalimentación sin requerir navegación adicional.
+- *Prevención de errores*: el uso de dropdowns con valores predefinidos elimina la posibilidad de ingresar datos con formato incorrecto o fuera del rango esperado por el sistema, reduciendo drásticamente los errores de entrada.
+- *Flexibilidad y eficiencia de uso*: el campo de tipo de piel marcado como "(Optional)" permite a usuarios con prisa completar el formulario con la información disponible sin quedar bloqueados por un campo que no saben cómo responder.
+- *Consistencia y estándares*: el mecanismo de confirmación por cambio de estado y color del botón principal es idéntico al utilizado en otras pantallas del sistema (Settings, Skin Profile), generando un patrón de retroalimentación coherente y predecible en toda la aplicación.
 
 
 20) <strong> Mock-up 20: </strong> Registro de dermatólogo
