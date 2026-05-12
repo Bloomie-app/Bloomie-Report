@@ -6547,7 +6547,22 @@ El Sprint 2 tuvo como punto de partida los resultados alcanzados en el Sprint 1,
 | **Sprint 2 Goal** | Our focus is on delivering a functional first version of the Bloomie web application with its core skincare features. We believe it delivers a tangible and interactive experience to young adults seeking personalized skincare solutions, allowing them to navigate the skin analysis flow, personalized routines and product catalog. This will be confirmed when users can access and interact with the main sections of the web application, including skin scan, routine management, product catalog and progress tracking, with data responses simulated through a deployed Mock API, and the application is publicly accessible via Azure Static Web Apps. |
 | **Sprint 2 Velocity** | 34 |
 | **Sum of Story Points** | 34 |
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2 los principales aspectos de trabajo correspondieron a los bounded 
+contexts implementados en el Frontend Web Application, junto con la configuración de la 
+Mock API y el despliegue en Azure Static Web Apps. Cada integrante lideró el bounded 
+context asignado y colaboró en los demás según necesidad.
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM & Onboarding | Routine Management | Product Discovery | Intelligent Support | Dermatology Care | Mock API & Deployment |
+|---|---|---|---|---|---|---|---|
+| Asmat Alminco, Martin Alejandro | Alemarr2 | C | C | L | C | C | C |
+| Contreras Torres, Arturo Valentino | Arturouu | C | L | C | C | C | C |
+| Gallardo Morales, Carla Alejandra | Carlsss28 | C | C | C | L | C | C |
+| Mechan Montenegro, Luciana Carolina | luuu6 | C | C | C | C | L | L |
+| Ramirez Ruiz, Nickolas | Bynickram02 | L | C | C | C | C | C |
+
 #### 5.2.2.3. Sprint Backlog 2
 #### 5.2.2.4. Development Evidence for Sprint Review
 #### 5.2.2.5. Execution Evidence for Sprint Review
