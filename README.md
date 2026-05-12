@@ -5562,12 +5562,16 @@ mostrando únicamente los productos restantes.
 
 ---
 
+
 ## 4.5. Web Applications Prototyping
 
 ###### Desktop & Mobile Web Browser | Simulación de Interacción y Navegación
 
 
 ###### Introducción: Criterios de Decisión de Interacción
+
+
+El diseño de prototipos de Bloomie responde a tres principios rectores que articulan tanto las decisiones de interacción como la arquitectura de información subyacente.
 
 El diseño de prototipos de Bloomie responde a tres principios rectores que articulan tanto las decisiones de interacción como la arquitectura de información subyacente.
 
@@ -5672,9 +5676,11 @@ El usuario accede a Profile desde el último ítem del sidebar. La pantalla pres
 La pantalla Profile centraliza en una sola vista las acciones de identidad (nombre, foto, email), estado de cuenta (plan actual) y accesos a configuraciones más profundas (Skin Profile, Settings, Security, Favorites), siguiendo directamente la ramificación definida en el User Flow Diagram desde el nodo "Entrar al perfil". Esta decisión evita una navegación profunda innecesaria para las acciones más frecuentes (editar nombre/email), reservando la navegación a nuevas vistas para configuraciones menos habituales. La edición de información personal in-line (sin redirección) reduce la fricción para updates cotidianos, mientras que la gestión del plan — una acción de mayor peso e impacto — requiere ingresar a una vista dedicada, reforzando su relevancia semántica.
 
 **Video de demostración:**
+![Ver video en Microsoft Stream — Profile Flow](https://upcedupe-my.sharepoint.com/personal/u202416272_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416272%5Fupc%5Fedu%5Fpe%2FDocuments%2Fprofile%2Dweb%2Emkv&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E093fbe67%2D18cf%2D4509%2D90a2%2D54ce22b246cb)
 ![Ver video en Microsoft Stream — Profile Flow] (https://upcedupe-my.sharepoint.com/personal/u202416272_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202416272%5Fupc%5Fedu%5Fpe%2FDocuments%2Fprofile%2Dweb%2Emkv&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E093fbe67%2D18cf%2D4509%2D90a2%2D54ce22b246cb)
 
 *Imagen de Evidencia*:
+   
 
 
 
@@ -5691,12 +5697,24 @@ Estas adaptaciones mantienen la coherencia del sistema de navegación y los tipo
 
 
 **Mobile Prototype**
+
+
 [Ver prototipo mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415551_upc_edu_pe/IQB_wB2Hcp6BRIXdxQM5mfYPAaQR1ZZG22PLTIo7gjjNTWc?e=xDrezv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+**Mobile**
+![mobile](assets/img/mockups/mockup-mobile.png)
 
 
 **Desktop Prototype**
+
+
 [Ver prototipo desktop](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415551_upc_edu_pe/IQB5qURSkR1TRJfjwgOLTzgTAUqixGOeF5SdkkLUN0IkhYw?e=s5HXJJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
+**Desktop**
+![desktop](assets/img/mockups/mockup-desktop.png)
+
 
 ## 4.6. Domain-Driven Software Architecture
 
