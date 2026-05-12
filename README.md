@@ -5690,6 +5690,14 @@ Los prototipos presentados corresponden a la versión Desktop Web Browser. La ve
 Estas adaptaciones mantienen la coherencia del sistema de navegación y los tipos de interacción entre ambas plataformas, asegurando que los flujos documentados en el User Flow Diagram sean igualmente trazables en la experiencia mobile.
 
 
+**Mobile Prototype**
+[Ver prototipo mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415551_upc_edu_pe/IQB_wB2Hcp6BRIXdxQM5mfYPAaQR1ZZG22PLTIo7gjjNTWc?e=xDrezv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
+**Desktop Prototype**
+[Ver prototipo desktop](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415551_upc_edu_pe/IQB5qURSkR1TRJfjwgOLTzgTAUqixGOeF5SdkkLUN0IkhYw?e=s5HXJJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
