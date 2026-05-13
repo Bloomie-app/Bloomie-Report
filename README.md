@@ -7586,13 +7586,64 @@ parámetros y ejemplos de response basados en los datos de muestra configurados.
 | /chat_messages | GET | GET /chat_messages?support_query_id={id} | Query: support_query_id | `[{ "id": 1, "text": "My skin feels very oily even after cleansing, what should I do?", "type": "USER", "sent_at": "2026-05-03T12:00:00Z" }, { "id": 2, "text": "Based on your oily skin profile...", "type": "AI", "sent_at": "2026-05-03T12:00:05Z" }]` | Retorna los mensajes del chat de una consulta virtual |
 | /chat_messages | POST | POST /chat_messages | Body: support_query_id, text, type | `{ "id": 3, "support_query_id": 1, "text": "Thank you!", "type": "USER", "sent_at": "2026-05-13T10:00:00Z" }` | Envía un nuevo mensaje en el chat de la consulta |
 
-![Mock API desplegada en Azure](assets/img/mockapi-azure.png)
 
-*Interacción con la Mock API desplegada en Azure App Service mostrando los recursos 
-configurados con JSON Server y las respuestas retornadas con datos de muestra reales 
-del sistema Bloomie.*
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 el equipo realizó el despliegue de tres productos: la actualización 
+de la Landing Page en Vercel con la integración de Stripe para el flujo de suscripción, 
+el despliegue de la Mock API en Azure App Service como solución temporal de Web Services, 
+y el despliegue de la Frontend Web Application en Azure Static Web Apps. A continuación 
+se detallan los procesos realizados para cada producto.
+
+**Landing Page — Actualización en Vercel**
+
+La Landing Page, desplegada desde el Sprint 1 en Vercel, fue actualizada durante el 
+Sprint 2 con la integración de Stripe como pasarela de pagos en el flujo de selección 
+de planes. Cada vez que se realiza un merge a la rama `main` del repositorio 
+`bloomie-website`, Vercel ejecuta automáticamente el proceso de build y publicación. 
+El último deployment corresponde al commit `e8e00df` del Merge pull request #8, 
+manteniendo el estado **Ready** con el dominio `bloomie-landing-page.vercel.app`.
+
+![Vercel Production Deployment](assets/img/vercel-deployment.png)
+
+**Landing Page desplegada en producción con integración de Stripe**
+
+Se verificó que el flujo de suscripción funcione correctamente en producción: al 
+seleccionar un plan en la sección de precios, el usuario es redirigido al checkout de 
+Stripe y tras completar el pago es redirigido a la Web Application.
+
+![Landing Page en producción](assets/img/landing-home.png)
+![Landing Page en producción](assets/img/pricing-view.png)
+![Landing Page en producción](assets/img/stripe-view.png)
+
+**Frontend Web Application — Configuración del pipeline CI/CD en Azure Static Web Apps**
+
+Para el despliegue de la Frontend Web Application se configuró Azure Static Web Apps 
+como plataforma de hosting. El proceso incluyó la creación del recurso en Azure, la 
+vinculación con el repositorio `bloomie-app` en GitHub y la configuración del workflow 
+de GitHub Actions para automatizar el proceso de build y despliegue. El pipeline fue 
+configurado por Arturouu mediante el commit `635cc76` el 9 de mayo de 2026, y ejecuta 
+automáticamente el despliegue cada vez que se integra un cambio a la rama `develop`. 
+El workflow completó su primera ejecución exitosa en 1 minuto 48 segundos.
+
+![Azure Static Web Apps CI/CD Workflow](assets/img/azure-workflow.png)
+
+**Frontend Web Application desplegada en producción**
+
+Se verificó que la Web Application de Bloomie se encuentre correctamente desplegada 
+y accesible públicamente en Azure Static Web Apps, comprobando la correcta visualización 
+de todas las vistas implementadas, la integración con la Mock API y el soporte 
+multiidioma EN/ES.
+
+![Frontend Web Application en producción](assets/img/sprint2-routine.png)
+
+Los productos desplegados durante el Sprint 2 se encuentran operativos en las 
+siguientes URLs:
+
+- **Landing Page:** https://bloomie-landing-page.vercel.app
+- **Frontend Web Application:** https://delightful-dune-0988c2a0f7.azurestaticapps.net
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 # Conclusiones
