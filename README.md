@@ -7494,6 +7494,40 @@ sprint organizados por repositorio.
 | upc-pre-202610-1asi0729-11881-dermacare/bloomie-website | feat/pricing-links | 6945278 | feat(pricing-links): add pricing links | - | 12/05/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se logró implementar y desplegar la primera versión funcional del 
+Frontend Web Application de Bloomie en Azure Static Web Apps. La aplicación fue 
+estructurada por bounded contexts e integrada con MockAPI para simular las respuestas 
+del backend. Entre las funcionalidades core implementadas destacan la gestión de rutina 
+personalizada con seguimiento diario de cumplimiento, el flujo completo de agendamiento 
+de citas dermatológicas con selección de especialista, fecha y horario, y la vista de 
+consulta virtual en tiempo real con chat integrado entre paciente y dermatólogo. 
+Adicionalmente se implementó soporte multiidioma (EN/ES) en toda la aplicación y se 
+integró Stripe como pasarela de pagos en el flujo de suscripción de la Landing Page. 
+A continuación se presentan capturas de las principales vistas implementadas durante 
+este Sprint.
+
+**My Skincare Routine — Seguimiento de rutina diaria con calendario y métricas de cumplimiento**
+
+![My Routine](assets/img/sprint2-routine.png)
+
+**Book Appointment — Flujo de agendamiento de cita con selección de dermatólogo, fecha y horario disponible**
+
+![Book Appointment](assets/img/sprint2-book-appointment.png)
+
+**Virtual Consultation — Vista de consulta virtual en tiempo real con video y chat entre paciente y dermatólogo**
+
+![Virtual Consultation](assets/img/sprint2-virtual-consultation.png)
+
+A continuación se presenta el video de demostración que ilustra la navegación completa 
+por el Frontend Web Application desplegado durante este Sprint.
+
+**Enlace al video de demostración:** 
+
+La Web Application de Bloomie se encuentra actualmente operativa en la siguiente URL:
+
+**https://delightful-dune-0988c2a0f7.azurestaticapps.net**
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 #### 5.2.2.8. Team Collaboration Insights during Sprint
