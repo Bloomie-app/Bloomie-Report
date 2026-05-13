@@ -7646,6 +7646,55 @@ siguientes URLs:
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 2 el equipo mantuvo el flujo de trabajo colaborativo establecido en 
+el Sprint 1, aplicando GitFlow con feature branches por bounded context y funcionalidad. 
+Todo el desarrollo tanto del Frontend Web Application como de la Landing Page se trabajó 
+en ramas independientes, integrando los cambios mediante Pull Requests hacia la rama 
+`develop` con revisión por pares antes de cada merge.
+
+En el repositorio `bloomie-app` correspondiente al Frontend Web Application se 
+registraron diversos pull request distribuidos entre los 5 integrantes del 
+equipo, cubriendo la configuración del servidor MockAPI, el contexto compartido, 
+internacionalización, configuración de Azure Static Web Apps, y la implementación de 
+los bounded contexts de Dermatology Care, Routine Management, Product Discovery e 
+Intelligent Support.
+
+En el repositorio `bloomie-website` correspondiente a la Landing Page se registraron pull requests realizados por los 5 integrantes, con commits distribuidos 
+en **10 branches**, **21 archivos modificados** y **2,919 adiciones**. Durante este 
+sprint se agregaron los PRs #9 y #10 correspondientes a la integración de Stripe en 
+el flujo de pricing y la corrección del switch de idioma respectivamente.
+
+A continuación se presentan los analíticos de colaboración extraídos de GitHub Insights 
+para ambos repositorios durante el período del Sprint 2.
+
+**Resumen de actividad — Repositorio bloomie-website (Landing Page)**
+
+Los 5 integrantes participaron activamente en la Landing Page. Los últimos Pull Requests 
+del sprint fueron `feat(pricing-links): add pricing links` (#9 por luuu6) y 
+`fix(i18n): resolve language switch issues in landing page` (#10 por luuu6), 
+evidenciando trabajo de mejora continua sobre el producto del Sprint 1.
+
+![GitHub Insights bloomie-website Sprint 2](assets/img/landing-commits.png)
+
+**Pull Requests mergeados — Repositorio bloomie-website**
+
+Se gestionaron  Pull Requests sobre la Landing Page, cubriendo desde la 
+implementación inicial de secciones en el Sprint 1 hasta las mejoras de integración 
+con Stripe y correcciones de i18n realizadas en el Sprint 2.
+
+![Pull Requests bloomie-website](assets/img/pull-request-landing.png)
+
+**Pull Requests mergeados — Repositorio bloomie-app (Frontend Web Application)**
+
+Se gestionaron Pull Requests en el repositorio del frontend durante el Sprint 2, 
+cubriendo la configuración de entornos, contexto compartido, i18n, pipeline de Azure 
+y la implementación de todos los bounded contexts del sistema.
+
+![Pull Requests bloomie-app](assets/img/pull-request-frontend.png)
+
+**Resumen de actividad — Repositorio bloomie-app (Frontend Web Application)**
+
+[Agregar screenshot de GitHub Insights del repositorio bloomie-app]
 # Conclusiones
 ## Conclusiones y recomendaciones
 ## Video About-the-Team
