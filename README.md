@@ -117,10 +117,13 @@ u202415551 - Ramirez Ruiz, Nickolas
 
 El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante un repositorio de GitHub creado dentro de la organización del equipo. Este repositorio contiene los archivos del informe, imágenes, diagramas, evidencias y el historial de versiones correspondiente a cada entrega.
 
-URL del repositorio (Report): https://github.com/Bloomie-app/Bloomie-Report <br>
-URL del repositorio (Backend): https://github.com/Bloomie-app/Bloomie-Backend <br>
-URL del repositorio (Frontend): https://github.com/Bloomie-app/Bloomie-Frontend <br>
-URL del repositorio (Landing Page): https://github.com/Bloomie-app/Bloomie-Landing-Page <br>
+URL del repositorio (Report):  https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-report.git
+
+URL del repositorio (Backend): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-platform.git
+
+URL del repositorio (Frontend): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-webapp.git
+
+URL del repositorio (Landing Page): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-website.git
 
 **Primera Entrega (AV1)**
 
@@ -133,6 +136,29 @@ GitHub fue utilizado como la herramienta principal de colaboración, ya que perm
 La evidencia presentada en esta sección se encuentra alineada con el Registro de Versiones del Informe, debido a que cada entrega incluye actualizaciones que corresponden con los cambios documentados en dicho registro.
 
 <img src="assets/img/Project-Report-Collaboration-Insights/AV1/github-organization-bloomie.png" width="500"/>
+
+**Segunda Entrega (TB1)**
+
+Para la segunda entrega el equipo continuó desarrollando el Project Report de manera 
+colaborativa, expandiendo el informe con las secciones correspondientes al Sprint 2. 
+Cada integrante asumió la redacción de las subsecciones asignadas según el esquema de 
+Aspect Leaders, manteniendo el flujo de trabajo establecido en la primera entrega: 
+creación de feature branches por sección, redacción del contenido, carga de evidencias 
+e integración mediante Pull Requests hacia la rama develop con revisión por pares.
+
+Durante esta entrega se documentaron las siguientes secciones nuevas: Sprint Planning 2, 
+Aspect Leaders and Collaborators, Sprint Backlog 2, Development Evidence for Sprint 
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for 
+Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration 
+Insights during Sprint. Adicionalmente se actualizaron el Product Backlog con las 17 
+Technical Stories redefinidas en base a los endpoints reales del sistema, y se 
+corrigieron secciones del Sprint 1 que quedaron pendientes en la primera entrega.
+
+El repositorio del informe registró un total de 57 Pull Requests mergeados con 
+participación activa de los 5 integrantes, evidenciando una distribución equitativa 
+del trabajo de documentación a lo largo del sprint.
+
+![GitHub Insights bloomie-report TB1](assets/img/report-commits.png)
 
 ---
 
