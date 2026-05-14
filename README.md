@@ -117,13 +117,13 @@ u202415551 - Ramirez Ruiz, Nickolas
 
 El informe del proyecto fue desarrollado de manera colaborativa por el equipo mediante un repositorio de GitHub creado dentro de la organización del equipo. Este repositorio contiene los archivos del informe, imágenes, diagramas, evidencias y el historial de versiones correspondiente a cada entrega.
 
-URL del repositorio (Report):  https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-report.git
+URL del repositorio (Report):  https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-report
 
-URL del repositorio (Backend): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-platform.git
+URL del repositorio (Backend): https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-platform
 
-URL del repositorio (Frontend): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-webapp.git
+URL del repositorio (Frontend): https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-webapp
 
-URL del repositorio (Landing Page): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-website.git
+URL del repositorio (Landing Page): https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-website
 
 **Primera Entrega (AV1)**
 
@@ -6736,9 +6736,9 @@ Esta configuración permite mantener una alineación entre diseño, desarrollo, 
 El equipo utiliza GitHub como plataforma principal de control de versiones y colaboración. 
 A continuación se indican los repositorios correspondientes a cada producto del proyecto:
 
-- **Informe:** https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-report.git
+- **Informe:** https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-report
 - **Landing Page:** https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-website
-- **Frontend Web Application:** https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-webapp.git
+- **Frontend Web Application:** https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-webapp
 - **Web Services:** (por definir al iniciar desarrollo en Sprint 2)
 
 #### Implementación de GitFlow
@@ -8281,13 +8281,13 @@ Se recomienda mantener el esquema de Aspect Leaders por bounded context establec
 
 ## Anexo A
 
-URL del repositorio (Report):  https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-report.git
+URL del repositorio (Report):  https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-report
 
-URL del repositorio (Backend): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-platform.git
+URL del repositorio (Backend): https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-platform
 
-URL del repositorio (Frontend): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-webapp.git
+URL del repositorio (Frontend): https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-webapp
 
-URL del repositorio (Landing Page): https://github.com/upc-pre-202610-1asi0729-11881-Dermacare/bloomie-website.git
+URL del repositorio (Landing Page): https://github.com/upc-pre-202610-1asi0729-11881-dermacare/bloomie-website
 
 URL de Landing Page: https://bloomie-landing-page.vercel.app/
 
