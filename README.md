@@ -3428,9 +3428,16 @@ cognitiva y reforzando la identidad visual de la marca.
 En la interfaz web se utilizan etiquetas sencillas y universales que guían la exploración inicial del usuario: How it works, Results, Features, About Us, Pricing y Log in en el navigation bar del encabezado principal. Estas se acompañan con botones de otro color como "Analyze my skin" redactados con verbos directos que promueven la interacción con el usuario e incite a utilizar una funcionalidad clave de nuestro producto. 
 El encabezado principal incluye el apartado de traducción de idiomas con el i18n, complementado con subtítulos que explican brevemente la propuesta de valor de Bloomie y el botón principal de descarga.
 
-navigation bar: 
+navigation bar:
+
+- **Inglès :**
 <p align = "center">
-<img src="assets/img/web-nav.png" alt="navigation-bar" width="500"/>
+<img src="assets/img/navegation_web_bar_en.png" alt="navigation-bar" width="500"/>
+<p align = "center">
+
+- **Español:**
+
+<img src="assets/img/navegation_web_bar_es.png" alt="navigation-bar" width="500"/>
 
 luego, mantenemos una paleta de colores de contraste entre los blancos con sombreado cafe y variantes. Con ello se genera esa armonía visual.
 <p align = "center">
@@ -5206,7 +5213,7 @@ US25 - Como dermatólogo, quiero registrar mis credenciales profesionales para a
 US26 - Como dermatólogo, quiero configurar mi perfil profesional con mi especialidad y tarifa de consulta para que los pacientes puedan encontrarme y saber qué esperar.
 
 <p align = "center">
-<img src="assets/img/wireflow/Wireflow26.png" alt="wireflow app" width="550"/>
+<img src="assets/img/wireflow/wireflow26.png" alt="wireflow app" width="550"/>
 
 <p align = "center">
 <img src="assets/img/wireflow/wireflow26_web.png" alt="wireflow app" width="550"/>
