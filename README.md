@@ -6582,12 +6582,102 @@ Subscription Context <br>
 
 ### 4.6.2. Software Architecture Context Diagram
 
+<img src="assets/img/bloomie-c4-diagrams/system-context.png" alt="C4 Diagram" width="1000"/> <br>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+<img src="assets/img/bloomie-c4-diagrams/container-view.png" alt="C4 Diagram" width="1000"/> <br>
 
-## Backend
 ### 4.6.4. Software Architecture Components Diagrams
+### Frontend
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/Components_BoundedContexts.png" alt="C4 Diagram" width="1000"/> <br>
+
+#### Dermatology Care
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/DermatologyCare/Components_DermatologyCare_Layers.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/DermatologyCare/Components_DermatologyCare_Application.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/DermatologyCare/Components_DermatologyCare_Domain.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/DermatologyCare/Components_DermatologyCare_Infrastructure.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/DermatologyCare/Components_DermatologyCare_Presentation.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/DermatologyCare/Components_DermatologyCare_Views.png" alt="C4 Diagram" width="1000"/> <br>
+
+#### IAM
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IAM/Components_IAM_Layers.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IAM/Components_IAM_Application.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IAM/Components_IAM_Domain.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IAM/Components_IAM_Infrastructure.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IAM/Components_IAM_Presentation.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IAM/Components_IAM_Views.png" alt="C4 Diagram" width="1000"/> <br>
+
+#### Intelligent Support
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IntelligentSupport/Components_IntelligentSupport_Layers.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IntelligentSupport/Components_IntelligentSupport_Application.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IntelligentSupport/Components_IntelligentSupport_Domain.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IntelligentSupport/Components_IntelligentSupport_Infrastructure.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IntelligentSupport/Components_IntelligentSupport_Presentation.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/IntelligentSupport/Components_IntelligentSupport_Views.png" alt="C4 Diagram" width="1000"/> <br>
+
+#### Product Discovery
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/ProductDiscovery/Components_ProductDiscovery_Layers.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/ProductDiscovery/Components_ProductDiscovery_Application.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/ProductDiscovery/Components_ProductDiscovery_Domain.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/ProductDiscovery/Components_ProductDiscovery_Infrastructure.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/ProductDiscovery/Components_ProductDiscovery_Presentation.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/ProductDiscovery/Components_ProductDiscovery_Views.png" alt="C4 Diagram" width="1000"/> <br>
+
+#### Routine Management
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/RoutineManagement/Components_RoutineManagement_Layers.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/RoutineManagement/Components_RoutineManagement_Application.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/RoutineManagement/Components_RoutineManagement_Domain.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/RoutineManagement/Components_RoutineManagement_Infrastructure.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/RoutineManagement/Components_RoutineManagement_Presentation.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/RoutineManagement/Components_RoutineManagement_Views.png" alt="C4 Diagram" width="1000"/> <br>
+
+#### Skin Analysis
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/SkinAnalysis/Components_SkinAnalysis_Layers.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/SkinAnalysis/Components_SkinAnalysis_Application.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/SkinAnalysis/Components_SkinAnalysis_Domain.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/SkinAnalysis/Components_SkinAnalysis_Infrastructure.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/SkinAnalysis/Components_SkinAnalysis_Presentation.png" alt="C4 Diagram" width="1000"/> <br>
+
+<img src="assets/img/bloomie-c4-diagrams/frontend/SkinAnalysis/Components_SkinAnalysis_Views.png" alt="C4 Diagram" width="1000"/> <br>
+
+### Backend
 <img src="assets/img/Components.png" alt="Class Diagram" width="1000"/> <br>
 
 ### Diagrama de componentes Dermatology Care
