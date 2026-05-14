@@ -6582,19 +6582,37 @@ Subscription Context <br>
 
 ### 4.6.2. Software Architecture Context Diagram
 
- <img src="assets/img/contexto.png" alt="contexto" width="500"/>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
- <img src="assets/img/contenedores.png" alt="contenedores" width="500"/>
 
+## Backend
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="assets/img/Components.png" alt="Class Diagram" width="1000"/> <br>
 
- <img src="assets/img/component-frontend.png" alt="componentes" width="500"/>
+### Diagrama de componentes Dermatology Care
+<img src="assets/img/DermatologyCare_Components.png" alt="Class Diagram" width="1000"/> <br>
 
- <img src="assets/img/component-backend.png" alt="componentes" width="500"/>
- 
+### Diagrama de componentes Identity and Access Management
+<img src="assets/img/iam-c4.png" alt="Class Diagram" width="1000"/> <br>
 
+### Diagrama de componentes Intelligent Support
+<img src="assets/img/IntelligentSupport_Components.png" alt="Class Diagram" width="1000"/> <br>
+
+### Diagrama de componentes Payments
+<img src="assets/img/Payments_Components.png" alt="Class Diagram" width="1000"/> <br>
+
+### Diagrama de componentes Product Discovery
+<img src="assets/img/ProductDiscovery_Components.png" alt="Class Diagram" width="1000"/> <br>
+
+### Diagrama de componentes Routine Management
+<img src="assets/img/RoutineManagement_Components.png" alt="Class Diagram" width="1000"/> <br>
+
+### Diagrama de componentes Skin Analysis
+<img src="assets/img/SkinAnalysis_Components.png" alt="Class Diagram" width="1000"/> <br>
+
+### Diagrama de componentes Suscription
+<img src="assets/img/suscription.png" alt="Class Diagram" width="1000"/> <br>
 
 ## 4.7. Software Object-Oriented Design
 
